@@ -18,7 +18,13 @@ def request(path):
         return json.load(r)
 
 def fetch_file(path):
-    data = request(f"/contents/{path}?ref={BRANCH}")
+    try:
+        data = request(f"/contents/{path}?ref={BRANCH}")
+    except HTTPError as e:
+        detail = e.read().decode("utf-8", errors="replace")
+        if e.code == 404:
+            raise FileNotFoundError(path)
+        raise RuntimeError(f"Falha ao ler {path}: HTTP {e.code} — {detail}") from e
     return base64.b64decode(data["content"]).decode("utf-8"), data["sha"]
 
 def put_file(path, content, message):
@@ -55,10 +61,11 @@ def main():
         output_path = f"CONTINENTE/DADOS/NORMALIZAÇÃO/{municipality}_PONTOS_TURISTICOS_V1.md"
         try:
             fetch_file(output_path)
+        except FileNotFoundError:
+            pass
+        else:
             skipped.append(municipality)
             continue
-        except Exception:
-            pass
 
         source, _ = fetch_file(source_path)
         points = parse_points(source)
