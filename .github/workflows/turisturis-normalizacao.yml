@@ -13,14 +13,14 @@ permissions:
 
 jobs:
   normalizar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Executar normalização sequencial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-          RUN_DATE: ${{ github.event.repository.updated_at }}
+          RUN_DATE: ${{ github.run_started_at }}
         run: python3 CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
