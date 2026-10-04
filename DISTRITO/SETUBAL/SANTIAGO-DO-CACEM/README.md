@@ -9,28 +9,26 @@
 
 Seleção inicial dos pontos de interesse de maior notoriedade turística e relevância patrimonial, natural ou cultural associados ao município.
 
-1. **Centro Histórico**
-2. **Igreja Matriz**
-3. **Património municipal**
-4. **Paisagem e espaços públicos de interesse turístico**
+1. **Castelo de Santiago do Cacém**
+2. **Ruínas Romanas de Miróbriga**
+3. **Lagoas de Santo André**
+4. **Praia de São Torpes**
 
 ## Critério de seleção
 
-Esta é uma **curadoria V1**. Não constitui ranking oficial de visitantes. A prioridade combina notoriedade, relevância turística e presença recorrente em fontes de promoção turística. Horários, preços, contactos, disponibilidade e estatísticas de visitação serão validados individualmente.
+Curadoria V1 por notoriedade, relevância turística e presença recorrente em fontes de promoção turística. Não constitui ranking oficial de visitantes.
 
 ## Próxima camada
 
-Cada ponto deverá receber ficha própria segundo o **LAYOUT_MESTRE**, com ID, localidade, descrição, coordenadas, contactos, website, horários, preços, acessibilidade, fontes, data de verificação e estado de validação.
+Cada ponto será detalhado como entidade própria segundo o **LAYOUT_MESTRE**, incluindo ID, localidade, descrição, coordenadas, contactos, website, horários, preços, acessibilidade, fontes, data de verificação e estado de validação.
 
 ## Fontes e validação
 
-**Fonte territorial:** Carta Administrativa Oficial de Portugal (CAOP), mantida pela Direção-Geral do Território (DGT).
+**Fonte territorial:** CAOP / Direção-Geral do Território (DGT).  
+**Fonte turística de referência:** VisitPortugal / Turismo de Portugal, complementada por municípios e entidades gestoras.
 
-**Fonte turística de referência:** VisitPortugal / Turismo de Portugal, complementada por municípios, entidades gestoras e fontes institucionais específicas.
-
-**Data da curadoria:** 2026-10-04
-
+**Data da curadoria:** 2026-10-04  
 **Estado de validação:** EM_VERIFICACAO  
 **Grau de confiança:** MÉDIO
 
-> Esta lista não deve ser interpretada como estatística oficial de visitantes.
+> Esta seleção não é uma estatística oficial de visitantes.
