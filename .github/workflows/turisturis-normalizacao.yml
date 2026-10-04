@@ -5,6 +5,7 @@ on:
     paths:
       - 'CONTINENTE/DADOS/CODIGOS/**'
       - 'CONTINENTE/DISTRITO/**'
+      - '.github/workflows/turisturis-normalizacao.yml'
   workflow_dispatch:
 
 permissions:
