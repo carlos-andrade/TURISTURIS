@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """TURISTURIS — normalização sequencial de pontos turísticos."""
+# Execução incremental: arquivos existentes são preservados e ignorados.
 import base64, json, os, re, urllib.request
 from pathlib import PurePosixPath
 
