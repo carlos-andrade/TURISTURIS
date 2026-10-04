@@ -1,0 +1,25 @@
+name: TURISTURIS — Normalização Sequencial Automática
+
+on:
+  push:
+    paths:
+      - 'CONTINENTE/DADOS/CODIGOS/**'
+      - 'CONTINENTE/DISTRITO/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Executar normalização sequencial
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: \${{ github.repository }}
+          GITHUB_REF_NAME: \${{ github.ref_name }}
+          RUN_DATE: \${{ github.event.repository.updated_at }}
+        run: python3 CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
