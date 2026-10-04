@@ -5,6 +5,7 @@
 import base64, json, os, re, urllib.request
 from urllib.error import HTTPError
 from pathlib import PurePosixPath
+from urllib.parse import quote
 
 REPO = os.environ["GITHUB_REPOSITORY"]
 TOKEN = os.environ["GITHUB_TOKEN"]
@@ -20,7 +21,7 @@ def request(path):
 
 def fetch_file(path):
     try:
-        data = request(f"/contents/{path}?ref={BRANCH}")
+        data = request(f"/contents/{quote(path, safe="/")}?ref={quote(BRANCH, safe="")}")
     except HTTPError as e:
         detail = e.read().decode("utf-8", errors="replace")
         if e.code == 404:
@@ -32,7 +33,7 @@ def put_file(path, content, message):
     payload = {"message": message,
                "content": base64.b64encode(content.encode()).decode("ascii"),
                "branch": BRANCH}
-    req = urllib.request.Request(API + f"/contents/{path}",
+    req = urllib.request.Request(API + f"/contents/{quote(path, safe="/")}",
         data=json.dumps(payload).encode(), method="PUT",
         headers={"Authorization": f"Bearer {TOKEN}",
                  "Accept": "application/vnd.github+json",
