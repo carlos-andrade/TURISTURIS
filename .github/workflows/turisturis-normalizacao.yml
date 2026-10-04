@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Validar sintaxe Python
+        run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
       - name: Executar normalização sequencial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
