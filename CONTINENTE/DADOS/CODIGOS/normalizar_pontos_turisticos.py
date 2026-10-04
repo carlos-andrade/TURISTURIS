@@ -2,7 +2,8 @@
 """TURISTURIS — normalização sequencial de pontos turísticos."""
 # Execução incremental: arquivos existentes são preservados e ignorados.
 # Disparo de execução automática — 2026-10-04.
-import base64, json, os, re, urllib.request\nfrom urllib.error import HTTPError
+import base64, json, os, re, urllib.request
+from urllib.error import HTTPError
 from pathlib import PurePosixPath
 
 REPO = os.environ["GITHUB_REPOSITORY"]
