@@ -26,7 +26,7 @@ Fonte-base: CONTINENTE/DISTRITO/LISBOA/AMADORA/README.md.
 | PT-PTT-LISBOA-AMADORA-ASSENTISTA | Quinta do Assentista | Ponto turístico | Amadora | VERIFICADO | ALTO |
 | PT-PTT-LISBOA-AMADORA-CONDESS-LOUSA | Palácio/Quinta dos Condes da Lousã | Ponto turístico | Amadora | VERIFICADO | ALTO |
 | PT-PTT-LISBOA-AMADORA-ORDEM-MALTA | Casa da Ordem de Malta / Casal da Falagueira de Cima | Ponto turístico | Amadora | VERIFICADO | ALTO |
-| PT-PTT-LISBOA-AMADORA-CASA-APrigio-GOMES | Casa Aprígio Gomes | Ponto turístico | Amadora | VERIFICADO | ALTO |
+| PT-PTT-LISBOA-AMADORA-CASA-APRIGIO-GOMES | Casa Aprígio Gomes | Ponto turístico | Amadora | VERIFICADO | ALTO |
 | PT-PTT-LISBOA-AMADORA-CASA-INFANTADO | Fachada da Casa do Infantado / Palácio da Porcalhota | Ponto turístico | Amadora | VERIFICADO | ALTO |
 | PT-PTT-LISBOA-AMADORA-CHALET-DESIDERIA | Moradia Neorromântica / Chalet Desideria | Ponto turístico | Amadora | VERIFICADO | ALTO |
 | PT-PTT-LISBOA-AMADORA-IGREJA-MATRIZ | Igreja Matriz da Amadora | Ponto turístico | Amadora | VERIFICADO | ALTO |
