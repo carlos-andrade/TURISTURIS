@@ -19,8 +19,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Executar normalização sequencial
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: \${{ github.repository }}
-          GITHUB_REF_NAME: \${{ github.ref_name }}
-          RUN_DATE: \${{ github.event.repository.updated_at }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          RUN_DATE: ${{ github.event.repository.updated_at }}
         run: python3 CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
