@@ -1,0 +1,38 @@
+name: TURISTURIS — Validação Técnica dos Registros
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'CONTINENTE/DADOS/NORMALIZAÇÃO/**'
+      - 'CONTINENTE/DADOS/CODIGOS/validar_registros_normalizados.py'
+      - '.github/workflows/turisturis-validacao-registros.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Validação Técnica dos Registros
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validar sintaxe sem gerar artefatos
+        run: python3 -c "import ast, pathlib; ast.parse(pathlib.Path('CONTINENTE/DADOS/CODIGOS/validar_registros_normalizados.py').read_text(encoding='utf-8'))"
+
+      - name: Executar validação
+        run: python3 CONTINENTE/DADOS/CODIGOS/validar_registros_normalizados.py --check
+
+      - name: Confirmar workspace somente leitura
+        run: |
+          git status --short
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "Validação técnica não produziu alterações."
+          else
+            echo "ERRO: validação produziu alterações."
+            exit 1
+          fi
