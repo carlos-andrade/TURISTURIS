@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Validar sintaxe do normalizador
         run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
@@ -28,12 +30,19 @@ jobs:
 
       - name: Confirmar workspace somente leitura
         run: |
+          echo "Estado do workspace após a auditoria:"
+          git status --short
+          echo
+          echo "Alterações não staged:"
+          git diff --name-status
+          echo
+          echo "Alterações staged:"
+          git diff --cached --name-status
+
           if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
             echo "PR Gate aprovado: validação não produziu alterações no workspace."
           else
             echo "ERRO: a validação produziu alterações inesperadas no workspace."
-            git status --short
-            git diff --stat
             exit 1
           fi
 
