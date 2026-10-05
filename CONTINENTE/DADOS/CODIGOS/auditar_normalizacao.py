@@ -34,7 +34,7 @@ def main():
     for municipality, path in sorted(normalized.items()):
         text = path.read_text(encoding="utf-8")
         district = municipalities.get(municipality, ("UNKNOWN", None))[0]
-        file_ids = re.findall(r"(?m)^\s*ID:\s*([^\s]+)", text)
+        file_ids = re.findall(r"(?m)^\|\s*\d+\s*\|\s*(PT-PTT-[A-Z0-9-]+)\s*\|", text)
         total += len(file_ids)
         if not file_ids:
             empty.append(municipality)
