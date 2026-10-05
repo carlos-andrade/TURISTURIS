@@ -21,11 +21,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Validar sintaxe do normalizador
-        run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
+      - name: Validar sintaxe do normalizador sem gerar artefatos
+        run: python3 -c "import ast, pathlib; ast.parse(pathlib.Path('CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py').read_text(encoding='utf-8'))"
 
-      - name: Validar sintaxe do auditor
-        run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
+      - name: Validar sintaxe do auditor sem gerar artefatos
+        run: python3 -c "import ast, pathlib; ast.parse(pathlib.Path('CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py').read_text(encoding='utf-8'))"
 
       - name: Executar auditoria estrutural em modo somente leitura
         run: python3 CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py --check
