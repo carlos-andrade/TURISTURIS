@@ -23,16 +23,18 @@ jobs:
       - name: Validar sintaxe do auditor
         run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
 
-      - name: Executar auditoria estrutural
+      - name: Executar auditoria estrutural em modo somente leitura
         run: python3 CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py --check
 
-      - name: Verificar alterações inesperadas
+      - name: Confirmar workspace somente leitura
         run: |
           if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "PR Gate aprovado: nenhuma alteração inesperada foi produzida pela validação."
+            echo "PR Gate aprovado: validação não produziu alterações no workspace."
           else
-            echo "PR Gate aprovado: a auditoria produziu apenas artefatos de validação no workspace."
+            echo "ERRO: a validação produziu alterações inesperadas no workspace."
             git status --short
+            git diff --stat
+            exit 1
           fi
 
       - name: Gate final
