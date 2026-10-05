@@ -24,7 +24,7 @@ jobs:
         run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
 
       - name: Executar auditoria estrutural
-        run: python3 CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
+        run: python3 CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py --check
 
       - name: Verificar alterações inesperadas
         run: |
