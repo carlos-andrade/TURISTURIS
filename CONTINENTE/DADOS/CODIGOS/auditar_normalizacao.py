@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """TURISTURIS — auditoria integral da normalização de pontos turísticos."""
 from pathlib import Path
+import argparse
 import re
 import unicodedata
 
@@ -14,13 +15,15 @@ def slug(value):
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
     return re.sub(r"[^A-Za-z0-9]+", "-", value).strip("-").upper()
 
-def main():
+def audit():
     municipalities = {}
     for p in DISTRICT_ROOT.glob("*/*/README.md"):
         municipalities[p.parent.name] = (p.parent.parent.name, p)
 
-    normalized = {p.name[:-len("_PONTOS_TURISTICOS_V1.md")]: p
-                  for p in NORM_ROOT.glob("*_PONTOS_TURISTICOS_V1.md")}
+    normalized = {
+        p.name[:-len("_PONTOS_TURISTICOS_V1.md")]: p
+        for p in NORM_ROOT.glob("*_PONTOS_TURISTICOS_V1.md")
+    }
 
     missing = sorted(set(municipalities) - set(normalized))
     orphan = sorted(set(normalized) - set(municipalities))
@@ -38,6 +41,7 @@ def main():
         total += len(file_ids)
         if not file_ids:
             empty.append(municipality)
+
         for ident in file_ids:
             if ident in ids:
                 duplicate_ids.append((ident, ids[ident], str(path)))
@@ -51,6 +55,7 @@ def main():
 
     errors = missing + orphan + duplicate_ids + bad_ids + mismatch + empty
     status = "APROVADO" if not errors else "REPROVADO — existem anomalias"
+
     report = [
         "# Auditoria Integral da Normalização V1", "",
         f"- Municípios fonte: **{len(municipalities)}**",
@@ -64,17 +69,41 @@ def main():
         f"- Ficheiros sem registos: **{len(empty)}**", "",
         f"## Resultado\n\n**{status}**", ""
     ]
+
     for title, values in [
-        ("Municípios sem ficheiro", missing), ("Ficheiros órfãos", orphan),
-        ("IDs duplicados", duplicate_ids), ("IDs fora do padrão", bad_ids),
-        ("IDs com território incompatível", mismatch), ("Ficheiros sem registos", empty)]:
+        ("Municípios sem ficheiro", missing),
+        ("Ficheiros órfãos", orphan),
+        ("IDs duplicados", duplicate_ids),
+        ("IDs fora do padrão", bad_ids),
+        ("IDs com território incompatível", mismatch),
+        ("Ficheiros sem registos", empty),
+    ]:
         if values:
             report += [f"## {title}", ""] + [f"- {v}" for v in values[:100]] + [""]
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("\n".join(report) + "\n", encoding="utf-8")
+    return errors, report
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="valida sem escrever o relatório; indicado para o PR Gate",
+    )
+    args = parser.parse_args()
+
+    errors, report = audit()
     print("\n".join(report))
-    return 1 if errors else 0
+
+    if errors:
+        return 1
+
+    if not args.check:
+        OUT.parent.mkdir(parents=True, exist_ok=True)
+        OUT.write_text("\n".join(report) + "\n", encoding="utf-8")
+        print(f"Relatório publicado: {OUT}")
+
+    return 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
