@@ -21,22 +21,22 @@
 | 15 | PT-PTT-LISBOA-AMADORA-IGREJA-MATRIZ | Igreja Matriz da Amadora | Igreja situada na Venteira; construção e abertura ao público documentadas pelo município | VERIFICADO |
 | 16 | PT-PTT-LISBOA-AMADORA-CAPELA-FALAGUEIRA | Capela da Falagueira / Nossa Senhora da Lapa | Construção autorizada em 1759 e abertura ao culto em 1760; localização municipal confirmada | VERIFICADO |
 
-## Evidência oficial
+## Fontes oficiais
 
-- Quinta do Assentista — Câmara Municipal da Amadora, Património Cultural. citeturn0search0
-- Palácio/Quinta dos Condes da Lousã — Câmara Municipal da Amadora, Património Cultural. citeturn0search12
-- Casa da Ordem de Malta / Casal da Falagueira de Cima — índice oficial de Património Cultural da Câmara Municipal da Amadora. citeturn0search11
-- Casa Aprígio Gomes — Câmara Municipal da Amadora, Património Cultural. citeturn0search1turn0search2
-- Fachada da Casa do Infantado / Palácio da Porcalhota — Câmara Municipal da Amadora e ficha patrimonial municipal. citeturn0search5turn0search51
-- Moradia Neorromântica / Chalet Desideria — Câmara Municipal da Amadora, Património Cultural. citeturn0search7
-- Igreja Matriz da Amadora — Câmara Municipal da Amadora, Património Cultural. citeturn0search13
-- Capela da Falagueira — Câmara Municipal da Amadora, Património Cultural. citeturn0search3
+1. https://www.cm-amadora.pt/pt/cultura/patrimonio/764-outros-monumentos-qt-assentista.html
+2. https://www.cm-amadora.pt/pt/?Itemid=808&catid=295&id=742%3Abanco-doar-ben-s&option=com_content&view=article
+3. https://www.cm-amadora.pt/pt/territorio/informacao-geografica/187-conteudos/cultura/patrimonio-cultural.html
+4. https://www.cm-amadora.pt/pt/cultura/patrimonio/745-imoveis-de-interesse-mun-casa-apr-gomes.html
+5. https://www.cm-amadora.pt/pt/cultura/patrimonio/747-imoveis-de-interesse-mun-casa-infantado.html
+6. https://www.cm-amadora.pt/pt/cultura/patrimonio/749-imoveis-de-interesse-mun-mor-neo.html
+7. https://www.cm-amadora.pt/pt/territorio/informacao-geografica/187-conteudos/cultura/patrimonio-cultural/757-outros-monumentos-igreja-mariz.html
+8. https://www.cm-amadora.pt/pt/cultura/patrimonio/753-outros-monumentos-cap-falagueira.html
 
 ## Nota de qualidade
 
 O lote confirma **existência, identificação e enquadramento patrimonial básico** dos oito registros. Não foram inferidos dados operacionais. Horários, preços, contactos, reservas, acessibilidade e disponibilidade continuam sujeitos a verificação específica.
 
-Há uma correção importante para a confiabilidade futura: a designação do registro 11 deve preservar a nomenclatura histórica e, quando houver publicação operacional, indicar também a denominação municipal atual **Núcleo Museográfico do Casal da Falagueira**.
+A designação do registro 11 deve preservar a nomenclatura histórica e, quando houver publicação operacional, indicar também a denominação municipal atual **Núcleo Museográfico do Casal da Falagueira**.
 
 ## Estado
 
