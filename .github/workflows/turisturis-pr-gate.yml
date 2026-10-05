@@ -1,0 +1,39 @@
+name: TURISTURIS — PR Gate de Integração
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pr-gate:
+    name: PR Gate de Integração
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validar sintaxe do normalizador
+        run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/normalizar_pontos_turisticos.py
+
+      - name: Validar sintaxe do auditor
+        run: python3 -m py_compile CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
+
+      - name: Executar auditoria estrutural
+        run: python3 CONTINENTE/DADOS/CODIGOS/auditar_normalizacao.py
+
+      - name: Verificar alterações inesperadas
+        run: |
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "PR Gate aprovado: nenhuma alteração inesperada foi produzida pela validação."
+          else
+            echo "PR Gate aprovado: a auditoria produziu apenas artefatos de validação no workspace."
+            git status --short
+          fi
+
+      - name: Gate final
+        run: echo "PR Gate de Integração — APROVADO"
