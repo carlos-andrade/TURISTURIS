@@ -29,3 +29,4 @@ Informe comandos, resultados, commits ou referências relevantes.
 - [ ] O PR não altera o LAYOUT MESTRE sem refletir a mudança na estrutura.
 - [ ] O PR não introduz duplicidade de entidades ou IDs.
 - [ ] O PR está pronto para revisão.
+
