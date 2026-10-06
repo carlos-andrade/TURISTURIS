@@ -51,6 +51,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main
           git add "DADOS/INDICES/turisturis_orquestrador_fases_ultimo.json"
           if git diff --cached --quiet; then
             echo "Nenhum relatório novo para persistir."
