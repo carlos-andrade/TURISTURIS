@@ -31,3 +31,8 @@ Quando uma informação não puder ser confirmada, deve ser marcada como não co
 
 ## 7. Estado
 Documento fundacional do projeto.
+
+
+## 8. Regra fiel — identidade internacional dos contactos telefónicos
+
+Todo contacto telefónico deve preservar obrigatoriamente o código telefónico internacional do país de origem. Esta regra é global: aplica-se a Portugal e a qualquer país que venha a ser incorporado no TURISTURIS. O código de país não pode ser eliminado, truncado ou substituído durante captura, normalização, validação, enriquecimento, armazenamento, exportação ou publicação. A representação internacional é a forma canónica; a apresentação nacional/local, quando existir, é derivada e nunca substitui o valor internacional.
