@@ -87,6 +87,14 @@
     .point-badge{display:inline-block;margin-top:10px;padding:5px 8px;border-radius:999px;background:#e9efeb;color:var(--accent);font-size:.65rem;font-weight:900}
     @media(max-width:900px){.catalog-grid{grid-template-columns:repeat(2,1fr)}.point-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:650px){.catalog-grid,.point-grid{grid-template-columns:1fr}}
+
+    .municipality-detail{margin-top:34px;padding:28px 0 0;border-top:1px solid var(--line)}
+    .municipality-detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .municipality-detail-card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .municipality-detail-card h3{margin:0 0 8px;font-size:1rem}
+    .municipality-detail-card p{margin:0;color:var(--muted);font-size:.78rem;line-height:1.55}
+    .municipality-detail-card .detail-state{display:inline-block;margin-top:10px;padding:5px 8px;border-radius:999px;background:#e9efeb;color:var(--accent);font-size:.65rem;font-weight:900}
+    @media(max-width:650px){.municipality-detail-grid{grid-template-columns:1fr}}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -261,6 +269,15 @@
         <span id="municipality-count" class="catalog-count" aria-live="polite">A carregar municípios…</span>
       </div>
       <div id="municipality-grid" class="catalog-grid"></div>
+
+      <div class="municipality-detail">
+        <div class="section-head">
+          <div class="kicker">Fichas territoriais</div>
+          <h2>O que já sabemos de cada município.</h2>
+          <p class="muted">Esta camada apresenta somente informação estrutural já existente na normalização. Dados operacionais continuam a exigir verificação específica.</p>
+        </div>
+        <div id="municipality-detail-grid" class="municipality-detail-grid"></div>
+      </div>
       <div class="point-catalog">
         <div class="section-head">
           <div class="kicker">Pontos turísticos publicados</div>
@@ -611,6 +628,19 @@
     publicPoints=pointData.records||[];
     renderNationalCatalog();
   }
+
+  function renderMunicipalityDetails(term=''){
+    const grid=document.getElementById('municipality-detail-grid');
+    if(!grid)return;
+    const q=term.trim().toLocaleLowerCase('pt-PT');
+    const filtered=nationalMunicipalities.filter(x=>x.municipality.toLocaleLowerCase('pt-PT').includes(q));
+    grid.innerHTML='';
+    filtered.slice(0,40).forEach(x=>{
+      const card=document.createElement('article'); card.className='municipality-detail-card';
+      card.innerHTML='<h3>'+x.municipality+'</h3><p>'+x.district+' · Fonte: '+x.normalization_source+'</p><span class="detail-state">'+(x.operational_publication?'PUBLICADO':'NORMALIZAÇÃO DISPONÍVEL')+'</span>';
+      grid.appendChild(card);
+    });
+  }
   function renderNationalCatalog(){
     const ms=document.getElementById('municipality-search');
     const ps=document.getElementById('point-search');
@@ -619,7 +649,7 @@
     const mg=document.getElementById('municipality-grid');
     const pg=document.getElementById('point-grid');
     if(mg){mg.innerHTML='';const filtered=nationalMunicipalities.filter(x=>x.municipality.toLocaleLowerCase('pt-PT').includes(municipalityTerm));filtered.forEach(x=>{const card=document.createElement('article');card.className='catalog-card';card.innerHTML='<b>'+x.municipality+'</b><small>Documento de normalização disponível · publicação operacional pendente de promoção</small>';mg.appendChild(card);});const c=document.getElementById('municipality-count');if(c)c.textContent=filtered.length+' de '+nationalMunicipalities.length+' municípios';}
-    if(pg){pg.innerHTML='';const filtered=publicPoints.filter(x=>(x.name+' '+x.municipality).toLocaleLowerCase('pt-PT').includes(pointTerm));filtered.forEach(x=>{const card=document.createElement('article');card.className='point-card';card.innerHTML='<span class="point-card-id">'+x.id+'</span><h3>'+x.name+'</h3><p>'+x.municipality+' · '+x.district+'</p><span class="point-badge">'+x.validation_state+' · '+x.confidence+'</span>';pg.appendChild(card);});const c=document.getElementById('point-count');if(c)c.textContent=filtered.length+' de '+publicPoints.length+' pontos publicados';}
+    renderMunicipalityDetails(municipalityTerm);\n    if(pg){pg.innerHTML='';const filtered=publicPoints.filter(x=>(x.name+' '+x.municipality).toLocaleLowerCase('pt-PT').includes(pointTerm));filtered.forEach(x=>{const card=document.createElement('article');card.className='point-card';card.innerHTML='<span class="point-card-id">'+x.id+'</span><h3>'+x.name+'</h3><p>'+x.municipality+' · '+x.district+'</p><span class="point-badge">'+x.validation_state+' · '+x.confidence+'</span>';pg.appendChild(card);});const c=document.getElementById('point-count');if(c)c.textContent=filtered.length+' de '+publicPoints.length+' pontos publicados';}
   }
   document.getElementById('municipality-search')?.addEventListener('input',renderNationalCatalog);
   document.getElementById('point-search')?.addEventListener('input',renderNationalCatalog);
