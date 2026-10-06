@@ -49,13 +49,36 @@ A validação não transforma os 22 registos em estado público `VERIFICADO`. O 
 
 | Ordem | Registo | Resultado | Motivo |
 |---:|---|---|---|
-| 23 | Jardim das Musas | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante esta verificação |
-| 24 | Jardim Manuel Costa Rosa | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante esta verificação |
-| 25 | Casa dos Vereadores | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante esta verificação |
+| 23 | Jardim das Musas | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante as verificações de 2026-10-06 |
+| 24 | Jardim Manuel Costa Rosa | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante as verificações de 2026-10-06 |
+| 25 | Casa dos Vereadores | PENDENTE | Não localizado no catálogo oficial atual nem em página individual oficial específica durante as verificações de 2026-10-06 |
 
 **Regra aplicada:** ausência de resultado não é convertida em inexistência. Estes três registos ficam pendentes até existir fonte oficial atual identificável.
 
-## 4. Verificações críticas
+## 4. Segunda verificação das três pendências
+
+Em 2026-10-06 foi executada nova pesquisa dirigida nos domínios oficiais do Município de Tomar e Turismo de Tomar para os três nomes exatos:
+
+- `Jardim das Musas`
+- `Jardim Manuel Costa Rosa`
+- `Casa dos Vereadores`
+
+Também foi repetida a consulta ao catálogo oficial atual:
+`https://turismo.cm-tomar.pt/Places/Index/wtd`
+
+Resultado: **não foi localizada nova página turística oficial atual e específica que permita confirmar os três registos**.
+
+A pesquisa encontrou documentos municipais antigos ou resultados não relacionados para algumas expressões, mas estes não foram usados como confirmação turística atual. Em particular, uma ata municipal de 2012 contém ocorrências da palavra “Vereadores”, mas não constitui evidência de que exista atualmente um ponto turístico denominado “Casa dos Vereadores”.
+
+Fonte oficial de catálogo consultada:
+`https://turismo.cm-tomar.pt/Places/Index/wtd`
+
+Fonte institucional municipal consultada:
+`https://www.cm-tomar.pt/`
+
+**Decisão:** manter os três registos como PENDENTES. Não alterar nome, localização, descrição ou estado por inferência.
+
+## 5. Verificações críticas
 
 - O catálogo oficial atual de Turismo de Tomar confirma a presença de múltiplos registos do conjunto, incluindo Pelourinho, Capela da Piedade, Parque do Mouchão, Mata dos Sete Montes, Palácio de Alvaiázere, Museu dos Fósforos, Casa dos Cubos, Central Elétrica, Fundição Tomarense, Lopes-Graça, São Francisco e Centro Interpretativo Tomar Templário.
 - A rota histórica oficial confirma especificamente a Ponte D. Manuel I/Ponte Velha e a Roda do Mouchão.
@@ -65,15 +88,17 @@ A validação não transforma os 22 registos em estado público `VERIFICADO`. O 
 - Não foram promovidos automaticamente estados internos para `VERIFICADO`.
 - Dados operacionais continuam sujeitos à data de verificação e à volatilidade da fonte.
 
-## 5. Conclusão
+## 6. Conclusão
 
 **VALIDAÇÃO DE CONTEÚDO T1: 22/25 CONFIRMADOS; 3/25 PENDENTES.**
+
+A segunda verificação não produziu evidência oficial atual suficiente para retirar qualquer dos três registos pendentes.
 
 O resultado não autoriza afirmar que os 25 registos estejam igualmente validados.
 
 Os 3 pendentes devem permanecer explicitamente identificados no repositório até nova evidência oficial. Não devem ser preenchidos por inferência, fontes secundárias ou aproximação sem nova decisão governada.
 
-## 6. Persistência
+## 7. Persistência
 
 Esta auditoria é persistida no repositório através do fluxo:
 
