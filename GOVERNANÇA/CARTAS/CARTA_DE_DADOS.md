@@ -56,3 +56,13 @@ A camada de publicação deve selecionar apenas os campos destinados ao utilizad
 ## Regra permanente de publicação de alojamentos — Website oculto
 
 Na camada pública do TURISTURIS, o campo **Website** e o respetivo link **não devem ser exibidos nas fichas públicas de alojamentos**. O valor pode permanecer preservado nas bases internas para auditoria, rastreabilidade e uso operacional autorizado, mas não pode ser renderizado na interface pública. Esta regra é independente dos estados internos de validação e aplica-se a novas publicações e futuras correções do catálogo, salvo autorização explícita posterior.
+
+
+## Regra permanente — enquadramento territorial de Peso da Régua
+
+Para o município **Peso da Régua**, o enquadramento territorial canónico do TURISTURIS é:
+
+- **Município:** Peso da Régua
+- **Distrito:** Vila Real
+
+Esta correspondência deve ser preservada de forma consistente em captura, normalização, validação, armazenamento, publicação, filtros e demais artefactos do projeto. Não deve ser substituída por inferência ou por designação territorial divergente sem fonte oficial e atualização expressamente documentada.
