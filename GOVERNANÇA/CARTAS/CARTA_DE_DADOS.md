@@ -52,3 +52,7 @@ Campos de validação, auditoria e confiança são dados internos e não constit
 Em particular, valores como `CONFIRMADO_FICHA_OFICIAL`, `CONFIRMADO_FONTE_PUBLICA`, `ALTO` e equivalentes devem ser preservados nos dados estruturados, mas **não devem ser renderizados no site público**.
 
 A camada de publicação deve selecionar apenas os campos destinados ao utilizador final. A remoção da apresentação não significa remoção do dado: a informação interna continua disponível para auditoria, validação e futuras decisões editoriais.
+
+## Regra permanente de publicação de alojamentos — Website oculto
+
+Na camada pública do TURISTURIS, o campo **Website** e o respetivo link **não devem ser exibidos nas fichas públicas de alojamentos**. O valor pode permanecer preservado nas bases internas para auditoria, rastreabilidade e uso operacional autorizado, mas não pode ser renderizado na interface pública. Esta regra é independente dos estados internos de validação e aplica-se a novas publicações e futuras correções do catálogo, salvo autorização explícita posterior.
