@@ -6,6 +6,7 @@ from pathlib import Path
 BASE = Path("CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS")
 OUT = Path("CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json")
 FILES = {"RNET": BASE / "RNET_NORMALIZADO_V1.json", "RNAL": BASE / "RNAL_NORMALIZADO_V1.json"}
+CONTACTS = Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
 
 def source_url(source, source_id):
     if source == "RNAL":
@@ -20,12 +21,17 @@ def slim(r, source):
         "região": r.get("região"), "distrito": r.get("distrito ou arquipélago"),
         "município": r.get("município"), "localidade": r.get("localidade"),
         "morada": r.get("endereço"), "endereço": r.get("endereço"),
-        "coordenadas": r.get("coordenadas"), "telefone": r.get("telefone"),
-        "email": r.get("email"), "website": r.get("website"),
+        "coordenadas": r.get("coordenadas"), "telefone": contacts.get(r.get("id"), {}).get("telefone") or r.get("telefone"),
+        "email": contacts.get(r.get("id"), {}).get("email") or r.get("email"), "website": r.get("website"),
         "fonte": source, "id_origem": source_id,
-        "ficha_oficial": source_url(source, source_id) if source_id else None,
+        "ficha_oficial": contacts.get(r.get("id"), {}).get("ficha_oficial") or (source_url(source, source_id) if source_id else None),
         "estado_validação": r.get("estado_validação"), "grau_confiança": r.get("grau_confiança"),
     }
+
+contacts = {}
+if CONTACTS.exists():
+    cp = json.loads(CONTACTS.read_text(encoding="utf-8"))
+    contacts = {x.get("id"): x for x in cp.get("records", [])}
 
 records = []
 for source, path in FILES.items():
