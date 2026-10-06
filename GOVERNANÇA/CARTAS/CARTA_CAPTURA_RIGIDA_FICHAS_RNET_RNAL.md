@@ -156,3 +156,10 @@ Esta Carta integra a governança permanente do TURISTURIS e deve ser aplicada an
 4. Nunca remover o prefixo internacional para produzir apenas o número nacional.
 5. A regra é internacional e não pode ficar limitada a Portugal.
 6. A auditoria deve permitir verificar a preservação do código de país e a natureza não destrutiva da normalização.
+
+
+## 13. Regra de publicação — evidência interna não deve ser exposta por defeito
+
+A captura integral e a auditoria devem preservar estados de validação, grau de confiança e referências da ficha oficial. Contudo, esses elementos pertencem à evidência interna e **não devem ser exibidos na interface pública por defeito**.
+
+A existência do campo `ficha_oficial` ou de estados como `CONFIRMADO_FICHA_OFICIAL` e `ALTO` não obriga à sua apresentação ao visitante. O código de publicação deve separar claramente evidência/auditoria de conteúdo editorial público.
