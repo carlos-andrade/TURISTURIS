@@ -24,7 +24,7 @@
     .hero{position:relative;isolation:isolate;min-height:680px;display:grid;align-items:end;color:#fff;overflow:hidden;background:#0b3d3a}
     .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
       linear-gradient(90deg,rgba(5,28,27,.86),rgba(5,28,27,.35) 58%,rgba(5,28,27,.12)),
-      url("https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa-lisbon-_panorama.jpg") center/cover no-repeat}
+      var(--hero-image, url("https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa-lisbon-_panorama.jpg")) center/cover no-repeat}
     .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(5,28,27,.72),transparent 55%)}
     .hero-inner{padding:110px 0 82px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:800;color:#e5c77f}
     h1{font-size:clamp(3rem,7vw,6.4rem);line-height:.94;letter-spacing:-.045em;margin:16px 0 24px;max-width:900px}
@@ -35,6 +35,9 @@
     .image-place{position:absolute;left:18px;bottom:18px;z-index:4;padding:7px 11px;border-radius:999px;background:rgba(5,28,27,.82);color:#fff;font-size:.76rem;font-weight:800;letter-spacing:.03em;line-height:1.25;box-shadow:0 6px 20px rgba(0,0,0,.18);backdrop-filter:blur(8px)}
     .image-wrap{position:relative}.image-place-card{position:absolute;left:14px;bottom:14px;z-index:2;padding:6px 9px;border-radius:999px;background:rgba(5,28,27,.82);color:#fff;font-size:.72rem;font-weight:800;line-height:1.2;box-shadow:0 5px 16px rgba(0,0,0,.16);backdrop-filter:blur(8px)}
     .feature-wrap{position:relative}
+
+    .image-rotation-note{display:inline-block;margin-top:10px;padding:6px 10px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:rgba(5,28,27,.34);color:#eaf4f1;font-size:.74rem;font-weight:700}
+    .rotation-status{margin-top:12px;font-size:.78rem;color:var(--muted)}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -93,6 +96,7 @@
         <a class="btn btn-primary" href="#destinos">Explorar destinos</a>
         <a class="btn btn-ghost" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Ver projeto no GitHub</a>
       </div>
+      <div class="image-rotation-note" id="rotation-note">A escolher imagens aleatórias para a sua região…</div>
     </div>
     <div class="image-place" aria-label="Local da fotografia de fundo: Lisboa, Portugal">Lisboa · Portugal</div>
   </section>
@@ -194,5 +198,161 @@
     <div class="credit">Projeto em evolução. Informação turística pode mudar; horários, preços, contactos e condições devem ser confirmados junto da fonte responsável antes de uma decisão de viagem.</div>
   </div>
 </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /*
+   * Motor de rotação visual do TURISTURIS.
+   * - Tenta obter a localização apenas no navegador, com consentimento do visitante.
+   * - As coordenadas não são enviadas para um servidor pelo código do site.
+   * - A região serve apenas para dar maior probabilidade às imagens próximas do visitante.
+   * - Se a localização não estiver disponível, usa seleção aleatória nacional.
+   */
+  const imagePools = {
+    lisboa: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa-lisbon-_panorama.jpg', place:'Lisboa · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Lisboa-lisbon-_panorama.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg', place:'Lisboa · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Lisboa_panorama.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon%20Panorama.jpg', place:'Lisboa · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Lisbon_Panorama.jpg'}
+    ],
+    norte: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg', place:'Porto · Rio Douro', credit:'https://commons.wikimedia.org/wiki/File:Douro,_Porto.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/DouroPorto.jpg', place:'Porto · Rio Douro', credit:'https://commons.wikimedia.org/wiki/File:DouroPorto.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Porto%2C_vista_da_Douro_%2801%29.jpg', place:'Porto · Rio Douro', credit:'https://commons.wikimedia.org/wiki/File:Porto,_vista_da_Douro_(01).jpg'}
+    ],
+    sintra: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg', place:'Sintra · Palácio Nacional', credit:'https://commons.wikimedia.org/wiki/File:Palacio_nacional_de_Sintra.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio_da_Pena_Sintra.jpg', place:'Sintra · Palácio da Pena', credit:'https://commons.wikimedia.org/wiki/File:Palácio_da_Pena_Sintra.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20PenaPalace.jpg', place:'Sintra · Palácio da Pena', credit:'https://commons.wikimedia.org/wiki/File:Portugal_Sintra_PenaPalace.jpg'}
+    ],
+    algarve: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg', place:'Algarve · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Algarve_Beach.jpg'}
+    ],
+    madeira: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg', place:'Madeira · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Madeira_Portugal.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Landscape%20from%20Madeira%207.jpg', place:'Madeira · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Landscape_from_Madeira_7.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20-%20001.jpg', place:'Madeira · Portugal', credit:'https://commons.wikimedia.org/wiki/File:Madeira_-_001.jpg'}
+    ],
+    acores: [
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg', place:'Sete Cidades · São Miguel · Açores', credit:'https://commons.wikimedia.org/wiki/File:Sete_cidades.jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/View%20overlooking%20the%20Sete%20Cidades%20Lagoon%2C%20S%C3%A3o%20Miguel%20island%2C%20Azores%20%28Portugal%29.jpg', place:'Sete Cidades · São Miguel · Açores', credit:'https://commons.wikimedia.org/wiki/File:View_overlooking_the_Sete_Cidades_Lagoon,_São_Miguel_island,_Azores_(Portugal).jpg'},
+      {src:'https://commons.wikimedia.org/wiki/Special:FilePath/Island%20of%20Sao%20Miguel-Azores.jpg', place:'São Miguel · Açores', credit:'https://commons.wikimedia.org/wiki/File:Island_of_Sao_Miguel-Azores.jpg'}
+    ]
+  };
+
+  const regionPools = {
+    norte: ['norte','sintra','lisboa'],
+    centro: ['lisboa','sintra','norte'],
+    lisboa: ['lisboa','sintra','centro'],
+    alentejo: ['lisboa','algarve','centro'],
+    algarve: ['algarve','lisboa','madeira'],
+    madeira: ['madeira','acores','algarve'],
+    acores: ['acores','madeira','norte'],
+    desconhecida: ['lisboa','norte','sintra','algarve','madeira','acores']
+  };
+
+  const slots = [
+    {selector:'.hero', poolKey:'hero', mode:'background'},
+    {selector:'article.destination:nth-child(1) img', poolKey:'norte'},
+    {selector:'article.destination:nth-child(2) img', poolKey:'sintra'},
+    {selector:'article.destination:nth-child(3) img', poolKey:'algarve'},
+    {selector:'article.destination:nth-child(4) img', poolKey:'madeira'},
+    {selector:'article.destination:nth-child(5) img', poolKey:'acores'},
+    {selector:'article.destination:nth-child(6) img', poolKey:'lisboa'},
+    {selector:'.feature-img', poolKey:'sintra'}
+  ];
+
+  function pick(list) {
+    return list[Math.floor(Math.random() * list.length)];
+  }
+
+  function classify(lat, lon) {
+    if (lat >= 36.8 && lat <= 37.7 && lon <= -7.0) return 'algarve';
+    if (lat >= 38.0 && lat <= 39.1 && lon <= -7.0 && lon >= -9.6) return 'lisboa';
+    if (lat >= 38.0 && lon < -8.5) return 'centro';
+    if (lat >= 39.1 && lon <= -7.0) return 'norte';
+    if (lat > 30 && lat < 33 && lon < -15) return 'madeira';
+    if (lat > 36 && lat < 40 && lon < -20) return 'acores';
+    return 'desconhecida';
+  }
+
+  function weightedPool(region) {
+    const keys = regionPools[region] || regionPools.desconhecida;
+    const weighted = [];
+    keys.forEach((key, index) => {
+      const weight = index === 0 ? 5 : (index === 1 ? 3 : 1);
+      for (let i = 0; i < weight; i++) weighted.push(key);
+    });
+    return weighted;
+  }
+
+  function allImages() {
+    return Object.keys(imagePools).flatMap(key => imagePools[key]);
+  }
+
+  function setLabel(img, item) {
+    const label = img.parentElement.querySelector('.image-place-card');
+    if (label) {
+      label.textContent = item.place;
+      label.setAttribute('aria-label', 'Local da fotografia: ' + item.place.replace(/ · /g, ', '));
+    }
+    img.alt = item.place;
+    const credit = img.parentElement.parentElement.querySelector('.credit-link');
+    if (credit) credit.href = item.credit;
+  }
+
+  function applyRotation(region) {
+    const preferred = weightedPool(region);
+    const fallback = allImages();
+    let hero = pick(imagePools[pick(preferred)] || fallback);
+
+    const heroEl = document.querySelector('.hero');
+    heroEl.style.setProperty('--hero-image', 'url("' + hero.src.replace(/"/g, '%22') + '")');
+    heroEl.style.backgroundImage = 'url("' + hero.src.replace(/"/g, '%22') + '")';
+    heroEl.dataset.imagePlace = hero.place;
+    const heroLabel = heroEl.querySelector('.image-place');
+    if (heroLabel) {
+      heroLabel.textContent = hero.place;
+      heroLabel.setAttribute('aria-label', 'Local da fotografia de fundo: ' + hero.place.replace(/ · /g, ', '));
+    }
+
+    slots.slice(1).forEach(slot => {
+      const img = document.querySelector(slot.selector);
+      if (!img) return;
+      const item = pick(imagePools[slot.poolKey] || fallback);
+      img.src = item.src;
+      setLabel(img, item);
+    });
+
+    const note = document.getElementById('rotation-note');
+    if (note) {
+      const regionNames = {
+        norte:'Norte de Portugal', centro:'Centro de Portugal', lisboa:'Lisboa e arredores',
+        alentejo:'Alentejo', algarve:'Algarve', madeira:'Madeira', acores:'Açores',
+        desconhecida:'Portugal'
+      };
+      note.textContent = 'Imagens em rotação aleatória · prioridade visual: ' + (regionNames[region] || 'Portugal') + '.';
+    }
+  }
+
+  function fallbackRandom() {
+    applyRotation('desconhecida');
+  }
+
+  if ('geolocation' in navigator) {
+    navigator.geolocation.getCurrentPosition(
+      function (position) {
+        applyRotation(classify(position.coords.latitude, position.coords.longitude));
+      },
+      fallbackRandom,
+      {enableHighAccuracy:false, maximumAge:3600000, timeout:5000}
+    );
+  } else {
+    fallbackRandom();
+  }
+})();
+</script>
+
 </body>
 </html>
