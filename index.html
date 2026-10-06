@@ -685,7 +685,6 @@
     filtered.forEach(x=>{
       const card=document.createElement('article');card.className='point-card';
       const links=[];
-      if(x.website) links.push('<a href="'+x.website+'" target="_blank" rel="noopener">Website ↗</a>');
       const contact=[];
       if(x.morada) contact.push('<strong>Morada:</strong> '+x.morada);
       if(x.telefone) contact.push('<strong>Telefone:</strong> <a href="tel:'+x.telefone+'">'+x.telefone+'</a>');
