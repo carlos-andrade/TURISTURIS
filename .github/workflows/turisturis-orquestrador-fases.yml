@@ -42,7 +42,7 @@ jobs:
 
       - name: Executar orquestrador
         env:
-          FASE: ${{ github.event.inputs.fase || 'A' }}
+          FASE: ${{ github.event.inputs.fase || (contains(github.event.head_commit.message, '[FASE:C]') && 'C' || 'A') }}
         run: |
           python3 scripts/orquestrador_fases_turisturis.py --fase "$FASE"
 
