@@ -1,5 +1,4 @@
 name: TURISTURIS — WEB-12.6 orquestrador nacional RNAL
-
 on:
   workflow_dispatch:
   schedule:
@@ -8,23 +7,22 @@ on:
     paths:
       - ".github/workflows/turisturis-web-12-6-enriquecimento-nacional.yml"
       - ".github/workflows/turisturis-web-12-6-orquestrador-nacional.yml"
+      - ".github/workflows/turisturis-web-12-6-consolidacao-nacional.yml"
       - "DADOS/INDICES/rnal_municipios_catalogo.json"
+      - "DADOS/INDICES/rnal_nacional_consolidacao.json"
       - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/**"
-
 permissions:
   contents: read
   actions: write
-
 concurrency:
   group: turisturis-web-12-6-orquestrador-nacional
   cancel-in-progress: false
-
 jobs:
   dispatch:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - name: Selecionar próximo lote
+      - name: Selecionar próximo lote somente após evidência
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -43,12 +41,23 @@ jobs:
             offset=0
             while [ "$offset" -lt "$total" ]; do
               file="CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$slug/rnal_contactos_offset_${offset}.json"
-              if [ ! -f "$file" ]; then next_municipio="$municipio"; next_offset="$offset"; break 2; fi
+              if [ ! -f "$file" ]; then
+                if [ -f DADOS/INDICES/rnal_nacional_consolidacao.json ]; then
+                  python3 - "$municipio" <<'PY'
+          import json,sys
+          c=json.load(open("DADOS/INDICES/rnal_nacional_consolidacao.json",encoding="utf-8"))
+          m=next(x for x in c["municipios"] if x["municipio"].casefold()==sys.argv[1].casefold())
+          if m["erros"]:
+              raise SystemExit("evidência contém erros para o município alvo")
+          PY
+                fi
+                next_municipio="$municipio"; next_offset="$offset"; break 2
+              fi
               offset=$((offset+50))
             done
           done < <(python3 -c 'import json; c=json.load(open("DADOS/INDICES/rnal_municipios_catalogo.json",encoding="utf-8")); [print(x["municipio"],x["slug"],x["target_total"],sep="\t") for x in c["municipios"]]')
           if [ -z "$next_municipio" ]; then echo "Todos os lotes catalogados estão persistidos."; exit 0; fi
-          run_id="$(gh run list --repo "$REPO" --workflow "$NORMALIZATION" --status success --limit 1 --json databaseId --jq ".[0].databaseId")"
+          run_id="$(gh run list --repo "$REPO" --workflow "$NORMALIZATION" --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
           test -n "$run_id" && test "$run_id" != "null"
-          echo "Próximo: $next_municipio offset=$next_offset target normalization=$run_id"
+          echo "Próximo lote: município=$next_municipio offset=$next_offset normalization=$run_id"
           gh workflow run "$TARGET" --repo "$REPO" --ref main -f normalization_run_id="$run_id" -f rnal_municipio="$next_municipio" -f rnal_offset="$next_offset" -f rnal_limit="50" -f rnal_workers="4"
