@@ -1,0 +1,118 @@
+name: TURISTURIS — Validar fichas RNAL Tomar
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/turisturis-validar-manifestos-rnal-tomar.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  validar:
+    name: Validar 100% dos manifestos RNAL Tomar
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validar todos os manifestos
+        id: validate
+        continue-on-error: true
+        run: |
+          set +e
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          index = json.loads(Path("DADOS/INDICES/rnal_tomar.json").read_text(encoding="utf-8"))
+          expected_ids = {str(x["NrRNAL"]) for x in index["records"]}
+          root = Path("FICHAS OFICIAIS RNAL")
+          results = []
+          failures = []
+
+          for number in sorted(expected_ids, key=int):
+              base = root / number
+              manifest_path = base / "audit" / "manifest.json"
+              item = {"registry_number": number, "manifest_exists": manifest_path.is_file(), "valid": False}
+              if not manifest_path.is_file():
+                  item["error"] = "MANIFEST_MISSING"
+                  failures.append(item)
+                  results.append(item)
+                  continue
+              try:
+                  m = json.loads(manifest_path.read_text(encoding="utf-8"))
+                  raw_files = [p for p in (base/"raw").rglob("*") if p.is_file()] if (base/"raw").is_dir() else []
+                  structured_files = [p for p in (base/"structured").rglob("*") if p.is_file()] if (base/"structured").is_dir() else []
+                  checks = {
+                    "type": m.get("type") == "RNAL",
+                    "registry_number": str(m.get("registry_number")) == number,
+                    "source_url": m.get("source_url") == f"https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr={number}",
+                    "http_status": m.get("http_status") == 200,
+                    "source_sha256": bool(m.get("source_sha256")),
+                    "structured_sha256": bool(m.get("structured_sha256")),
+                    "result": m.get("result") == "SUCCESS",
+                    "rules": m.get("rules") == "CARTA-CAPTURA-RNET-RNAL-V1",
+                    "raw_dir": bool(raw_files),
+                    "structured_dir": bool(structured_files),
+                    "audit_dir": (base/"audit").is_dir()
+                  }
+                  item["checks"] = checks
+                  item["valid"] = all(checks.values())
+                  item["result"] = "SUCCESS" if item["valid"] else "FAILED"
+                  if not item["valid"]: failures.append(item)
+              except Exception as exc:
+                  item["error"] = f"{type(exc).__name__}: {exc}"
+                  failures.append(item)
+              results.append(item)
+
+          report = {
+            "validation_version":"V1",
+            "source_index":"DADOS/INDICES/rnal_tomar.json",
+            "expected_count":len(expected_ids),
+            "validated_count":len(results),
+            "valid_count":sum(1 for x in results if x["valid"]),
+            "failure_count":len(failures),
+            "failures":failures,
+            "result":"SUCCESS" if len(expected_ids)==len(results)==sum(1 for x in results if x["valid"]) else "FAILED",
+            "rules":"CARTA-CAPTURA-RNET-RNAL-V1",
+            "records":results
+          }
+          out=Path("DADOS/INDICES/rnal_tomar_manifest_validation_report.json")
+          out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print(json.dumps({k:report[k] for k in ("expected_count","validated_count","valid_count","failure_count","result")},ensure_ascii=False))
+          raise SystemExit(0 if report["result"]=="SUCCESS" else 1)
+          PY
+          status=$?
+          echo "validate_exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
+
+      - name: Persistir relatório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "DADOS/INDICES/rnal_tomar_manifest_validation_report.json"
+          if git diff --cached --quiet; then
+            echo "Nenhum relatório novo para persistir."
+          else
+            git commit -m "AUDIT: validar manifestos RNAL de Tomar"
+            git push
+          fi
+
+      - name: Publicar relatório
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: TURISTURIS-RNAL-TOMAR-MANIFEST-VALIDATION
+          path: DADOS/INDICES/rnal_tomar_manifest_validation_report.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Resultado final
+        if: always()
+        run: |
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
+          echo "VALIDAÇÃO INTEGRAL DOS MANIFESTOS RNAL TOMAR CONCLUÍDA COM SUCESSO."
