@@ -162,7 +162,36 @@ A persistência deve permitir identificar:
 
 Correções devem preservar histórico suficiente para reconstruir o que ocorreu.
 
-## 12. Hierarquia
+## 12. Regra de caminho real do repositório
+
+Toda instrução de localização, verificação, execução ou alteração de um arquivo deve informar **primeiro o caminho real e exato no repositório**, antes de indicar menus, interfaces ou navegação visual do GitHub.
+
+O formato operacional obrigatório é:
+
+**REPOSITÓRIO → CAMINHO EXATO → ARQUIVO → AÇÃO**
+
+Exemplo:
+
+```text
+carlos-andrade/TURISTURIS
+└── .github/
+    └── workflows/
+        └── turisturis-validar-manifestos-rnal-peso-da-regua.yml
+```
+
+O caminho:
+
+```text
+.github/workflows/turisturis-validar-manifestos-rnal-peso-da-regua.yml
+```
+
+é a referência operacional primária.
+
+Instruções como **“Actions → workflow → Run workflow”** podem ser utilizadas apenas como informação complementar, nunca como substituição do caminho real do arquivo.
+
+Esta regra existe para permitir busca direta, auditoria, continuidade entre chats e execução independente da organização visual da interface do GitHub.
+
+## 13. Hierarquia
 
 Esta Carta integra a governança central do TURISTURIS e aplica-se a todas as fases, Cartas, Layouts, workflows, pesquisas, ingestões, análises, publicações, dados, código e desenvolvimentos futuros.
 
@@ -170,7 +199,7 @@ Esta Carta integra a governança central do TURISTURIS e aplica-se a todas as fa
 
 Nenhum resultado importante pode ficar somente no elo ChatGPT.
 
-## 13. Princípio permanente
+## 14. Princípio permanente
 
 > **SE FOI PRODUZIDO E É IMPORTANTE, DEVE ESTAR NO REPOSITÓRIO.**
 
