@@ -1,0 +1,1677 @@
+{
+  "schema_version": "1.0",
+  "process": "WEB-12.6-CATALOGO-MUNICIPIOS",
+  "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS/RNAL_NORMALIZADO_V1.json",
+  "municipios_total": 278,
+  "registos_rnal_total": 111869,
+  "municipios": [
+    {
+      "municipio": "Abrantes",
+      "slug": "abrantes",
+      "target_total": 121,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Aguiar da Beira",
+      "slug": "aguiar-da-beira",
+      "target_total": 17,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alandroal",
+      "slug": "alandroal",
+      "target_total": 54,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Albergaria-A-Velha",
+      "slug": "albergaria-a-velha",
+      "target_total": 46,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Albufeira",
+      "slug": "albufeira",
+      "target_total": 10485,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alcanena",
+      "slug": "alcanena",
+      "target_total": 19,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alcobaça",
+      "slug": "alcobaca",
+      "target_total": 1005,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alcochete",
+      "slug": "alcochete",
+      "target_total": 65,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alcoutim",
+      "slug": "alcoutim",
+      "target_total": 52,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alcácer do Sal",
+      "slug": "alcacer-do-sal",
+      "target_total": 312,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alenquer",
+      "slug": "alenquer",
+      "target_total": 127,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alfândega da Fé",
+      "slug": "alfandega-da-fe",
+      "target_total": 27,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alijó",
+      "slug": "alijo",
+      "target_total": 91,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Aljezur",
+      "slug": "aljezur",
+      "target_total": 1403,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Aljustrel",
+      "slug": "aljustrel",
+      "target_total": 21,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Almada",
+      "slug": "almada",
+      "target_total": 1815,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Almeida",
+      "slug": "almeida",
+      "target_total": 35,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Almeirim",
+      "slug": "almeirim",
+      "target_total": 25,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Almodôvar",
+      "slug": "almodovar",
+      "target_total": 30,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alpiarça",
+      "slug": "alpiarca",
+      "target_total": 19,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alter do Chão",
+      "slug": "alter-do-chao",
+      "target_total": 17,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alvaiázere",
+      "slug": "alvaiazere",
+      "target_total": 62,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Alvito",
+      "slug": "alvito",
+      "target_total": 25,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Amadora",
+      "slug": "amadora",
+      "target_total": 211,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Amarante",
+      "slug": "amarante",
+      "target_total": 223,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Amares",
+      "slug": "amares",
+      "target_total": 117,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Anadia",
+      "slug": "anadia",
+      "target_total": 77,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ansião",
+      "slug": "ansiao",
+      "target_total": 91,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arcos de Valdevez",
+      "slug": "arcos-de-valdevez",
+      "target_total": 315,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arganil",
+      "slug": "arganil",
+      "target_total": 166,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Armamar",
+      "slug": "armamar",
+      "target_total": 92,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arouca",
+      "slug": "arouca",
+      "target_total": 149,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arraiolos",
+      "slug": "arraiolos",
+      "target_total": 51,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arronches",
+      "slug": "arronches",
+      "target_total": 20,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Arruda dos Vinhos",
+      "slug": "arruda-dos-vinhos",
+      "target_total": 10,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Aveiro",
+      "slug": "aveiro",
+      "target_total": 729,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Avis",
+      "slug": "avis",
+      "target_total": 56,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Azambuja",
+      "slug": "azambuja",
+      "target_total": 37,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Baião",
+      "slug": "baiao",
+      "target_total": 148,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Barcelos",
+      "slug": "barcelos",
+      "target_total": 160,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Barrancos",
+      "slug": "barrancos",
+      "target_total": 5,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Barreiro",
+      "slug": "barreiro",
+      "target_total": 111,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Batalha",
+      "slug": "batalha",
+      "target_total": 69,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Beja",
+      "slug": "beja",
+      "target_total": 103,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Belmonte",
+      "slug": "belmonte",
+      "target_total": 51,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Benavente",
+      "slug": "benavente",
+      "target_total": 29,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Bombarral",
+      "slug": "bombarral",
+      "target_total": 85,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Borba",
+      "slug": "borba",
+      "target_total": 28,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Boticas",
+      "slug": "boticas",
+      "target_total": 14,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Braga",
+      "slug": "braga",
+      "target_total": 723,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Bragança",
+      "slug": "braganca",
+      "target_total": 253,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cabeceiras de Basto",
+      "slug": "cabeceiras-de-basto",
+      "target_total": 144,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cadaval",
+      "slug": "cadaval",
+      "target_total": 54,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Caldas da Rainha",
+      "slug": "caldas-da-rainha",
+      "target_total": 687,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Caminha",
+      "slug": "caminha",
+      "target_total": 728,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Campo Maior",
+      "slug": "campo-maior",
+      "target_total": 17,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cantanhede",
+      "slug": "cantanhede",
+      "target_total": 32,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Carrazeda de Ansiães",
+      "slug": "carrazeda-de-ansiaes",
+      "target_total": 28,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Carregal do Sal",
+      "slug": "carregal-do-sal",
+      "target_total": 11,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cartaxo",
+      "slug": "cartaxo",
+      "target_total": 56,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cascais",
+      "slug": "cascais",
+      "target_total": 2458,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castanheira de Pêra",
+      "slug": "castanheira-de-pera",
+      "target_total": 54,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castelo Branco",
+      "slug": "castelo-branco",
+      "target_total": 79,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castelo de Paiva",
+      "slug": "castelo-de-paiva",
+      "target_total": 96,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castelo de Vide",
+      "slug": "castelo-de-vide",
+      "target_total": 78,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castro Daire",
+      "slug": "castro-daire",
+      "target_total": 108,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castro Marim",
+      "slug": "castro-marim",
+      "target_total": 497,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Castro Verde",
+      "slug": "castro-verde",
+      "target_total": 32,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Celorico da Beira",
+      "slug": "celorico-da-beira",
+      "target_total": 33,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Celorico de Basto",
+      "slug": "celorico-de-basto",
+      "target_total": 168,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Chamusca",
+      "slug": "chamusca",
+      "target_total": 23,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Chaves",
+      "slug": "chaves",
+      "target_total": 136,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cinfães",
+      "slug": "cinfaes",
+      "target_total": 52,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Coimbra",
+      "slug": "coimbra",
+      "target_total": 478,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Condeixa-A-Nova",
+      "slug": "condeixa-a-nova",
+      "target_total": 32,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Constância",
+      "slug": "constancia",
+      "target_total": 30,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Coruche",
+      "slug": "coruche",
+      "target_total": 53,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Covilhã",
+      "slug": "covilha",
+      "target_total": 277,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Crato",
+      "slug": "crato",
+      "target_total": 27,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Cuba",
+      "slug": "cuba",
+      "target_total": 36,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Elvas",
+      "slug": "elvas",
+      "target_total": 137,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Entroncamento",
+      "slug": "entroncamento",
+      "target_total": 5,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Espinho",
+      "slug": "espinho",
+      "target_total": 167,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Esposende",
+      "slug": "esposende",
+      "target_total": 476,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Estarreja",
+      "slug": "estarreja",
+      "target_total": 29,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Estremoz",
+      "slug": "estremoz",
+      "target_total": 77,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Fafe",
+      "slug": "fafe",
+      "target_total": 60,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Faro",
+      "slug": "faro",
+      "target_total": 1303,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Felgueiras",
+      "slug": "felgueiras",
+      "target_total": 61,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ferreira do Alentejo",
+      "slug": "ferreira-do-alentejo",
+      "target_total": 18,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ferreira do Zêzere",
+      "slug": "ferreira-do-zezere",
+      "target_total": 99,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Figueira da Foz",
+      "slug": "figueira-da-foz",
+      "target_total": 536,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Figueira de Castelo Rodrigo",
+      "slug": "figueira-de-castelo-rodrigo",
+      "target_total": 30,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Figueiró dos Vinhos",
+      "slug": "figueiro-dos-vinhos",
+      "target_total": 52,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Fornos de Algodres",
+      "slug": "fornos-de-algodres",
+      "target_total": 37,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Freixo de Espada À Cinta",
+      "slug": "freixo-de-espada-a-cinta",
+      "target_total": 28,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Fronteira",
+      "slug": "fronteira",
+      "target_total": 31,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Fundão",
+      "slug": "fundao",
+      "target_total": 166,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Gavião",
+      "slug": "gaviao",
+      "target_total": 17,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Golegã",
+      "slug": "golega",
+      "target_total": 43,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Gondomar",
+      "slug": "gondomar",
+      "target_total": 176,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Gouveia",
+      "slug": "gouveia",
+      "target_total": 101,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Grândola",
+      "slug": "grandola",
+      "target_total": 765,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Guarda",
+      "slug": "guarda",
+      "target_total": 109,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Guimarães",
+      "slug": "guimaraes",
+      "target_total": 340,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Góis",
+      "slug": "gois",
+      "target_total": 66,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Idanha-A-Nova",
+      "slug": "idanha-a-nova",
+      "target_total": 77,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lagoa",
+      "slug": "lagoa",
+      "target_total": 3260,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lagos",
+      "slug": "lagos",
+      "target_total": 4773,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lamego",
+      "slug": "lamego",
+      "target_total": 132,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Leiria",
+      "slug": "leiria",
+      "target_total": 252,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lisboa",
+      "slug": "lisboa",
+      "target_total": 11868,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Loulé",
+      "slug": "loule",
+      "target_total": 7335,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Loures",
+      "slug": "loures",
+      "target_total": 244,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lourinhã",
+      "slug": "lourinha",
+      "target_total": 568,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lousada",
+      "slug": "lousada",
+      "target_total": 30,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Lousã",
+      "slug": "lousa",
+      "target_total": 174,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Macedo de Cavaleiros",
+      "slug": "macedo-de-cavaleiros",
+      "target_total": 78,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mafra",
+      "slug": "mafra",
+      "target_total": 1135,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Maia",
+      "slug": "maia",
+      "target_total": 53,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mangualde",
+      "slug": "mangualde",
+      "target_total": 23,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Manteigas",
+      "slug": "manteigas",
+      "target_total": 69,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Marco de Canaveses",
+      "slug": "marco-de-canaveses",
+      "target_total": 264,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Marinha Grande",
+      "slug": "marinha-grande",
+      "target_total": 173,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Marvão",
+      "slug": "marvao",
+      "target_total": 87,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Matosinhos",
+      "slug": "matosinhos",
+      "target_total": 654,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mação",
+      "slug": "macao",
+      "target_total": 53,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mealhada",
+      "slug": "mealhada",
+      "target_total": 35,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Melgaço",
+      "slug": "melgaco",
+      "target_total": 42,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mesão Frio",
+      "slug": "mesao-frio",
+      "target_total": 57,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mira",
+      "slug": "mira",
+      "target_total": 144,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Miranda do Corvo",
+      "slug": "miranda-do-corvo",
+      "target_total": 78,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Miranda do Douro",
+      "slug": "miranda-do-douro",
+      "target_total": 22,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mirandela",
+      "slug": "mirandela",
+      "target_total": 36,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mogadouro",
+      "slug": "mogadouro",
+      "target_total": 55,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Moimenta da Beira",
+      "slug": "moimenta-da-beira",
+      "target_total": 8,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Moita",
+      "slug": "moita",
+      "target_total": 64,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Monchique",
+      "slug": "monchique",
+      "target_total": 108,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mondim de Basto",
+      "slug": "mondim-de-basto",
+      "target_total": 98,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Monforte",
+      "slug": "monforte",
+      "target_total": 11,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Montalegre",
+      "slug": "montalegre",
+      "target_total": 175,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Montemor-O-Novo",
+      "slug": "montemor-o-novo",
+      "target_total": 104,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Montemor-O-Velho",
+      "slug": "montemor-o-velho",
+      "target_total": 39,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Montijo",
+      "slug": "montijo",
+      "target_total": 111,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Monção",
+      "slug": "moncao",
+      "target_total": 109,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mora",
+      "slug": "mora",
+      "target_total": 27,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mortágua",
+      "slug": "mortagua",
+      "target_total": 28,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Moura",
+      "slug": "moura",
+      "target_total": 44,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mourão",
+      "slug": "mourao",
+      "target_total": 72,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Murtosa",
+      "slug": "murtosa",
+      "target_total": 115,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Murça",
+      "slug": "murca",
+      "target_total": 12,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mértola",
+      "slug": "mertola",
+      "target_total": 112,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Mêda",
+      "slug": "meda",
+      "target_total": 23,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Nazaré",
+      "slug": "nazare",
+      "target_total": 1289,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Nelas",
+      "slug": "nelas",
+      "target_total": 45,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Nisa",
+      "slug": "nisa",
+      "target_total": 51,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Odemira",
+      "slug": "odemira",
+      "target_total": 879,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Odivelas",
+      "slug": "odivelas",
+      "target_total": 114,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oeiras",
+      "slug": "oeiras",
+      "target_total": 614,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oleiros",
+      "slug": "oleiros",
+      "target_total": 25,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Olhão",
+      "slug": "olhao",
+      "target_total": 1663,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oliveira de Azeméis",
+      "slug": "oliveira-de-azemeis",
+      "target_total": 32,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oliveira de Frades",
+      "slug": "oliveira-de-frades",
+      "target_total": 55,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oliveira do Bairro",
+      "slug": "oliveira-do-bairro",
+      "target_total": 16,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Oliveira do Hospital",
+      "slug": "oliveira-do-hospital",
+      "target_total": 125,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ourique",
+      "slug": "ourique",
+      "target_total": 54,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ourém",
+      "slug": "ourem",
+      "target_total": 301,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ovar",
+      "slug": "ovar",
+      "target_total": 336,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Palmela",
+      "slug": "palmela",
+      "target_total": 247,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Pampilhosa da Serra",
+      "slug": "pampilhosa-da-serra",
+      "target_total": 36,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Paredes",
+      "slug": "paredes",
+      "target_total": 50,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Paredes de Coura",
+      "slug": "paredes-de-coura",
+      "target_total": 166,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Paços de Ferreira",
+      "slug": "pacos-de-ferreira",
+      "target_total": 33,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Pedrógão Grande",
+      "slug": "pedrogao-grande",
+      "target_total": 30,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penacova",
+      "slug": "penacova",
+      "target_total": 79,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penafiel",
+      "slug": "penafiel",
+      "target_total": 113,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penalva do Castelo",
+      "slug": "penalva-do-castelo",
+      "target_total": 14,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penamacor",
+      "slug": "penamacor",
+      "target_total": 53,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penedono",
+      "slug": "penedono",
+      "target_total": 8,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Penela",
+      "slug": "penela",
+      "target_total": 59,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Peniche",
+      "slug": "peniche",
+      "target_total": 1335,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Peso da Régua",
+      "slug": "peso-da-regua",
+      "target_total": 182,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Pinhel",
+      "slug": "pinhel",
+      "target_total": 25,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Pombal",
+      "slug": "pombal",
+      "target_total": 151,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ponte da Barca",
+      "slug": "ponte-da-barca",
+      "target_total": 119,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ponte de Lima",
+      "slug": "ponte-de-lima",
+      "target_total": 429,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ponte de Sor",
+      "slug": "ponte-de-sor",
+      "target_total": 134,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Portalegre",
+      "slug": "portalegre",
+      "target_total": 83,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Portel",
+      "slug": "portel",
+      "target_total": 55,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Portimão",
+      "slug": "portimao",
+      "target_total": 5693,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Porto",
+      "slug": "porto",
+      "target_total": 9923,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Porto de Mós",
+      "slug": "porto-de-mos",
+      "target_total": 116,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Proença-A-Nova",
+      "slug": "proenca-a-nova",
+      "target_total": 68,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Póvoa de Lanhoso",
+      "slug": "povoa-de-lanhoso",
+      "target_total": 92,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Póvoa de Varzim",
+      "slug": "povoa-de-varzim",
+      "target_total": 341,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Redondo",
+      "slug": "redondo",
+      "target_total": 65,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Reguengos de Monsaraz",
+      "slug": "reguengos-de-monsaraz",
+      "target_total": 282,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Resende",
+      "slug": "resende",
+      "target_total": 92,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ribeira de Pena",
+      "slug": "ribeira-de-pena",
+      "target_total": 48,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Rio Maior",
+      "slug": "rio-maior",
+      "target_total": 65,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sabrosa",
+      "slug": "sabrosa",
+      "target_total": 43,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sabugal",
+      "slug": "sabugal",
+      "target_total": 73,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Salvaterra de Magos",
+      "slug": "salvaterra-de-magos",
+      "target_total": 43,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santa Comba Dão",
+      "slug": "santa-comba-dao",
+      "target_total": 31,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santa Maria da Feira",
+      "slug": "santa-maria-da-feira",
+      "target_total": 108,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santa Marta de Penaguião",
+      "slug": "santa-marta-de-penaguiao",
+      "target_total": 27,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santarém",
+      "slug": "santarem",
+      "target_total": 153,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santiago do Cacém",
+      "slug": "santiago-do-cacem",
+      "target_total": 340,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Santo Tirso",
+      "slug": "santo-tirso",
+      "target_total": 44,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sardoal",
+      "slug": "sardoal",
+      "target_total": 24,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Seia",
+      "slug": "seia",
+      "target_total": 311,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Seixal",
+      "slug": "seixal",
+      "target_total": 384,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sernancelhe",
+      "slug": "sernancelhe",
+      "target_total": 38,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Serpa",
+      "slug": "serpa",
+      "target_total": 48,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sertã",
+      "slug": "serta",
+      "target_total": 63,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sesimbra",
+      "slug": "sesimbra",
+      "target_total": 960,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Setúbal",
+      "slug": "setubal",
+      "target_total": 1110,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sever do Vouga",
+      "slug": "sever-do-vouga",
+      "target_total": 68,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Silves",
+      "slug": "silves",
+      "target_total": 2745,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sines",
+      "slug": "sines",
+      "target_total": 155,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sintra",
+      "slug": "sintra",
+      "target_total": 1234,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sobral de Monte Agraço",
+      "slug": "sobral-de-monte-agraco",
+      "target_total": 23,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Soure",
+      "slug": "soure",
+      "target_total": 26,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sousel",
+      "slug": "sousel",
+      "target_total": 29,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Sátão",
+      "slug": "satao",
+      "target_total": 20,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "São Brás de Alportel",
+      "slug": "sao-bras-de-alportel",
+      "target_total": 175,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "São João da Madeira",
+      "slug": "sao-joao-da-madeira",
+      "target_total": 18,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "São João da Pesqueira",
+      "slug": "sao-joao-da-pesqueira",
+      "target_total": 61,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "São Pedro do Sul",
+      "slug": "sao-pedro-do-sul",
+      "target_total": 142,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tabuaço",
+      "slug": "tabuaco",
+      "target_total": 45,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tarouca",
+      "slug": "tarouca",
+      "target_total": 42,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tavira",
+      "slug": "tavira",
+      "target_total": 2998,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Terras de Bouro",
+      "slug": "terras-de-bouro",
+      "target_total": 525,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tomar",
+      "slug": "tomar",
+      "target_total": 274,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tondela",
+      "slug": "tondela",
+      "target_total": 54,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Torre de Moncorvo",
+      "slug": "torre-de-moncorvo",
+      "target_total": 73,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Torres Novas",
+      "slug": "torres-novas",
+      "target_total": 46,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Torres Vedras",
+      "slug": "torres-vedras",
+      "target_total": 346,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Trancoso",
+      "slug": "trancoso",
+      "target_total": 48,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Trofa",
+      "slug": "trofa",
+      "target_total": 24,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Tábua",
+      "slug": "tabua",
+      "target_total": 83,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vagos",
+      "slug": "vagos",
+      "target_total": 71,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vale de Cambra",
+      "slug": "vale-de-cambra",
+      "target_total": 63,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Valença",
+      "slug": "valenca",
+      "target_total": 103,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Valongo",
+      "slug": "valongo",
+      "target_total": 36,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Valpaços",
+      "slug": "valpacos",
+      "target_total": 25,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vendas Novas",
+      "slug": "vendas-novas",
+      "target_total": 20,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Viana do Alentejo",
+      "slug": "viana-do-alentejo",
+      "target_total": 18,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Viana do Castelo",
+      "slug": "viana-do-castelo",
+      "target_total": 533,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vidigueira",
+      "slug": "vidigueira",
+      "target_total": 45,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vieira do Minho",
+      "slug": "vieira-do-minho",
+      "target_total": 373,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila de Rei",
+      "slug": "vila-de-rei",
+      "target_total": 38,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila do Bispo",
+      "slug": "vila-do-bispo",
+      "target_total": 1181,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila do Conde",
+      "slug": "vila-do-conde",
+      "target_total": 440,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Flor",
+      "slug": "vila-flor",
+      "target_total": 18,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Franca de Xira",
+      "slug": "vila-franca-de-xira",
+      "target_total": 67,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova da Barquinha",
+      "slug": "vila-nova-da-barquinha",
+      "target_total": 19,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Cerveira",
+      "slug": "vila-nova-de-cerveira",
+      "target_total": 130,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Famalicão",
+      "slug": "vila-nova-de-famalicao",
+      "target_total": 123,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Foz Côa",
+      "slug": "vila-nova-de-foz-coa",
+      "target_total": 51,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Gaia",
+      "slug": "vila-nova-de-gaia",
+      "target_total": 1713,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Paiva",
+      "slug": "vila-nova-de-paiva",
+      "target_total": 15,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Nova de Poiares",
+      "slug": "vila-nova-de-poiares",
+      "target_total": 21,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Pouca de Aguiar",
+      "slug": "vila-pouca-de-aguiar",
+      "target_total": 15,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Real",
+      "slug": "vila-real",
+      "target_total": 196,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Real de Santo António",
+      "slug": "vila-real-de-santo-antonio",
+      "target_total": 1260,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Velha de Ródão",
+      "slug": "vila-velha-de-rodao",
+      "target_total": 14,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Verde",
+      "slug": "vila-verde",
+      "target_total": 82,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vila Viçosa",
+      "slug": "vila-vicosa",
+      "target_total": 39,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vimioso",
+      "slug": "vimioso",
+      "target_total": 24,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vinhais",
+      "slug": "vinhais",
+      "target_total": 38,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Viseu",
+      "slug": "viseu",
+      "target_total": 146,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vizela",
+      "slug": "vizela",
+      "target_total": 19,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Vouzela",
+      "slug": "vouzela",
+      "target_total": 68,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Águeda",
+      "slug": "agueda",
+      "target_total": 52,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Évora",
+      "slug": "evora",
+      "target_total": 448,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Ílhavo",
+      "slug": "ilhavo",
+      "target_total": 309,
+      "estado": "PENDENTE"
+    },
+    {
+      "municipio": "Óbidos",
+      "slug": "obidos",
+      "target_total": 757,
+      "estado": "PENDENTE"
+    }
+  ]
+}
