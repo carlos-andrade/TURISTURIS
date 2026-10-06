@@ -1,0 +1,54 @@
+name: TURISTURIS — WEB-12.6 consolidação RNAL Peso da Régua
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/rnal_contactos_offset_*.json"
+      - "CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_v1.py"
+      - ".github/workflows/turisturis-web-12-6-consolidacao.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verificar os quatro lotes obrigatórios
+        run: |
+          set -euo pipefail
+          for offset in 0 50 100 150; do
+            test -f "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/rnal_contactos_offset_${offset}.json"
+          done
+      - name: Consolidar contactos
+        run: python3 CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_v1.py
+      - name: Validar consolidação 182/182
+        run: |
+          python3 - <<'PY'
+          import csv, json
+          from pathlib import Path
+          master=Path("DADOS/INDICES/rnal_peso_da_regua_tabela_mestra.csv")
+          report=Path("DADOS/INDICES/rnal_peso_da_regua_contactos_consolidacao_report.json")
+          d=json.loads(report.read_text(encoding="utf-8"))
+          rows=list(csv.DictReader(master.open(encoding="utf-8", newline="")))
+          assert len(rows)==182, f"master inválida: {len(rows)}"
+          assert d["lotes_lidos"]==4, f"lotes inválidos: {d['lotes_lidos']}"
+          assert d["registros_aplicados"]==182, f"aplicados inválidos: {d['registros_aplicados']}"
+          ids=[r["id_origem"] for r in rows]
+          assert len(ids)==len(set(ids))==182, "id_origem duplicado ou ausente"
+          print(json.dumps(d, ensure_ascii=False, indent=2))
+          PY
+      - name: Persistir consolidação
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/INDICES/rnal_peso_da_regua_tabela_mestra.csv DADOS/INDICES/rnal_peso_da_regua_contactos_consolidacao_report.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nova para persistir."
+          else
+            git commit -m "DATA: consolidar WEB-12.6 RNAL Peso da Régua 182 registros"
+            git push
+          fi
