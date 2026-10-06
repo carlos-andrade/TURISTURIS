@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Extrai de forma reprodutível todo o conteúdo relevante de DADOS/RNET_RNAL.docx."""
+"""Extrai de forma reprodutível todo o conteúdo relevante de DADOS/RNET_RNAL/RNET_RNAL.docx."""
 from __future__ import annotations
-import csv, hashlib, json, re, shutil, zipfile
+import csv, hashlib, json, zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from docx import Document
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "DADOS" / "RNET_RNAL.docx"
+SRC = ROOT / "DADOS" / "RNET_RNAL" / "RNET_RNAL.docx"
 OUT = ROOT / "DADOS" / "RNET_RNAL"
 RAW = OUT / "RAW_DOCX"
 MEDIA = OUT / "MEDIA"
@@ -22,7 +22,6 @@ if not SRC.exists():
 data = SRC.read_bytes()
 sha = hashlib.sha256(data).hexdigest()
 
-# Preserve the complete OOXML package, including XML and embedded media.
 with zipfile.ZipFile(SRC) as z:
     members = []
     for info in z.infolist():
@@ -38,8 +37,7 @@ with zipfile.ZipFile(SRC) as z:
 doc = Document(SRC)
 paragraphs = []
 for i, p in enumerate(doc.paragraphs, 1):
-    text = p.text
-    paragraphs.append({"index": i, "style": p.style.name if p.style else None, "text": text})
+    paragraphs.append({"index": i, "style": p.style.name if p.style else None, "text": p.text})
 
 tables = []
 for ti, table in enumerate(doc.tables, 1):
@@ -78,7 +76,7 @@ if core_xml.exists():
 manifest = {
     "schema_version": "1.0",
     "process": "TURISTURIS_EXTRACAO_RNET_RNAL_DOCX",
-    "source": "DADOS/RNET_RNAL.docx",
+    "source": "DADOS/RNET_RNAL/RNET_RNAL.docx",
     "capture_utc": datetime.now(timezone.utc).isoformat(),
     "source_sha256": sha,
     "source_size_bytes": len(data),
