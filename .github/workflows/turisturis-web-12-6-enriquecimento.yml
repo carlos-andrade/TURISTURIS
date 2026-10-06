@@ -12,7 +12,11 @@ jobs:
   enriquecer:
     name: Recolher contactos públicos RNAL
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 60
+    env:
+      RNAL_OFFSET: "0"
+      RNAL_LIMIT: "50"
+      RNAL_WORKERS: "4"
     steps:
       - uses: actions/checkout@v5
       - name: Recuperar normalização WEB-12.2
@@ -34,9 +38,14 @@ jobs:
           from pathlib import Path
           p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
           d=json.loads(p.read_text(encoding="utf-8"))
-          assert d["record_count"] > 0
+          assert 0 < d["record_count"] <= int("${RNAL_LIMIT}")
           assert all("id" in r and "id_origem" in r and "status" in r for r in d["records"])
-          print(json.dumps({"records":d["record_count"]},ensure_ascii=False))
+          print(json.dumps({
+            "offset": d.get("offset"),
+            "limit": d.get("limit"),
+            "records": d["record_count"],
+            "statuses": sorted(set(r["status"] for r in d["records"]))
+          }, ensure_ascii=False))
           PY
       - name: Compactar resultado
         run: tar -czf rnal-contactos-publicos-web-12-6.tar.gz CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json
