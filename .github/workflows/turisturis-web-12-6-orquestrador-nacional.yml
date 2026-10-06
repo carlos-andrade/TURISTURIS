@@ -11,7 +11,7 @@ on:
       - "DADOS/INDICES/rnal_municipios_catalogo.json"
       - "DADOS/INDICES/rnal_nacional_consolidacao.json"
 permissions:
-  contents: read
+  contents: write
   actions: write
 concurrency:
   group: turisturis-web-12-6-orquestrador-nacional
@@ -36,6 +36,18 @@ jobs:
           if [ ! -f DADOS/INDICES/rnal_municipios_catalogo.json ]; then
             echo "Catálogo nacional ausente; disparando geração controlada."
             gh workflow run "$CATALOG" --repo "$REPO" --ref main -f normalization_run_id="37402864529"
+            exit 0
+          fi
+
+          if [ ! -f DADOS/INDICES/rnal_nacional_consolidacao.json ] && find CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES -type f -name 'rnal_contactos_offset_*.json' -print -quit | grep -q .; then
+            echo "Lotes existentes sem evidência; consolidando antes de qualquer novo dispatch."
+            python3 CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_nacional_v1.py
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add DADOS/INDICES/rnal_nacional_consolidacao.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "DATA: registrar evidência nacional WEB-12.6"
+            git push
             exit 0
           fi
           next_municipio=""
