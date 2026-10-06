@@ -1,0 +1,3 @@
+# Teste AST
+
+Arquivo temporário.
