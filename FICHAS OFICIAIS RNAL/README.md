@@ -2,43 +2,48 @@
 
 ## Função
 
-Repositório documental das **fichas oficiais RNAL — Registo Nacional de Alojamento Local**, obtidas a partir das fontes oficiais do Turismo de Portugal.
-
-## Objetivo
-
-Concentrar, preservar e organizar fichas RNAL de forma integral, rastreável, reproduzível e auditável, mantendo separação absoluta dos dados RNET.
+Repositório documental das **fichas oficiais RNAL — Registo Nacional de Alojamento Local**, obtidas diretamente das fontes oficiais do Turismo de Portugal.
 
 ## Fonte primária
 
-A captura deve ser feita diretamente das páginas oficiais RNAL do RNT.
+- RNAL nº **15642/AL**
+- Fonte oficial: https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15642
 
-- RNAL nº **15642**
-- Fonte: https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15642
+## Estrutura obrigatória
 
-## Estrutura
+`<numero_registo>/raw/` — HTML recebido da fonte, preservado byte a byte.  
+`<numero_registo>/structured/` — representação estruturada, sem substituir os valores brutos.  
+`<numero_registo>/audit/` — manifesto, hashes, metadados e resultado da captura.
 
-Para cada ficha:
+## Modelo de captura
 
-- `<numero_registo>/raw/` — evidência bruta da fonte.
-- `<numero_registo>/structured/` — dados estruturados em JSON/CSV.
-- `<numero_registo>/audit/` — manifesto, hashes e metadados da captura.
+A captura é regida por:
 
-## Integridade e auditoria
+`GOVERNANÇA/CARTAS/CARTA_CAPTURA_RIGIDA_FICHAS_RNET_RNAL.md`
 
-O conteúdo original não deve ser sobrescrito por normalizações.
+O capturador deve preservar:
 
-Cada registro estruturado deve possuir chave única e determinística, permitindo rastrear o dado até a ficha e à posição capturada. A evidência bruta e seus hashes permitem comparar futuras capturas.
+- rótulo original;
+- valor original;
+- relação rótulo → valor quando identificável;
+- ordem/posição dos elementos;
+- HTML bruto;
+- SHA-256 do bruto;
+- SHA-256 do estruturado;
+- estado da execução.
 
-## Regra de captura
+O campo `raw_value` nunca pode ser corrigido, traduzido, arredondado, interpretado ou completado.
 
-A captura deve obedecer à `CARTAS/CARTA_CAPTURA_RIGIDA_FICHAS_RNET_RNAL.md`.
-
-É proibido completar, corrigir ou inferir dados que não estejam publicados na fonte oficial.
-
-## Separação
+## Regra de separação
 
 Esta pasta é exclusiva de **RNAL**. Dados RNET permanecem em `FICHAS OFICIAIS RNET/`.
 
 ## Estado
 
-Esta é a camada de **evidência documental oficial RNAL** do TURISTURIS. Os dados somente podem alimentar normalização e povoamento do site depois da validação da captura.
+**EVIDÊNCIA OFICIAL A VALIDAR.**
+
+A existência desta estrutura e do código de captura não comprova que a ficha nº 15642/AL tenha sido capturada. A captura somente poderá ser considerada concluída após:
+
+**fonte → raw → structured → audit → validação → commit**
+
+Dados fornecidos como exemplos de teste não substituem o HTML oficial capturado.
