@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0",
+  "entity_type":"destino",
+  "id":"PT-18-TOMAR",
+  "nome":"Tomar",
+  "territorio":{"distrito":"Santarém","municipio":"Tomar"},
+  "pontos_turisticos":[
+    {"id":"PT-TOMAR-CONVENTO-CRISTO","nome":"Convento de Cristo","tipo":"Património"},
+    {"id":"PT-TOMAR-CASTELO-TEMPLARIO","nome":"Castelo Templário","tipo":"Património"},
+    {"id":"PT-TOMAR-SINAGOGA","nome":"Sinagoga de Tomar","tipo":"Património"},
+    {"id":"PT-TOMAR-AQUEDUTO-PEGOES","nome":"Aqueduto dos Pegões","tipo":"Património"}
+  ],
+  "alojamento":{"estado":"A1_PENDENTE","publicar_registos":false},
+  "regras":{"freguesia":"não inferir destrutivamente","contactos":"publicar apenas após validação","telefone":"preserve_explicitly"},
+  "fontes":[
+    {"nome":"Município de Tomar","url":"https://www.cm-tomar.pt/visitar/onde-dormir"},
+    {"nome":"Turismo de Portugal — Dados Abertos","url":"https://dadosabertos.turismodeportugal.pt/"}
+  ]
+}
