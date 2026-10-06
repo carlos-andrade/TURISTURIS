@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "process": "TURISTURIS_RNAL_TERRITORIO",
+  "territory": {
+    "distrito": "Santarém",
+    "municipio": "Tomar",
+    "freguesia": null
+  },
+  "source": {
+    "authority": "Município de Tomar",
+    "title": "Onde Dormir",
+    "url": "https://www.cm-tomar.pt/visitar/onde-dormir",
+    "accessed_utc": "2026-10-06T15:00:00Z",
+    "note": "Fonte municipal oficial utilizada para a primeira captura controlada. A página contém a secção ALOJAMENTO LOCAL (AL), números de registo RNAL, endereços, contactos e dados de capacidade."
+  },
+  "extraction": {
+    "status": "STARTED",
+    "complete_catalogue": false,
+    "record_count": null,
+    "contact_audit": "PENDING",
+    "territorial_freguesia_audit": "PENDING"
+  },
+  "rules": {
+    "phone_country_code": "preserve_explicitly",
+    "public_territory_order": [
+      "Freguesia",
+      "Município",
+      "Distrito"
+    ],
+    "internal_validation_status_public": false
+  }
+}
