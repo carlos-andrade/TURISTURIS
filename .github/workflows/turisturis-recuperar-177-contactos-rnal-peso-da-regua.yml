@@ -1,142 +1,145 @@
-name: TURISTURIS — Recuperar 177 contactos RNAL Peso da Régua
+name: TURISTURIS — Consolidar contactos RNAL Peso da Régua a partir das fichas oficiais
 
 on:
   push:
     paths:
       - ".github/workflows/turisturis-recuperar-177-contactos-rnal-peso-da-regua.yml"
+      - "CONTINENTE/DADOS/CODIGOS/extrair_contactos_fichas_rnal_v2.py"
+      - "DADOS/CONTACTOS/contactos_existentes_peso_da_regua.csv"
   workflow_dispatch:
 
 permissions:
   contents: write
-  actions: read
 
 concurrency:
-  group: turisturis-recuperar-contactos-peso-da-regua
+  group: turisturis-consolidar-contactos-peso-da-regua
   cancel-in-progress: false
 
-env:
-  NORMALIZATION_RUN_ID: "37403480142"
-  RNAL_LIMIT: "50"
-  RNAL_WORKERS: "4"
-
 jobs:
-  enriquecer:
-    name: Lote RNAL ${{ matrix.offset }}
-    runs-on: ubuntu-24.04
-    strategy:
-      fail-fast: false
-      matrix:
-        offset: [0, 50, 100, 150]
-    steps:
-      - uses: actions/checkout@v5
-      - name: Recuperar normalização WEB-12.2
-        uses: actions/download-artifact@v5
-        with:
-          name: TURISTURIS-WEB-12.2-NORMALIZADO
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          run-id: ${{ env.NORMALIZATION_RUN_ID }}
-          path: .
-      - name: Extrair normalização
-        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
-      - name: Recolher contactos
-        env:
-          RNAL_OFFSET: ${{ matrix.offset }}
-          RNAL_LIMIT: ${{ env.RNAL_LIMIT }}
-          RNAL_WORKERS: ${{ env.RNAL_WORKERS }}
-        run: python3 CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py
-      - name: Validar lote
-        env:
-          OFFSET: ${{ matrix.offset }}
-        run: |
-          python3 - <<'PY'
-          import json, os
-          from pathlib import Path
-          p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
-          d=json.loads(p.read_text(encoding="utf-8"))
-          assert d["record_count"] > 0
-          assert d["offset"] == int(os.environ["OFFSET"])
-          print({"offset":d["offset"],"records":d["record_count"],
-                 "statuses":sorted({r["status"] for r in d["records"]})})
-          PY
-      - name: Publicar lote
-        uses: actions/upload-artifact@v4
-        with:
-          name: RNAL-CONTACTOS-PESO-DA-REGUA-${{ matrix.offset }}
-          path: CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json
-          retention-days: 30
-
   consolidar:
-    name: Consolidar 182 RNAL e preservar contactos existentes
-    needs: enriquecer
+    name: Consolidar 182 RNAL
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-      - name: Baixar lotes
-        uses: actions/download-artifact@v5
-        with:
-          pattern: RNAL-CONTACTOS-PESO-DA-REGUA-*
-          path: lotes
-          merge-multiple: false
-      - name: Consolidar e atualizar tabela-mestra
+
+      - name: Extrair contactos das fichas oficiais
+        run: python3 CONTINENTE/DADOS/CODIGOS/extrair_contactos_fichas_rnal_v2.py
+
+      - name: Gate — 182 fichas e contactos válidos
         run: |
           python3 - <<'PY'
-          import csv, json, glob
+          import json
           from pathlib import Path
+          p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_FICHAS_OFICIAIS_V2.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          assert d["rnal_total"] == 182, d["rnal_total"]
+          c=d["status_counts"]
+          assert c.get("ERRO_JSON",0) == 0, c
+          assert c.get("SEM_FICHA_LOCAL",0) == 0, c
+          assert c.get("CONFIRMADO_FICHA_OFICIAL",0) == 182, c
+          print("GATE OK:", json.dumps(c, ensure_ascii=False))
+          PY
+
+      - name: Consolidar sem apagar contactos existentes
+        run: |
+          python3 - <<'PY'
+          import csv, json
+          from pathlib import Path
+
           table=Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.csv")
           existing=Path("DADOS/CONTACTOS/contactos_existentes_peso_da_regua.csv")
-          rows=list(csv.DictReader(table.open(encoding="utf-8-sig", newline="")))
-          old=list(csv.DictReader(existing.open(encoding="utf-8-sig", newline=""))) if existing.exists() else []
+          source=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_FICHAS_OFICIAIS_V2.json")
+
+          rows=list(csv.DictReader(table.open(encoding="utf-8-sig",newline="")))
+          old=list(csv.DictReader(existing.open(encoding="utf-8-sig",newline=""))) if existing.exists() else []
+          src=json.loads(source.read_text(encoding="utf-8"))["records"]
+
           by_rnal={str(r.get("NrRNAL","")).strip():r for r in rows}
+          official={str(r.get("NrRNAL","")).strip():r for r in src}
           preserved={str(r.get("NrRNAL","")).strip():r for r in old if r.get("NrRNAL")}
-          found={}
-          for p in glob.glob("lotes/*/RNAL_CONTACTOS_PUBLICOS_V1.json"):
-              d=json.loads(Path(p).read_text(encoding="utf-8"))
-              for r in d["records"]:
-                  sid=str(r.get("id_origem","")).strip()
-                  if sid: found[sid]=r
+
+          existing_rows=0
+          official_rows=0
+          fields_added=0
+
           for rnal,row in by_rnal.items():
               oldr=preserved.get(rnal)
-              rec=found.get(rnal)
+              rec=official.get(rnal)
+
               if oldr:
+                  existing_rows += 1
                   for k in ("Telefone","Email","Website","OutrosContactos","FonteContacto"):
-                      if oldr.get(k): row[k]=oldr[k]
-                  row["EstadoContacto"]=oldr.get("EstadoContacto") or "PRESERVADO_FONTE_EXISTENTE"
-                  continue
-              if rec:
+                      if oldr.get(k):
+                          if not row.get(k):
+                              fields_added += 1
+                          row[k]=oldr[k]
+
+              if rec and rec.get("status")=="CONFIRMADO_FICHA_OFICIAL":
+                  official_rows += 1
                   phones="; ".join(rec.get("telefone") or [])
                   emails="; ".join(rec.get("email") or [])
-                  if phones: row["Telefone"]=phones
-                  if emails: row["Email"]=emails
-                  row["FonteContacto"]=rec.get("ficha_oficial","")
-                  row["EstadoContacto"]="CONFIRMADO_RNAL_PUBLICO" if (phones or emails) else rec.get("status","SEM_CONTACTOS")
-              else: row["EstadoContacto"]="PENDENTE_RECUPERACAO"
-          fields=list(rows[0].keys()) if rows else []
+
+                  if phones and not row.get("Telefone"):
+                      row["Telefone"]=phones
+                      fields_added += 1
+                  if emails and not row.get("Email"):
+                      row["Email"]=emails
+                      fields_added += 1
+
+                  if oldr:
+                      if not row.get("FonteContacto"):
+                          row["FonteContacto"]="FICHA OFICIAL RNAL "+rnal
+                  else:
+                      row["FonteContacto"]="FICHA OFICIAL RNAL "+rnal
+                      row["EstadoContacto"]="CONFIRMADO_FICHA_OFICIAL"
+
+              if not row.get("EstadoContacto"):
+                  row["EstadoContacto"]="PENDENTE_RECUPERACAO"
+
           with table.open("w",encoding="utf-8",newline="") as f:
-              w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(rows)
+              w=csv.DictWriter(f,fieldnames=list(rows[0].keys()))
+              w.writeheader(); w.writerows(rows)
+
+          states={}
+          for r in rows:
+              s=r.get("EstadoContacto","")
+              states[s]=states.get(s,0)+1
+
           report={
-            "result":"SUCCESS","rnal_total":len(rows),"lotes_consolidados":4,
-            "contactos_existentes_preservados":sum(1 for r in rows if r.get("EstadoContacto","").startswith("PRESERVADO")),
-            "contactos_confirmados_rnal_publico":sum(1 for r in rows if r.get("EstadoContacto")=="CONFIRMADO_RNAL_PUBLICO"),
-            "sem_contactos":sum(1 for r in rows if r.get("EstadoContacto") in ("SEM_CONTACTOS","PAGINA_SEM_BLOCO_CONTACTOS")),
-            "erros":sum(1 for r in rows if r.get("EstadoContacto") in ("ERRO_HTTP","ERRO_REDE")),
-            "pendentes":sum(1 for r in rows if r.get("EstadoContacto")=="PENDENTE_RECUPERACAO")}
-          Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+              "result":"SUCCESS",
+              "rnal_total":len(rows),
+              "fichas_oficiais_confirmadas":official_rows,
+              "contactos_existentes_preservados":existing_rows,
+              "campos_adicionados":fields_added,
+              "pendentes":sum(v for k,v in states.items() if k=="PENDENTE_RECUPERACAO"),
+              "estados":states,
+              "source":"FICHAS OFICIAIS RNAL capturadas",
+              "process":"WEB-12.7"
+          }
+          Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.json").write_text(
+              json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           print(json.dumps(report,ensure_ascii=False))
           PY
-      - name: Verificar integridade
+
+      - name: Gate final — integridade 182/182 e zero pendentes
         run: |
           python3 - <<'PY'
-          import csv
+          import csv, json
           from pathlib import Path
-          rows=list(csv.DictReader(Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.csv").open(encoding="utf-8")))
-          assert len(rows)==182, len(rows)
-          print("INTEGRIDADE OK: 182/182")
+          table=list(csv.DictReader(Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.csv").open(encoding="utf-8")))
+          report=json.loads(Path("DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.json").read_text(encoding="utf-8"))
+          assert len(table)==182, len(table)
+          assert report["fichas_oficiais_confirmadas"]==182, report
+          assert report["contactos_existentes_preservados"]==5, report
+          assert report["pendentes"]==0, report
+          assert all(r.get("Telefone") or r.get("Email") for r in table), "Há RNAL sem telefone/email"
+          print("GATE FINAL OK: 182/182 com contacto; 5 fontes existentes preservadas")
           PY
+
       - name: Commit final
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.csv DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.json
-          git diff --cached --quiet || git commit -m "feat: recuperar contactos RNAL Peso da Régua"
+          git diff --cached --quiet || git commit -m "feat: consolidar contactos RNAL a partir das fichas oficiais"
           git push
