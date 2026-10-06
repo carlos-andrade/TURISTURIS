@@ -88,4 +88,4 @@ Ligar o conteúdo Tomar à camada nacional do SITE sem duplicar dados canónicos
 ### Correção do próximo passo
 A verificação de 2026-10-06 confirmou que a próxima etapa correta continua a ser FASE T1 — Enriquecimento das fichas. A proposta anterior de saltar diretamente para uma formalização de validação foi corrigida: primeiro consolidamos a proveniência oficial e os campos específicos das fichas; depois executamos a validação.
 
-Foi criada evidência de fontes oficiais em PESQUISA/AUDITORIAS/TOMAR_T1_ENRIQUECIMENTO_2026-10-06.md. O trabalho T1 permanece EM EXECUÇÃO: a proveniência dos 25 pontos está persistida e o enriquecimento operacional cobre 17/25; faltam 8 registos antes da validação.
+Foi criada evidência de fontes oficiais em PESQUISA/AUDITORIAS/TOMAR_T1_ENRIQUECIMENTO_2026-10-06.md. O trabalho T1 permanece EM EXECUÇÃO: a proveniência dos 25 pontos está persistida e o enriquecimento operacional cobre 22/25; 3 registos permanecem sem dados operacionais específicos, sem inferência. A validação continua bloqueada até decisão formal de suficiência T1..
