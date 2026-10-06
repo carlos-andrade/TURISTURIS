@@ -636,10 +636,28 @@
 
   let nationalLodgings=[];
   async function loadNationalLodgings(){
-    const response=await fetch('CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json',{cache:'no-store'});
-    if(!response.ok) throw new Error('Falha ao carregar catálogo nacional de alojamentos.');
-    const data=await response.json();
-    nationalLodgings=data.records||[];
+    let records=[];
+    try{
+      const response=await fetch('CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json',{cache:'no-store'});
+      if(response.ok){
+        const data=await response.json();
+        records=data.records||[];
+      }
+    }catch(error){ console.warn('Catálogo nacional indisponível; usando lote municipal validado.',error); }
+    try{
+      const response=await fetch('CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json',{cache:'no-store'});
+      if(response.ok){
+        const data=await response.json();
+        const municipal=data.records||[];
+        const keys=new Set(records.map(x=>(x.fonte||'')+'|'+(x.id_origem||'')));
+        municipal.forEach(x=>{
+          const key=(x.fonte||'')+'|'+(x.id_origem||'');
+          if(!keys.has(key)){records.push(x);keys.add(key);}
+        });
+      }
+    }catch(error){ console.warn('Lote RNAL Peso da Régua indisponível.',error); }
+    nationalLodgings=records;
+    if(!nationalLodgings.length) throw new Error('Nenhum catálogo de alojamentos disponível.');
     renderNationalLodgings();
   }
   function renderNationalLodgings(){
