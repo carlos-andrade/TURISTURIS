@@ -55,3 +55,12 @@ Data: 2026-10-04.
 ## 7. Regra fiel para cartas que tratem contactos
 
 Quando uma regra de contacto telefónico afetar captura, dados, validação, enriquecimento ou publicação, ela deve ser refletida nas Cartas correspondentes. A preservação do código telefónico internacional é obrigatória e transversal. Nenhuma Carta especializada pode autorizar uma normalização que elimine ou substitua o código internacional.
+
+
+## 8. Regra transversal de publicação pública
+
+Quando uma Carta tratar de publicação, deverá distinguir obrigatoriamente entre **dados internos de validação/auditoria** e **conteúdo público apresentado no site**.
+
+Estados como `CONFIRMADO_FICHA_OFICIAL`, graus como `ALTO` e etiquetas técnicas semelhantes não devem ser exibidos no site por defeito. Devem permanecer preservados nas camadas internas quando necessários à rastreabilidade.
+
+Nenhuma Carta especializada deve introduzir na interface pública etiquetas técnicas de validação sem regra de publicação expressa.
