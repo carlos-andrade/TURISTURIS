@@ -1,0 +1,46 @@
+name: TURISTURIS — Extrair RNET_RNAL DOCX
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "DADOS/RNET_RNAL.docx"
+      - "scripts/extrair_rnet_rnal_docx.py"
+      - ".github/workflows/turisturis-extrair-rnet-rnal.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  extrair:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Dependências
+        run: pip install --disable-pip-version-check python-docx
+
+      - name: Extrair DOCX
+        run: python3 scripts/extrair_rnet_rnal_docx.py
+
+      - name: Verificar extração
+        run: |
+          test -s DADOS/RNET_RNAL/TEXTO_COMPLETO.txt
+          test -s DADOS/RNET_RNAL/PARAGRAFOS.json
+          test -s DADOS/RNET_RNAL/TABELAS.json
+          test -s DADOS/RNET_RNAL/MANIFESTO_EXTRACAO.json
+          test -d DADOS/RNET_RNAL/RAW_DOCX
+
+      - name: Commit dos resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/RNET_RNAL
+          git diff --cached --quiet || git commit -m "data: extrair RNET_RNAL DOCX para estrutura auditável"
+          git push
