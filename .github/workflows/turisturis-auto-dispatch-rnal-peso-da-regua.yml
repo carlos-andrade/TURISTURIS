@@ -1,0 +1,58 @@
+name: TURISTURIS — Auto-dispatch RNAL Peso da Régua
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: turisturis-auto-dispatch-rnal-peso-da-regua
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Verificar estado do workflow alvo
+        id: state
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          WORKFLOW: turisturis-captura-rnal-peso-da-regua.yml
+        run: |
+          set -euo pipefail
+
+          runs="$(gh run list             --repo "$REPO"             --workflow "$WORKFLOW"             --limit 5             --json databaseId,status,conclusion,createdAt             --jq 'sort_by(.createdAt) | reverse')"
+
+          echo "$runs"
+
+          if echo "$runs" | jq -e 'any(.[]; .status == "queued" or .status == "in_progress")' >/dev/null; then
+            echo "dispatch=false" >> "$GITHUB_OUTPUT"
+            echo "Workflow alvo já está em execução. Nenhum novo dispatch."
+            exit 0
+          fi
+
+          if echo "$runs" | jq -e 'any(.[]; .conclusion == "success")' >/dev/null; then
+            echo "dispatch=false" >> "$GITHUB_OUTPUT"
+            echo "Workflow alvo já possui execução bem-sucedida. Nenhum novo dispatch."
+            exit 0
+          fi
+
+          echo "dispatch=true" >> "$GITHUB_OUTPUT"
+
+      - name: Disparar workflow_dispatch automaticamente
+        if: steps.state.outputs.dispatch == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          WORKFLOW: turisturis-captura-rnal-peso-da-regua.yml
+        run: |
+          set -euo pipefail
+
+          gh workflow run "$WORKFLOW"             --repo "$REPO"             --ref main
+
+          echo "workflow_dispatch enviado para $WORKFLOW."
