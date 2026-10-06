@@ -64,3 +64,7 @@ Quando uma Carta tratar de publicação, deverá distinguir obrigatoriamente ent
 Estados como `CONFIRMADO_FICHA_OFICIAL`, graus como `ALTO` e etiquetas técnicas semelhantes não devem ser exibidos no site por defeito. Devem permanecer preservados nas camadas internas quando necessários à rastreabilidade.
 
 Nenhuma Carta especializada deve introduzir na interface pública etiquetas técnicas de validação sem regra de publicação expressa.
+
+## Regra permanente de publicação de alojamentos — Website oculto
+
+Na camada pública do TURISTURIS, o campo **Website** e o respetivo link **não devem ser exibidos nas fichas públicas de alojamentos**. O valor pode permanecer preservado nas bases internas para auditoria, rastreabilidade e uso operacional autorizado, mas não pode ser renderizado na interface pública. Esta regra é independente dos estados internos de validação e aplica-se a novas publicações e futuras correções do catálogo, salvo autorização explícita posterior.
