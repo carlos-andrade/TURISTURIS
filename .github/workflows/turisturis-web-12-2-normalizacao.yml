@@ -1,0 +1,53 @@
+name: TURISTURIS — WEB-12.2 normalização nacional de alojamentos
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
+      - "CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS/README.md"
+      - ".github/workflows/turisturis-web-12-2-normalizacao.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  normalizacao:
+    name: Normalizar RNET + RNAL
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Recuperar RAW WEB-12.1-A
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.1-A-RAW
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 37401739852
+          path: .
+      - name: Extrair RAW
+        run: tar -xzf alojamentos-raw-web-12-1-a.tar.gz
+      - name: Executar normalização
+        run: python3 CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py
+      - name: Validar manifesto
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS/MANIFESTO_NORMALIZACAO_V1.json")
+          m = json.loads(p.read_text(encoding="utf-8"))
+          assert m["datasets"]["RNET"]["record_count"] > 0
+          assert m["datasets"]["RNAL"]["record_count"] > 0
+          print(json.dumps(m, ensure_ascii=False, indent=2))
+          PY
+      - name: Compactar normalização
+        run: tar -czf alojamentos-normalizados-web-12-2.tar.gz CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS
+      - name: Publicar artefato normalizado
+        uses: actions/upload-artifact@v4
+        with:
+          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          path: alojamentos-normalizados-web-12-2.tar.gz
+          retention-days: 30
