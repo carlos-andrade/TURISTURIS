@@ -1,5 +1,31 @@
 # CARTA — CAPTURA RÍGIDA DE FICHAS OFICIAIS RNET E RNAL
 
+## CABEÇALHO HISTÓRICO DA CARTA
+
+| Campo | Informação |
+|---|---|
+| ID | `CARTA-CAPTURA-RNET-RNAL-V1` |
+| Projeto | TURISTURIS |
+| Título | Captura Rígida de Fichas Oficiais RNET e RNAL |
+| Tipo | Carta operacional de captura e auditoria |
+| Estado atual | **REGENTE** |
+| Versão | V1 |
+| Data de criação | 2026-10-06 |
+| Primeiro commit | `8c5043041b5759552b20145e7dcbd2fd55f8fe58` |
+| Primeiro commit — mensagem | `docs: criar carta de captura rígida RNET RNAL` |
+| Data da primeira persistência | 2026-10-06 |
+| Última atualização registrada | 2026-10-06 |
+| Último commit | `4abe5732e980ae1cb263379ad95782f3e524dfc9` |
+| Última atualização — mensagem | `GOV: atualizar Carta de captura RNET/RNAL e integrar persistência` |
+| Dependência superior | `CARTA-VITAL-001_PERSISTENCIA_RESULTADOS.md` |
+| Relação com o Layout | Define o que deve ser capturado e quais evidências devem existir; o LAYOUT MESTRE define a organização operacional |
+| Fontes oficiais originais | RNET nº 6803 e RNAL nº 15642 |
+| Regra de continuidade | Alterações devem preservar o histórico Git e gerar novo evento de auditoria |
+| Regra de precedência | Esta Carta deve ser respeitada pelo código, workflows e normalizações que tratem RNET/RNAL |
+| Origem documentada | Criada para formalizar a captura integral, preservação `raw`, estruturação e auditoria das fichas oficiais antes do povoamento do site |
+| Histórico de versões | V1 criada em 2026-10-06; atualização posterior em 2026-10-06 para integrar a Carta Vital, reforçar falhas/pendências e explicitar a relação Carta → Layout → Código |
+| Observação | A existência da Carta não comprova que as fichas tenham sido capturadas. A captura real exige execução validada e evidência persistida. |
+
 **ID:** CARTA-CAPTURA-RNET-RNAL-V1  
 **ESTADO:** REGENTE  
 **PROJETO:** TURISTURIS  
