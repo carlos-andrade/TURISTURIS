@@ -22,7 +22,7 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 | TOMAR — T1 proveniência | ✅ CONCLUÍDO | 25/25 com proveniência persistida |
 | TOMAR — T1 operacional | ✅ CONCLUÍDO | 25/25 com evidência operacional persistida |
 | TOMAR — validação estrutural | ✅ PASS | Auditoria formal persistida no PR #70 |
-| TOMAR — validação de conteúdo | 🔄 22/25 | 22 confirmados por fonte oficial; 3 pendentes |
+| TOMAR — validação de conteúdo | 🔄 22/25 | 22 confirmados por fonte oficial; 3 pendentes após segunda verificação |
 | TOMAR — experiências | ✅ PUBLICADO | Seleção inicial com proveniência |
 | TOMAR — transportes | ✅ PUBLICADO | CP, Rede Expressos e TUTomar |
 | TOMAR — restauração | 🔄 INICIAL | Seleção inicial; expansão pendente |
@@ -89,6 +89,8 @@ A validação de conteúdo identificou **22/25 registos confirmados por fontes o
 - Jardim das Musas;
 - Jardim Manuel Costa Rosa;
 - Casa dos Vereadores.
+
+Foi executada uma segunda pesquisa dirigida em 2026-10-06, incluindo o catálogo oficial atual de Turismo de Tomar e os domínios oficiais municipais. Não surgiu evidência oficial atual específica suficiente para retirar qualquer das três pendências.
 
 A evidência detalhada está em:
 
