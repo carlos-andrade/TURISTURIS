@@ -2,10 +2,16 @@ name: TURISTURIS — WEB-12.6 catálogo nacional de municípios RNAL
 
 on:
   workflow_dispatch:
+    inputs:
+      normalization_run_id:
+        description: "Run ID do WEB-12.2 que publicou TURISTURIS-WEB-12.2-NORMALIZADO"
+        required: true
+        default: "37402864529"
+        type: string
   push:
     paths:
       - "CONTINENTE/DADOS/CODIGOS/gerar_catalogo_municipios_rnal_v1.py"
-      - "CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS/RNAL_NORMALIZADO_V1.json"
+      - ".github/workflows/turisturis-web-12-6-catalogo-municipios.yml"
 
 permissions:
   contents: write
@@ -15,8 +21,32 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+      - name: Recuperar normalização WEB-12.2
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: ${{ inputs.normalization_run_id || '37402864529' }}
+          path: .
+      - name: Extrair normalização
+        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
       - name: Gerar catálogo
         run: python3 CONTINENTE/DADOS/CODIGOS/gerar_catalogo_municipios_rnal_v1.py
+      - name: Validar catálogo
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("DADOS/INDICES/rnal_municipios_catalogo.json")
+          c=json.loads(p.read_text(encoding="utf-8"))
+          assert c["municipios_total"] > 0
+          assert c["registos_rnal_total"] > 0
+          assert len(c["municipios"]) == c["municipios_total"]
+          assert sum(x["target_total"] for x in c["municipios"]) == c["registos_rnal_total"]
+          assert len({x["municipio"].casefold() for x in c["municipios"]}) == c["municipios_total"]
+          print(json.dumps({"municipios_total":c["municipios_total"],"registos_rnal_total":c["registos_rnal_total"]},ensure_ascii=False))
+          PY
       - name: Persistir catálogo
         run: |
           git config user.name "github-actions[bot]"

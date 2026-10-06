@@ -1,0 +1,28 @@
+name: TURISTURIS — WEB-12.6 consolidação e validação nacional RNAL
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/**"
+      - "CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_nacional_v1.py"
+      - "DADOS/INDICES/rnal_municipios_catalogo.json"
+
+permissions:
+  contents: write
+
+jobs:
+  consolidar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Consolidar e validar
+        run: python3 CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_nacional_v1.py
+      - name: Publicar evidência
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/INDICES/rnal_nacional_consolidacao.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "DATA: consolidar validação nacional WEB-12.6"
+          git push
