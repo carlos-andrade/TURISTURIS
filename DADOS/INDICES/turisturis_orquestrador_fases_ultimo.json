@@ -1,22 +1,47 @@
 {
   "schema_version": "1.0",
   "process": "ORQUESTRADOR_FASES_TURISTURIS",
-  "timestamp_utc": "2026-10-06T15:25:20.370873+00:00",
-  "requested_phase": "D",
+  "timestamp_utc": "2026-10-06T15:28:59.124795+00:00",
+  "requested_phase": "A",
   "repository": "carlos-andrade/TURISTURIS",
   "phases": [
     {
-      "id": "D",
-      "name": "Consolidação do portal",
-      "status": "BLOCKED",
+      "id": "A",
+      "name": "Fecho Peso da Régua",
+      "status": "PASS",
       "gates": [
         {
-          "gate": "D1 — consolidação do portal",
-          "status": "BLOCKED",
-          "detail": "Fase D depende da promoção formal das fases anteriores."
+          "gate": "A1 — publicação RNAL existe e tem 182 registos",
+          "status": "PASS",
+          "detail": "record_count=182"
+        },
+        {
+          "gate": "A2 — Município/Distrito canónicos",
+          "status": "PASS",
+          "detail": "Município=Peso da Régua; Distrito=Vila Real em 100% dos registos"
+        },
+        {
+          "gate": "A3 — Freguesia estruturada",
+          "status": "PASS",
+          "detail": "Freguesia presente em 100% dos registos"
+        },
+        {
+          "gate": "A4 — Vilarinho dos Freires",
+          "status": "PASS",
+          "detail": "8 registos"
+        },
+        {
+          "gate": "A5 — contactos auditados",
+          "status": "PASS",
+          "detail": "115/115 correspondências; 0 divergências; 0 ausências"
+        },
+        {
+          "gate": "A6 — regras de publicação pública",
+          "status": "PASS",
+          "detail": "Freguesia → Município → Distrito; Website e estados internos ocultos"
         }
       ]
     }
   ],
-  "overall_status": "BLOCKED"
+  "overall_status": "PASS"
 }
