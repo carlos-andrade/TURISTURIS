@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/turisturis-auto-dispatch-web-12-6-rnal.yml"
+      - ".github/workflows/turisturis-web-12-6-enriquecimento.yml"
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
