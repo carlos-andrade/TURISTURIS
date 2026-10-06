@@ -30,3 +30,8 @@ O Layout Mestre é a referência operacional para novos artefatos. As informaç�
 ## Estado
 
 Fundação arquitetural criada em 2026-10-04. A expansão por cidades e entidades deve seguir as regras estabelecidas nas Cartas e no Layout Mestre.
+
+
+## Regra vital de persistência
+
+A **CARTA-VITAL-001** estabelece que resultados de pesquisa, execução, validação, análise, decisão técnica, evidência e demais artefatos relevantes não podem permanecer exclusivamente em chats. O repositório é a fonte oficial e persistente do projeto. Consulte `CARTAS/CARTA-VITAL-001_PERSISTENCIA_RESULTADOS.md`.
