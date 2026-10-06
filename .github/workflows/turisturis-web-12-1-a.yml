@@ -1,0 +1,45 @@
+name: TURISTURIS — WEB-12.1-A ingestão RAW nacional
+
+on:
+  push:
+    branches: ["web-12-1-a-execucao-alojamento"]
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/ingestao_alojamento_nacional_v1.py"
+      - "CONTINENTE/DADOS/RAW/ALOJAMENTOS/README.md"
+      - ".github/workflows/turisturis-web-12-1-a.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  ingestao:
+    name: Coletar RNET + RNAL
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Executar ingestão integral
+        run: python3 CONTINENTE/DADOS/CODIGOS/ingestao_alojamento_nacional_v1.py
+
+      - name: Validar manifesto
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("CONTINENTE/DADOS/RAW/ALOJAMENTOS/MANIFESTO_INGESTAO_V1.json")
+          m = json.loads(p.read_text(encoding="utf-8"))
+          assert m["records"]["RNET"] > 0
+          assert m["records"]["RNAL"] > 0
+          print(json.dumps(m, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Compactar RAW
+        run: tar -czf alojamentos-raw-web-12-1-a.tar.gz CONTINENTE/DADOS/RAW/ALOJAMENTOS
+
+      - name: Publicar artefato RAW
+        uses: actions/upload-artifact@v4
+        with:
+          name: TURISTURIS-WEB-12.1-A-RAW
+          path: alojamentos-raw-web-12-1-a.tar.gz
+          retention-days: 30
