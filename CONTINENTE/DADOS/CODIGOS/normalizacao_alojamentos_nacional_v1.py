@@ -5,6 +5,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "RAW" / "ALOJAMENTOS"
 OUT = ROOT / "NORMALIZAÇÃO" / "ALOJAMENTOS"
@@ -24,13 +25,46 @@ def normalize_feature(source: str, feature: dict, verified_at: str) -> dict:
     g = feature.get("geometry") or {}
     cfg = SOURCE_CONFIG[source]
     source_value = first(a.get(cfg["source_id"]), a.get("OBJECTID"))
-    territory = first(a.get("Concelho"), a.get("Distrito"), "PORTUGAL")
-    canonical_id = f'{cfg["prefix"]}-{slug(territory)}-{slug(str(source_value))}'
+    municipality = first(a.get("Concelho"))
+    district = first(a.get("Distrito"))
+    canonical_id = f'{cfg["prefix"]}-{slug(municipality or district or "PORTUGAL")}-{slug(str(source_value))}'
     coordinates = None
     if isinstance(g, dict) and g.get("x") is not None and g.get("y") is not None:
         coordinates = {"latitude": g["y"], "longitude": g["x"]}
-    endpoint = "https://geo.turismodeportugal.pt/server/rest/services/TDP/" + ("OpenData_ETExistentes/MapServer/0" if source == "RNET" else "OpenData_AL/MapServer/6")
-    return {"id": canonical_id, "nome": first(a.get("Denominacao"), f"{source} {source_value}"), "tipo": cfg["tipo"], "país": "Portugal", "região": first(a.get("NUTSII")), "distrito_arquipélago": first(a.get("Distrito")), "município": first(a.get("Concelho")), "localidade": first(a.get("LocalidadeCP"), a.get("LOCALIDADE")), "endereço": first(a.get("Endereco")), "coordenadas": coordinates, "descrição": None, "história": None, "interesse_turístico": "alojamento turístico", "contactos": None, "telefone": None, "email": first(a.get("Email")), "website": first(a.get("Website")), "horários": None, "preços": None, "acessibilidade": None, "serviços": None, "reservas": None, "fontes": [{"fonte": source, "id_origem": source_value, "endpoint": endpoint, "data_recolha": verified_at}], "data_verificação": verified_at, "data_atualização": verified_at, "estado_validação": "EM_VERIFICACAO", "grau_confiança": "MÉDIO", "observações": f"Normalizado da fonte {source}; campos ausentes permanecem vazios. Não houve deduplicação entre RNET e RNAL.", "origem_raw": source}
+    endpoint = "https://geo.turismodeportugal.pt/server/rest/services/TDP/" + (
+        "OpenData_ETExistentes/MapServer/0" if source == "RNET" else "OpenData_AL/MapServer/6"
+    )
+    tipo = cfg["tipo"]
+    return {
+        "id": canonical_id,
+        "nome": first(a.get("Denominacao"), f"{source} {source_value}"),
+        "tipo": tipo,
+        "país": "Portugal",
+        "região": first(a.get("NUTSII")),
+        "distrito ou arquipélago": district,
+        "município": municipality,
+        "localidade": first(a.get("LocalidadeCP"), a.get("LOCALIDADE")),
+        "endereço": first(a.get("Endereco")),
+        "coordenadas": coordinates,
+        "descrição": f"Unidade de {tipo} registada na fonte oficial {source}.",
+        "história": None,
+        "interesse turístico": "alojamento turístico",
+        "contactos": None,
+        "telefone": None,
+        "email": first(a.get("Email")),
+        "website": first(a.get("Website")),
+        "horários": None,
+        "preços": None,
+        "acessibilidade": None,
+        "serviços": None,
+        "reservas": None,
+        "fontes": [{"fonte": source, "id_origem": source_value, "endpoint": endpoint, "data_recolha": verified_at}],
+        "data_verificação": verified_at,
+        "data_atualização": verified_at,
+        "estado_validação": "EM_VERIFICACAO",
+        "grau_confiança": "MÉDIO",
+        "observações": f"Normalizado da fonte {source}; campos ausentes permanecem vazios. Não houve deduplicação entre RNET e RNAL.",
+    }
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
