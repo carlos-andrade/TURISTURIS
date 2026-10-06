@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "process": "AUDITORIA_CONTACTOS_RNAL_PESO_DA_REGUA",
+  "date": "2026-10-06",
+  "source_official_commit": "38cf7dd93fce37f3f0ffe3f2120663c6db19ac89",
+  "table_current_blob_sha": "99a41825336955bf8ff3d28a68bdec249599df67",
+  "rnal_total": 182,
+  "contactos_telefone": 115,
+  "comparacao_telefone_com_fonte_oficial": {
+    "fonte_oficial": "DADOS/TABELAS/rnal_peso_da_regua_tabela_mestra.csv @ 38cf7dd93fce37f3f0ffe3f2120663c6db19ac89",
+    "registos_com_telefone_na_fonte": 115,
+    "correspondencias_exatas": 115,
+    "divergencias": 0,
+    "ausencias_na_fonte": 0
+  },
+  "recuperacao": {
+    "valores_antes_reconstruidos": 110,
+    "valores_agora_confirmados_na_fonte_oficial": 110,
+    "observacao": "Os 110 valores que tinham sido reconstruídos a partir de TelefoneInternacional foram confrontados com a tabela consolidada a partir das fichas oficiais RNAL. Não foram encontradas divergências; os valores atuais coincidem com a fonte oficial."
+  },
+  "regra_codigo_pais": {
+    "codigo": "+351",
+    "aplicacao": "Preservado em CodigoPais e TelefoneInternacional; Telefone mantém o valor bruto da fonte."
+  },
+  "resultado": "APROVADO_PARA_PUBLICACAO_CONTACTOS"
+}
