@@ -1,0 +1,49 @@
+name: TURISTURIS — Capturar RNAL Tomar A1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/capturar_rnal_tomar.py"
+      - ".github/workflows/turisturis-captura-rnal-tomar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: turisturis-rnal-tomar-a1
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install parser
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Capture official municipal source
+        run: python scripts/capturar_rnal_tomar.py
+
+      - name: Persist capture
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/RAW/RNAL/TOMAR/rnal_tomar_catalogo_fonte_v1.json DADOS/RAW/RNAL/TOMAR/rnal_tomar_fonte_municipal_raw_v1.txt
+          if git diff --cached --quiet; then
+            echo "Sem alterações de captura."
+            exit 0
+          fi
+          git commit -m "data: capturar catálogo RNAL Tomar da fonte municipal"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
