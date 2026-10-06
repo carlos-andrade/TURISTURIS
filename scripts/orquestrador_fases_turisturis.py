@@ -157,11 +157,42 @@ def phase_b():
 
 
 def phase_c():
-    return [{
-        "gate": "C1 — expansão territorial",
-        "status": "BLOCKED",
-        "detail": "Fase C só pode ser promovida depois da aprovação integral das fases A e B.",
-    }]
+    results = []
+
+    prerequisites_a = phase_a()
+    a_ok = all(item["status"] == "PASS" for item in prerequisites_a)
+    results.append({
+        "gate": "C1.A — pré-requisitos da Fase A",
+        "status": "PASS" if a_ok else "BLOCKED",
+        "detail": "Todos os gates da Fase A estão aprovados."
+        if a_ok
+        else f"Fase A não aprovada: {[item for item in prerequisites_a if item['status'] != 'PASS']}",
+    })
+
+    prerequisites_b = phase_b()
+    b_ok = all(item["status"] == "PASS" for item in prerequisites_b)
+    results.append({
+        "gate": "C1.B — pré-requisitos da Fase B",
+        "status": "PASS" if b_ok else "BLOCKED",
+        "detail": "Todos os gates da Fase B estão aprovados."
+        if b_ok
+        else f"Fase B não aprovada: {[item for item in prerequisites_b if item['status'] != 'PASS']}",
+    })
+
+    if a_ok and b_ok:
+        results.append({
+            "gate": "C1 — expansão territorial",
+            "status": "PASS",
+            "detail": "Fase A e Fase B aprovadas integralmente; Fase C elegível para promoção.",
+        })
+    else:
+        results.append({
+            "gate": "C1 — expansão territorial",
+            "status": "BLOCKED",
+            "detail": "Fase C só pode ser promovida depois da aprovação integral das fases A e B.",
+        })
+
+    return results
 
 
 def phase_d():
