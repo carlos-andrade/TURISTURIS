@@ -1,0 +1,5219 @@
+{
+  "validation_version": "V1",
+  "source_index": "DADOS/INDICES/rnal_tomar.json",
+  "expected_count": 274,
+  "validated_count": 274,
+  "valid_count": 274,
+  "failure_count": 0,
+  "failures": [],
+  "result": "SUCCESS",
+  "rules": "CARTA-CAPTURA-RNET-RNAL-V1",
+  "records": [
+    {
+      "registry_number": "1945",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "2807",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "2897",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "2997",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "3217",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "4441",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "9003",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "9479",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "9504",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "9769",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "11459",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "13658",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "14022",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "15657",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "19929",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "22296",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "22841",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "24334",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "26475",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "27655",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "33025",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "34113",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "37694",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38393",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38401",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38402",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38526",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38527",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38528",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "38543",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "40179",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "40237",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "44400",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "45556",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "46323",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "46625",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "47083",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "47219",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "48585",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "48586",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "48717",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "48718",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "49258",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "50383",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "50409",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "54200",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "56144",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "56148",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "58169",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "58767",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "58768",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "58769",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "64314",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "64725",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "66542",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "68296",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "68300",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "68303",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "68862",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "71008",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "72134",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "73306",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "74245",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "76612",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "76716",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "76722",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "79021",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "80004",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "80816",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "80843",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "80848",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "81298",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "82059",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "82124",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "82447",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "82453",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "82721",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "85074",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "89094",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "90683",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "93262",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "94473",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "95033",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "95418",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "95641",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "95753",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "96265",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "96986",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "97972",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "98373",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99092",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99185",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99737",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99792",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99793",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "99794",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "101293",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "102138",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "103332",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "104709",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "104841",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "105002",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "105308",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "106165",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "106166",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "106210",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "106211",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "107087",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "109916",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "111276",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "111411",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "111412",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "111525",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "112653",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "112681",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "112683",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "114320",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "114368",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "114437",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "114514",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "114762",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "116578",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "116739",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "117389",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "117537",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "117602",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "117747",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118127",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118154",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118155",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118156",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118157",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118299",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118452",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118565",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "118620",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "119460",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "119513",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "119813",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "120331",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "121005",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "122937",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "123767",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "123968",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "123984",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "125066",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "125123",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "129046",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "129140",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "129394",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "130810",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "130983",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "132407",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "132665",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "132903",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "134262",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "134265",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "134448",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "134500",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "134763",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "135533",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "135535",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "136848",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "137165",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "137356",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "138271",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "138893",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "139174",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "139341",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "139550",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "139986",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "140359",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "140362",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "141206",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "141463",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "141467",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142427",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142730",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142732",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142738",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142741",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142746",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "142750",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "143406",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "143461",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "143464",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "143470",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "144676",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "144895",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "145209",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "145290",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "145430",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "145900",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "146543",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "146592",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "147728",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "147746",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "148106",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "148850",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "148851",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "149327",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "149899",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "150218",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "150559",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "150702",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "150817",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "150999",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "151363",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "152439",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "152448",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "152486",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "152657",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "154171",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "154258",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "154617",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155496",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155556",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155705",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155732",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155801",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "155986",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "156761",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "156945",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157074",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157209",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157365",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157367",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157900",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "157945",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "158233",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "158926",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "159504",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "159943",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "160719",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "160720",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "161501",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "163101",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "163920",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "164726",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "165735",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "166592",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "167039",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "167740",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "168394",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "168556",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "170268",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "170934",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "171151",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "171271",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "171890",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "172919",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "173590",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "173677",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "175942",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "176443",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "176446",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177014",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177190",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177266",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177267",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177548",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "177689",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "178053",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "178699",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "179100",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "179190",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "179514",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "180251",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "180252",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "180279",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "180454",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "180621",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "181263",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    },
+    {
+      "registry_number": "181462",
+      "manifest_exists": true,
+      "valid": true,
+      "checks": {
+        "type": true,
+        "registry_number": true,
+        "source_url": true,
+        "http_status": true,
+        "source_sha256": true,
+        "structured_sha256": true,
+        "result": true,
+        "rules": true,
+        "raw_dir": true,
+        "structured_dir": true,
+        "audit_dir": true
+      },
+      "result": "SUCCESS"
+    }
+  ]
+}
