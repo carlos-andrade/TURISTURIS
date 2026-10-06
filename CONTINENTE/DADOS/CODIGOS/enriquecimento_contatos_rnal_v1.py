@@ -21,14 +21,23 @@ def fetch(r):
     try:
         req=Request(url,headers={"User-Agent":UA})
         html=urlopen(req,timeout=20).read().decode("utf-8","ignore")
-    except (HTTPError,URLError,TimeoutError) as e:
+    except HTTPError as e:
+        status="NAO_ENCONTRADO" if e.code == 404 else "ERRO_HTTP"
+        return {"id":r.get("id"),"id_origem":sid,"status":status,"http_code":e.code,"erro":str(e)[:200]}
+    except (URLError,TimeoutError) as e:
         return {"id":r.get("id"),"id_origem":sid,"status":"ERRO_REDE","erro":str(e)[:200]}
     text=clean(re.sub(r"<[^>]+>"," ",html.replace("</tr>","\n").replace("</td>"," | "))) or ""
-    m=re.search(r"Contactos\s+(.{0,500}?)(?:Nota:|Seguro de Responsabilidade Civil)",text,re.I|re.S)
+    m=re.search(r"Contactos\s+(.{0,800}?)(?:Nota:|Seguro de Responsabilidade Civil)",text,re.I|re.S)
     contacts=clean(m.group(1)) if m else None
     phones=sorted(set(re.findall(r"(?<!\d)(?:\+351\s*)?(?:2\d{2}|9\d{2})[\s.-]?\d{3}[\s.-]?\d{3}(?!\d)",contacts or "")))
     emails=sorted(set(re.findall(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",contacts or "",re.I)))
-    return {"id":r.get("id"),"id_origem":sid,"status":"OK","ficha_oficial":url,"telefone":phones,"email":emails,"data_recolha_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime())}
+    if not m:
+        status="PAGINA_SEM_BLOCO_CONTACTOS"
+    elif not phones and not emails:
+        status="SEM_CONTACTOS"
+    else:
+        status="CONTACTOS_ENCONTRADOS"
+    return {"id":r.get("id"),"id_origem":sid,"status":status,"ficha_oficial":url,"telefone":phones,"email":emails,"data_recolha_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime())}
 
 def main():
     src=BASE/"RNAL_NORMALIZADO_V1.json"
@@ -49,13 +58,8 @@ def main():
     results.sort(key=lambda x:x.get("id") or "")
     OUT.parent.mkdir(parents=True,exist_ok=True)
     OUT.write_text(json.dumps({
-        "schema_version":"1.0",
-        "process":"WEB-12.6",
-        "source":"RNT/RNAL",
-        "offset":offset,
-        "limit":limit,
-        "record_count":len(results),
-        "records":results
+        "schema_version":"1.1","process":"WEB-12.6","source":"RNT/RNAL",
+        "offset":offset,"limit":limit,"record_count":len(results),"records":results
     },ensure_ascii=False),encoding="utf-8")
     print(json.dumps({"output":str(OUT),"offset":offset,"limit":limit,"record_count":len(results)},ensure_ascii=False))
 
