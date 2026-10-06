@@ -21,6 +21,11 @@ on:
         required: true
         default: "4"
         type: string
+      rnal_municipio:
+        description: "Município alvo do lote RNAL"
+        required: true
+        default: "Peso da Régua"
+        type: string
 permissions:
   contents: write
 jobs:
@@ -32,6 +37,7 @@ jobs:
       RNAL_OFFSET: ${{ inputs.rnal_offset }}
       RNAL_LIMIT: ${{ inputs.rnal_limit }}
       RNAL_WORKERS: ${{ inputs.rnal_workers }}
+      RNAL_MUNICIPIO: ${{ inputs.rnal_municipio }}
       NORMALIZATION_RUN_ID: ${{ inputs.normalization_run_id }}
     steps:
       - uses: actions/checkout@v5
