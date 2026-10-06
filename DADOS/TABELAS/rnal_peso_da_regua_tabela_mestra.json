@@ -1,10 +1,10 @@
 {
   "result": "SUCCESS",
-  "source": "DADOS/INDICES/rnal_peso_da_regua.csv",
-  "expected_count": 182,
-  "output_count": 182,
-  "contacts_preserved_count": 5,
-  "contacts_pending_count": 177,
-  "contact_source": "DADOS/CONTACTOS/contactos_existentes_peso_da_regua.csv",
-  "rule": "CONTACTOS EXISTENTES DEVEM SER PRESERVADOS; AUSÊNCIA NÃO É INFERIDA."
+  "rnal_total": 182,
+  "lotes_consolidados": 4,
+  "contactos_existentes_preservados": 0,
+  "contactos_confirmados_rnal_publico": 0,
+  "sem_contactos": 0,
+  "erros": 0,
+  "pendentes": 177
 }
