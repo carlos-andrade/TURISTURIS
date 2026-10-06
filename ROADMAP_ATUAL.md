@@ -19,7 +19,7 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 | RNAL TOMAR — publicação | ✅ PUBLICADA | Catálogo público com 274 registos |
 | TOMAR — pontos turísticos principais | ✅ PUBLICADO | 4 fichas principais |
 | TOMAR — catálogo complementar | ✅ PUBLICADO | 12 pontos adicionais |
-| TOMAR — fichas individuais complementares | 🔄 T1 PARCIALMENTE EXECUTADO | 25/25 com proveniência persistida; campos operacionais ainda em enriquecimento |
+| TOMAR — fichas individuais complementares | 🔄 T1 PARCIALMENTE EXECUTADO | 25/25 com proveniência persistida; 17/25 com enriquecimento operacional persistido; 8/25 pendentes |
 | TOMAR — experiências | ✅ PUBLICADO | Seleção inicial com proveniência |
 | TOMAR — transportes | ✅ PUBLICADO | CP, Rede Expressos e TUTomar |
 | TOMAR — restauração | 🔄 INICIAL | Seleção inicial; expansão pendente |
@@ -32,7 +32,7 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 
 ### FASE T1 — Enriquecimento das fichas
 
-1. Completar dados das fichas individuais a partir das páginas oficiais.
+1. Completar os 8 registos ainda sem dados operacionais específicos a partir das páginas oficiais.
 2. Preservar +351 quando o contacto oficial o apresentar.
 3. Não inferir freguesia a partir de endereço incompleto.
 4. Não publicar preços/horários sem fonte específica.
@@ -88,4 +88,4 @@ Ligar o conteúdo Tomar à camada nacional do SITE sem duplicar dados canónicos
 ### Correção do próximo passo
 A verificação de 2026-10-06 confirmou que a próxima etapa correta continua a ser FASE T1 — Enriquecimento das fichas. A proposta anterior de saltar diretamente para uma formalização de validação foi corrigida: primeiro consolidamos a proveniência oficial e os campos específicos das fichas; depois executamos a validação.
 
-Foi criada evidência de fontes oficiais em PESQUISA/AUDITORIAS/TOMAR_T1_ENRIQUECIMENTO_2026-10-06.md. O trabalho T1 permanece EM EXECUÇÃO: o checkpoint de proveniência dos 25 pontos foi executado; falta completar campos operacionais com evidência específica antes da validação.
+Foi criada evidência de fontes oficiais em PESQUISA/AUDITORIAS/TOMAR_T1_ENRIQUECIMENTO_2026-10-06.md. O trabalho T1 permanece EM EXECUÇÃO: a proveniência dos 25 pontos está persistida e o enriquecimento operacional cobre 17/25; faltam 8 registos antes da validação.
