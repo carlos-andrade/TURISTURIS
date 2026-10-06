@@ -18,7 +18,12 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/poi/tomar-pillory",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "morada": "Largo do Pelourinho, Tomar - Portugal",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/poi/tomar-pillory"
+      }
     },
     {
       "ordem": 2,
@@ -30,7 +35,13 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/poi/capela-de-nossa-senhora-da-piedade",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Terça-feira a domingo, 10h00–17h00; encerra à segunda-feira.",
+        "morada": "Estrada Nova das Atalaias, Tomar - Portugal",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/poi/capela-de-nossa-senhora-da-piedade"
+      }
     },
     {
       "ordem": 3,
@@ -42,7 +53,12 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/poi/parque-do-mouchao",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "morada": "Parque do Mouchão, Tomar - Portugal",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/poi/parque-do-mouchao"
+      }
     },
     {
       "ordem": 4,
@@ -54,7 +70,16 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/poi/mata-nacional-dos-sete-montes-or-cerca-do-convento-de-cristo",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "estado_operacional": "ENCERRADA_TEMPORARIAMENTE",
+        "aviso_operacional": "A fonte oficial indica encerramento temporário.",
+        "horario": "Verão (abril–outubro): 08h30–19h30 (última entrada 19h00). Inverno (novembro–março): 08h30–17h30 (última entrada 17h00). Encerrada em 1 de janeiro, domingo de Páscoa, 1 de maio e 25 de dezembro.",
+        "morada": "Praceta Infante D. Henrique, Tomar - Portugal",
+        "email": "centroambiental@cm-tomar.pt",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/mata-nacional-dos-sete-montes-or-cerca-do-convento-de-cristo"
+      }
     },
     {
       "ordem": 5,
@@ -66,7 +91,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/poi/igreja-de-santa-maria-do-olival",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (outubro–março): terça-feira a domingo, 10h00–12h00 e 14h00–17h00. Encerrada em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 823",
+          "+351 249 312 611"
+        ],
+        "morada": "Rua Aquiles da Mota Lima, Tomar - Portugal",
+        "email": "paroquiadetomar@gmail.com",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/igreja-de-santa-maria-do-olival"
+      }
     },
     {
       "ordem": 6,
@@ -90,7 +126,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/poi/casa-dos-cubos-or-centro-de-estudos-em-fotografia-de-tomar",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a sexta-feira, 10h00–13h00 e 14h00–18h00; sábado e domingo, 14h00–18h00. Inverno (outubro–março): terça-feira a sexta-feira, 10h00–12h00 e 14h00–17h00; sábado e domingo, 14h00–17h00. Encerrada em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 156 680"
+        ],
+        "morada": "Praceta Alves Redol, Tomar - Portugal",
+        "email": "fect-casacubos@ipt.pt",
+        "website": "https://www.ceft.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/casa-dos-cubos-or-centro-de-estudos-em-fotografia-de-tomar"
+      }
     },
     {
       "ordem": 8,
@@ -102,7 +149,17 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/cultural-complex-of-levada?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "telefone_internacional": [
+          "+351 249 329 814"
+        ],
+        "morada": "Rua João Carlos Everard, Tomar - Portugal",
+        "email": "museologia@cm-tomar.pt",
+        "website": "https://levada.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/cultural-complex-of-levada?cat=wtd"
+      }
     },
     {
       "ordem": 9,
@@ -114,7 +171,16 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/museum-of-matches?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (outubro–março): terça-feira a domingo, 10h00–12h00 e 14h00–17h00. Encerrado em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 823"
+        ],
+        "morada": "Avenida General Bernardo Faria, 2300-535 Tomar - Portugal",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/museum-of-matches?cat=wtd"
+      }
     },
     {
       "ordem": 10,
@@ -126,7 +192,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/center-for-contemporary-art-municipal-museum?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (15 junho–15 setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (16 setembro–14 junho): terça-feira a sexta-feira, 14h00–17h00; sábado e domingo, 10h00–12h00 e 14h00–17h00. Encerrado em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 814"
+        ],
+        "morada": "Rua Gil de Avô, Tomar - Portugal",
+        "email": "museologia@cm-tomar.pt",
+        "website": "https://nac.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/center-for-contemporary-art-municipal-museum?cat=wtd"
+      }
     },
     {
       "ordem": 11,
@@ -138,7 +215,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/chapel-of-nossa-senhora-da-conceicao?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "estado_operacional": "ENCERRADA",
+        "horario": "Encerrada.",
+        "telefone_internacional": [
+          "+351 249 315 089"
+        ],
+        "morada": "Estrada Dr. Vieira Guimarães, Tomar - Portugal",
+        "email": "geral@ccristo.dgpc.pt",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/chapel-of-nossa-senhora-da-conceicao?cat=wtd"
+      }
     },
     {
       "ordem": 12,
@@ -150,7 +238,17 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/convent-and-church-of-s-francisco?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Todos os dias, 10h00–12h00 e 14h00–17h00. Encerrado em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 324 328"
+        ],
+        "morada": "Avenida General Bernardo Faria, Tomar - Portugal",
+        "email": "franciscanossecularesdetomar@sapo.pt",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/convent-and-church-of-s-francisco?cat=wtd"
+      }
     },
     {
       "ordem": 13,
@@ -161,7 +259,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/eletric-central-of-tomar-museological-nucleus?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (outubro–março): terça-feira a domingo, 10h00–12h00 e 14h00–17h00. Encerrada em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 814"
+        ],
+        "morada": "Rua João Carlos Everard, 2300-552 Tomar - Portugal",
+        "email": "museologia@cm-tomar.pt",
+        "website": "https://levada.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/eletric-central-of-tomar-museological-nucleus?cat=wtd"
+      }
     },
     {
       "ordem": 14,
@@ -172,7 +281,17 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/fundicao-tomarense-nucleo-museologico?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (outubro–março): terça-feira a domingo, 10h00–12h00 e 14h00–17h00. Encerrada em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 814"
+        ],
+        "morada": "Rua João Carlos Everard, Tomar - Portugal",
+        "website": "https://levada.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/fundicao-tomarense-nucleo-museologico?cat=wtd"
+      }
     },
     {
       "ordem": 15,
@@ -183,7 +302,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/tomar-templar-interpretive-center?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): terça-feira a domingo, 10h00–13h00 e 14h00–18h00. Inverno (outubro–março): terça-feira a domingo, 10h00–12h00 e 14h00–17h00. Encerrado em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 814"
+        ],
+        "morada": "Rua João Carlos Everard, Tomar - Portugal",
+        "email": "museologia@cm-tomar.pt",
+        "website": "https://levada.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/tomar-templar-interpretive-center?cat=wtd"
+      }
     },
     {
       "ordem": 16,
@@ -194,7 +324,17 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/poi/casa-memoria-lopes-graca",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril–setembro): quarta-feira a domingo, 14h00–18h00. Inverno (outubro–março): quarta-feira a domingo, 14h00–17h00. Encerrada em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 823"
+        ],
+        "morada": "Rua Dr. Joaquim Jacinto, 25, Tomar - Portugal",
+        "email": "turismo@cm-tomar.pt",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/poi/casa-memoria-lopes-graca"
+      }
     },
     {
       "ordem": 17,
@@ -205,7 +345,14 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/poi/capela-de-sao-gregorio",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "estado_operacional": "ENCERRADA_TEMPORARIAMENTE",
+        "horario": "Temporariamente encerrada.",
+        "morada": "Largo Cândido dos Reis, 2300-908 Tomar - Portugal",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/poi/capela-de-sao-gregorio"
+      }
     },
     {
       "ordem": 18,
@@ -216,7 +363,18 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/cine-teatro-paraiso-de-tomar?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Bilheteira regular: terça-feira a sábado, 15h00–18h00. Em dias de espetáculo: 15h00–19h00 e 20h00–21h30. Bilheteira de cinema comercial: segunda-feira 20h00–21h00; domingo 10h00–11h00, 15h00–16h00 e 20h00–21h00. Sessões: domingo 11h00, 16h00 e 21h00; segunda-feira 21h00.",
+        "telefone_internacional": [
+          "+351 249 329 190"
+        ],
+        "morada": "Rua Infantaria 15, 2300-583 Tomar - Portugal",
+        "email": "cineteatro@cm-tomar.pt",
+        "website": "https://cineteatro.cm-tomar.pt/",
+        "data_verificacao": "2026-10-06",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Details/cine-teatro-paraiso-de-tomar?cat=wtd"
+      }
     },
     {
       "ordem": 19,
@@ -296,5 +454,12 @@
       "tipo_fonte": "catalogo_oficial"
     }
   ],
-  "record_count": 25
+  "record_count": 25,
+  "t1_operacional": {
+    "data_verificacao": "2026-10-06",
+    "registos_enriquecidos": 17,
+    "registos_com_proveniência_operacional": 17,
+    "registos_ainda_sem_dados_operacionais_especificos": 8,
+    "regra": "Somente campos encontrados em fontes oficiais; não preencher lacunas por inferência."
+  }
 }
