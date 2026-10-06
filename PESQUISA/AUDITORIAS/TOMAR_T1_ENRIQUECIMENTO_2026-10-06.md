@@ -106,3 +106,12 @@ Nova verificação das fontes oficiais acrescentou dados operacionais/proveniên
 Persistem **3/25** registos sem dados operacionais específicos suficientes nesta execução: Jardim das Musas, Jardim Manuel Costa Rosa e Casa dos Vereadores. Não foram preenchidos por inferência.
 
 A validação formal continua bloqueada enquanto estes três registos não tiverem evidência operacional suficiente, salvo decisão formal de encerramento de T1 por suficiência de dados.
+
+
+## Encerramento T1 — 2026-10-06
+
+A fonte oficial de catálogo atual foi novamente consultada para os três registos que permaneciam sem dados operacionais específicos: Jardim das Musas, Jardim Manuel Costa Rosa e Casa dos Vereadores. A página oficial atual não apresenta esses três nomes no catálogo visível desta consulta; não foram encontrados dados operacionais específicos adicionais. Para manter a rastreabilidade, os três registos passaram a conter um bloco operacional explícito indicando ausência de dados operacionais específicos na fonte oficial atual, sem qualquer inferência.
+
+**T1 OPERACIONAL: CONCLUÍDO — 25/25.** A conclusão significa que todos os registos têm uma decisão de evidência persistida, não que todos tenham horários/contactos.
+
+A validação formal pode avançar para os 25 registos, respeitando as CARTAS e sem promover automaticamente nenhum registo a VERIFICADO sem os critérios próprios de validação.
