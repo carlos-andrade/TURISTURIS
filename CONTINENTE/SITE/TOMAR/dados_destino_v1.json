@@ -5,12 +5,12 @@
   "nome":"Tomar",
   "territorio":{"distrito":"Santarém","municipio":"Tomar"},
   "pontos_turisticos":[
-    {"id":"PT-TOMAR-CONVENTO-CRISTO","nome":"Convento de Cristo","tipo":"Património"},
-    {"id":"PT-TOMAR-CASTELO-TEMPLARIO","nome":"Castelo Templário","tipo":"Património"},
-    {"id":"PT-TOMAR-SINAGOGA","nome":"Sinagoga de Tomar","tipo":"Património"},
-    {"id":"PT-TOMAR-AQUEDUTO-PEGOES","nome":"Aqueduto dos Pegões","tipo":"Património"}
+    {"id":"PT-TOMAR-CONVENTO-CRISTO","nome":"Convento de Cristo","tipo":"Património","pagina":"CONTINENTE/SITE/TOMAR/CONVENTO_DE_CRISTO/index.html"},
+    {"id":"PT-TOMAR-CASTELO-TEMPLARIO","nome":"Castelo Templário","tipo":"Património","pagina":"CONTINENTE/SITE/TOMAR/CASTELO_TEMPLARIO/index.html"},
+    {"id":"PT-TOMAR-SINAGOGA","nome":"Sinagoga de Tomar","tipo":"Património","pagina":"CONTINENTE/SITE/TOMAR/SINAGOGA/index.html"},
+    {"id":"PT-TOMAR-AQUEDUTO-PEGOES","nome":"Aqueduto dos Pegões","tipo":"Património","pagina":"CONTINENTE/SITE/TOMAR/AQUEDUTO_DOS_PEGOES/index.html"}
   ],
-  "alojamento":{"estado":"A1_PENDENTE","publicar_registos":false},
+  "alojamento":{"publicacao_progressiva":true},
   "regras":{"freguesia":"não inferir destrutivamente","contactos":"publicar apenas após validação","telefone":"preserve_explicitly"},
   "fontes":[
     {"nome":"Município de Tomar","url":"https://www.cm-tomar.pt/visitar/onde-dormir"},
