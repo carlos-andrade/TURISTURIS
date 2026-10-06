@@ -7,6 +7,12 @@ on:
       - "CONTINENTE/DADOS/CODIGOS/ingestao_alojamento_nacional_v1.py"
       - "CONTINENTE/DADOS/RAW/ALOJAMENTOS/README.md"
       - ".github/workflows/turisturis-web-12-1-a.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/ingestao_alojamento_nacional_v1.py"
+      - "CONTINENTE/DADOS/RAW/ALOJAMENTOS/README.md"
+      - ".github/workflows/turisturis-web-12-1-a.yml"
 
 permissions:
   contents: read
