@@ -77,7 +77,7 @@ footer{background:#102a2a;color:#dce8e5;padding:35px 0}
 <footer><div class="wrap">TURISTURIS · Tomar · Informação turística organizada com proveniência.</div></footer>
 <script>
 const DATA={
-  pontos:'../../DADOS/PUBLICACAO/TOMAR_PONTOS_INTERESSE_V1.json',
+  pontos:'../../DADOS/PUBLICACAO/TOMAR_PONTOS_INTERESSE_T1_ENRIQUECIDOS_V1.json',
   alojamentos:'../../DADOS/PUBLICACAO/RNAL_TOMAR_PUBLICAVEIS_V2.json',
   experiencias:'../../DADOS/PUBLICACAO/TOMAR_EXPERIENCIAS_TRANSPORTES_RESTAURACAO_V1.json'
 };
@@ -95,7 +95,7 @@ async function load(){
   document.getElementById('pointType').innerHTML='<option value="">Todos os tipos</option>'+types.map(x=>'<option>'+esc(x)+'</option>').join('');
   function renderPoints(){
     const q=document.getElementById('pointSearch').value.toLowerCase().trim(), t=document.getElementById('pointType').value;
-    document.getElementById('pointsGrid').innerHTML=points.filter(x=>(!t||x.tipo===t)&&(!q||[x.nome,x.tipo,x.localizacao,x.descricao].join(' ').toLowerCase().includes(q))).map(x=>card(x.nome,x.tipo,x.descricao+'<br><span class="small">'+esc(x.localizacao||'')+'</span>')).join('')||'<p class="muted">Nenhum ponto encontrado.</p>';
+    document.getElementById('pointsGrid').innerHTML=points.filter(x=>(!t||x.tipo===t)&&(!q||[x.nome,x.tipo,x.localizacao,x.descricao].join(' ').toLowerCase().includes(q))).map(x=>{const o=x.operacional||{};const lines=[o.horario,o.aviso_operacional,o.telefone_internacional?.join(' · '),o.email,o.morada].filter(Boolean).map(esc).join('<br>');const web=o.website?'<a href="'+esc(o.website)+'" target="_blank" rel="noopener">Website →</a>':'';return card(x.nome,x.tipo,x.descricao+'<br><span class="small">'+esc(x.localizacao||'')+'</span>'+(lines?'<br><br>'+lines:'')+(o.estado_operacional?'<br><span class="small">'+esc(o.estado_operacional)+'</span>':''),web);}).join('')||'<p class="muted">Nenhum ponto encontrado.</p>';
   }
   document.getElementById('pointSearch').oninput=renderPoints; document.getElementById('pointType').onchange=renderPoints; renderPoints();
 
