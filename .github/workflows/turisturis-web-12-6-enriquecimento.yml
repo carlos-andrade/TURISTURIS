@@ -22,7 +22,7 @@ on:
         default: "4"
         type: string
 permissions:
-  contents: read
+  contents: write
 jobs:
   enriquecer:
     name: Recolher contactos públicos RNAL
@@ -76,6 +76,20 @@ jobs:
             "statuses": sorted(set(r["status"] for r in d["records"]))
           }, ensure_ascii=False))
           PY
+      - name: Persistir lote no repositório
+        run: |
+          mkdir -p CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES
+          cp CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json \
+            "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/rnal_contactos_offset_${RNAL_OFFSET}.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nova para persistir."
+          else
+            git commit -m "DATA: persistir lote WEB-12.6 RNAL offset ${RNAL_OFFSET}"
+            git push
+          fi
       - name: Compactar resultado
         run: tar -czf rnal-contactos-publicos-web-12-6.tar.gz CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json
       - name: Publicar artefato
