@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Alandroal",
+  "target_total": 54,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALANDROAL-179637",
+      "id_origem": 179637,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179637",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-06T23:14:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALANDROAL-180399",
+      "id_origem": 180399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-06T23:14:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALANDROAL-180400",
+      "id_origem": 180400,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180400",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-06T23:14:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALANDROAL-181381",
+      "id_origem": 181381,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181381",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-06T23:14:13Z"
+    }
+  ]
+}
