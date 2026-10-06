@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 
 SOURCE_URL = "https://www.cm-tomar.pt/visitar/onde-dormir"
 SOURCE_FALLBACK_URL = "https://www.cm-tomar.pt/index.php/visitar/onde-dormir"
+SOURCE_PROXY_URL = "https://r.jina.ai/http://www.cm-tomar.pt/index.php/visitar/onde-dormir"
 OUT_JSON = Path("DADOS/RAW/RNAL/TOMAR/rnal_tomar_catalogo_fonte_v1.json")
 OUT_TXT = Path("DADOS/RAW/RNAL/TOMAR/rnal_tomar_fonte_municipal_raw_v1.txt")
 
@@ -33,7 +34,7 @@ def clean_lines(html):
 def fetch_source():
     session = requests.Session()
     last_error = None
-    urls = [SOURCE_URL, SOURCE_FALLBACK_URL]
+    urls = [SOURCE_URL, SOURCE_FALLBACK_URL, SOURCE_PROXY_URL]
     for url in urls:
         for attempt in range(1, 4):
             try:
@@ -130,6 +131,7 @@ def main():
             "content_length_bytes": len(response.content),
             "fetch_attempt": attempts,
             "transport_fallback_used": fetch_url != SOURCE_URL,
+            "transport": ("official_direct" if fetch_url in (SOURCE_URL, SOURCE_FALLBACK_URL) else "controlled_proxy"),
         },
         "extraction": {
             "section_start_marker": "ALOJAMENTO LOCAL (AL)",
