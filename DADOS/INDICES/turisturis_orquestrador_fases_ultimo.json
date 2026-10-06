@@ -1,10 +1,86 @@
 {
   "schema_version": "1.0",
   "process": "ORQUESTRADOR_FASES_TURISTURIS",
-  "timestamp_utc": "2026-10-06T15:30:33.324814+00:00",
-  "requested_phase": "D",
+  "timestamp_utc": "2026-10-06T15:33:16.621622+00:00",
+  "requested_phase": "ALL",
   "repository": "carlos-andrade/TURISTURIS",
   "phases": [
+    {
+      "id": "A",
+      "name": "Fecho Peso da Régua",
+      "status": "PASS",
+      "gates": [
+        {
+          "gate": "A1 — publicação RNAL existe e tem 182 registos",
+          "status": "PASS",
+          "detail": "record_count=182"
+        },
+        {
+          "gate": "A2 — Município/Distrito canónicos",
+          "status": "PASS",
+          "detail": "Município=Peso da Régua; Distrito=Vila Real em 100% dos registos"
+        },
+        {
+          "gate": "A3 — Freguesia estruturada",
+          "status": "PASS",
+          "detail": "Freguesia presente em 100% dos registos"
+        },
+        {
+          "gate": "A4 — Vilarinho dos Freires",
+          "status": "PASS",
+          "detail": "8 registos"
+        },
+        {
+          "gate": "A5 — contactos auditados",
+          "status": "PASS",
+          "detail": "115/115 correspondências; 0 divergências; 0 ausências"
+        },
+        {
+          "gate": "A6 — regras de publicação pública",
+          "status": "PASS",
+          "detail": "Freguesia → Município → Distrito; Website e estados internos ocultos"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Padronização territorial",
+      "status": "PASS",
+      "gates": [
+        {
+          "gate": "B1 — governação territorial",
+          "status": "PASS",
+          "detail": "As 4 cartas regentes contêm o padrão territorial"
+        },
+        {
+          "gate": "B2 — modelo territorial estruturado",
+          "status": "PASS",
+          "detail": "Território estruturado; não depende de texto manual da ficha pública"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Escala territorial",
+      "status": "PASS",
+      "gates": [
+        {
+          "gate": "C1.A — pré-requisitos da Fase A",
+          "status": "PASS",
+          "detail": "Todos os gates da Fase A estão aprovados."
+        },
+        {
+          "gate": "C1.B — pré-requisitos da Fase B",
+          "status": "PASS",
+          "detail": "Todos os gates da Fase B estão aprovados."
+        },
+        {
+          "gate": "C1 — expansão territorial",
+          "status": "PASS",
+          "detail": "Fase A e Fase B aprovadas integralmente; Fase C elegível para promoção."
+        }
+      ]
+    },
     {
       "id": "D",
       "name": "Consolidação do portal",
