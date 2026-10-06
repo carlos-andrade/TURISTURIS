@@ -163,3 +163,7 @@ Esta Carta integra a governança permanente do TURISTURIS e deve ser aplicada an
 A captura integral e a auditoria devem preservar estados de validação, grau de confiança e referências da ficha oficial. Contudo, esses elementos pertencem à evidência interna e **não devem ser exibidos na interface pública por defeito**.
 
 A existência do campo `ficha_oficial` ou de estados como `CONFIRMADO_FICHA_OFICIAL` e `ALTO` não obriga à sua apresentação ao visitante. O código de publicação deve separar claramente evidência/auditoria de conteúdo editorial público.
+
+## Regra permanente de publicação de alojamentos — Website oculto
+
+Na camada pública do TURISTURIS, o campo **Website** e o respetivo link **não devem ser exibidos nas fichas públicas de alojamentos**. O valor pode permanecer preservado nas bases internas para auditoria, rastreabilidade e uso operacional autorizado, mas não pode ser renderizado na interface pública. Esta regra é independente dos estados internos de validação e aplica-se a novas publicações e futuras correções do catálogo, salvo autorização explícita posterior.
