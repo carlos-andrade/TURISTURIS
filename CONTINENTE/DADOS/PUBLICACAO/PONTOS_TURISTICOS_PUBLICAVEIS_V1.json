@@ -1,0 +1,688 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-06",
+  "purpose": "Publicação web dos pontos turísticos cujo nome, município, estado e confiança já foram identificados nos dados normalizados consultados.",
+  "record_count": 68,
+  "records": [
+    {
+      "id": "PT-PTT-LISBOA-ALENQUER-CASTELO-ALENQUER",
+      "name": "Castelo de Alenquer",
+      "type": "Ponto turístico",
+      "municipality": "Alenquer",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ALENQUER_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ALENQUER-IGREJA-SAO-PEDRO",
+      "name": "Igreja de São Pedro",
+      "type": "Ponto turístico",
+      "municipality": "Alenquer",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ALENQUER_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ALENQUER-MUSEU-JOAO-MARIO",
+      "name": "Museu João Mário",
+      "type": "Ponto turístico",
+      "municipality": "Alenquer",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ALENQUER_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ALENQUER-SERRA-MONTEJUNTO",
+      "name": "Serra de Montejunto",
+      "type": "Ponto turístico",
+      "municipality": "Alenquer",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ALENQUER_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-AQUEDUTO-AGUAS-LIVRES",
+      "name": "Aqueduto Geral das Águas Livres",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-NECROPOLE-CARENQUE",
+      "name": "Necrópole de Carenque",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-ROQUE-GAMEIRO",
+      "name": "Casa Roque Gameiro",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASAL-FALAGUEIRA",
+      "name": "Núcleo Museológico do Casal da Falagueira",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MOINHO-PENEDO",
+      "name": "Núcleo Museológico do Moinho do Penedo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-VILLA-ROMANA-BOLACHA",
+      "name": "Villa Romana da Quinta da Bolacha",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-AQUEDUTO-ROMANO",
+      "name": "Aqueduto Romano da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-GARGANTADA",
+      "name": "Aqueduto da Gargantada / Nascentes da Gargantada",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-ASSENTISTA",
+      "name": "Quinta do Assentista",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CONDESS-LOUSA",
+      "name": "Palácio/Quinta dos Condes da Lousã",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-ORDEM-MALTA",
+      "name": "Casa da Ordem de Malta / Casal da Falagueira de Cima",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-APRIGIO-GOMES",
+      "name": "Casa Aprígio Gomes",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-INFANTADO",
+      "name": "Fachada da Casa do Infantado / Palácio da Porcalhota",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CHALET-DESIDERIA",
+      "name": "Moradia Neorromântica / Chalet Desideria",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-IGREJA-MATRIZ",
+      "name": "Igreja Matriz da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CAPELA-FALAGUEIRA",
+      "name": "Capela da Falagueira / Nossa Senhora da Lapa",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CHAFARIZ-PORCALHOTA",
+      "name": "Chafariz da Porcalhota",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MINA-AGUA",
+      "name": "Mina de Água e Jardim da Mina",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PARQUE-DELFIM-GUIMARAES",
+      "name": "Parque Delfim Guimarães",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PONTE-FILIPINA",
+      "name": "Ponte Filipina / Ponte de Carenque de Baixo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-OUTEIRO",
+      "name": "Quinta do Outeiro",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-SAO-MIGUEL",
+      "name": "Quinta de São Miguel",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-RECREIOS-AMADORA",
+      "name": "Recreios da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PORTAS-BENFICA",
+      "name": "Portas de Benfica",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MOINHO-CASTELINHO",
+      "name": "Moinho do Castelinho",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-GRANDE-ALFRAGIDE",
+      "name": "Quinta Grande de Alfragide",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-VILA-MARTELO",
+      "name": "Vila Martelo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CABOS-AVILA",
+      "name": "Edifício Torreado da Fábrica dos Cabos Ávila",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO",
+      "source": "CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ARRUDA-DOS-VINHOS-IGREJA-MATRIZ",
+      "name": "Igreja Matriz",
+      "type": "Ponto turístico",
+      "municipality": "Arruda dos Vinhos",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ARRUDA-DOS-VINHOS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ARRUDA-DOS-VINHOS-CENTRO-HISTORICO",
+      "name": "Centro Histórico",
+      "type": "Ponto turístico",
+      "municipality": "Arruda dos Vinhos",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ARRUDA-DOS-VINHOS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ARRUDA-DOS-VINHOS-PAISAGEM-VITIVINICOLA",
+      "name": "Paisagem vitivinícola",
+      "type": "Ponto turístico",
+      "municipality": "Arruda dos Vinhos",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ARRUDA-DOS-VINHOS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AZAMBUJA-PALACIO-OBRAS-NOVAS",
+      "name": "Palácio das Obras Novas",
+      "type": "Ponto turístico",
+      "municipality": "Azambuja",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/AZAMBUJA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AZAMBUJA-MUSEU-MUNICIPAL",
+      "name": "Museu Municipal",
+      "type": "Ponto turístico",
+      "municipality": "Azambuja",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/AZAMBUJA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AZAMBUJA-IGREJA-MATRIZ",
+      "name": "Igreja Matriz",
+      "type": "Ponto turístico",
+      "municipality": "Azambuja",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/AZAMBUJA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AZAMBUJA-LEZIRIA-TEJO",
+      "name": "Lezíria do Tejo",
+      "type": "Ponto turístico",
+      "municipality": "Azambuja",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/AZAMBUJA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CADAVAL-REAL-FABRICA-GELO",
+      "name": "Real Fábrica do Gelo",
+      "type": "Ponto turístico",
+      "municipality": "Cadaval",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CADAVAL_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CADAVAL-SERRA-MONTEJUNTO",
+      "name": "Serra de Montejunto",
+      "type": "Ponto turístico",
+      "municipality": "Cadaval",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CADAVAL_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CADAVAL-MUSEU-MUNICIPAL",
+      "name": "Museu Municipal",
+      "type": "Ponto turístico",
+      "municipality": "Cadaval",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CADAVAL_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CADAVAL-IGREJA-MATRIZ",
+      "name": "Igreja Matriz",
+      "type": "Ponto turístico",
+      "municipality": "Cadaval",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CADAVAL_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CASCAIS-BAIA-CASCAIS",
+      "name": "Baía de Cascais",
+      "type": "Ponto turístico",
+      "municipality": "Cascais",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CASCAIS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CASCAIS-BOCA-INFERNO",
+      "name": "Boca do Inferno",
+      "type": "Ponto turístico",
+      "municipality": "Cascais",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CASCAIS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CASCAIS-CIDADELA",
+      "name": "Cidadela",
+      "type": "Ponto turístico",
+      "municipality": "Cascais",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CASCAIS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-CASCAIS-GUINCHO",
+      "name": "Guincho",
+      "type": "Ponto turístico",
+      "municipality": "Cascais",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/CASCAIS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LISBOA-TORRE-BELEM",
+      "name": "Torre de Belém",
+      "type": "Ponto turístico",
+      "municipality": "Lisboa",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LISBOA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LISBOA-MOSTEIRO-JERONIMOS",
+      "name": "Mosteiro dos Jerónimos",
+      "type": "Ponto turístico",
+      "municipality": "Lisboa",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LISBOA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LISBOA-CASTELO-SAO-JORGE",
+      "name": "Castelo de São Jorge",
+      "type": "Ponto turístico",
+      "municipality": "Lisboa",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LISBOA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LISBOA-PRACA-COMERCIO",
+      "name": "Praça do Comércio",
+      "type": "Ponto turístico",
+      "municipality": "Lisboa",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LISBOA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LISBOA-MUSEU-AZULEJO",
+      "name": "Museu do Azulejo",
+      "type": "Ponto turístico",
+      "municipality": "Lisboa",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LISBOA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURES-MUSEU-MUNICIPAL",
+      "name": "Museu Municipal",
+      "type": "Ponto turístico",
+      "municipality": "Loures",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURES_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURES-PALACIO-MARQUESES",
+      "name": "Palácio dos Marqueses",
+      "type": "Ponto turístico",
+      "municipality": "Loures",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURES_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURES-QUINTA-CONVENTINHO",
+      "name": "Quinta do Conventinho",
+      "type": "Ponto turístico",
+      "municipality": "Loures",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURES_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURES-PARQUE-URBANO",
+      "name": "Parque Urbano",
+      "type": "Ponto turístico",
+      "municipality": "Loures",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURES_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURINHA-MUSEU-LOURINHA",
+      "name": "Museu da Lourinhã",
+      "type": "Ponto turístico",
+      "municipality": "Lourinhã",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURINHA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURINHA-DINO-PARQUE",
+      "name": "Dino Parque",
+      "type": "Ponto turístico",
+      "municipality": "Lourinhã",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURINHA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURINHA-PRAIA-AREIA-BRANCA",
+      "name": "Praia da Areia Branca",
+      "type": "Ponto turístico",
+      "municipality": "Lourinhã",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURINHA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-LOURINHA-FORTE-PAIMOGO",
+      "name": "Forte de Paimogo",
+      "type": "Ponto turístico",
+      "municipality": "Lourinhã",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/LOURINHA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-MAFRA-PALACIO-NACIONAL-MAFRA",
+      "name": "Palácio Nacional de Mafra",
+      "type": "Ponto turístico",
+      "municipality": "Mafra",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/MAFRA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-MAFRA-TAPADA-NACIONAL",
+      "name": "Tapada Nacional",
+      "type": "Ponto turístico",
+      "municipality": "Mafra",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/MAFRA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-MAFRA-ERICEIRA",
+      "name": "Ericeira",
+      "type": "Ponto turístico",
+      "municipality": "Mafra",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/MAFRA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-MAFRA-PRAIA-FOZ-LIZANDRO",
+      "name": "Praia da Foz do Lizandro",
+      "type": "Ponto turístico",
+      "municipality": "Mafra",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/MAFRA_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ODIVELAS-MOSTEIRO-ODIVELAS",
+      "name": "Mosteiro de Odivelas",
+      "type": "Ponto turístico",
+      "municipality": "Odivelas",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ODIVELAS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ODIVELAS-MEMORIAL",
+      "name": "Memorial",
+      "type": "Ponto turístico",
+      "municipality": "Odivelas",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ODIVELAS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ODIVELAS-IGREJA-MATRIZ",
+      "name": "Igreja Matriz",
+      "type": "Ponto turístico",
+      "municipality": "Odivelas",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ODIVELAS_PONTOS_TURISTICOS_V1.md"
+    },
+    {
+      "id": "PT-PTT-LISBOA-ODIVELAS-PARQUE-URBANO",
+      "name": "Parque Urbano",
+      "type": "Ponto turístico",
+      "municipality": "Odivelas",
+      "district": "Lisboa",
+      "validation_state": "EM_VERIFICACAO",
+      "confidence": "MEDIO",
+      "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/ODIVELAS_PONTOS_TURISTICOS_V1.md"
+    }
+  ]
+}
