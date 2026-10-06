@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Amadora — TURISTURIS</title>
+<style>
+:root{--ink:#102a2a;--muted:#5f706f;--paper:#f5f3ed;--card:#fff;--line:#dce4e0;--accent:#0b3d3a;--gold:#c59b4a;--max:1180px;font-family:Inter,system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);line-height:1.6}.wrap{width:min(92%,var(--max));margin:auto}
+header{background:var(--accent);color:#fff;padding:18px 0}header a{color:#fff;text-decoration:none;font-weight:900;letter-spacing:.12em}
+.hero{padding:75px 0 55px;background:#0b3d3a;color:#fff}.eyebrow{text-transform:uppercase;letter-spacing:.16em;color:#e5c77f;font-weight:800;font-size:.78rem}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:.98;margin:12px 0}.lead{max-width:780px;font-size:1.15rem;color:#edf5f2}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:35px 0}.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}.stat strong{display:block;font-size:2rem}
+.toolbar{display:flex;gap:12px;margin:20px 0}.toolbar input,.toolbar select{width:100%;padding:13px;border:1px solid var(--line);border-radius:10px;background:#fff;font:inherit}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:55px}.meta{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.small{font-size:.9rem;color:var(--muted)}
+.notice{padding:18px;border-left:4px solid var(--gold);background:#fff;margin:25px 0 50px}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}.summary{grid-template-columns:1fr 1fr}}@media(max-width:560px){.grid,.summary{grid-template-columns:1fr}.toolbar{flex-direction:column}}
+</style></head><body>
+<header><div class="wrap"><a href="../../../index.html">TURISTURIS</a></div></header>
+<section class="hero"><div class="wrap"><div class="eyebrow">Destino</div><h1>Amadora</h1><p class="lead">Património e pontos turísticos já validados para publicação no catálogo TURISTURIS.</p></div></section>
+<main class="wrap"><div class="summary" id="summary"></div>
+<div class="toolbar"><input id="search" type="search" placeholder="Pesquisar…"><select id="type"><option value="">Todos os tipos</option></select></div>
+<div class="grid" id="grid"></div>
+<div class="notice"><strong>Critério editorial:</strong> esta página apresenta apenas registos validados para publicação. Estados internos de validação, níveis de confiança e outros metadados de controlo não são apresentados ao visitante.</div>
+</main>
+<script>
+const SOURCE="../../DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json";
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arr=o=>o.records||[];
+async function load(){
+ const o=await fetch(SOURCE).then(r=>r.json()), records=arr(o);
+ const typeKey="type";
+ const types=[...new Set(records.map(x=>x[typeKey]).filter(Boolean))].sort();
+ document.getElementById('type').innerHTML='<option value="">Todos os tipos</option>'+types.map(x=>'<option>'+esc(x)+'</option>').join('');
+ document.getElementById('summary').innerHTML='<div class="stat"><strong>'+records.length+'</strong><span>registos publicados</span></div><div class="stat"><strong>'+esc(o.municipality||o.municipio||'Portugal')</strong><span>território</span></div><div class="stat"><strong>Turismo</strong><span>catálogo</span></div>';
+ function render(){
+  const q=document.getElementById('search').value.toLowerCase().trim(), t=document.getElementById('type').value;
+  const filtered=records.filter(x=>(!t||x[typeKey]===t)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  document.getElementById('grid').innerHTML=filtered.map(x=>{
+   return '<article class="card"><span class="meta">'+esc(x.type)+'</span><h3>'+esc(x.name)+'</h3><p>'+[x.municipality,x.district].filter(Boolean).map(esc).join(' · ')+'</p></article>';
+  }).join('')||'<p class="small">Nenhum registo encontrado.</p>';
+ }
+ document.getElementById('search').oninput=render;document.getElementById('type').onchange=render;render();
+}
+load().catch(e=>document.getElementById('grid').innerHTML='<div class="notice"><strong>Falha de carregamento.</strong> '+esc(e.message)+'</div>');
+</script></body></html>
