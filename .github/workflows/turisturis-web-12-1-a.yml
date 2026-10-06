@@ -2,7 +2,7 @@ name: TURISTURIS — WEB-12.1-A ingestão RAW nacional
 
 on:
   push:
-    branches: ["web-12-1-a-resolucao-conflito"]
+    branches: ["main"]
     paths:
       - "CONTINENTE/DADOS/CODIGOS/ingestao_alojamento_nacional_v1.py"
       - "CONTINENTE/DADOS/RAW/ALOJAMENTOS/README.md"
