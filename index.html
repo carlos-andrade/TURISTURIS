@@ -3,150 +3,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TURISTURIS — inteligência turística de Portugal. Informação turística organizada, rastreável e em permanente evolução.">
+  <meta name="description" content="TURISTURIS — inteligência turística de Portugal. Destinos, património, natureza, experiências e informação turística organizada com rastreabilidade.">
   <meta name="theme-color" content="#0b3d3a">
   <title>TURISTURIS — Inteligência turística de Portugal</title>
   <style>
     :root {
-      --ink: #102a2a;
-      --muted: #5b6b6b;
-      --accent: #0b3d3a;
-      --accent-2: #176b63;
-      --paper: #f7f5ef;
-      --card: #ffffff;
-      --line: #dfe5e2;
-      --max: 1120px;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --ink:#102a2a; --muted:#5f706f; --accent:#0b3d3a; --accent-2:#1d766b;
+      --paper:#f5f3ed; --card:#fff; --line:#dce4e0; --gold:#c59b4a;
+      --max:1180px; --shadow:0 18px 50px rgba(16,42,42,.10);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",sans-serif;
     }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; color: var(--ink); background: var(--paper); line-height: 1.6; }
-    a { color: inherit; }
-    .wrap { width: min(92%, var(--max)); margin: 0 auto; }
-    header { background: var(--accent); color: white; position: sticky; top: 0; z-index: 10; }
-    nav { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-    .brand { font-weight: 800; letter-spacing: .08em; text-decoration: none; }
-    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; margin: 0; flex-wrap: wrap; }
-    nav a { text-decoration: none; opacity: .92; }
-    nav a:hover, nav a:focus { opacity: 1; text-decoration: underline; }
-    .hero { padding: 96px 0 82px; background: linear-gradient(135deg, #0b3d3a 0%, #176b63 60%, #2a8176 100%); color: white; }
-    .hero .wrap { max-width: 900px; }
-    .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; font-weight: 700; opacity: .8; }
-    h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: .98; margin: 16px 0 24px; max-width: 850px; }
-    .lead { font-size: clamp(1.1rem, 2vw, 1.35rem); max-width: 760px; opacity: .92; }
-    .cta { display: inline-block; margin-top: 24px; padding: 13px 20px; border-radius: 999px; background: white; color: var(--accent); text-decoration: none; font-weight: 750; }
-    section { padding: 72px 0; }
-    .section-head { max-width: 720px; margin-bottom: 34px; }
-    h2 { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.1; margin: 0 0 12px; }
-    .muted { color: var(--muted); }
-    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
-    .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 28px; box-shadow: 0 8px 28px rgba(16,42,42,.06); }
-    .card h3 { margin-top: 0; font-size: 1.35rem; }
-    .pill { display: inline-block; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 10px; }
-    .card-link { display: inline-block; margin-top: 10px; font-weight: 750; color: var(--accent-2); text-decoration: none; }
-    .card-link:hover { text-decoration: underline; }
-    .principle { background: #eaf0ed; }
-    .principle strong { color: var(--accent); }
-    footer { background: #102a2a; color: #dfe9e6; padding: 34px 0; }
-    footer a { color: white; }
-    .footer-row { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-    @media (max-width: 720px) {
-      nav { padding: 12px 0; align-items: flex-start; flex-direction: column; }
-      .hero { padding: 70px 0 60px; }
-      .grid { grid-template-columns: 1fr; }
-      section { padding: 56px 0; }
-    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);background:var(--paper);line-height:1.65}
+    a{color:inherit}.wrap{width:min(92%,var(--max));margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(11,61,58,.96);color:#fff;border-bottom:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+    nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font-weight:900;letter-spacing:.12em;text-decoration:none}.brand span{color:#e5c77f}
+    nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;flex-wrap:wrap} nav a{text-decoration:none;opacity:.9}
+    nav a:hover,nav a:focus{opacity:1;text-decoration:underline}
+    .hero{position:relative;isolation:isolate;min-height:680px;display:grid;align-items:end;color:#fff;overflow:hidden;background:#0b3d3a}
+    .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+      linear-gradient(90deg,rgba(5,28,27,.86),rgba(5,28,27,.35) 58%,rgba(5,28,27,.12)),
+      url("https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa-lisbon-_panorama.jpg") center/cover no-repeat}
+    .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(5,28,27,.72),transparent 55%)}
+    .hero-inner{padding:110px 0 82px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:800;color:#e5c77f}
+    h1{font-size:clamp(3rem,7vw,6.4rem);line-height:.94;letter-spacing:-.045em;margin:16px 0 24px;max-width:900px}
+    .lead{font-size:clamp(1.1rem,2vw,1.35rem);max-width:760px;color:#edf5f2}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 19px;border-radius:999px;text-decoration:none;font-weight:800}
+    .btn-primary{background:#fff;color:var(--accent)} .btn-ghost{border:1px solid rgba(255,255,255,.45);color:#fff}
+    section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
+    .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
+    h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
+    .muted{color:var(--muted)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-42px;position:relative;z-index:3}
+    .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}
+    .stat strong{display:block;font-size:1.55rem;color:var(--accent)} .stat span{font-size:.88rem;color:var(--muted)}
+    .destinations{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .destination{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 8px 28px rgba(16,42,42,.06)}
+    .destination img{display:block;width:100%;height:230px;object-fit:cover}
+    .destination .body{padding:23px}.destination h3{margin:0 0 7px;font-size:1.35rem}
+    .tag{display:inline-block;margin-bottom:9px;color:var(--accent-2);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
+    .destination p{margin:0;color:var(--muted)}
+    .destination a{display:inline-block;margin-top:15px;color:var(--accent-2);font-weight:800;text-decoration:none}
+    .destination a:hover{text-decoration:underline}
+    .split{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
+    .feature-img{width:100%;height:460px;object-fit:cover;border-radius:24px;box-shadow:var(--shadow)}
+    .principle{background:#e9efeb}
+    .architecture{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;position:relative}
+    .step:not(:last-child)::after{content:"→";position:absolute;right:-19px;top:34px;color:var(--gold);font-weight:900;font-size:1.4rem;z-index:2}
+    .step b{display:block;margin-bottom:8px;color:var(--accent)} .step p{margin:0;color:var(--muted);font-size:.92rem}
+    .sources{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .source{background:#fff;border:1px solid var(--line);border-radius:18px;padding:25px}
+    .source h3{margin-top:0}.source p{color:var(--muted)}
+    .source a{color:var(--accent-2);font-weight:800}
+    .gallery-note{font-size:.8rem;color:var(--muted);margin-top:18px}
+    footer{background:#102a2a;color:#dce8e5;padding:42px 0}.footer-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+    footer a{color:#fff}.credit{font-size:.76rem;color:#aebfba;max-width:850px}
+    @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.destinations{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.architecture{grid-template-columns:repeat(2,1fr)}.step:not(:last-child)::after{display:none}.sources{grid-template-columns:1fr}}
+    @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture{grid-template-columns:1fr}section{padding:62px 0}.feature-img{height:330px}}
   </style>
 </head>
 <body>
-  <header>
+<header>
+  <div class="wrap">
+    <nav aria-label="Navegação principal">
+      <a class="brand" href="#inicio">TURISTURIS<span>•</span></a>
+      <ul>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#metodo">Método</a></li>
+        <li><a href="#fontes">Fontes</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">Portugal · território · património · experiências</div>
+      <h1>Descobrir Portugal com informação que faz sentido.</h1>
+      <p class="lead">O TURISTURIS organiza informação turística de Portugal para tornar destinos, lugares e experiências mais fáceis de descobrir, comparar e investigar.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#destinos">Explorar destinos</a>
+        <a class="btn btn-ghost" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Ver projeto no GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="stats" aria-label="Visão geral do projeto">
+      <div class="stat"><strong>Continente</strong><span>cidades, regiões e património</span></div>
+      <div class="stat"><strong>Ilhas</strong><span>Açores e Madeira</span></div>
+      <div class="stat"><strong>Dados</strong><span>informação organizada e datada</span></div>
+      <div class="stat"><strong>Fontes</strong><span>rastreabilidade e contexto</span></div>
+    </div>
+  </div>
+
+  <section id="destinos">
     <div class="wrap">
-      <nav aria-label="Navegação principal">
-        <a class="brand" href="#inicio">TURISTURIS</a>
-        <ul>
-          <li><a href="#destinos">Destinos</a></li>
-          <li><a href="#estrutura">Estrutura</a></li>
-          <li><a href="#metodo">Método</a></li>
-        </ul>
-      </nav>
+      <div class="section-head">
+        <div class="kicker">Um país, muitas geografias</div>
+        <h2>Comece pelo território.</h2>
+        <p class="muted">Do Atlântico às serras, das cidades históricas às ilhas vulcânicas, o projeto foi pensado para crescer por áreas geográficas sem perder a organização.</p>
+      </div>
+      <div class="destinations">
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto">
+          <div class="body"><span class="tag">Norte</span><h3>Porto &amp; Douro</h3><p>Património urbano, rio, vinho, paisagem e acesso ao Norte de Portugal.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Explorar estrutura continental →</a></div>
+        </article>
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra">
+          <div class="body"><span class="tag">Lisboa · Património</span><h3>Sintra</h3><p>Paisagem cultural, palácios, parques e uma das áreas turísticas mais emblemáticas do país.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+        </article>
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol">
+          <div class="body"><span class="tag">Sul · Atlântico</span><h3>Algarve</h3><p>Litoral, praias, falésias, natureza e destinos urbanos para diferentes perfis de viagem.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+        </article>
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira">
+          <div class="body"><span class="tag">Ilhas · Madeira</span><h3>Madeira</h3><p>Montanha, levadas, costa atlântica, natureza e identidade insular.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
+        </article>
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores">
+          <div class="body"><span class="tag">Ilhas · Açores</span><h3>Açores</h3><p>Vulcanismo, lagoas, paisagens atlânticas e experiências ligadas à natureza.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
+        </article>
+        <article class="destination">
+          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa">
+          <div class="body"><span class="tag">Capital · Tejo</span><h3>Lisboa</h3><p>História, bairros, museus, gastronomia, mobilidade e ligação a Sintra e Cascais.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+        </article>
+      </div>
+      <p class="gallery-note">As imagens desta página são provenientes do Wikimedia Commons e são utilizadas de acordo com as licenças indicadas nas respetivas páginas de ficheiro.</p>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="wrap">
-        <div class="eyebrow">Portugal · turismo · informação</div>
-        <h1>Inteligência turística de Portugal.</h1>
-        <p class="lead">Um projeto para coletar, organizar, validar e disponibilizar informação turística de Portugal com rastreabilidade de fontes e controle de atualização.</p>
-        <a class="cta" href="#destinos">Explorar o projeto</a>
+  <section id="experiencias" class="principle">
+    <div class="wrap split">
+      <div>
+        <div class="kicker">Mais do que uma lista</div>
+        <h2>Contexto para decidir melhor.</h2>
+        <p class="muted">Um destino turístico ganha valor quando a informação está ligada: localização, património, natureza, acessos, alojamento, restauração, horários, contactos e fontes.</p>
+        <p class="muted">O objetivo do TURISTURIS é construir essa ligação progressivamente, mantendo a informação volátil identificada e a proveniência visível.</p>
       </div>
-    </section>
-
-    <section id="destinos">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Portugal para descobrir</h2>
-          <p class="muted">A estrutura inicial do TURISTURIS separa o território continental e insular para permitir uma expansão organizada por destinos, cidades e entidades turísticas.</p>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <div class="pill">Território</div>
-            <h3>Continente</h3>
-            <p>Base para organizar destinos, cidades, património, experiências, alojamentos, restauração e transportes do território continental português.</p>
-            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver estrutura no GitHub →</a>
-          </article>
-          <article class="card">
-            <div class="pill">Território</div>
-            <h3>Ilhas</h3>
-            <p>Base para a organização turística dos arquipélagos portugueses, com expansão futura por ilhas, destinos e entidades.</p>
-            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Ver estrutura no GitHub →</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="principle" id="estrutura">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Uma arquitetura orientada por dados</h2>
-          <p>O projeto foi concebido para transformar informação turística dispersa em informação estruturada e reutilizável.</p>
-        </div>
-        <div class="card">
-          <p><strong>CARTAS → LAYOUT MESTRE → DADOS → CÓDIGO</strong></p>
-          <p class="muted">O Layout Mestre funciona como referência operacional para novos artefatos. A informação deve possuir proveniência identificável e os dados voláteis devem ser datados.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="metodo">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Informação com rastreabilidade</h2>
-          <p class="muted">O objetivo é construir uma base turística consultável, atualizável e auditável, mantendo separadas a coleta, a organização, a validação e a apresentação.</p>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <div class="pill">Projeto</div>
-            <h3>Governança</h3>
-            <p>Regras e decisões do projeto ficam organizadas no repositório para preservar o histórico e a rastreabilidade.</p>
-            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/GOVERNAN%C3%87A" target="_blank" rel="noopener">Consultar governança →</a>
-          </article>
-          <article class="card">
-            <div class="pill">Fonte</div>
-            <h3>Repositório oficial</h3>
-            <p>O GitHub é a fonte de código e de organização documental do projeto.</p>
-            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Abrir TURISTURIS no GitHub →</a>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-row">
-      <div><strong>TURISTURIS</strong><br>Inteligência turística de Portugal.</div>
-      <div><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">GitHub</a></div>
+      <img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra">
     </div>
-  </footer>
+  </section>
+
+  <section id="metodo">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Arquitetura do projeto</div>
+        <h2>Informação antes da interface.</h2>
+        <p class="muted">A apresentação é a última camada. Primeiro vêm as regras, a estrutura e os dados que sustentam cada página.</p>
+      </div>
+      <div class="architecture">
+        <div class="step"><b>CARTAS</b><p>Regras, decisões e princípios que orientam o projeto.</p></div>
+        <div class="step"><b>LAYOUT MESTRE</b><p>Referência única para transformar decisões em estrutura.</p></div>
+        <div class="step"><b>DADOS</b><p>Informação organizada, contextualizada, datada e rastreável.</p></div>
+        <div class="step"><b>CÓDIGO</b><p>Interface e automações produzidas a partir da estrutura definida.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fontes" class="principle">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Confiança operacional</div>
+        <h2>Fontes, atualização e governança.</h2>
+        <p>O site público deve refletir um projeto que pode ser verificado. Por isso, a organização documental e o código permanecem no repositório oficial.</p>
+      </div>
+      <div class="sources">
+        <article class="source"><h3>Governança</h3><p>Regras do projeto, decisões e documentos de referência ficam organizados no repositório.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/GOVERN%C3%87A" target="_blank" rel="noopener">Consultar governança →</a></article>
+        <article class="source"><h3>Território</h3><p>Continente e ilhas possuem estruturas próprias para permitir expansão progressiva.</p><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Abrir repositório →</a></article>
+        <article class="source"><h3>Imagens</h3><p>As fotografias usadas nesta página identificam a origem e remetem para as páginas dos ficheiros no Wikimedia Commons.</p><a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons →</a></article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div><strong>TURISTURIS</strong><br>Inteligência turística de Portugal.</div>
+    <div><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">GitHub</a></div>
+    <div class="credit">Projeto em evolução. Informação turística pode mudar; horários, preços, contactos e condições devem ser confirmados junto da fonte responsável antes de uma decisão de viagem.</div>
+  </div>
+</footer>
 </body>
 </html>
