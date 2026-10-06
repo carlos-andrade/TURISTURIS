@@ -67,6 +67,26 @@
     .portal-card p{font-size:.78rem;color:var(--muted);margin:0}
     .portal-empty{padding:20px;border:1px dashed var(--line);border-radius:16px;color:var(--muted);background:#fff}
     @media(max-width:900px){.portal-grid{grid-template-columns:repeat(2,1fr)}}
+
+    .national-catalog{background:#fff}
+    .catalog-toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}
+    .catalog-search{flex:1;min-width:240px;border:1px solid var(--line);border-radius:999px;padding:13px 17px;font:inherit;background:#fff;color:var(--ink)}
+    .catalog-count{font-size:.8rem;font-weight:800;color:var(--muted)}
+    .catalog-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .catalog-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px}
+    .catalog-card[hidden]{display:none}
+    .catalog-card b{display:block;color:var(--accent);margin-bottom:4px}
+    .catalog-card small{display:block;color:var(--muted);font-size:.72rem}
+    .point-catalog{margin-top:34px;padding-top:28px;border-top:1px solid var(--line)}
+    .point-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .point-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 7px 22px rgba(16,42,42,.05)}
+    .point-card[hidden]{display:none}
+    .point-card-id{display:block;color:var(--accent-2);font-size:.65rem;font-weight:900;letter-spacing:.06em;margin-bottom:6px;word-break:break-word}
+    .point-card h3{font-size:1rem;line-height:1.25;margin:0 0 7px}
+    .point-card p{margin:0;color:var(--muted);font-size:.76rem}
+    .point-badge{display:inline-block;margin-top:10px;padding:5px 8px;border-radius:999px;background:#e9efeb;color:var(--accent);font-size:.65rem;font-weight:900}
+    @media(max-width:900px){.catalog-grid{grid-template-columns:repeat(2,1fr)}.point-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:650px){.catalog-grid,.point-grid{grid-template-columns:1fr}}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -122,6 +142,7 @@
       <ul>
         <li><a href="#destinos">Destinos</a></li>
         <li><a href="#informacao-validada">Informação validada</a></li>
+        <li><a href="#catalogo-nacional">Catálogo nacional</a></li>
         <li><a href="#metodo">Método</a></li>
         <li><a href="#fontes">Fontes</a></li>
       </ul>
@@ -227,7 +248,34 @@
     </div>
   </section>
 
-  <section id="informacao-validada" class="validated">
+
+  <section id="catalogo-nacional" class="national-catalog">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Catálogo nacional</div>
+        <h2>Portugal começa a aparecer município a município.</h2>
+        <p class="muted">O TURISTURIS já dispõe de documentos de normalização para todo o conjunto territorial continental atualmente catalogado. Nesta camada pública mostramos a cobertura municipal e, quando os registros já foram promovidos para publicação, os pontos turísticos correspondentes.</p>
+      </div>
+      <div class="catalog-toolbar">
+        <input id="municipality-search" class="catalog-search" type="search" placeholder="Pesquisar município…" aria-label="Pesquisar município">
+        <span id="municipality-count" class="catalog-count" aria-live="polite">A carregar municípios…</span>
+      </div>
+      <div id="municipality-grid" class="catalog-grid"></div>
+      <div class="point-catalog">
+        <div class="section-head">
+          <div class="kicker">Pontos turísticos publicados</div>
+          <h2>Registros já disponíveis para consulta.</h2>
+          <p class="muted">Os estados de validação são preservados. Um registro em <strong>EM_VERIFICACAO</strong> não é apresentado como informação operacional confirmada.</p>
+        </div>
+        <div class="catalog-toolbar">
+          <input id="point-search" class="catalog-search" type="search" placeholder="Pesquisar ponto turístico…" aria-label="Pesquisar ponto turístico">
+          <span id="point-count" class="catalog-count" aria-live="polite">A carregar pontos…</span>
+        </div>
+        <div id="point-grid" class="point-grid"></div>
+      </div>
+    </div>
+  </section>
+\n  <section id="informacao-validada" class="validated">
     <div class="wrap">
       <div class="section-head">
         <div class="kicker">Informação já validada</div>
@@ -547,6 +595,35 @@
     if (status) status.textContent = 'Localização não autorizada · modo nacional';
   }
 
+
+
+  let nationalMunicipalities=[];
+  let publicPoints=[];
+  async function loadNationalCatalog(){
+    const [municipalityResponse,pointResponse]=await Promise.all([
+      fetch('CONTINENTE/DADOS/PUBLICACAO/CATALOGO_MUNICIPIOS_NORMALIZADOS_V1.json',{cache:'no-store'}),
+      fetch('CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_V1.json',{cache:'no-store'})
+    ]);
+    if(!municipalityResponse.ok||!pointResponse.ok) throw new Error('Falha ao carregar catálogo nacional.');
+    const municipalityData=await municipalityResponse.json();
+    const pointData=await pointResponse.json();
+    nationalMunicipalities=municipalityData.records||[];
+    publicPoints=pointData.records||[];
+    renderNationalCatalog();
+  }
+  function renderNationalCatalog(){
+    const ms=document.getElementById('municipality-search');
+    const ps=document.getElementById('point-search');
+    const municipalityTerm=(ms?.value||'').trim().toLocaleLowerCase('pt-PT');
+    const pointTerm=(ps?.value||'').trim().toLocaleLowerCase('pt-PT');
+    const mg=document.getElementById('municipality-grid');
+    const pg=document.getElementById('point-grid');
+    if(mg){mg.innerHTML='';const filtered=nationalMunicipalities.filter(x=>x.municipality.toLocaleLowerCase('pt-PT').includes(municipalityTerm));filtered.forEach(x=>{const card=document.createElement('article');card.className='catalog-card';card.innerHTML='<b>'+x.municipality+'</b><small>Documento de normalização disponível · publicação operacional pendente de promoção</small>';mg.appendChild(card);});const c=document.getElementById('municipality-count');if(c)c.textContent=filtered.length+' de '+nationalMunicipalities.length+' municípios';}
+    if(pg){pg.innerHTML='';const filtered=publicPoints.filter(x=>(x.name+' '+x.municipality).toLocaleLowerCase('pt-PT').includes(pointTerm));filtered.forEach(x=>{const card=document.createElement('article');card.className='point-card';card.innerHTML='<span class="point-card-id">'+x.id+'</span><h3>'+x.name+'</h3><p>'+x.municipality+' · '+x.district+'</p><span class="point-badge">'+x.validation_state+' · '+x.confidence+'</span>';pg.appendChild(card);});const c=document.getElementById('point-count');if(c)c.textContent=filtered.length+' de '+publicPoints.length+' pontos publicados';}
+  }
+  document.getElementById('municipality-search')?.addEventListener('input',renderNationalCatalog);
+  document.getElementById('point-search')?.addEventListener('input',renderNationalCatalog);
+  loadNationalCatalog().catch(error=>console.error(error));
 
   loadLocalPortalData().catch(error=>{console.error(error);const empty=document.getElementById('portal-empty');if(empty){empty.hidden=false;empty.textContent='Não foi possível carregar a base turística canônica.';}});
 
