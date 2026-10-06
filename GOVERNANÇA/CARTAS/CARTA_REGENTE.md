@@ -43,3 +43,7 @@ Todo contacto telefónico deve preservar obrigatoriamente o código telefónico 
 Os estados internos de validação e confiança pertencem à camada de governança, auditoria e dados do TURISTURIS. Valores como `CONFIRMADO_FICHA_OFICIAL`, `CONFIRMADO_FONTE_PUBLICA`, `ALTO` e equivalentes **não devem ser exibidos no site público**, salvo decisão futura expressamente documentada.
 
 A interface pública deve apresentar a informação turística destinada ao visitante, sem expor etiquetas técnicas de validação, grau de confiança ou estados operacionais internos. Esses valores devem permanecer preservados nas camadas internas para auditoria e rastreabilidade.
+
+## Regra permanente de publicação de alojamentos — Website oculto
+
+Na camada pública do TURISTURIS, o campo **Website** e o respetivo link **não devem ser exibidos nas fichas públicas de alojamentos**. O valor pode permanecer preservado nas bases internas para auditoria, rastreabilidade e uso operacional autorizado, mas não pode ser renderizado na interface pública. Esta regra é independente dos estados internos de validação e aplica-se a novas publicações e futuras correções do catálogo, salvo autorização explícita posterior.
