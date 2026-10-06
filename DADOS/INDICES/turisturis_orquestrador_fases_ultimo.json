@@ -1,22 +1,32 @@
 {
   "schema_version": "1.0",
   "process": "ORQUESTRADOR_FASES_TURISTURIS",
-  "timestamp_utc": "2026-10-06T15:14:08.510390+00:00",
+  "timestamp_utc": "2026-10-06T15:20:28.894674+00:00",
   "requested_phase": "C",
   "repository": "carlos-andrade/TURISTURIS",
   "phases": [
     {
       "id": "C",
       "name": "Escala territorial",
-      "status": "BLOCKED",
+      "status": "PASS",
       "gates": [
         {
+          "gate": "C1.A — pré-requisitos da Fase A",
+          "status": "PASS",
+          "detail": "Todos os gates da Fase A estão aprovados."
+        },
+        {
+          "gate": "C1.B — pré-requisitos da Fase B",
+          "status": "PASS",
+          "detail": "Todos os gates da Fase B estão aprovados."
+        },
+        {
           "gate": "C1 — expansão territorial",
-          "status": "BLOCKED",
-          "detail": "Fase C só pode ser promovida depois da aprovação integral das fases A e B."
+          "status": "PASS",
+          "detail": "Fase A e Fase B aprovadas integralmente; Fase C elegível para promoção."
         }
       ]
     }
   ],
-  "overall_status": "BLOCKED"
+  "overall_status": "PASS"
 }
