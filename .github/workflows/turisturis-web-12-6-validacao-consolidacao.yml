@@ -1,0 +1,56 @@
+name: TURISTURIS — Validar consolidação WEB-12.6 RNAL Peso da Régua
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "DADOS/INDICES/rnal_peso_da_regua_tabela_mestra.csv"
+      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/rnal_contactos_offset_*.json"
+      - "CONTINENTE/DADOS/CODIGOS/validar_consolidacao_rnal_peso_da_regua.py"
+      - ".github/workflows/turisturis-web-12-6-validacao-consolidacao.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validar:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Executar validação formal
+        run: |
+          set -euo pipefail
+          python3 CONTINENTE/DADOS/CODIGOS/validar_consolidacao_rnal_peso_da_regua.py
+
+      - name: Verificar evidência
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          p="DADOS/INDICES/rnal_peso_da_regua_validacao_consolidacao_report.json"
+          d=json.load(open(p,encoding="utf-8"))
+          assert d["acceptance"] is True
+          assert d["master_records"] == 182
+          assert d["lotes_lidos"] == 4
+          assert d["registros_lotes"] == 182
+          assert d["ids_unicos_lotes"] == 182
+          assert d["master_ids_em_falta"] == 0
+          assert d["lot_ids_fora_master"] == 0
+          print("VALIDACAO_WEB_12_6_OK")
+          PY
+
+      - name: Persistir evidência
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/INDICES/rnal_peso_da_regua_validacao_consolidacao_report.json
+          if git diff --cached --quiet; then
+            echo "Sem alteração na evidência."
+          else
+            git commit -m "DATA: registrar validação WEB-12.6 182 registros"
+            git push
+          fi
