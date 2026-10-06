@@ -78,3 +78,16 @@ A verificação do artefacto publicado em `main` confirmou `record_count = 25`, 
 ## Correção de fontes genéricas de percurso — 2026-10-06
 
 A verificação semântica das URLs identificou dois registos — Ponte D. Manuel I / Ponte Velha e Roda do Mouchão — que apontavam para `poi/percurso-historico`, uma página transversal de percurso, e não para uma ficha individual inequívoca. Ambos foram reclassificados como `catalogo_oficial` e passaram a usar a fonte de catálogo oficial. O conjunto fica em **20 páginas individuais + 5 catálogo oficial**, mantendo `record_count = 25` e sem promoção de validação.
+
+
+## Execução T1 — enriquecimento operacional — 2026-10-06
+
+Foi executado enriquecimento operacional com base exclusivamente em páginas oficiais do Turismo de Tomar. Foram enriquecidos **17/25** registos com um bloco `operacional` persistido no JSON, contendo apenas campos encontrados na fonte correspondente (horários, contactos, moradas, email, website e/ou aviso/estado operacional quando explicitamente apresentado).
+
+- Código telefónico internacional preservado explicitamente como `+351` quando apresentado pela fonte.
+- A Mata Nacional dos Sete Montes e a Capela de São Gregório mantêm o aviso de encerramento temporário encontrado na fonte oficial.
+- A Ermida de Nossa Senhora da Conceição é persistida como encerrada porque a fonte oficial apresenta explicitamente “Encerrada”.
+- Os restantes **8/25** continuam sem dados operacionais específicos suficientes nesta execução; não foram preenchidos por inferência.
+- Nenhum registo foi promovido para `VERIFICADO`.
+
+O checkpoint operacional T1 foi executado parcialmente: a proveniência permanece completa para 25/25 e o enriquecimento operacional agora cobre 17/25. A validação formal continua bloqueada até conclusão do enriquecimento T1 definido no ROADMAP.
