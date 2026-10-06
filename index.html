@@ -32,6 +32,9 @@
     .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
     .btn{display:inline-block;padding:13px 19px;border-radius:999px;text-decoration:none;font-weight:800}
     .btn-primary{background:#fff;color:var(--accent)} .btn-ghost{border:1px solid rgba(255,255,255,.45);color:#fff}
+    .image-place{position:absolute;left:18px;bottom:18px;z-index:4;padding:7px 11px;border-radius:999px;background:rgba(5,28,27,.82);color:#fff;font-size:.76rem;font-weight:800;letter-spacing:.03em;line-height:1.25;box-shadow:0 6px 20px rgba(0,0,0,.18);backdrop-filter:blur(8px)}
+    .image-wrap{position:relative}.image-place-card{position:absolute;left:14px;bottom:14px;z-index:2;padding:6px 9px;border-radius:999px;background:rgba(5,28,27,.82);color:#fff;font-size:.72rem;font-weight:800;line-height:1.2;box-shadow:0 5px 16px rgba(0,0,0,.16);backdrop-filter:blur(8px)}
+    .feature-wrap{position:relative}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -62,7 +65,7 @@
     footer{background:#102a2a;color:#dce8e5;padding:42px 0}.footer-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     footer a{color:#fff}.credit{font-size:.76rem;color:#aebfba;max-width:850px}
     @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.destinations{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.architecture{grid-template-columns:repeat(2,1fr)}.step:not(:last-child)::after{display:none}.sources{grid-template-columns:1fr}}
-    @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture{grid-template-columns:1fr}section{padding:62px 0}.feature-img{height:330px}}
+    @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture{grid-template-columns:1fr}section{padding:62px 0}.feature-img{height:330px}.image-place{left:12px;bottom:12px}.image-place-card{left:10px;bottom:10px;font-size:.68rem}}
   </style>
 </head>
 <body>
@@ -91,6 +94,7 @@
         <a class="btn btn-ghost" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Ver projeto no GitHub</a>
       </div>
     </div>
+    <div class="image-place" aria-label="Local da fotografia de fundo: Lisboa, Portugal">Lisboa · Portugal</div>
   </section>
 
   <div class="wrap">
@@ -111,27 +115,27 @@
       </div>
       <div class="destinations">
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto"><div class="image-place-card" aria-label="Local da fotografia: Porto, Rio Douro">Porto · Rio Douro</div></div>
           <div class="body"><span class="tag">Norte</span><h3>Porto &amp; Douro</h3><p>Património urbano, rio, vinho, paisagem e acesso ao Norte de Portugal.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Douro,_Porto.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Explorar estrutura continental →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra"><div class="image-place-card" aria-label="Local da fotografia: Sintra, Palácio Nacional">Sintra · Palácio Nacional</div></div>
           <div class="body"><span class="tag">Lisboa · Património</span><h3>Sintra</h3><p>Paisagem cultural, palácios, parques e uma das áreas turísticas mais emblemáticas do país.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Palacio_nacional_de_Sintra.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol"><div class="image-place-card" aria-label="Local da fotografia: Algarve, Portugal">Algarve · Portugal</div></div>
           <div class="body"><span class="tag">Sul · Atlântico</span><h3>Algarve</h3><p>Litoral, praias, falésias, natureza e destinos urbanos para diferentes perfis de viagem.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Algarve_Beach.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira"><div class="image-place-card" aria-label="Local da fotografia: Madeira, Portugal">Madeira · Portugal</div></div>
           <div class="body"><span class="tag">Ilhas · Madeira</span><h3>Madeira</h3><p>Montanha, levadas, costa atlântica, natureza e identidade insular.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Madeira_Portugal.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores"><div class="image-place-card" aria-label="Local da fotografia: Sete Cidades, São Miguel, Açores">Sete Cidades · São Miguel · Açores</div></div>
           <div class="body"><span class="tag">Ilhas · Açores</span><h3>Açores</h3><p>Vulcanismo, lagoas, paisagens atlânticas e experiências ligadas à natureza.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Sete_cidades.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa"><div class="image-place-card" aria-label="Local da fotografia: Lisboa, Portugal">Lisboa · Portugal</div></div>
           <div class="body"><span class="tag">Capital · Tejo</span><h3>Lisboa</h3><p>História, bairros, museus, gastronomia, mobilidade e ligação a Sintra e Cascais.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Lisboa_panorama.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
       </div>
@@ -147,7 +151,7 @@
         <p class="muted">Um destino turístico ganha valor quando a informação está ligada: localização, património, natureza, acessos, alojamento, restauração, horários, contactos e fontes.</p>
         <p class="muted">O objetivo do TURISTURIS é construir essa ligação progressivamente, mantendo a informação volátil identificada e a proveniência visível.</p>
       </div>
-      <img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra">
+      <div class="feature-wrap"><img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra"><div class="image-place" aria-label="Local da fotografia: Sintra, Palácio Nacional, Portugal">Sintra · Palácio Nacional · Portugal</div></div>
     </div>
   </section>
 
