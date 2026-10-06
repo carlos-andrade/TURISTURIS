@@ -1,0 +1,55 @@
+name: TURISTURIS — Validar fichas RNAL Peso da Régua
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validar:
+    name: Validar 100% dos manifestos RNAL
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validar todos os manifestos
+        id: validate
+        continue-on-error: true
+        run: |
+          set +e
+          python3 scripts/validar_manifestos_rnal_peso_da_regua.py
+          status=$?
+          echo "validate_exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
+
+      - name: Persistir relatório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "DADOS/INDICES/rnal_peso_da_regua_manifest_validation_report.json"
+          if git diff --cached --quiet; then
+            echo "Nenhum relatório novo para persistir."
+          else
+            git commit -m "AUDIT: validar manifestos RNAL de Peso da Régua"
+            git push
+          fi
+
+      - name: Publicar relatório
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: TURISTURIS-RNAL-PESO-DA-REGUA-MANIFEST-VALIDATION
+          path: DADOS/INDICES/rnal_peso_da_regua_manifest_validation_report.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Resultado final
+        if: always()
+        run: |
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
+          echo "VALIDAÇÃO INTEGRAL DOS MANIFESTOS RNAL CONCLUÍDA COM SUCESSO."
