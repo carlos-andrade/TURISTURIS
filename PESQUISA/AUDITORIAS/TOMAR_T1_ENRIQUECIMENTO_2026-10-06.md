@@ -55,8 +55,8 @@ Completar a ligação entre as fichas individuais existentes e as fontes oficiai
 
 Foi criado `CONTINENTE/DADOS/PUBLICACAO/TOMAR_PONTOS_INTERESSE_T1_ENRIQUECIDOS_V1.json` com **25/25** pontos, `record_count` derivado da coleção real, data de verificação e `fonte_url` por registo.
 
-- **22** registos apontam para páginas oficiais individuais identificadas.
-- **3** registos mantêm a camada oficial de catálogo (`Places/Index/wtd`) porque não foi encontrada, nesta execução, uma página individual inequívoca sem risco de associação incorreta.
+- **20** registos apontam para páginas oficiais individuais identificadas.
+- **5** registos mantêm a camada oficial de catálogo (`Places/Index/wtd`) porque não foi encontrada, nesta execução, uma página individual inequívoca sem risco de associação incorreta.
 - Nenhum registo foi promovido para `VERIFICADO`.
 - Dados voláteis não foram inventados nem acrescentados sem evidência específica.
 
@@ -65,11 +65,16 @@ Esta execução fecha o checkpoint de **proveniência T1** para os 25 pontos, ma
 
 ## Correção de classificação de proveniência — 2026-10-06
 
-Foi corrigida a classificação dos registos sem página individual inequívoca. Os **3 pontos** ligados apenas ao catálogo oficial `Places/Index/wtd` passam a ter `tipo_fonte = catalogo_oficial`; não são classificados como `pagina_oficial`. Os **22 pontos** com URL individual inequívoca permanecem como `pagina_oficial`.
+Foi corrigida a classificação dos registos sem página individual inequívoca. Os **5 pontos** ligados apenas ao catálogo oficial `Places/Index/wtd` passam a ter `tipo_fonte = catalogo_oficial`; não são classificados como `pagina_oficial`. Os **20 pontos** com URL individual inequívoca permanecem como `pagina_oficial`.
 
 A correção não altera `record_count` (25), não promove estados de validação e não acrescenta dados operacionais sem evidência específica.
 
 
 ## Correção de contagem da proveniência — 2026-10-06
 
-A verificação do artefacto publicado em `main` confirmou `record_count = 25`, dos quais **22** possuem `fonte_url` de página oficial individual e **3** apontam exclusivamente para o catálogo oficial `Places/Index/wtd`. A redação anterior desta auditoria indicava 19/6 e estava incorreta. Esta correção alinha a evidência com o conteúdo efetivamente persistido no repositório. Não há alteração dos 25 registos nem promoção de estado de validação.
+A verificação do artefacto publicado em `main` confirmou `record_count = 25`, dos quais **20** possuem `fonte_url` de página oficial individual e **5** apontam exclusivamente para o catálogo oficial `Places/Index/wtd`. A redação anterior desta auditoria indicava 19/6 e estava incorreta. Esta correção alinha a evidência com o conteúdo efetivamente persistido no repositório. Não há alteração dos 25 registos nem promoção de estado de validação.
+
+
+## Correção de fontes genéricas de percurso — 2026-10-06
+
+A verificação semântica das URLs identificou dois registos — Ponte D. Manuel I / Ponte Velha e Roda do Mouchão — que apontavam para `poi/percurso-historico`, uma página transversal de percurso, e não para uma ficha individual inequívoca. Ambos foram reclassificados como `catalogo_oficial` e passaram a usar a fonte de catálogo oficial. O conjunto fica em **20 páginas individuais + 5 catálogo oficial**, mantendo `record_count = 25` e sem promoção de validação.
