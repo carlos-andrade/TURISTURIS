@@ -1,45 +1,18 @@
-# WEB-12.1 — Ingestão nacional de alojamento
+# WEB-12.1-A — execução RAW nacional
 
-## Estado
+Execução integral dos serviços oficiais RNET e RNAL.
 
-**IMPLEMENTAÇÃO PREPARADA — EXECUÇÃO CONTROLADA PENDENTE**
+## Execução validada — 2026-10-06
 
-A ingestão foi implementada para consultar diretamente os serviços oficiais RNET e RNAL.
+- RNET: **5.684**
+- RNAL: **111.869**
+- Total: **117.553**
+- Workflow: **WEB-12.1-A Run #3**
+- Artifact: **TURISTURIS-WEB-12.1-A-RAW**
+- Estado: **VALIDADA**
 
-### Entradas
+O RAW integral é preservado como artefato do GitHub Actions. Nenhum registro é publicado diretamente no site.
 
-- RNET — ET Existentes, camada 0.
-- RNAL — Alojamento Local, camada 6.
+## Sequência
 
-### Saída RAW
-
-A execução deverá criar:
-
-- `CONTINENTE/DADOS/RAW/ALOJAMENTOS/RNET_RAW_V1.json`
-- `CONTINENTE/DADOS/RAW/ALOJAMENTOS/RNAL_RAW_V1.json`
-- `CONTINENTE/DADOS/RAW/ALOJAMENTOS/MANIFESTO_INGESTAO_V1.json`
-
-### Proteções
-
-- Consulta com `where=1=1`.
-- Paginação por `resultOffset`.
-- Ordenação por `OBJECTID`.
-- Preservação da geometria.
-- Registro do instante UTC da coleta.
-- Registro dos endpoints oficiais.
-- Falha explícita quando a API retorna erro.
-- Nenhuma publicação automática.
-
-## Validação antes da publicação
-
-A sequência obrigatória permanece:
-
-`RAW → NORMALIZAÇÃO → VALIDAÇÃO → PUBLICAÇÃO`
-
-O RAW não será tratado como catálogo público até que a normalização e a validação sejam concluídas.
-
-## Fonte
-
-Os serviços oficiais confirmam suporte a JSON/GeoJSON/PBF e paginação. A camada RNAL é ponto e a RNET é polígono. Os campos oficiais incluem identificadores RNAL/RNET, denominação, endereço, município, distrito e informação de georreferenciação.
-
-**Data de verificação:** 2026-10-06.
+`FONTES → RAW → NORMALIZAÇÃO → VALIDAÇÃO → PUBLICAÇÃO`
