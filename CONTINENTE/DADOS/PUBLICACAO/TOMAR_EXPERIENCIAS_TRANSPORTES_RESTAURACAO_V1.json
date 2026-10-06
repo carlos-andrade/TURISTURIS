@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "municipio": "Tomar",
+  "distrito": "Santarém",
+  "sources": [
+    "https://www.cm-tomar.pt/visitar/o-que-visitar/experiencie",
+    "https://www.turismo.cm-tomar.pt/",
+    "https://www.visitportugal.com/pt-pt/content/explore-tomar",
+    "https://www.visitportugal.com/pt-pt/content/t-experience"
+  ],
+  "experiencias": [
+    {
+      "id": "EXP-TOMAR-EXPLORE-TOMAR",
+      "nome": "Explore Tomar",
+      "tipo": "Visitas guiadas",
+      "morada": "Rua Serpa Pinto nº137, 2300-592 Tomar",
+      "telefone": "+351 912 851 740",
+      "email": "info@exploretomar.pt",
+      "website": "https://exploretomar.pt",
+      "registo": "489/2023",
+      "fonte": "VisitPortugal"
+    },
+    {
+      "id": "EXP-TOMAR-CAMINHOS-HISTORIA",
+      "nome": "Caminhos da História",
+      "tipo": "Turismo cultural, animação e eventos",
+      "morada": "Rua do Lugar, nº39-A - Ganados, 2305-321 Casais - Tomar",
+      "telefone": "+351 249 302 245 / +351 916 298 183",
+      "email": "geral@caminhosdahistoria.com",
+      "fonte": "Município de Tomar"
+    },
+    {
+      "id": "EXP-TOMAR-T-EXPERIENCE",
+      "nome": "T-Experience",
+      "tipo": "Animação turística e aventura",
+      "morada": "Rua de São Pedro, 15 - Bairrada, 2300-153 São Pedro de Tomar",
+      "telefone": "+351 912 877 262 / +351 249 153 343",
+      "email": "info@t-experience.pt",
+      "website": "https://www.t-experience.pt/",
+      "registo": "39/2021",
+      "atividades": [
+        "Kayak",
+        "Passeios de barco",
+        "Canoagem",
+        "Wakeboard",
+        "Paintball",
+        "Passeios pedestres",
+        "Aluguer de bicicletas",
+        "Aluguer de barcos"
+      ],
+      "fonte": "VisitPortugal"
+    }
+  ],
+  "transportes": [
+    {
+      "id": "TRP-TOMAR-COMBOIO",
+      "nome": "Comboio",
+      "tipo": "Ferroviário",
+      "operador": "CP - Comboios de Portugal",
+      "informacao": "Consultar horários e ligações ferroviárias para Tomar.",
+      "website": "https://www.cp.pt/",
+      "fonte": "VisitPortugal"
+    },
+    {
+      "id": "TRP-TOMAR-REDE-EXPRESSOS",
+      "nome": "Autocarro",
+      "tipo": "Rodoviário interurbano",
+      "operador": "Rede Expressos",
+      "informacao": "Consultar horários e ligações rodoviárias para Tomar.",
+      "website": "https://rede-expressos.pt/",
+      "fonte": "VisitPortugal"
+    },
+    {
+      "id": "TRP-TOMAR-TUTOMAR",
+      "nome": "TUTomar",
+      "tipo": "Transporte urbano",
+      "informacao": "A rede TUTomar é referida no itinerário acessível de Tomar, incluindo autocarros adaptados para pessoas com dificuldades de locomoção.",
+      "fonte": "VisitPortugal"
+    }
+  ],
+  "restauracao": [
+    {
+      "id": "REST-TOMAR-TAVERNA-ANTIQUA",
+      "nome": "Taverna Antiqua",
+      "categoria": "Sabores de Portugal",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-RESTAURANTE-O-PRACA",
+      "nome": "Restaurante O Praça",
+      "categoria": "Sabores de Portugal",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-NINHO-DO-FALCAO",
+      "nome": "Ninho do Falcão",
+      "categoria": "Restauração",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-COVA-FUNDA",
+      "nome": "Cova Funda",
+      "categoria": "Restauração",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-PIRI-PIRI",
+      "nome": "Restaurante Piri-Piri",
+      "categoria": "Restauração",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-TABULEIRO",
+      "nome": "Restaurante Tabuleiro",
+      "categoria": "Restauração",
+      "fonte": "Turismo de Tomar"
+    },
+    {
+      "id": "REST-TOMAR-COMER-COM-AMOR",
+      "nome": "Comer Com Amor",
+      "categoria": "Restauração",
+      "fonte": "Turismo de Tomar"
+    }
+  ]
+}
