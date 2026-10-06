@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "DADOS/RNET_RNAL.docx"
+      - "DADOS/RNET_RNAL/RNET_RNAL.docx"
       - "scripts/extrair_rnet_rnal_docx.py"
       - ".github/workflows/turisturis-extrair-rnet-rnal.yml"
 
