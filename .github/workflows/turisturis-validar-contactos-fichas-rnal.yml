@@ -1,0 +1,39 @@
+name: TURISTURIS — Validar contactos nas fichas oficiais RNAL
+
+on:
+  push:
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/extrair_contactos_fichas_rnal_v2.py"
+      - ".github/workflows/turisturis-validar-contactos-fichas-rnal.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Auditar 182 fichas oficiais RNAL
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Extrair contactos das fichas capturadas
+        run: python3 CONTINENTE/DADOS/CODIGOS/extrair_contactos_fichas_rnal_v2.py
+      - name: Gate de cobertura
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_FICHAS_OFICIAIS_V2.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          assert d["rnal_total"] == 182, d["rnal_total"]
+          c=d["status_counts"]
+          assert c.get("ERRO_JSON",0) == 0, c
+          assert c.get("SEM_FICHA_LOCAL",0) == 0, c
+          print("GATE COBERTURA OK:", json.dumps(c, ensure_ascii=False))
+          PY
+      - name: Publicar auditoria
+        uses: actions/upload-artifact@v4
+        with:
+          name: RNAL-CONTACTOS-FICHAS-OFICIAIS-V2
+          path: CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_FICHAS_OFICIAIS_V2.json
+          retention-days: 30
