@@ -113,3 +113,5 @@ Após verificação deste artefato, aplicar exatamente o mesmo procedimento ao p
 - registro normalizado;
 - validação;
 - publicação.
+
+<!-- TESTE OPERACIONAL V1: validação técnica; remover antes de qualquer promoção. -->
