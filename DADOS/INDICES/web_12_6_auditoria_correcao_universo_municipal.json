@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "process": "WEB-12.6",
+  "data": "2026-10-06",
+  "municipio": "Peso da Régua",
+  "target_total": 182,
+  "invalid_lote": {
+    "offset": 0,
+    "target_total": 111869,
+    "removed": true
+  },
+  "correcoes": [
+    "adicionar RNAL_MUNICIPIO ao workflow",
+    "fixar Peso da Régua no auto-dispatch",
+    "remover lote offset 0 inválido"
+  ],
+  "aceitacao": {
+    "offsets": [
+      0,
+      50,
+      100,
+      150
+    ],
+    "counts": [
+      50,
+      50,
+      50,
+      32
+    ],
+    "total": 182
+  },
+  "estado": "CORRIGIDO_AGUARDANDO_REEXECUCAO"
+}
