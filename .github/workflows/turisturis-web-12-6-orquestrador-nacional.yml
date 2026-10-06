@@ -10,7 +10,6 @@ on:
       - ".github/workflows/turisturis-web-12-6-consolidacao-nacional.yml"
       - "DADOS/INDICES/rnal_municipios_catalogo.json"
       - "DADOS/INDICES/rnal_nacional_consolidacao.json"
-      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/**"
 permissions:
   contents: read
   actions: write
