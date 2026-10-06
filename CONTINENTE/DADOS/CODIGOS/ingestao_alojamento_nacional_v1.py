@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 RNET = "https://geo.turismodeportugal.pt/server/rest/services/TDP/OpenData_ETExistentes/MapServer/0/query"
 RNAL = "https://geo.turismodeportugal.pt/server/rest/services/TDP/OpenData_AL/MapServer/6/query"
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "RAW" / "ALOJAMENTOS"
 
 PAGE_SIZE = 200000
