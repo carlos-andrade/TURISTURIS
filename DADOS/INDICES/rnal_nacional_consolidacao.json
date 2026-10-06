@@ -3,75 +3,59 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 0,
+  "municipios_validados": 4,
   "acceptance": false,
   "municipios": [
     {
       "municipio": "Abrantes",
       "slug": "abrantes",
       "target_total": 121,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50,
-        100
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 121,
+      "ids_unicos": 121,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
       "municipio": "Aguiar da Beira",
       "slug": "aguiar-da-beira",
       "target_total": 17,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 17,
+      "ids_unicos": 17,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
       "municipio": "Alandroal",
       "slug": "alandroal",
       "target_total": 54,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0,
-        50
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 54,
+      "ids_unicos": 54,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
       "municipio": "Albergaria-A-Velha",
       "slug": "albergaria-a-velha",
       "target_total": 46,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 46,
+      "ids_unicos": 46,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
       "municipio": "Albufeira",
       "slug": "albufeira",
       "target_total": 10485,
-      "lotes": 0,
+      "lotes": 6,
       "lotes_em_falta": [
-        0,
-        50,
-        100,
-        150,
-        200,
-        250,
         300,
         350,
         400,
@@ -277,9 +261,9 @@
         10400,
         10450
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 300,
+      "ids_unicos": 300,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
