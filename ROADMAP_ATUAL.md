@@ -19,7 +19,7 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 | RNAL TOMAR — publicação | ✅ PUBLICADA | Catálogo público com 274 registos |
 | TOMAR — pontos turísticos principais | ✅ PUBLICADO | 4 fichas principais |
 | TOMAR — catálogo complementar | ✅ PUBLICADO | 12 pontos adicionais |
-| TOMAR — fichas individuais complementares | 🔄 T1 PARCIALMENTE EXECUTADO | 25/25 com proveniência persistida; 17/25 com enriquecimento operacional persistido; 8/25 pendentes |
+| TOMAR — fichas individuais complementares | 🔄 T1 PARCIALMENTE EXECUTADO | 25/25 com proveniência persistida; 22/25 com enriquecimento operacional persistido; 3/25 pendentes |
 | TOMAR — experiências | ✅ PUBLICADO | Seleção inicial com proveniência |
 | TOMAR — transportes | ✅ PUBLICADO | CP, Rede Expressos e TUTomar |
 | TOMAR — restauração | 🔄 INICIAL | Seleção inicial; expansão pendente |
@@ -32,7 +32,7 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 
 ### FASE T1 — Enriquecimento das fichas
 
-1. Completar os 8 registos ainda sem dados operacionais específicos a partir das páginas oficiais.
+1. Completar os 3 registos ainda sem dados operacionais específicos a partir das páginas oficiais.
 2. Preservar +351 quando o contacto oficial o apresentar.
 3. Não inferir freguesia a partir de endereço incompleto.
 4. Não publicar preços/horários sem fonte específica.
