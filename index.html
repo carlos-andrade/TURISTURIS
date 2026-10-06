@@ -83,6 +83,20 @@
     .gallery-note{font-size:.8rem;color:var(--muted);margin-top:18px}
     footer{background:#102a2a;color:#dce8e5;padding:42px 0}.footer-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     footer a{color:#fff}.credit{font-size:.76rem;color:#aebfba;max-width:850px}
+    .validated{background:#fff}
+    .validated-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px}
+    .validated-panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:0 8px 28px rgba(16,42,42,.06)}
+    .validated-panel h3{margin-top:0}
+    .validation-badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#e9efeb;color:var(--accent);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+    .validated-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 18px;margin:18px 0 0;padding:0;list-style:none}
+    .validated-list li{padding:9px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+    .validated-list li::before{content:"✓";color:var(--accent-2);font-weight:900;margin-right:8px}
+    .transport-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0 0;padding:0;list-style:none}
+    .transport-list li{padding:11px 13px;background:var(--paper);border-radius:12px;font-size:.9rem}
+    .transport-list strong{display:block;color:var(--accent)}
+    .notice{margin-top:18px;padding:14px 16px;border-left:4px solid var(--gold);background:#faf7ef;color:var(--muted);font-size:.88rem}
+    .public-note{margin-top:16px;color:var(--muted);font-size:.82rem}
+    @media(max-width:900px){.validated-grid{grid-template-columns:1fr}}
     @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.destinations{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.architecture{grid-template-columns:repeat(2,1fr)}.step:not(:last-child)::after{display:none}.sources{grid-template-columns:1fr}}
     @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture,.local-gallery{grid-template-columns:1fr}.local-first-head{display:block}.local-first-status{display:inline-block;margin-top:10px}section{padding:62px 0}.feature-img{height:330px}.image-place{left:12px;bottom:12px}.image-place-card{left:10px;bottom:10px;font-size:.68rem}}
   </style>
@@ -94,7 +108,7 @@
       <a class="brand" href="#inicio">TURISTURIS<span>•</span></a>
       <ul>
         <li><a href="#destinos">Destinos</a></li>
-        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#informacao-validada">Informação validada</a></li>
         <li><a href="#metodo">Método</a></li>
         <li><a href="#fontes">Fontes</a></li>
       </ul>
@@ -110,7 +124,6 @@
       <p class="lead">O TURISTURIS organiza informação turística de Portugal para tornar destinos, lugares e experiências mais fáceis de descobrir, comparar e investigar.</p>
       <div class="actions">
         <a class="btn btn-primary" href="#destinos">Explorar destinos</a>
-        <a class="btn btn-ghost" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Ver projeto no GitHub</a>
       </div>
       <div class="image-rotation-note" id="rotation-note">A escolher imagens aleatórias para a sua região…</div>
     </div>
@@ -136,10 +149,10 @@
 
   <div class="wrap">
     <div class="stats" aria-label="Visão geral do projeto">
-      <div class="stat"><strong>Continente</strong><span>cidades, regiões e património</span></div>
-      <div class="stat"><strong>Ilhas</strong><span>Açores e Madeira</span></div>
-      <div class="stat"><strong>Dados</strong><span>informação organizada e datada</span></div>
-      <div class="stat"><strong>Fontes</strong><span>rastreabilidade e contexto</span></div>
+      <div class="stat"><strong>28</strong><span>pontos turísticos de Amadora normalizados</span></div>
+      <div class="stat"><strong>ALTO</strong><span>nível de confiança no lote validado</span></div>
+      <div class="stat"><strong>0</strong><span>duplicações no lote de Amadora</span></div>
+      <div class="stat"><strong>0</strong><span>perdas na normalização do lote</span></div>
     </div>
   </div>
 
@@ -153,30 +166,92 @@
       <div class="destinations">
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto"><div class="image-place-card" aria-label="Local da fotografia: Porto, Rio Douro">Porto · Rio Douro</div></div>
-          <div class="body"><span class="tag">Norte</span><h3>Porto &amp; Douro</h3><p>Património urbano, rio, vinho, paisagem e acesso ao Norte de Portugal.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Douro,_Porto.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Explorar estrutura continental →</a></div>
+          <div class="body"><span class="tag">Norte</span><h3>Porto &amp; Douro</h3><p>Património urbano, rio, vinho, paisagem e acesso ao Norte de Portugal.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Douro,_Porto.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra"><div class="image-place-card" aria-label="Local da fotografia: Sintra, Palácio Nacional">Sintra · Palácio Nacional</div></div>
-          <div class="body"><span class="tag">Lisboa · Património</span><h3>Sintra</h3><p>Paisagem cultural, palácios, parques e uma das áreas turísticas mais emblemáticas do país.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Palacio_nacional_de_Sintra.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+          <div class="body"><span class="tag">Lisboa · Património</span><h3>Sintra</h3><p>Paisagem cultural, palácios, parques e uma das áreas turísticas mais emblemáticas do país.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Palacio_nacional_de_Sintra.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol"><div class="image-place-card" aria-label="Local da fotografia: Algarve, Portugal">Algarve · Portugal</div></div>
-          <div class="body"><span class="tag">Sul · Atlântico</span><h3>Algarve</h3><p>Litoral, praias, falésias, natureza e destinos urbanos para diferentes perfis de viagem.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Algarve_Beach.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+          <div class="body"><span class="tag">Sul · Atlântico</span><h3>Algarve</h3><p>Litoral, praias, falésias, natureza e destinos urbanos para diferentes perfis de viagem.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Algarve_Beach.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira"><div class="image-place-card" aria-label="Local da fotografia: Madeira, Portugal">Madeira · Portugal</div></div>
-          <div class="body"><span class="tag">Ilhas · Madeira</span><h3>Madeira</h3><p>Montanha, levadas, costa atlântica, natureza e identidade insular.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Madeira_Portugal.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
+          <div class="body"><span class="tag">Ilhas · Madeira</span><h3>Madeira</h3><p>Montanha, levadas, costa atlântica, natureza e identidade insular.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Madeira_Portugal.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores"><div class="image-place-card" aria-label="Local da fotografia: Sete Cidades, São Miguel, Açores">Sete Cidades · São Miguel · Açores</div></div>
-          <div class="body"><span class="tag">Ilhas · Açores</span><h3>Açores</h3><p>Vulcanismo, lagoas, paisagens atlânticas e experiências ligadas à natureza.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Sete_cidades.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
+          <div class="body"><span class="tag">Ilhas · Açores</span><h3>Açores</h3><p>Vulcanismo, lagoas, paisagens atlânticas e experiências ligadas à natureza.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Sete_cidades.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
         <article class="destination">
           <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa"><div class="image-place-card" aria-label="Local da fotografia: Lisboa, Portugal">Lisboa · Portugal</div></div>
-          <div class="body"><span class="tag">Capital · Tejo</span><h3>Lisboa</h3><p>História, bairros, museus, gastronomia, mobilidade e ligação a Sintra e Cascais.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Lisboa_panorama.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
+          <div class="body"><span class="tag">Capital · Tejo</span><h3>Lisboa</h3><p>História, bairros, museus, gastronomia, mobilidade e ligação a Sintra e Cascais.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Lisboa_panorama.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a></div>
         </article>
       </div>
       <p class="gallery-note">Créditos e licenças das imagens: cada cartão identifica a página do ficheiro no Wikimedia Commons. A utilização deve respeitar os termos da licença indicada pelo autor.</p>
+    </div>
+  </section>
+
+  <section id="informacao-validada" class="validated">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Informação já validada</div>
+        <h2>Mais conteúdo, sem inventar dados.</h2>
+        <p class="muted">O site pode crescer imediatamente com informação que já passou pela camada de normalização. Os campos ainda não verificados permanecem fora da publicação.</p>
+      </div>
+      <div class="validated-grid">
+        <article class="validated-panel">
+          <span class="validation-badge">Amadora · Lisboa · verificado</span>
+          <h3>28 pontos turísticos já normalizados</h3>
+          <p class="muted">O lote de 4 de outubro de 2026 apresenta 28 registros, sem perdas, sem duplicações e com IDs canônicos estáveis. A confiança indicada para o lote é alta.</p>
+          <ul class="validated-list">
+            <li>Aqueduto Geral das Águas Livres</li>
+            <li>Necrópole de Carenque</li>
+            <li>Casa Roque Gameiro</li>
+            <li>Núcleo Museológico do Casal da Falagueira</li>
+            <li>Núcleo Museológico do Moinho do Penedo</li>
+            <li>Villa Romana da Quinta da Bolacha</li>
+            <li>Aqueduto Romano da Amadora</li>
+            <li>Aqueduto da Gargantada / Nascentes da Gargantada</li>
+            <li>Quinta do Assentista</li>
+            <li>Palácio/Quinta dos Condes da Lousã</li>
+            <li>Casa da Ordem de Malta / Casal da Falagueira de Cima</li>
+            <li>Casa Aprígio Gomes</li>
+            <li>Fachada da Casa do Infantado / Palácio da Porcalhota</li>
+            <li>Moradia Neorromântica / Chalet Desideria</li>
+            <li>Igreja Matriz da Amadora</li>
+            <li>Capela da Falagueira / Nossa Senhora da Lapa</li>
+            <li>Chafariz da Porcalhota</li>
+            <li>Mina de Água e Jardim da Mina</li>
+            <li>Parque Delfim Guimarães</li>
+            <li>Ponte Filipina / Ponte de Carenque de Baixo</li>
+            <li>Quinta do Outeiro</li>
+            <li>Quinta de São Miguel</li>
+            <li>Recreios da Amadora</li>
+            <li>Portas de Benfica</li>
+            <li>Moinho do Castelinho</li>
+            <li>Quinta Grande de Alfragide</li>
+            <li>Vila Martelo</li>
+            <li>Edifício Torreado da Fábrica dos Cabos Ávila</li>
+          </ul>
+          <p class="public-note">Estado: normalizado. Endereços, coordenadas, horários, preços, contactos e outros campos operacionais só entram quando forem individualmente verificados.</p>
+        </article>
+        <article class="validated-panel">
+          <span class="validation-badge">Mobilidade · corte 04/10/2026</span>
+          <h3>Passe Ferroviário Verde</h3>
+          <p class="muted">A base validada do projeto regista cobertura nacional nos serviços ferroviários abrangidos, com uma exclusão importante: o Alfa Pendular não está incluído.</p>
+          <ul class="transport-list">
+            <li><strong>Regional</strong>Válido nos percursos nacionais elegíveis.</li>
+            <li><strong>InterRegional</strong>Válido nos percursos nacionais elegíveis.</li>
+            <li><strong>Intercidades</strong>2.ª classe, com reserva antecipada obrigatória e gratuita.</li>
+            <li><strong>Urbanos de Lisboa</strong>Rede CP abrangida pelas regras em vigor.</li>
+            <li><strong>Urbanos do Porto</strong>Rede CP abrangida pelas regras em vigor.</li>
+            <li><strong>Urbanos de Coimbra</strong>Cobertura dos percursos elegíveis da rede urbana.</li>
+          </ul>
+          <div class="notice"><strong>Exclusão:</strong> Alfa Pendular — não válido. A informação é datada e deve ser reconfirmada antes da viagem.</div>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -213,12 +288,10 @@
       <div class="section-head">
         <div class="kicker">Confiança operacional</div>
         <h2>Fontes, atualização e governança.</h2>
-        <p>O site público deve refletir um projeto que pode ser verificado. Por isso, a organização documental e o código permanecem no repositório oficial.</p>
+        <p>O site público apresenta informação selecionada e validada, mantendo visível a data de corte quando os dados são sensíveis à atualização.</p>
       </div>
       <div class="sources">
-        <article class="source"><h3>Governança</h3><p>Regras do projeto, decisões e documentos de referência ficam organizados no repositório.</p><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/GOVERN%C3%87A" target="_blank" rel="noopener">Consultar governança →</a></article>
-        <article class="source"><h3>Território</h3><p>Continente e ilhas possuem estruturas próprias para permitir expansão progressiva.</p><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Abrir repositório →</a></article>
-        <article class="source"><h3>Imagens</h3><p>As fotografias usadas nesta página identificam a origem e remetem para as páginas dos ficheiros no Wikimedia Commons.</p><a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons →</a></article>
+        <article class="source"><h3>Imagens</h3><p>As fotografias usadas nesta página identificam a origem e a licença através da página pública do respetivo ficheiro.</p><span class="muted">Origem identificada no próprio cartão.</span></article>
       </div>
     </div>
   </section>
@@ -227,7 +300,6 @@
 <footer>
   <div class="wrap footer-row">
     <div><strong>TURISTURIS</strong><br>Inteligência turística de Portugal.</div>
-    <div><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">GitHub</a></div>
     <div class="credit">Projeto em evolução. Informação turística pode mudar; horários, preços, contactos e condições devem ser confirmados junto da fonte responsável antes de uma decisão de viagem.</div>
   </div>
 </footer>
