@@ -1,0 +1,59 @@
+name: TURISTURIS — Captura oficial RNET/RNAL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capturar:
+    name: Capturar fichas oficiais e persistir evidência
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Instalar dependências
+        run: python3 -m pip install requests beautifulsoup4
+
+      - name: Executar captura oficial
+        id: capture
+        continue-on-error: true
+        run: python3 scripts/capturar_fichas_rnet_rnal.py | tee captura-rnet-rnal-result.json
+
+      - name: Verificar evidências geradas
+        run: |
+          test -f "FICHAS OFICIAIS RNET/6803/audit/manifest.json"
+          test -f "FICHAS OFICIAIS RNAL/15642/audit/manifest.json"
+
+      - name: Persistir evidências no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "FICHAS OFICIAIS RNET/6803" "FICHAS OFICIAIS RNAL/15642"
+          if git diff --cached --quiet; then
+            echo "Nenhuma nova evidência para persistir."
+          else
+            git commit -m "DATA: persistir evidência oficial RNET 6803 e RNAL 15642"
+            git push
+          fi
+
+      - name: Publicar resultado da captura
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TURISTURIS-CAPTURA-RNET-RNAL-RESULTADO
+          path: |
+            captura-rnet-rnal-result.json
+            FICHAS OFICIAIS RNET/6803/audit/manifest.json
+            FICHAS OFICIAIS RNAL/15642/audit/manifest.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Falhar se a captura oficial falhou
+        if: steps.capture.outcome == 'failure'
+        run: |
+          echo "CAPTURA OFICIAL FALHOU. A falha foi registrada como evidência; não há autorização para tratar exemplos como evidência oficial."
+          exit 1
