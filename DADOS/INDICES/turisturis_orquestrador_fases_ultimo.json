@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "process": "ORQUESTRADOR_FASES_TURISTURIS",
-  "timestamp_utc": "2026-10-06T15:33:16.621622+00:00",
-  "requested_phase": "ALL",
+  "timestamp_utc": "2026-10-06T16:44:49.176875+00:00",
+  "requested_phase": "A",
   "repository": "carlos-andrade/TURISTURIS",
   "phases": [
     {
@@ -39,67 +39,6 @@
           "gate": "A6 — regras de publicação pública",
           "status": "PASS",
           "detail": "Freguesia → Município → Distrito; Website e estados internos ocultos"
-        }
-      ]
-    },
-    {
-      "id": "B",
-      "name": "Padronização territorial",
-      "status": "PASS",
-      "gates": [
-        {
-          "gate": "B1 — governação territorial",
-          "status": "PASS",
-          "detail": "As 4 cartas regentes contêm o padrão territorial"
-        },
-        {
-          "gate": "B2 — modelo territorial estruturado",
-          "status": "PASS",
-          "detail": "Território estruturado; não depende de texto manual da ficha pública"
-        }
-      ]
-    },
-    {
-      "id": "C",
-      "name": "Escala territorial",
-      "status": "PASS",
-      "gates": [
-        {
-          "gate": "C1.A — pré-requisitos da Fase A",
-          "status": "PASS",
-          "detail": "Todos os gates da Fase A estão aprovados."
-        },
-        {
-          "gate": "C1.B — pré-requisitos da Fase B",
-          "status": "PASS",
-          "detail": "Todos os gates da Fase B estão aprovados."
-        },
-        {
-          "gate": "C1 — expansão territorial",
-          "status": "PASS",
-          "detail": "Fase A e Fase B aprovadas integralmente; Fase C elegível para promoção."
-        }
-      ]
-    },
-    {
-      "id": "D",
-      "name": "Consolidação do portal",
-      "status": "PASS",
-      "gates": [
-        {
-          "gate": "D1.A — pré-requisito da Fase C",
-          "status": "PASS",
-          "detail": "Fase C aprovada integralmente."
-        },
-        {
-          "gate": "D1.B — catálogo público consolidado",
-          "status": "PASS",
-          "detail": "Catálogo público RNAL de Peso da Régua com 182 registos"
-        },
-        {
-          "gate": "D1.C — publicação pública do portal",
-          "status": "PASS",
-          "detail": "Portal contém a secção de alojamentos, território canónico e não expõe estados internos"
         }
       ]
     }
