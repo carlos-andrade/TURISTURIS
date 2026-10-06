@@ -11,7 +11,7 @@ on:
       - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_alojamentos.py"
       - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
       - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/**"
-      - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V1.json"
+      - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json"
   workflow_dispatch:
 
 permissions:
