@@ -114,7 +114,17 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/chapel-of-santa-iria?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "horario": "Verão (abril a setembro): quarta-feira a domingo, das 14h00 às 18h00. Inverno (outubro a março): quarta-feira a domingo, das 14h00 às 17h00. Encerrado em 1 de janeiro, 1 de maio e 25 de dezembro.",
+        "telefone_internacional": [
+          "+351 249 329 823"
+        ],
+        "morada": "Rua Marquês de Pombal, Tomar - Portugal",
+        "email": "turismo@cm-tomar.pt",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/capela-de-santa-iria",
+        "data_verificacao": "2026-10-06"
+      }
     },
     {
       "ordem": 7,
@@ -385,7 +395,12 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Details/alvaiazere-palace?cat=wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "morada": "Avenida General Tamagnini de Abreu, 36, Tomar - Portugal",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/palacio-de-alvaiazere",
+        "data_verificacao": "2026-10-06"
+      }
     },
     {
       "ordem": 20,
@@ -396,7 +411,12 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/Places/Index/wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "catalogo_oficial"
+      "tipo_fonte": "catalogo_oficial",
+      "operacional": {
+        "descricao_operacional": "Ponte localmente conhecida como Ponte Velha, com linha arquitetónica de carácter romano e sucessivas alterações ao longo dos séculos.",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/historic-tour",
+        "data_verificacao": "2026-10-06"
+      }
     },
     {
       "ordem": 21,
@@ -407,7 +427,13 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/Places/Index/wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "catalogo_oficial"
+      "tipo_fonte": "catalogo_oficial",
+      "operacional": {
+        "descricao_operacional": "Roda hidráulica em madeira com alcatruzes de barro, junto ao Parque do Mouchão; a fonte oficial identifica-a como ex-libris da cidade e descreve o seu funcionamento hidráulico.",
+        "morada": "Parque do Mouchão, Tomar - Portugal",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/poi/historic-tour",
+        "data_verificacao": "2026-10-06"
+      }
     },
     {
       "ordem": 22,
@@ -418,7 +444,12 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://www.turismo.cm-tomar.pt/poi/mata-nacional-dos-sete-montes-or-cerca-do-convento-de-cristo",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "pagina_oficial"
+      "tipo_fonte": "pagina_oficial",
+      "operacional": {
+        "descricao_operacional": "A Charolinha é uma casa de fresco situada no coração da Mata Nacional dos Sete Montes; a fonte oficial enquadra-a como elemento histórico do espaço.",
+        "fonte_operacional_url": "https://www.turismo.cm-tomar.pt/Places/Index/wtd",
+        "data_verificacao": "2026-10-06"
+      }
     },
     {
       "ordem": 23,
@@ -457,9 +488,9 @@
   "record_count": 25,
   "t1_operacional": {
     "data_verificacao": "2026-10-06",
-    "registos_enriquecidos": 17,
-    "registos_com_proveniência_operacional": 17,
-    "registos_ainda_sem_dados_operacionais_especificos": 8,
+    "registos_enriquecidos": 22,
+    "registos_com_proveniência_operacional": 22,
+    "registos_ainda_sem_dados_operacionais_especificos": 3,
     "regra": "Somente campos encontrados em fontes oficiais; não preencher lacunas por inferência."
   }
 }

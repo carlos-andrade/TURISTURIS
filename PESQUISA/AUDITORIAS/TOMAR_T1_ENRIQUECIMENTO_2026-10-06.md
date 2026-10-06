@@ -91,3 +91,18 @@ Foi executado enriquecimento operacional com base exclusivamente em páginas ofi
 - Nenhum registo foi promovido para `VERIFICADO`.
 
 O checkpoint operacional T1 foi executado parcialmente: a proveniência permanece completa para 25/25 e o enriquecimento operacional agora cobre 17/25. A validação formal continua bloqueada até conclusão do enriquecimento T1 definido no ROADMAP.
+
+
+## Nova execução — evidências operacionais adicionais — 2026-10-06
+
+Nova verificação das fontes oficiais acrescentou dados operacionais/proveniência específica a **5 pontos**: Convento de Santa Iria, Palácio de Alvaiázere, Ponte D. Manuel I / Ponte Velha, Roda do Mouchão e Charolinha. O total com bloco operacional persistido passa de 17/25 para **22/25**.
+
+- Convento de Santa Iria: horário, contacto +351 249 329 823, morada e email.
+- Palácio de Alvaiázere: morada oficial.
+- Ponte D. Manuel I / Ponte Velha: descrição específica na rota histórica oficial.
+- Roda do Mouchão: descrição específica e morada oficial.
+- Charolinha: descrição específica na fonte oficial do catálogo.
+
+Persistem **3/25** registos sem dados operacionais específicos suficientes nesta execução: Jardim das Musas, Jardim Manuel Costa Rosa e Casa dos Vereadores. Não foram preenchidos por inferência.
+
+A validação formal continua bloqueada enquanto estes três registos não tiverem evidência operacional suficiente, salvo decisão formal de encerramento de T1 por suficiência de dados.
