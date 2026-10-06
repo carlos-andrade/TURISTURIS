@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """WEB-12.6 — recolha controlada de contactos públicos das fichas RNAL do RNT."""
+import html
 import json, os, re, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -19,19 +20,24 @@ def fetch(r):
         return {"id":r.get("id"),"status":"SEM_ID"}
     url="https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr="+str(sid)
     try:
-        req=Request(url,headers={"User-Agent":UA})
-        html=urlopen(req,timeout=20).read().decode("utf-8","ignore")
+        req=Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml"})
+        html_text=urlopen(req,timeout=20).read().decode("utf-8","ignore")
     except HTTPError as e:
         status="NAO_ENCONTRADO" if e.code == 404 else "ERRO_HTTP"
         return {"id":r.get("id"),"id_origem":sid,"status":status,"http_code":e.code,"erro":str(e)[:200]}
     except (URLError,TimeoutError) as e:
         return {"id":r.get("id"),"id_origem":sid,"status":"ERRO_REDE","erro":str(e)[:200]}
-    text=clean(re.sub(r"<[^>]+>"," ",html.replace("</tr>","\n").replace("</td>"," | "))) or ""
-    m=re.search(r"Contactos\s+(.{0,800}?)(?:Nota:|Seguro de Responsabilidade Civil)",text,re.I|re.S)
-    contacts=clean(m.group(1)) if m else None
+    text=clean(html.unescape(re.sub(r"<[^>]+>"," ",html_text.replace("</tr>","\n").replace("</td>"," | ")))) or ""
+    matches=list(re.finditer(r"Contactos",text,re.I))
+    contacts=None
+    if matches:
+        start=matches[-1].end()
+        tail=text[start:]
+        stop=re.search(r"(?:Nota:|Seguro de Responsabilidade Civil)",tail,re.I)
+        contacts=clean(tail[:stop.start()] if stop else tail[:800])
     phones=sorted(set(re.findall(r"(?<!\d)(?:\+351\s*)?(?:2\d{2}|9\d{2})[\s.-]?\d{3}[\s.-]?\d{3}(?!\d)",contacts or "")))
     emails=sorted(set(re.findall(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",contacts or "",re.I)))
-    if not m:
+    if not matches:
         status="PAGINA_SEM_BLOCO_CONTACTOS"
     elif not phones and not emails:
         status="SEM_CONTACTOS"
@@ -44,7 +50,7 @@ def main():
     rows=json.loads(src.read_text(encoding="utf-8"))["records"]
     offset=max(0,int(os.getenv("RNAL_OFFSET","0")))
     limit=int(os.getenv("RNAL_LIMIT","50"))
-    workers=max(1,min(8,int(os.getenv("RNAL_WORKERS","4"))))
+    workers=max(1,min(4,int(os.getenv("RNAL_WORKERS","4"))))
     if limit <= 0:
         raise ValueError("RNAL_LIMIT deve ser > 0")
     rows=rows[offset:offset+limit]
