@@ -85,6 +85,7 @@ jobs:
           SLUG=$(python3 -c 'import os,re,unicodedata; s=unicodedata.normalize("NFKD",os.environ["RNAL_MUNICIPIO"]).encode("ascii","ignore").decode().lower(); print(re.sub(r"[^a-z0-9]+","-",s).strip("-"))')
           mkdir -p "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG"
           cp CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG/rnal_contactos_offset_${RNAL_OFFSET}.json"
+          python3 CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_nacional_v1.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG"
