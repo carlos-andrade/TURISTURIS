@@ -11,6 +11,7 @@ jobs:
     name: Capturar fichas oficiais e persistir evidência
     runs-on: ubuntu-24.04
     timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -21,14 +22,19 @@ jobs:
       - name: Executar captura oficial
         id: capture
         continue-on-error: true
-        run: python3 scripts/capturar_fichas_rnet_rnal.py | tee captura-rnet-rnal-result.json
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 scripts/capturar_fichas_rnet_rnal.py | tee captura-rnet-rnal-result.json
 
       - name: Verificar evidências geradas
+        if: always()
         run: |
           test -f "FICHAS OFICIAIS RNET/6803/audit/manifest.json"
           test -f "FICHAS OFICIAIS RNAL/15642/audit/manifest.json"
 
       - name: Persistir evidências no repositório
+        if: steps.capture.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -42,7 +48,7 @@ jobs:
 
       - name: Publicar resultado da captura
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: TURISTURIS-CAPTURA-RNET-RNAL-RESULTADO
           path: |
