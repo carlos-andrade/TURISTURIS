@@ -52,6 +52,8 @@ jobs:
           assert run_id.isdigit() and int(run_id) > 0, "normalization_run_id inválido"
           assert offset >= 0, "RNAL_OFFSET inválido"
           assert 1 <= limit <= 500, "RNAL_LIMIT deve estar entre 1 e 500"
+          municipio = os.environ.get("RNAL_MUNICIPIO", "").strip()
+          assert municipio.casefold() == "peso da régua", "RNAL_MUNICIPIO deve ser Peso da Régua"
           assert 1 <= workers <= 4, "RNAL_WORKERS deve estar entre 1 e 4"
           print({"normalization_run_id": run_id, "offset": offset, "limit": limit, "workers": workers})
           PY
@@ -74,8 +76,13 @@ jobs:
           from pathlib import Path
           p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
           d=json.loads(p.read_text(encoding="utf-8"))
+          assert d["municipio"] == "Peso da Régua", "município de saída inválido"
+          assert d["target_total"] == 182, f"universo inválido: {d["target_total"]}"
+          assert d["offset"] == int(os.environ["RNAL_OFFSET"]), "offset divergente"
           assert 0 < d["record_count"] <= int(os.environ["RNAL_LIMIT"])
           assert all("id" in r and "id_origem" in r and "status" in r for r in d["records"])
+          ids=[r["id_origem"] for r in d["records"]]
+          assert len(ids) == len(set(ids)), "id_origem duplicado no lote"
           print(json.dumps({
             "offset": d["offset"], "limit": d["limit"],
             "records": d["record_count"],
