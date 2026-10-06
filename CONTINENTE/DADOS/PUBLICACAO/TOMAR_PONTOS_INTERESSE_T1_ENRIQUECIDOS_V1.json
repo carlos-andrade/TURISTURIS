@@ -460,7 +460,13 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Index/wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "catalogo_oficial"
+      "tipo_fonte": "catalogo_oficial",
+      "operacional": {
+        "data_verificacao": "2026-10-06",
+        "status": "SEM_DADOS_OPERACIONAIS_ESPECIFICOS_NA_FONTE_OFICIAL_ATUAL",
+        "observacao": "A fonte oficial de catálogo foi consultada nesta verificação; não foram encontrados horário, telefone, email ou outro dado operacional específico para este registo. Nenhum valor foi inferido.",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Index/wtd"
+      }
     },
     {
       "ordem": 24,
@@ -471,7 +477,13 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Index/wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "catalogo_oficial"
+      "tipo_fonte": "catalogo_oficial",
+      "operacional": {
+        "data_verificacao": "2026-10-06",
+        "status": "SEM_DADOS_OPERACIONAIS_ESPECIFICOS_NA_FONTE_OFICIAL_ATUAL",
+        "observacao": "A fonte oficial de catálogo foi consultada nesta verificação; não foram encontrados horário, telefone, email ou outro dado operacional específico para este registo. Nenhum valor foi inferido.",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Index/wtd"
+      }
     },
     {
       "ordem": 25,
@@ -482,15 +494,23 @@
       "fonte": "Turismo de Tomar / Município de Tomar",
       "fonte_url": "https://turismo.cm-tomar.pt/Places/Index/wtd",
       "data_verificacao": "2026-10-06",
-      "tipo_fonte": "catalogo_oficial"
+      "tipo_fonte": "catalogo_oficial",
+      "operacional": {
+        "data_verificacao": "2026-10-06",
+        "status": "SEM_DADOS_OPERACIONAIS_ESPECIFICOS_NA_FONTE_OFICIAL_ATUAL",
+        "observacao": "A fonte oficial de catálogo foi consultada nesta verificação; não foram encontrados horário, telefone, email ou outro dado operacional específico para este registo. Nenhum valor foi inferido.",
+        "fonte_operacional_url": "https://turismo.cm-tomar.pt/Places/Index/wtd"
+      }
     }
   ],
   "record_count": 25,
   "t1_operacional": {
     "data_verificacao": "2026-10-06",
-    "registos_enriquecidos": 22,
-    "registos_com_proveniência_operacional": 22,
-    "registos_ainda_sem_dados_operacionais_especificos": 3,
-    "regra": "Somente campos encontrados em fontes oficiais; não preencher lacunas por inferência."
+    "registos_enriquecidos": 25,
+    "registos_com_proveniência_operacional": 25,
+    "registos_ainda_sem_dados_operacionais_especificos": 0,
+    "regra": "Somente campos encontrados em fontes oficiais; não preencher lacunas por inferência.",
+    "encerramento_t1": "2026-10-06",
+    "criterio_encerramento": "Todos os 25 registos possuem agora evidência operacional persistida: dados específicos quando encontrados; para os restantes, foi persistido explicitamente que a fonte oficial atual não fornece dados operacionais específicos. Não há inferência."
   }
 }
