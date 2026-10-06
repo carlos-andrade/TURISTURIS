@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head><script type="text/javascript" charset="UTF-8">
+(function (global) {
+    global.outsystems = global.outsystems || {};
+    global.outsystems.internal = global.outsystems.internal || {};
+})(this);
+outsystems.internal.timerspolyfillResponseStart = new Date().getTime();
+outsystems.internal.startInstant = new Date();
+outsystems.internal.requestEventName = 'WebScreenClientExecuted';
+outsystems.internal.beaconRESTURL = '/PerformanceProbe/rest/BeaconInternal/WebScreenClientExecutedEvent';
+</script><title>
+	RNAL 142750/AL
+</title><meta name="viewport" content="width=device-width, initial-scale=1" /><link type="image/x-icon" rel="shortcut icon" href="/RNT/img/favicon.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" /><meta http-equiv="Content-Style-Type" content="text/css" />
+<style>
+.OSFillParent { 
+ display: block;
+ width: 100%;
+}
+table.OSFillParent {
+ display: table;
+}
+input.OSFillParent,
+button.OSFillParent,
+select.OSFillParent,
+textarea.OSFillParent {
+ display: inline-block;
+ box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+}
+.OSInline {
+ display: inline-block;
+ *zoom: 1;
+ *display: inline;
+ vertical-align: top;
+}
+table.OSInline {
+ display: inline-table;
+}
+.OSAutoMarginTop {
+ margin-top: 10px;
+}
+table[class*="ThemeGrid_Width"] {
+ display: inline-table;
+ vertical-align: top;
+}
+div[class*="ThemeGrid_Width"] {
+ vertical-align: top;
+}
+th[class*="ThemeGrid_Width"],
+td[class*="ThemeGrid_Width"] {
+ display: table-cell;
+}
+[class*="ThemeGrid_Width"] {
+ display: inline-block;
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ *zoom: 1;
+ *display: inline;
+}
+.ThemeGrid_Container {
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+}
+
+</style>
+<link href="/RichWidgets/Blocks/RichWidgets/RichWidgets/MenuSlider.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RichWidgets/Blocks/RichWidgets/jQueryUI/jQueryUIInternal.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RichWidgets/Blocks/RichWidgets/RichWidgets/Feedback_Message.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RichWidgets/Blocks/RichWidgets/RichWidgets/ResponsiveTableRecords.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RichWidgets/Blocks/RichWidgets/RichWidgets/Feedback_AjaxWait.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RichWidgets/Blocks/RichWidgets/RichWidgets/Icon.css?25875" type="text/css" rel="stylesheet" />
+<link href="/RNT/Blocks/RNT/Common/LoginInfo.css?32712" type="text/css" rel="stylesheet" />
+<link href="/EnvironmentIdentifier/Blocks/EnvironmentIdentifier/Ribbon/Ribbon.css?26106" type="text/css" rel="stylesheet" />
+    <link href="Theme.RNT.css?32712" type="text/css" rel="stylesheet" />
+    <link href="RNAL.css?32712" type="text/css" rel="stylesheet" />
+    <link href="Theme.RNT.extra.css?32712" type="text/css" rel="stylesheet" />
+    <script id="_OSrequestInfoScript" type="text/javascript">(function(global) { global.outsystems = global.outsystems || {};global.outsystems.internal = global.outsystems.internal || {};global.outsystems.internal.requestInfo = {visitorKey:'63a83e07-1496-46cb-9f13-225be156b057',visitKey:'b165e65d-317c-4e89-b593-449b85d67bd8',sessionKey:'O1ZpL/MIakONVgtDxrzSmg==',userKey:'',requestKey:'ab8c500f-9a12-4cec-ac5a-0d30ca63ecbc',webScreenKey:'5aa4b19a-4d67-4b0c-a3bc-d74d2e7e733c',webScreenName:'RNAL',espaceKey:'7c6c01c4-53a2-45c2-b296-67b7f22fb87b',espaceName:'RNT',applicationKey:'559a571a-588d-424a-97dc-b89fc3ea3ed2',applicationName:'RNT',tenantKey:'666d9979-32be-4b2d-5271-d267d996bfca',tenantName:'EnterpriseManager',environmentKey:'175968b1-8f1c-411c-9efd-6faed284dc39',environmentName:'OutProd',frontendKey:'$1$IhKT0DT5Hg8bBJyC02rLeA==09ZAre9U6qUs8Q9ypfim+Fsu0tkQWavuYRk1NVILWMc='}})(this);</script>
+    <script src="_osjs.js?11_11_2_29611" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/RichWidgets/MenuSlider.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/jQueryUI/jQueryUIInternal.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/jQueryUI/jQueryComponents.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/RichWidgets/Feedback_Message.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/RichWidgets/ResponsiveTableRecords.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+    <script src="/RNT/Blocks/RichWidgets/RichWidgets/Feedback_AjaxWait.pt.js?25875" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+  <body>
+    <form method="post" action="RNAL.aspx" id="WebForm1" name="WebForm1">
+<input type="hidden" name="__OSVSTATE" id="__OSVSTATE" value="CVeM2+FLmhSv5rVGRap6uifWo3kyU7tw3BU21ydHDgq4SG7GLEvPty9U4QEscJdYxr7RfdqucibKVHMtDHqhBfA4zc3BiKbHYaCxfJgqf82UtpgW2Hnu/udq+31qmoVXVw17SWlPlk/fBRWGaJoWmhbUz1jshvd3r648uJMQbScH0FAXRLb4VkkFBqOKvCj8863Z4WjLfPkeq/OmQzF4IiAuT6u6Jpq1ATp/+WXdP+r6RIKGS1VZ2kxgjCofV3dbenyWWPSp2cBtsxMjpRS1pN12Q7yQo9OXt9CdYwU6X2742WZE6ur8Ino2hCLOzoOx6S1/mVQvpgQD3yKnsEqLb2qr6L2Q2nXXCgtKb/OTFMn4EJzZG1iRDLVGSVsFADaAg5FP3iTJqfHPPzWWldpNltXg4c9tUE0pA73WdJD5Dcq7MAxFY3baZrDslvnM0bXZDlDOiv4kQBD+4kBrO5RMTg==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A74DF0EF" />
+<div  class="Header ThemeGrid_Wrapper Responsive"><div  class="ThemeGrid_Container"><div  class="Header_RightSection HiddenInDesktop"><div  class="MenuSlider_Toggler"><span class="fa fa-bars"></span></div ></div ><div  id="RichWidgets_wt7_block_wtHeader" class="Header_LeftSection"><div  class="div_site"><table style="border-spacing: 10px;margin-top: 0px;" cellspacing="10" class="OSFillParent">
+	<tr>
+		<td style="width: 110px;"><a id="RichWidgets_wt7_block_wtHeader_wt4_wt8" tabindex="1" target="_blank" href="http://www.turismodeportugal.pt/pt/Paginas/homepage.aspx"><img alt="" src="/RNT/img/logotipo_institucional_preto.png?32712" style="margin-right: 1px; padding: 0px;" /></a></td>
+		<td style="width: 120px;"><div ><a id="RichWidgets_wt7_block_wtHeader_wt4_wt4" tabindex="2" href="HomePage.aspx"><img alt="" src="/RNT/img/rnt_v1_pos_fr1.png?32712" style="margin-top: 0px;" /></a></div ></td>
+		<td><div  class="Header_Greetings OSInline" style="border-color: #b22222; border-radius: 0px; border-style: solid; border-width: 0px; margin-top: 0px; padding: 0px 10px 0px 10px;"><div  class="HiddenInSmartphone" style="border-color: #444; border-radius: 4px; border-style: solid; border-width: 1px; font-size: 16px; padding: 4px 8px 4px 8px;"><a id="RichWidgets_wt7_block_wtHeader_wt4_wt13_wtbtAreaReservada" tabindex="3" href="https://rnt-areareservada.turismodeportugal.pt/"><div ><div  class="OSInline" style="color: #444; font-size: 20px; height: 0px; margin-right: 0px; margin-top: 0px;"><span class="fa fa-fw fa-user"></span></div ><div  class="OSInline" style="padding: 2px;"><div  style="margin-top: 2px;"><span style="color: #444; font-size: 16px; font-weight: bold;">&#193;rea Reservada</span></div ></div ></div ></a></div ></div ></td>
+	</tr>
+</table></div ></div ></div ><div  class="Header_Menu" style="margin-top: 0px;"><div  class="ThemeGrid_Container "><div  id="RichWidgets_wt7_block_wtMenu"></div ></div ></div ></div ><div  class="Content ThemeGrid_Wrapper Responsive"><div  class="ThemeGrid_Container" style="margin-top: 0px;"><div  class="Title_Section"><div  id="RichWidgets_wt7_block_wtTitle" class="Heading1 Title OSInline"></div ><div  id="RichWidgets_wt7_block_wtActions" class="Actions OSInline"></div ></div ><div  id="RichWidgets_wt7_block_wtMainContent" class="MainContent"><div  class="div_site"><div  style="color: #8bc63f; font-size: 28px; margin-bottom: 30px; margin-top: 0px; padding: 0px;"><span style="font-weight: bold;">Registo Nacional de Estabelecimentos de Alojamento Local</span></div ><div  class="CardBorderGreen" style="padding: 20px;"><div  class="div_site"><div  style="border-bottom-style: solid; border-color: #8bc63f; border-left-style: initial; border-radius: 0px; border-right-style: initial; border-top-style: initial; border-width: 0px 0px 2.5px 0px; font-size: 26px; padding: 5px;"><span style="font-weight: bold;">RNAL n&#186; 142750/AL</span></div ><div  style="padding: 10px;"><div  style="font-size: 14px;"><span style="font-size: 14px; font-weight: bold;">Registado em </span><span style="font-size: 14px; font-weight: bold;">2023-04-12</span></div ><div  class="ThemeGrid_Width9" style="margin-top: 20px;"><table id="RichWidgets_wt7_block_wtMainContent_wt2_wtShowRecordAlocajamento" class="ShowRecord OSFillParent" border="0" style="font-size: 14px;">
+	<tr>
+		<td class="ShowRecord_Caption ThemeGrid_Width4">Nome do Alojamento</td>
+		<td class="ShowRecord_Value"><span class="Bold">FLATTERED TO BE IN TOMAR</span></td>
+	</tr>
+	<tr>
+		<td class="ShowRecord_Caption ThemeGrid_Width4">Data de abertura ao p&#250;blico</td>
+		<td class="ShowRecord_Value">2023-03-01</td>
+	</tr>
+	<tr style="Display:none;">
+		<td class="ShowRecord_Caption ThemeGrid_Width4">Data de registo na C&#226;mara Municipal</td>
+		<td class="ShowRecord_Value">1900-01-01</td>
+	</tr>
+	<tr style="">
+		<td class="ShowRecord_Caption ThemeGrid_Width4">Im&#243;vel posterior a 1951?</td>
+		<td class="ShowRecord_Value">N&#227;o</td>
+	</tr>
+	<tr>
+		<td class="ShowRecord_Caption ThemeGrid_Width4">N&#186; t&#237;tulo de autoriza&#231;&#227;o de utiliza&#231;&#227;o&#160;</td>
+		<td class="ShowRecord_Value" style="vertical-align: middle"></td>
+	</tr>
+</table></div ><div  class="ThemeGrid_Width3 ThemeGrid_MarginGutter"></div ><div  id="RichWidgets_wt7_block_wtMainContent_wt2_wtModalidade" class="OSInline" style="margin-right: 20px;"><div  style="font-weight: bold; margin-top: 30px;"><span style="font-size: 16px;">Modalidade</span></div ><div  style="background-color: #f3f6f8; border-radius: 8px; color: #444; font-size: 14px; font-weight: bold; margin-top: 10px; padding: 20px;"><span class="Bold" style="font-weight: bold;">Estabelecimento de hospedagem</span>  <span class="Bold" style="font-weight: bold;"></span></div ></div ><div  id="RichWidgets_wt7_block_wtMainContent_wt2_wtCapacidade" class="OSInline" style="margin-left: 0px"><div  class="OSInline" style="font-weight: bold; margin-top: 30px;"><span style="font-size: 16px;">Capacidade</span></div ><div  style="margin-top: 10px;"><table class="OSFillParent" style="border-color: #f3f6f8; border-radius: 8px; border-style: solid; border-width: 1px;">
+	<tr style="background-color: #f3f6f8;">
+		<td style="padding: 5px;"><div  align="center" style="font-size: 14px;"><span class="ShowRecord_Caption" style="font-style: normal;">N&#186; Utentes</span></div ></td>
+		<td style="padding: 5px;"><div  align="center" style="font-size: 14px;"><span class="ShowRecord_Caption Italic" style="font-style: normal;">N&#186; Quartos</span></div ></td>
+		<td style="padding: 5px;"><div  align="center" style="font-size: 14px;"><span class="ShowRecord_Caption Italic" style="font-style: normal;">N&#186; Camas</span></div ></td>
+		<td style="padding: 5px;Display:none;"><div  align="center"><span class="ShowRecord_Caption Italic" style="font-style: normal;">N&#186; Dormit&#243;rios</span></div ></td>
+		<td style="padding: 5px;Display:none;"><div  align="center"><span class="ShowRecord_Caption Italic" style="font-style: normal;">N&#186; Beliches</span></div ></td>
+	</tr>
+	<tr>
+		<td><div  align="center" style="padding: 5px;">8</div ></td>
+		<td style="padding: 5px;"><div  align="center">3</div ></td>
+		<td style="padding: 5px;"><div  align="center">7</div ></td>
+		<td style="padding: 5px;Display:none;"><div  align="center">0</div ></td>
+		<td style="padding: 5px;Display:none;"><div  align="center">0</div ></td>
+	</tr>
+</table></div ></div ><div  id="RichWidgets_wt7_block_wtMainContent_wt2_wtLocalizacao" style="font-weight: bold; margin-top: 30px;"><span style="font-size: 16px;">Localiza&#231;&#227;o</span></div ><div  id="RichWidgets_wt7_block_wtMainContent_wt2_wtTitular"><table class="TableRecords OSFillParent" cellspacing="0" id="RichWidgets_wt7_block_wtMainContent_wt2_wtTableRecords_Local" style="margin-top: 0px;">
+	<thead>
+		<tr>
+			<th class="TableRecords_Header">Tipo de via</th><th class="TableRecords_Header HiddenInSmartphone">Designa&#231;&#227;o da via</th><th class="TableRecords_Header">Porta</th><th class="TableRecords_Header">Andar</th><th class="TableRecords_Header">Lado</th><th class="TableRecords_Header">C&#243;digo Postal</th><th class="TableRecords_Header">Localidade Postal</th><th class="TableRecords_Header">Localidade</th><th class="TableRecords_Header">Informa&#231;&#227;o Geogr&#225;fica</th>
+		</tr>
+	</thead><tbody>
+		<tr>
+			<td class="TableRecords_OddLine"><div  class="HiddenInSmartphone">Rua</div ><div  class="ShowOnlyInSmartphone"><span class="HiddenInDesktop">Rua Santa Iria</span></div ></td><td class="TableRecords_OddLine HiddenInSmartphone">Santa Iria</td><td class="TableRecords_OddLine">21</td><td class="TableRecords_OddLine">2&#186;</td><td class="TableRecords_OddLine">ESQ.</td><td class="TableRecords_OddLine">2300-475</td><td class="TableRecords_OddLine">Tomar</td><td class="TableRecords_OddLine">Tomar</td><td class="TableRecords_OddLine"><div ><span style="font-weight: bold;">Freguesia:&#160;</span>S&#227;o Jo&#227;o Baptista e Santa Maria dos Olivais</div ><div ><span style="font-weight: bold;">Concelho:&#160;</span>Tomar</div ><div ><span style="font-weight: bold;">Distrito:&#160;</span>Santar&#233;m</div ></td>
+		</tr>
+	</tbody>
+</table></div ><div  style="font-weight: bold; margin-top: 40px;"><span style="font-size: 16px;">Identifica&#231;&#227;o do(s) titular(es)&#160;</span><span style="font-size: 12px; font-weight: normal;">(N&#186;: 1)</span></div ><div ><table class="TableRecords OSFillParent" cellspacing="0" id="RichWidgets_wt7_block_wtMainContent_wt2_wtTableRecords_Titular" style="margin-top: 0px;">
+	<thead>
+		<tr>
+			<th class="TableRecords_Header">Na qualidade de</th><th class="TableRecords_Header">NIPC/NIF</th><th class="TableRecords_Header" style="style">Firma ou denomina&#231;&#227;o social/Nome</th><th class="TableRecords_Header">Contactos</th>
+		</tr>
+	</thead><tbody>
+		<tr>
+			<td class="TableRecords_OddLine">Comodat&#225;rio</td><td class="TableRecords_OddLine">507026780</td><td class="TableRecords_OddLine">Rita Alves, Miguel Mateus &amp; Catarina Silva, Lda.</td><td class="TableRecords_OddLine"><div  class="OSInline" style="margin-right: 5px;"><span class="fa fa-fw fa-mobile-phone"></span>939146262</div ><div ><div  class="OSInline" style="margin-right: 5px;"><span class="fa fa-fw fa-envelope-o"></span></div >info@flatteredapartments.com</div ></td>
+		</tr>
+	</tbody>
+</table><div  style="font-size: 12px; margin-top: 8px;">Nota: A identifica&#231;&#227;o dos titulares da explora&#231;&#227;o e respetivos contactos s&#227;o divulgados nos termos do artigo 10&#186; do DL 128/2014, de 29 de agosto, na sua reda&#231;&#227;o atual.</div ></div ><div  style="font-weight: bold; margin-top: 40px;"><span style="font-size: 16px;">Seguro de Responsabilidade Civil</span><table class="TableRecords OSFillParent Empty" cellspacing="0" id="RichWidgets_wt7_block_wtMainContent_wt2_wtTableRecords_Seguro" style="margin-top: 0px;">
+	<thead>
+		<tr>
+			<th class="TableRecords_Header">Companhia de Seguros</th><th class="TableRecords_Header" style="style">Ap&#243;lice n&#186;</th><th class="TableRecords_Header" style="style">Data in&#237;cio</th><th class="TableRecords_Header" style="style">Validade</th>
+		</tr>
+	</thead><tbody>
+		<tr>
+			<td class="TableRecords_OddLine" colspan="4">Sem informação...</td>
+		</tr>
+	</tbody>
+</table></div ></div ></div ></div ><div  style="margin-top: 30px;"><input onclick="window.location.href=&#39;Pesquisa_AL.aspx&#39;; return false;" type="submit" name="RichWidgets_wt7$block$wtMainContent$wt14" value="Fechar" id="RichWidgets_wt7_block_wtMainContent_wt14" tabindex="4" class="Button" style="font-weight: bold;" /><input type="submit" name="RichWidgets_wt7$block$wtMainContent$wt3" value="Imprimir" id="RichWidgets_wt7_block_wtMainContent_wt3" tabindex="5" class="Button Is_Default ThemeGrid_MarginGutter" style="color: #fff; font-weight: bold;" /></div ></div ></div ></div ></div ><div  class="Footer ThemeGrid_Wrapper Responsive" style="margin-top: 0px;"><div  class="ThemeGrid_Container"><div  id="RichWidgets_wt7_block_wtFooter"><div  class="div_site" style="padding: 0px;"><div  class="ThemeGrid_Width6"><div  style="padding: 20px;"><div  class="OSInline" style="font-size: 16px; font-weight: bold;"><span style="color: #fff; font-size: 15px; font-weight: bold;">Contactos</span></div ><div  style="margin-top: 15px;"><div  style="margin-top: 10px;"><div ><span style="font-weight: bold;">Apoio ao Empres&#225;rio</span></div ><div  style="margin-top: 5px;"><span class="fa fa-fw fa-phone"></span><span style="margin-top: 10px;"> 808 209 209</span></div ><div  style="margin-top: 2px;"><span class="fa fa-fw fa-envelope"></span><span style="font-size: 13px; margin-top: 10px;"> apoioaoempresario@turismodeportugal.pt​ <br/></span></div ></div ></div ><div  style="margin-top: 15px;"><span style="font-weight: bold;">Assist&#234;ncia T&#233;cnica</span></div ><div  style="margin-top: 5px;"><span class="fa fa-fw fa-phone"></span> 211 140 200</div ><div  style="margin-top: 2px;"><span class="fa fa-fw fa-envelope"></span><span style="font-size: 13px;"> service-desk@turismodeportugal.pt</span></div ></div ></div ><div  class="ThemeGrid_Width6"><div  style="padding: 20px 20px 10px 20px;"><div  class="OSInline" style="margin-left: 0px;padding: 10px;"><a id="RichWidgets_wt7_block_wtFooter_wt16_wt10" tabindex="6" target="_blank" href="Termosecondicoes.aspx" style="color: #b22222; Color:#FFFFFF;">Termos e condi&#231;&#245;es</a></div ><div  class="OSInline" style="margin-left: 0px;padding: 10px;"><a id="RichWidgets_wt7_block_wtFooter_wt16_wt31" tabindex="7" target="_blank" href="https://www.turismodeportugal.pt/pt/Paginas/politica-tratamento-dados-pessoais.aspx" style="color: #b22222; Color:#FFFFFF;">Pol&#237;tica de tratamento de dados pessoais</a></div ></div ><div  style="margin-top: 0px; padding: 0px 20px 20px 20px;"><div ><img alt="" src="/RNT_CS/img/Institucional.png?31566" /></div ><div  style="margin-top: 10px;"><div  align="left"><span style="color: #fff; font-size: 12px;">Cofinanciado por:</span></div ><div  style="margin-top: 15px;"><img alt="" src="/RNT_CS/img/Logo_QREN_W.png?31566" /></div ></div ><div  style="font-size: 13px; margin-top: 10px;">&#169; 2026 Turismo de Portugal. Todos os direitos reservados</div ></div ></div ></div ></div ></div ></div ><div  class="Responsive" style="margin-top: 0px;"><span id="RichWidgets_wt7_block_wt2"><script type='text/javascript'>
+OsRegisterExceptionHandler(RichWidgets_Feedback_Message_ErrorHandler)
+</script><div  id="RichWidgets_wt7_block_wt2_wtFeedback_Wrapper" class="Feedback_Message_Wrapper"><span id="RichWidgets_wt7_block_wt2_wtnotify"><span class="NotifyWidget"></span><SCRIPT type="text/javascript">
+//<![CDATA[
+RichWidgets_Feedback_Message_notifyWidget ='RichWidgets_wt7_block_wt2_wtnotify';
+//]]>
+</SCRIPT></span></div ></span><div  id="RichWidgets_wt7_block_wt21_wtdivWait" class="Feedback_AjaxWait" role="status" aria-live="polite" aria-atomic="true" style="display:none"><img alt="" src="data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" height="16" width="16" /> Carregando</div ><script type='text/javascript'>
+     RichWidgets_Feedback_AjaxWait_init('RichWidgets_wt7_block_wt21_wtdivWait');
+ </script></div >
+    <script type="text/javascript">outsystems.internal.$.get("/RNT/_status.aspx")</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var OsPage_ValidationActive = false;
+OsValidatorOnLoad();
+
+function OsValidatorOnSubmit() {
+  if (OsPage_ValidationActive) { return OsValidatorCommonOnSubmit(); }
+  return true;
+}
+// ]]>
+</script>
+</form><script type="text/javascript">outsystems.internal.$._waitForViewstate = true;outsystems.internal.$(document).ready(function() {outsystems.internal.$('input[name=__OSVSTATE]').val('CVeM2+FLmhSv5rVGRap6uifWo3kyU7tw3BU21ydHDgq4SG7GLEvPty9U4QEscJdYxr7RfdqucibKVHMtDHqhBfA4zc3BiKbHYaCxfJgqf82UtpgW2Hnu/udq+31qmoVXVw17SWlPlk/fBRWGaJoWmhbUz1jshvd3r648uJMQbScH0FAXRLb4VkkFBqOKvCj8863Z4WjLfPkeq/OmQzF4IiAuT6u6Jpq1ATp/+WXdP+r6RIKGS1VZ2kxgjCofV3dbenyWWPSp2cBtsxMjpRS1pN12Q7yQo9OXt9CdYwU6X2742WZE6ur8Ino2hCLOzoOx6S1/mVQvpgQD3yKnsEqLb2qr6L2Q2nXXCgtKb/OTFMn4EJzZG1iRDLVGSVsFADaAg5FP3iTJqfHPPzWWldpNltXg4c9tUE0pA73WdJD5Dcq7MAxFY3baZrDslvnM0bXZDlDOiv4kQBD+4kBrO5RMTg==');outsystems.internal.$._waitForViewstate = false;});</script>
+<script src="/PerformanceProbe/performanceprobe.js?11_11_2_29611" type="text/javascript" charset="UTF-8"></script>
+  </body>
+</html>
