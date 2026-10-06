@@ -1,6 +1,6 @@
 # TURISTURIS — ROADMAP ATUAL
 
-**Data de atualização:** 2026-10-06
+**Data de atualização:** 2026-10-06  
 **Âmbito:** povoamento do site — TOMAR
 
 ## 1. Cadeia de execução
@@ -19,7 +19,10 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 | RNAL TOMAR — publicação | ✅ PUBLICADA | Catálogo público com 274 registos |
 | TOMAR — pontos turísticos principais | ✅ PUBLICADO | 4 fichas principais |
 | TOMAR — catálogo complementar | ✅ PUBLICADO | 12 pontos adicionais |
-| TOMAR — fichas individuais complementares | 🔄 T1 PARCIALMENTE EXECUTADO | 25/25 com proveniência persistida; 22/25 com enriquecimento operacional persistido; 3/25 pendentes |
+| TOMAR — T1 proveniência | ✅ CONCLUÍDO | 25/25 com proveniência persistida |
+| TOMAR — T1 operacional | ✅ CONCLUÍDO | 25/25 com evidência operacional persistida |
+| TOMAR — validação estrutural | ✅ PASS | Auditoria formal persistida no PR #70 |
+| TOMAR — validação de conteúdo | 🔄 22/25 | 22 confirmados por fonte oficial; 3 pendentes |
 | TOMAR — experiências | ✅ PUBLICADO | Seleção inicial com proveniência |
 | TOMAR — transportes | ✅ PUBLICADO | CP, Rede Expressos e TUTomar |
 | TOMAR — restauração | 🔄 INICIAL | Seleção inicial; expansão pendente |
@@ -30,36 +33,30 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 
 ## 3. Próxima sequência obrigatória
 
-### FASE T1 — Enriquecimento das fichas
+### FASE T1 — Validação de conteúdo
 
-1. Completar os 3 registos ainda sem dados operacionais específicos a partir das páginas oficiais.
-2. Preservar +351 quando o contacto oficial o apresentar.
-3. Não inferir freguesia a partir de endereço incompleto.
-4. Não publicar preços/horários sem fonte específica.
-5. Registar a proveniência de cada campo operacional.
+1. Confirmar os 22 registos com fonte oficial identificável.
+2. Manter os 3 registos pendentes explicitamente identificados.
+3. Não converter ausência de resultado em inexistência.
+4. Não inferir conteúdo turístico.
+5. Não promover automaticamente estados internos para VERIFICADO.
+6. Persistir toda a evidência no repositório através de PR → Gate → merge.
 
 ### FASE T2 — Cultura e museus
 
-Expandir o catálogo com equipamentos oficiais ainda não representados, incluindo:
-
-- Central Elétrica de Tomar — Núcleo Museológico;
-- Fundição Tomarense — Núcleo Museológico;
-- Centro Interpretativo Tomar Templário;
-- Casa-Memória Lopes-Graça;
-- exposição permanente da Festa dos Tabuleiros;
-- Centro de Interpretação e Sensibilização Ambiental.
+Expandir o catálogo com equipamentos oficiais ainda não representados.
 
 ### FASE T3 — Restauração
 
-Expandir a seleção a partir do catálogo oficial Turismo de Tomar. Cada entrada deve manter nome, categoria e fonte; contactos, morada, preços e horários só entram com evidência específica.
+Expandir a seleção a partir do catálogo oficial Turismo de Tomar.
 
 ### FASE T4 — Experiências
 
-Expandir visitas guiadas, animação turística e atividades, mantendo registos e contactos com código internacional explícito.
+Expandir visitas guiadas, animação turística e atividades.
 
 ### FASE T5 — Acessibilidade
 
-Criar camada específica para acessibilidade física e de visita, sem extrapolar informação geral para cada atração.
+Criar camada específica para acessibilidade física e de visita.
 
 ### FASE T6 — Imagens
 
@@ -80,12 +77,21 @@ Ligar o conteúdo Tomar à camada nacional do SITE sem duplicar dados canónicos
 - Telefone: preserve_explicitly; nunca remover ou substituir o código internacional explícito.
 - Estado interno de validação não é publicado no site.
 - Fases concluídas não são repetidas nem executadas fora de ordem.
+- Alterações de SITE seguem branch → PR → checks → merge → GitHub Pages.
 
 ## 5. Situação atual
 
 **TOMAR está em povoamento ativo do SITE.**
 
-### Correção do próximo passo
-A verificação de 2026-10-06 confirmou que a próxima etapa correta continua a ser FASE T1 — Enriquecimento das fichas. A proposta anterior de saltar diretamente para uma formalização de validação foi corrigida: primeiro consolidamos a proveniência oficial e os campos específicos das fichas; depois executamos a validação.
+T1 — enriquecimento está concluído. A validação estrutural passou e foi formalmente persistida pelo PR #70.
 
-Foi criada evidência de fontes oficiais em PESQUISA/AUDITORIAS/TOMAR_T1_ENRIQUECIMENTO_2026-10-06.md. O trabalho T1 permanece EM EXECUÇÃO: a proveniência dos 25 pontos está persistida e o T1 operacional está CONCLUÍDO: 25/25 registos possuem evidência operacional persistida; onde não existem dados específicos na fonte oficial atual, a ausência foi explicitamente registada sem inferência. A validação formal pode avançar..
+A validação de conteúdo identificou **22/25 registos confirmados por fontes oficiais atuais identificáveis** e **3/25 pendentes**:
+- Jardim das Musas;
+- Jardim Manuel Costa Rosa;
+- Casa dos Vereadores.
+
+A evidência detalhada está em:
+
+PESQUISA/AUDITORIAS/TOMAR_T1_VALIDACAO_CONTEUDO_2026-10-06.md
+
+Os três pendentes não devem ser preenchidos por inferência nem considerados confirmados até surgir nova evidência oficial.
