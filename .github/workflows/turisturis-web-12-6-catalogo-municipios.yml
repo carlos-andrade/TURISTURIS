@@ -1,0 +1,27 @@
+name: TURISTURIS — WEB-12.6 catálogo nacional de municípios RNAL
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/gerar_catalogo_municipios_rnal_v1.py"
+      - "CONTINENTE/DADOS/NORMALIZAÇÃO/ALOJAMENTOS/RNAL_NORMALIZADO_V1.json"
+
+permissions:
+  contents: write
+
+jobs:
+  catalogo:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Gerar catálogo
+        run: python3 CONTINENTE/DADOS/CODIGOS/gerar_catalogo_municipios_rnal_v1.py
+      - name: Persistir catálogo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DADOS/INDICES/rnal_municipios_catalogo.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "DATA: gerar catálogo nacional de municípios RNAL"
+          git push
