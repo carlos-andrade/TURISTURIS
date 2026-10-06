@@ -147,3 +147,12 @@ Se a fonte oficial não puder ser capturada ou validada conforme estas regras:
 > **O código organiza e audita o que a fonte publica. Não inventa, corrige, interpreta ou completa o que a fonte não publicou.**
 
 Esta Carta integra a governança permanente do TURISTURIS e deve ser aplicada antes de qualquer normalização ou povoamento do site com dados RNET/RNAL.
+
+## 12. Regra fiel — preservação do código internacional
+
+1. Todo contacto telefónico capturado deve conservar o código internacional do país quando este estiver publicado ou puder ser confirmado por evidência confiável.
+2. O valor bruto publicado pela fonte nunca pode ser destruído por normalização.
+3. O valor internacional normalizado deve existir separadamente do valor bruto.
+4. Nunca remover o prefixo internacional para produzir apenas o número nacional.
+5. A regra é internacional e não pode ficar limitada a Portugal.
+6. A auditoria deve permitir verificar a preservação do código de país e a natureza não destrutiva da normalização.
