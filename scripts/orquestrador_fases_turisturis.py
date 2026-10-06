@@ -248,3 +248,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Execução formal solicitada: [FASE:C]
