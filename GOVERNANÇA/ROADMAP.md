@@ -33,6 +33,12 @@ Resultados relevantes devem ser persistidos no repositório; o chat não é font
 
 **WEB-12.6 — consolidar os lotes de contactos públicos RNAL na tabela-mestra, preservando os 182 registros e mantendo estado_contacto, fonte e data de recolha.**
 
+### Correção aplicada em 2026-10-06
+
+O workflow WEB-12.6 não persistia os lotes no repositório. Isso foi corrigido: o workflow agora usa `contents: write` e grava cada lote em `CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/`. Também foi criado `CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_v1.py` para consolidar os lotes sem perda de registros.
+
+**Execução:** pendente de disparo manual do workflow, pois a integração GitHub disponível nesta sessão não expõe a operação `workflow_dispatch`. Não foi simulado sucesso.
+
 ### Regra de segurança
 
 A ausência de contacto não é motivo para eliminar um alojamento. Contactos genéricos do Turismo de Portugal não devem ser atribuídos ao alojamento.
