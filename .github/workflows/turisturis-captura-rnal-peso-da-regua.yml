@@ -1,0 +1,91 @@
+name: TURISTURIS — Captura em lote RNAL Peso da Régua
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  captura-rnal:
+    name: Descobrir e capturar todas as fichas RNAL de Peso da Régua
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Instalar dependências
+        run: python3 -m pip install requests beautifulsoup4
+
+      - name: Descobrir universo oficial RNAL
+        run: python3 scripts/descobrir_rnal_peso_da_regua.py
+
+      - name: Capturar fichas oficiais
+        id: capture
+        continue-on-error: true
+        run: |
+          set +e
+          python3 scripts/capturar_rnal_peso_da_regua.py > rnal-peso-da-regua-result.json
+          status=$?
+          cat rnal-peso-da-regua-result.json
+          echo "capture_exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
+
+      - name: Validar cobertura e sucesso
+        id: validate
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          index = json.loads(Path("DADOS/INDICES/rnal_peso_da_regua.json").read_text(encoding="utf-8"))
+          report = json.loads(Path("DADOS/INDICES/rnal_peso_da_regua_capture_report.json").read_text(encoding="utf-8"))
+
+          expected = index["count"]
+          success = report["captured_successfully"]
+          failures = report["failures"]
+
+          if expected != success or failures or report["result"] != "SUCCESS":
+              raise SystemExit(
+                  f"COBERTURA INCOMPLETA: esperado={expected}, sucesso={success}, falhas={len(failures)}"
+              )
+
+          print(f"VALIDAÇÃO: {success}/{expected} fichas RNAL capturadas com sucesso.")
+          PY
+
+      - name: Persistir evidências
+        if: steps.capture.outcome == 'success' && steps.validate.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "FICHAS OFICIAIS RNAL" "DADOS/INDICES/rnal_peso_da_regua.json" "DADOS/INDICES/rnal_peso_da_regua.csv" "DADOS/INDICES/rnal_peso_da_regua_capture_report.json"
+          if git diff --cached --quiet; then
+            echo "Nenhuma nova evidência para persistir."
+          else
+            git commit -m "DATA: capturar fichas oficiais RNAL de Peso da Régua"
+            git push
+          fi
+
+      - name: Publicar resultado
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: TURISTURIS-RNAL-PESO-DA-REGUA-RESULTADO
+          path: |
+            rnal-peso-da-regua-result.json
+            DADOS/INDICES/rnal_peso_da_regua.json
+            DADOS/INDICES/rnal_peso_da_regua.csv
+            DADOS/INDICES/rnal_peso_da_regua_capture_report.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Resultado final
+        if: always()
+        run: |
+          if [ "${{ steps.capture.outcome }}" != "success" ]; then exit 1; fi
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
+          echo "CAPTURA EM LOTE E VALIDAÇÃO CONCLUÍDAS COM SUCESSO."
