@@ -64,6 +64,6 @@ jobs:
           echo "Próximo lote: offset=$next_offset"
           echo "WEB-12.2 run id: $normalization_run_id"
 
-          gh workflow run "$TARGET"             --repo "$REPO"             --ref main             -f normalization_run_id="$normalization_run_id"             -f rnal_offset="$next_offset"             -f rnal_limit="50"             -f rnal_workers="4"
+          gh workflow run "$TARGET"             --repo "$REPO"             --ref main             -f normalization_run_id="$normalization_run_id"             -f rnal_offset="$next_offset"             -f rnal_limit="50"             -f rnal_workers="4"             -f rnal_municipio="Peso da Régua"
 
           echo "workflow_dispatch enviado: $TARGET offset=$next_offset"
