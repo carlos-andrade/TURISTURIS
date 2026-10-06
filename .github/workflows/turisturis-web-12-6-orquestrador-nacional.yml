@@ -1,0 +1,54 @@
+name: TURISTURIS — WEB-12.6 orquestrador nacional RNAL
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    paths:
+      - ".github/workflows/turisturis-web-12-6-enriquecimento-nacional.yml"
+      - ".github/workflows/turisturis-web-12-6-orquestrador-nacional.yml"
+      - "DADOS/INDICES/rnal_municipios_catalogo.json"
+      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/**"
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: turisturis-web-12-6-orquestrador-nacional
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Selecionar próximo lote
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TARGET: turisturis-web-12-6-enriquecimento-nacional.yml
+          NORMALIZATION: turisturis-web-12-2-normalizacao.yml
+        run: |
+          set -euo pipefail
+          if gh run list --repo "$REPO" --workflow "$TARGET" --limit 20 --json status --jq 'any(.[]; .status == "queued" or .status == "in_progress")' | grep -q true; then
+            echo "Execução nacional já em curso."; exit 0
+          fi
+          test -f DADOS/INDICES/rnal_municipios_catalogo.json
+          next_municipio=""
+          next_offset=""
+          while IFS=$'\t' read -r municipio slug total; do
+            [ -n "$municipio" ] || continue
+            offset=0
+            while [ "$offset" -lt "$total" ]; do
+              file="CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$slug/rnal_contactos_offset_${offset}.json"
+              if [ ! -f "$file" ]; then next_municipio="$municipio"; next_offset="$offset"; break 2; fi
+              offset=$((offset+50))
+            done
+          done < <(python3 -c 'import json; c=json.load(open("DADOS/INDICES/rnal_municipios_catalogo.json",encoding="utf-8")); [print(x["municipio"],x["slug"],x["target_total"],sep="\t") for x in c["municipios"]]')
+          if [ -z "$next_municipio" ]; then echo "Todos os lotes catalogados estão persistidos."; exit 0; fi
+          run_id="$(gh run list --repo "$REPO" --workflow "$NORMALIZATION" --status success --limit 1 --json databaseId --jq ".[0].databaseId")"
+          test -n "$run_id" && test "$run_id" != "null"
+          echo "Próximo: $next_municipio offset=$next_offset target normalization=$run_id"
+          gh workflow run "$TARGET" --repo "$REPO" --ref main -f normalization_run_id="$run_id" -f rnal_municipio="$next_municipio" -f rnal_offset="$next_offset" -f rnal_limit="50" -f rnal_workers="4"

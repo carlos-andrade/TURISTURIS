@@ -1,0 +1,93 @@
+name: TURISTURIS — WEB-12.6 enriquecimento RNAL por município
+
+on:
+  workflow_dispatch:
+    inputs:
+      normalization_run_id:
+        description: "Run ID do WEB-12.2"
+        required: true
+        type: string
+      rnal_municipio:
+        description: "Município alvo"
+        required: true
+        type: string
+      rnal_offset:
+        description: "Offset inicial"
+        required: true
+        default: "0"
+        type: string
+      rnal_limit:
+        description: "Tamanho do lote"
+        required: true
+        default: "50"
+        type: string
+      rnal_workers:
+        description: "Concorrência"
+        required: true
+        default: "4"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  enriquecer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      NORMALIZATION_RUN_ID: ${{ inputs.normalization_run_id }}
+      RNAL_MUNICIPIO: ${{ inputs.rnal_municipio }}
+      RNAL_OFFSET: ${{ inputs.rnal_offset }}
+      RNAL_LIMIT: ${{ inputs.rnal_limit }}
+      RNAL_WORKERS: ${{ inputs.rnal_workers }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Validar parâmetros
+        run: |
+          python3 - <<'PY'
+          import os
+          assert os.environ["NORMALIZATION_RUN_ID"].isdigit()
+          assert int(os.environ["RNAL_OFFSET"]) >= 0
+          assert 1 <= int(os.environ["RNAL_LIMIT"]) <= 500
+          assert os.environ["RNAL_MUNICIPIO"].strip()
+          assert 1 <= int(os.environ["RNAL_WORKERS"]) <= 4
+          PY
+      - name: Recuperar normalização WEB-12.2
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ inputs.normalization_run_id }}
+          path: .
+      - name: Extrair normalização
+        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
+      - name: Recolher contactos públicos
+        run: python3 CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py
+      - name: Validar contra catálogo
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          d=json.loads(Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json").read_text(encoding="utf-8"))
+          assert d["municipio"].casefold() == os.environ["RNAL_MUNICIPIO"].strip().casefold()
+          assert d["offset"] == int(os.environ["RNAL_OFFSET"])
+          assert 0 < d["record_count"] <= int(os.environ["RNAL_LIMIT"])
+          ids=[str(r.get("id_origem")) for r in d["records"]]
+          assert len(ids) == len(set(ids))
+          cat=json.loads(Path("DADOS/INDICES/rnal_municipios_catalogo.json").read_text(encoding="utf-8"))
+          item=next(x for x in cat["municipios"] if x["municipio"].casefold()==d["municipio"].casefold())
+          assert d["target_total"] == item["target_total"]
+          print({"municipio":d["municipio"],"target_total":d["target_total"],"offset":d["offset"],"records":d["record_count"]})
+          PY
+      - name: Persistir lote municipal
+        run: |
+          SLUG=$(python3 -c 'import os,re,unicodedata; s=unicodedata.normalize("NFKD",os.environ["RNAL_MUNICIPIO"]).encode("ascii","ignore").decode().lower(); print(re.sub(r"[^a-z0-9]+","-",s).strip("-"))')
+          mkdir -p "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG"
+          cp CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG/rnal_contactos_offset_${RNAL_OFFSET}.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "DATA: persistir WEB-12.6 RNAL $RNAL_MUNICIPIO offset $RNAL_OFFSET"
+          git push
