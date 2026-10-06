@@ -43,3 +43,12 @@ NAO_VERIFICADO, EM_VERIFICACAO, VERIFICADO, CONFLITO, DESATUALIZADO, ARQUIVADO.
 7. Imports, exports, APIs, workflows, validações, enriquecimentos e o site devem respeitar esta regra.
 
 Estrutura recomendada: telefone_raw; telefone_internacional; codigo_pais; numero_nacional; pais_telefone; telefone_formatado; estado_validacao.
+
+
+## Regra de publicação — separação entre dados internos e apresentação pública
+
+Campos de validação, auditoria e confiança são dados internos e não constituem conteúdo obrigatório da apresentação pública.
+
+Em particular, valores como `CONFIRMADO_FICHA_OFICIAL`, `CONFIRMADO_FONTE_PUBLICA`, `ALTO` e equivalentes devem ser preservados nos dados estruturados, mas **não devem ser renderizados no site público**.
+
+A camada de publicação deve selecionar apenas os campos destinados ao utilizador final. A remoção da apresentação não significa remoção do dado: a informação interna continua disponível para auditoria, validação e futuras decisões editoriais.
