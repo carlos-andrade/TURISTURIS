@@ -1,10 +1,15 @@
 {
   "result": "SUCCESS",
   "rnal_total": 182,
-  "lotes_consolidados": 4,
-  "contactos_existentes_preservados": 0,
-  "contactos_confirmados_rnal_publico": 0,
-  "sem_contactos": 0,
-  "erros": 0,
-  "pendentes": 177
+  "fichas_oficiais_confirmadas": 182,
+  "contactos_existentes_preservados": 5,
+  "campos_adicionados": 289,
+  "pendentes": 0,
+  "estados": {
+    "CONFIRMADO_FONTE_PUBLICA": 4,
+    "CONFIRMADO_FICHA_OFICIAL": 177,
+    "FONTE_HISTORICA_A_VALIDAR": 1
+  },
+  "source": "FICHAS OFICIAIS RNAL capturadas",
+  "process": "WEB-12.7"
 }
