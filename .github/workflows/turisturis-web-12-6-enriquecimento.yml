@@ -77,14 +77,14 @@ jobs:
           p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
           d=json.loads(p.read_text(encoding="utf-8"))
           assert d["municipio"] == "Peso da Régua", "município de saída inválido"
-          assert d["target_total"] == 182, f"universo inválido: {d["target_total"]}"
+          assert d["target_total"] == 182, f"universo inválido: {d['target_total']}"
           assert d["offset"] == int(os.environ["RNAL_OFFSET"]), "offset divergente"
           assert 0 < d["record_count"] <= int(os.environ["RNAL_LIMIT"])
           assert all("id" in r and "id_origem" in r and "status" in r for r in d["records"])
           ids=[r["id_origem"] for r in d["records"]]
           assert len(ids) == len(set(ids)), "id_origem duplicado no lote"
           print(json.dumps({
-            "offset": d["offset"], "limit": d["limit"],
+            "municipio": d["municipio"], "target_total": d["target_total"], "offset": d["offset"], "limit": d["limit"],
             "records": d["record_count"],
             "statuses": sorted(set(r["status"] for r in d["records"]))
           }, ensure_ascii=False))
