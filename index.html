@@ -649,11 +649,18 @@
       if(response.ok){
         const data=await response.json();
         const municipal=data.records||[];
-        const keys=new Set(records.map(x=>(x.fonte||'')+'|'+(x.id_origem||'')));
+        const byKey=new Map(records.map(x=>[(x.fonte||'')+'|'+(x.id_origem||''),x]));
         municipal.forEach(x=>{
           const key=(x.fonte||'')+'|'+(x.id_origem||'');
-          if(!keys.has(key)){records.push(x);keys.add(key);}
+          const existing=byKey.get(key);
+          if(existing){
+            // O lote municipal validado tem precedência para contactos RNAL já auditados.
+            byKey.set(key,{...existing,...x});
+          }else{
+            byKey.set(key,x);
+          }
         });
+        records=Array.from(byKey.values());
       }
     }catch(error){ console.warn('Lote RNAL Peso da Régua indisponível.',error); }
     nationalLodgings=records;
@@ -675,7 +682,7 @@
     });
     count.textContent=filtered.length+' resultado'+(filtered.length===1?'':'s')+' de '+nationalLodgings.length;
     grid.innerHTML='';
-    filtered.slice(0,120).forEach(x=>{
+    filtered.forEach(x=>{
       const card=document.createElement('article');card.className='point-card';
       const links=[];
       if(x.website) links.push('<a href="'+x.website+'" target="_blank" rel="noopener">Website ↗</a>');
