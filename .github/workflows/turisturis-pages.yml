@@ -12,6 +12,7 @@ on:
       - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
       - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/**"
       - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json"
+      - "CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py"
   workflow_dispatch:
 
 permissions:
@@ -42,6 +43,18 @@ jobs:
 
       - name: Extrair normalização validada
         run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
+
+      - name: Recuperar enriquecimento WEB-12.6
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.6-RNAL-CONTACTOS
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: 37404716998
+          path: .
+
+      - name: Extrair enriquecimento WEB-12.6
+        run: tar -xzf rnal-contactos-publicos-web-12-6.tar.gz
 
       - name: Preparar diretório de publicação
         run: |
