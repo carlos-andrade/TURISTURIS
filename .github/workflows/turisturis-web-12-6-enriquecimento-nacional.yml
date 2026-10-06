@@ -29,6 +29,11 @@ on:
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: turisturis-web-12-6-nacional-chain
+  cancel-in-progress: false
 
 jobs:
   enriquecer:
@@ -92,3 +97,35 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "DATA: persistir WEB-12.6 RNAL $RNAL_MUNICIPIO offset $RNAL_OFFSET"
           git push
+
+      - name: Encadear próximo lote após persistência
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TARGET: turisturis-web-12-6-enriquecimento-nacional.yml
+          NORMALIZATION_RUN_ID: ${{ inputs.normalization_run_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY' > /tmp/proximo_lote
+          import json,re,unicodedata
+          from pathlib import Path
+          c=json.load(open("DADOS/INDICES/rnal_municipios_catalogo.json",encoding="utf-8"))
+          def slug(s):
+              s=unicodedata.normalize("NFKD",s).encode("ascii","ignore").decode().lower()
+              return re.sub(r"[^a-z0-9]+","-",s).strip("-")
+          for m in c["municipios"]:
+              for off in range(0,int(m["target_total"]),50):
+                  p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES")/m["slug"]/f"rnal_contactos_offset_{off}.json"
+                  if not p.exists():
+                      print(m["municipio"])
+                      print(off)
+                      raise SystemExit
+          PY
+          if [ -s /tmp/proximo_lote ]; then
+            MUNICIPIO="$(sed -n '1p' /tmp/proximo_lote)"
+            OFFSET="$(sed -n '2p' /tmp/proximo_lote)"
+            gh workflow run "$TARGET" --repo "$REPO" --ref main               -f normalization_run_id="$NORMALIZATION_RUN_ID"               -f rnal_municipio="$MUNICIPIO"               -f rnal_offset="$OFFSET"               -f rnal_limit="50"               -f rnal_workers="4"
+            echo "Próximo lote enfileirado: $MUNICIPIO offset=$OFFSET"
+          else
+            echo "Todos os lotes catalogados estão persistidos."
+          fi
