@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "process": "WEB-12.6-VALIDACAO-CONSOLIDACAO",
+  "municipio": "Peso da Régua",
+  "target_total": 182,
+  "master_records": 182,
+  "master_unique_id_origem": 182,
+  "lotes_lidos": 4,
+  "lot_results": [
+    {
+      "offset": 0,
+      "record_count": 50,
+      "unique_ids": 50,
+      "empty_contacts": 50
+    },
+    {
+      "offset": 50,
+      "record_count": 50,
+      "unique_ids": 50,
+      "empty_contacts": 50
+    },
+    {
+      "offset": 100,
+      "record_count": 50,
+      "unique_ids": 50,
+      "empty_contacts": 50
+    },
+    {
+      "offset": 150,
+      "record_count": 32,
+      "unique_ids": 32,
+      "empty_contacts": 32
+    }
+  ],
+  "registros_lotes": 182,
+  "ids_unicos_lotes": 182,
+  "master_ids_cobertos": 182,
+  "master_ids_em_falta": 0,
+  "lot_ids_fora_master": 0,
+  "acceptance": true,
+  "executed_utc": "2026-10-06T22:56:50.651693Z"
+}
