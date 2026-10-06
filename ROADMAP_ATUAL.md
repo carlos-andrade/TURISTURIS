@@ -26,9 +26,9 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 | TOMAR — restauração | 🔄 INICIAL | 7 registos; expansão pendente |
 | Açores — estrutura territorial | 🟡 ESTRUTURA EXISTENTE | Conteúdo turístico ainda por inventariar |
 | Madeira — estrutura territorial | 🟡 ESTRUTURA EXISTENTE | Conteúdo turístico ainda por inventariar |
-| FASE NACIONAL 0 — inventário | 🔄 EM EXECUÇÃO | Inventário persistido em `PESQUISA/INVENTARIOS/` |
-| FASE NACIONAL 1 — território | ⏳ PRÓXIMA | Reconciliar camada territorial nacional |
-| FASE NACIONAL 2 — turismo | ⏳ PENDENTE | Integrar pontos turísticos existentes |
+| FASE NACIONAL 0 — inventário | ✅ CONCLUÍDO | Inventário persistido e PR #73 integrado |
+| FASE NACIONAL 1 — território | 🔄 EM EXECUÇÃO | 278/278 municípios reconciliados com 18 distritos |
+| FASE NACIONAL 2 — turismo | ⏳ PRÓXIMA | Reconciliar 68 pontos turísticos existentes |
 | FASE NACIONAL 3 — alojamento | ⏳ PENDENTE | Expandir RNAL/RNET disponíveis |
 | FASE NACIONAL 4 — restauração | ⏳ PENDENTE | Integrar dados existentes e fontes oficiais |
 | FASE NACIONAL 5 — experiências | ⏳ PENDENTE | Expandir por território |
@@ -39,47 +39,48 @@ PROMPT → CARTAS → LAYOUT MESTRE → ESTRUTURA → FONTES → DADOS RAW → N
 
 ## 3. FASE NACIONAL 0 — INVENTÁRIO
 
-**Estado:** 🔄 EM EXECUÇÃO
+**Estado:** ✅ CONCLUÍDO
 
-Objetivo: localizar e catalogar tudo o que já está efetivamente persistido nos repositórios turísticos relevantes antes de reconstruir dados.
-
-Inventário inicial confirmado:
-
-- TURISTURIS: 4.854 caminhos na árvore;
-- TURISTURIS: 948 JSON;
-- normalização municipal: 280 documentos;
-- READMEs municipais: 278;
-- catálogo municipal publicável: 278 registos;
-- pontos turísticos publicáveis: 68;
-- RNAL Peso da Régua: 182;
-- RNAL TOMAR: 274;
-- TOMAR T1: 25;
-- TOMAR experiências: 3;
-- TOMAR transportes: 3;
-- TOMAR restauração: 7;
-- repositório turístico complementar TOMAR: 10 pontos turísticos documentados.
-
-Inventário persistido em:
+O inventário nacional foi persistido em:
 
 `PESQUISA/INVENTARIOS/INVENTARIO_NACIONAL_DADOS_DISPONIVEIS_2026-10-06.md`
 
+PR #73 foi submetido, passou o **PR Gate Run #85** com sucesso e foi integrado em `main`.
+
 ## 4. FASE NACIONAL 1 — TERRITÓRIO
 
-1. Reconciliar o catálogo municipal de 278 registos.
-2. Ligar municípios aos distritos.
-3. Preservar Açores e Madeira como estruturas próprias.
-4. Não inferir freguesias.
-5. Criar chaves canónicas sem duplicação.
-6. Persistir evidência e auditoria.
+**Estado:** 🔄 EM EXECUÇÃO
+
+Checkpoint estrutural concluído no branch `fase-nacional-1-territorio`:
+
+- 278 municípios no catálogo;
+- 278 municípios na estrutura `CONTINENTE/DISTRITO/`;
+- 18 distritos identificados;
+- 0 divergências;
+- 0 freguesias inferidas;
+- 0 dados turísticos promovidos nesta etapa.
+
+Dataset produzido:
+
+`CONTINENTE/DADOS/PUBLICACAO/TERRITORIO_CONTINENTE_RECONCILIADO_V1.json`
+
+Auditoria:
+
+`PESQUISA/AUDITORIAS/NACIONAL_FASE_1_TERRITORIO_2026-10-06.md`
+
+Próximo passo: submeter este checkpoint por PR → Gate → merge.
 
 ## 5. FASE NACIONAL 2 — TURISMO
 
-1. Reconciliar os 68 pontos turísticos publicáveis.
-2. Reaproveitar o modelo T1 de TOMAR.
-3. Integrar conteúdos municipais existentes.
-4. Validar cada entidade por fonte.
-5. Separar factual, operacional e volátil.
-6. Não publicar estados internos de validação.
+Após a conclusão da FASE 1:
+
+1. reconciliar os 68 pontos turísticos publicáveis;
+2. reutilizar o modelo T1 de TOMAR;
+3. ligar cada entidade ao território canónico;
+4. integrar conteúdos municipais existentes;
+5. validar cada entidade por fonte;
+6. separar factual, operacional e volátil;
+7. não publicar estados internos.
 
 ## 6. FASE NACIONAL 3 — ALOJAMENTO
 
@@ -95,7 +96,7 @@ Integrar progressivamente os ativos RNAL/RNET já disponíveis e expandir por te
 
 ## 7. FASES NACIONAIS 4–8
 
-A mesma estrutura comprovada em TOMAR será aplicada, sem criar um segundo modelo:
+Aplicar o modelo comprovado em TOMAR:
 
 **proveniência → enriquecimento → validação estrutural → validação de conteúdo → publicação**
 
@@ -129,17 +130,21 @@ O SITE consumirá datasets canónicos publicados, e não documentos editoriais i
 - Estado interno de validação não é publicado.
 - Fases concluídas não são repetidas nem executadas fora de ordem.
 - Dados de outros projetos não turísticos não entram na integração nacional.
-- Repositório específico TOMAR é fonte de ativos a reconciliar, não segunda fonte canónica.
+- TOMAR é fonte de ativos a reconciliar, não segunda fonte canónica.
 - Duplicação é proibida; a camada canónica permanece no TURISTURIS.
 
 ## 10. Situação atual
 
-TOMAR permanece em povoamento ativo, com 22/25 pontos confirmados por fonte oficial e 3 pendentes.
+**FASE NACIONAL 0 está concluída.**
 
-Paralelamente, foi iniciada formalmente a integração nacional pela **FASE NACIONAL 0 — INVENTÁRIO**.
+**FASE NACIONAL 1 está em execução**, com o checkpoint estrutural de 278/278 municípios reconciliado.
 
 ### Próximo checkpoint
 
-**FASE NACIONAL 1 — TERRITÓRIO**
+**PR da FASE NACIONAL 1 — TERRITÓRIO**
 
-A integração nacional deve começar pelos dados já existentes. Não se parte do zero.
+Depois do merge, avançamos linearmente para:
+
+**FASE NACIONAL 2 — TURISMO → 68 pontos turísticos existentes.**
+
+A integração nacional continua a partir dos dados que já temos; não se parte do zero.
