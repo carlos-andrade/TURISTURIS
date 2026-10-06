@@ -1,0 +1,15 @@
+{
+  "capture_id": "RNAL:80798:2026-10-06T11:25:05.667969+00:00",
+  "type": "RNAL",
+  "registry_number": "80798",
+  "source_url": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80798",
+  "capture_utc": "2026-10-06T11:25:05.667969+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "source_sha256": "503d4b178885958af113a2a52edd1c36c83ff31532ac0252f1faa243f8537275",
+  "structured_sha256": "a18b1fd9179ef44dd03da64c654d52af6ee62ca01f66c83aa2d92d80edf459e6",
+  "field_count": 27,
+  "table_count": 6,
+  "result": "SUCCESS",
+  "rules": "CARTA-CAPTURA-RNET-RNAL-V1"
+}
