@@ -38,6 +38,22 @@
 
     .image-rotation-note{display:inline-block;margin-top:10px;padding:6px 10px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:rgba(5,28,27,.34);color:#eaf4f1;font-size:.74rem;font-weight:700}
     .rotation-status{margin-top:12px;font-size:.78rem;color:var(--muted)}
+    .local-first{padding:56px 0 34px;background:#fff;border-bottom:1px solid var(--line)}
+    .local-first[hidden]{display:none}
+    .local-first-head{display:flex;justify-content:space-between;gap:28px;align-items:end;margin-bottom:24px}
+    .local-first-head h2{margin-bottom:8px}
+    .local-first-status{padding:9px 13px;border:1px solid var(--line);border-radius:999px;color:var(--accent);font-size:.78rem;font-weight:800;white-space:nowrap}
+    .local-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .local-card{position:relative;min-height:260px;border-radius:18px;overflow:hidden;background:#102a2a;box-shadow:var(--shadow)}
+    .local-card img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}
+    .local-card::after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(0deg,rgba(5,28,27,.82),transparent)}
+    .local-card-label{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;color:#fff;font-weight:900;font-size:1.05rem}
+    .local-card-label small{display:block;margin-top:3px;font-size:.72rem;font-weight:700;opacity:.86}
+    .local-actions{margin-top:18px;text-align:right}
+    .btn-local{border:1px solid var(--line);background:var(--paper);color:var(--accent);padding:11px 16px;border-radius:999px;font-weight:800;cursor:pointer}
+    .btn-local:hover{background:#e9efeb}
+    .destination.is-location-hidden{display:none}
+    .destinations.location-expanded .destination.is-location-hidden{display:block}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -68,7 +84,7 @@
     footer{background:#102a2a;color:#dce8e5;padding:42px 0}.footer-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     footer a{color:#fff}.credit{font-size:.76rem;color:#aebfba;max-width:850px}
     @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.destinations{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.architecture{grid-template-columns:repeat(2,1fr)}.step:not(:last-child)::after{display:none}.sources{grid-template-columns:1fr}}
-    @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture{grid-template-columns:1fr}section{padding:62px 0}.feature-img{height:330px}.image-place{left:12px;bottom:12px}.image-place-card{left:10px;bottom:10px;font-size:.68rem}}
+    @media(max-width:650px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.hero{min-height:600px}.hero-inner{padding:80px 0 64px}.stats,.destinations,.architecture,.local-gallery{grid-template-columns:1fr}.local-first-head{display:block}.local-first-status{display:inline-block;margin-top:10px}section{padding:62px 0}.feature-img{height:330px}.image-place{left:12px;bottom:12px}.image-place-card{left:10px;bottom:10px;font-size:.68rem}}
   </style>
 </head>
 <body>
@@ -101,6 +117,23 @@
     <div class="image-place" aria-label="Local da fotografia de fundo: Lisboa, Portugal">Lisboa · Portugal</div>
   </section>
 
+  <section class="local-first" id="local-first" hidden>
+    <div class="wrap">
+      <div class="local-first-head">
+        <div>
+          <div class="kicker">Primeiro a sua localização</div>
+          <h2 id="local-title">A descobrir o que existe perto de si.</h2>
+          <p class="muted" id="local-description">Quando a localização é autorizada, o TURISTURIS começa pela região onde está e só depois abre o restante de Portugal.</p>
+        </div>
+        <div class="local-first-status" id="local-status" aria-live="polite">A identificar a região…</div>
+      </div>
+      <div class="local-gallery" id="local-gallery"></div>
+      <div class="local-actions">
+        <button class="btn-local" id="explore-all" type="button">Depois, explorar outras regiões</button>
+      </div>
+    </div>
+  </section>
+
   <div class="wrap">
     <div class="stats" aria-label="Visão geral do projeto">
       <div class="stat"><strong>Continente</strong><span>cidades, regiões e património</span></div>
@@ -114,8 +147,8 @@
     <div class="wrap">
       <div class="section-head">
         <div class="kicker">Um país, muitas geografias</div>
-        <h2>Comece pelo território.</h2>
-        <p class="muted">Do Atlântico às serras, das cidades históricas às ilhas vulcânicas, o projeto foi pensado para crescer por áreas geográficas sem perder a organização.</p>
+        <h2>Depois, explore o restante do território.</h2>
+        <p class="muted">O TURISTURIS começa pela sua localização quando possível. A partir daí, pode abrir outras regiões, destinos e ilhas sem perder o contexto geográfico.</p>
       </div>
       <div class="destinations">
         <article class="destination">
@@ -241,54 +274,24 @@
     ]
   };
 
-  const regionPools = {
-    norte: ['norte','sintra','lisboa'],
-    centro: ['lisboa','sintra','norte'],
-    lisboa: ['lisboa','sintra','centro'],
-    alentejo: ['lisboa','algarve','centro'],
-    algarve: ['algarve','lisboa','madeira'],
-    madeira: ['madeira','acores','algarve'],
-    acores: ['acores','madeira','norte'],
-    desconhecida: ['lisboa','norte','sintra','algarve','madeira','acores']
+  const regionLabels = {
+    norte:'Norte de Portugal', centro:'Centro de Portugal', lisboa:'Lisboa',
+    alentejo:'Alentejo', algarve:'Algarve', madeira:'Madeira', acores:'Açores',
+    desconhecida:'Portugal'
   };
-
-  const slots = [
-    {selector:'.hero', poolKey:'hero', mode:'background'},
-    {selector:'article.destination:nth-child(1) img', poolKey:'norte'},
-    {selector:'article.destination:nth-child(2) img', poolKey:'sintra'},
-    {selector:'article.destination:nth-child(3) img', poolKey:'algarve'},
-    {selector:'article.destination:nth-child(4) img', poolKey:'madeira'},
-    {selector:'article.destination:nth-child(5) img', poolKey:'acores'},
-    {selector:'article.destination:nth-child(6) img', poolKey:'lisboa'},
-    {selector:'.feature-img', poolKey:'sintra'}
-  ];
 
   function pick(list) {
     return list[Math.floor(Math.random() * list.length)];
   }
 
   function classify(lat, lon) {
+    if (lat > 30 && lat < 33 && lon < -15) return 'madeira';
+    if (lat > 36 && lat < 40 && lon < -20) return 'acores';
     if (lat >= 36.8 && lat <= 37.7 && lon <= -7.0) return 'algarve';
     if (lat >= 38.0 && lat <= 39.1 && lon <= -7.0 && lon >= -9.6) return 'lisboa';
     if (lat >= 38.0 && lon < -8.5) return 'centro';
     if (lat >= 39.1 && lon <= -7.0) return 'norte';
-    if (lat > 30 && lat < 33 && lon < -15) return 'madeira';
-    if (lat > 36 && lat < 40 && lon < -20) return 'acores';
     return 'desconhecida';
-  }
-
-  function weightedPool(region) {
-    const keys = regionPools[region] || regionPools.desconhecida;
-    const weighted = [];
-    keys.forEach((key, index) => {
-      const weight = index === 0 ? 5 : (index === 1 ? 3 : 1);
-      for (let i = 0; i < weight; i++) weighted.push(key);
-    });
-    return weighted;
-  }
-
-  function allImages() {
-    return Object.keys(imagePools).flatMap(key => imagePools[key]);
   }
 
   function setLabel(img, item) {
@@ -302,48 +305,111 @@
     if (credit) credit.href = item.credit;
   }
 
-  function applyRotation(region) {
-    const preferred = weightedPool(region);
-    const fallback = allImages();
-    let hero = pick(imagePools[pick(preferred)] || fallback);
-
+  function updateHero(item) {
     const heroEl = document.querySelector('.hero');
-    heroEl.style.setProperty('--hero-image', 'url("' + hero.src.replace(/"/g, '%22') + '")');
-    heroEl.style.backgroundImage = 'url("' + hero.src.replace(/"/g, '%22') + '")';
-    heroEl.dataset.imagePlace = hero.place;
+    if (!heroEl) return;
+    heroEl.style.setProperty('--hero-image', 'url("' + item.src.replace(/"/g, '%22') + '")');
     const heroLabel = heroEl.querySelector('.image-place');
     if (heroLabel) {
-      heroLabel.textContent = hero.place;
-      heroLabel.setAttribute('aria-label', 'Local da fotografia de fundo: ' + hero.place.replace(/ · /g, ', '));
+      heroLabel.textContent = item.place;
+      heroLabel.setAttribute('aria-label', 'Local da fotografia de fundo: ' + item.place.replace(/ · /g, ', '));
     }
+  }
 
-    slots.slice(1).forEach(slot => {
-      const img = document.querySelector(slot.selector);
-      if (!img) return;
-      const item = pick(imagePools[slot.poolKey] || fallback);
-      img.src = item.src;
-      setLabel(img, item);
+  function buildLocalFirst(region) {
+    const section = document.getElementById('local-first');
+    const title = document.getElementById('local-title');
+    const description = document.getElementById('local-description');
+    const status = document.getElementById('local-status');
+    const gallery = document.getElementById('local-gallery');
+    if (!section || !gallery) return;
+
+    const pool = imagePools[region] || imagePools.lisboa;
+    gallery.innerHTML = '';
+
+    // Mostra primeiro apenas conteúdo da região identificada.
+    pool.forEach((item, index) => {
+      const card = document.createElement('article');
+      card.className = 'local-card';
+      card.innerHTML = '<img loading="' + (index === 0 ? 'eager' : 'lazy') + '" src="' + item.src + '" alt="' + item.place.replace(/"/g, '&quot;') + '">' +
+        '<div class="local-card-label">' + item.place + '<small>Imagem ' + (index + 1) + ' · rodízio aleatório</small></div>';
+      gallery.appendChild(card);
     });
 
-    const note = document.getElementById('rotation-note');
-    if (note) {
-      const regionNames = {
-        norte:'Norte de Portugal', centro:'Centro de Portugal', lisboa:'Lisboa e arredores',
-        alentejo:'Alentejo', algarve:'Algarve', madeira:'Madeira', acores:'Açores',
-        desconhecida:'Portugal'
-      };
-      note.textContent = 'Imagens em rotação aleatória · prioridade visual: ' + (regionNames[region] || 'Portugal') + '.';
+    const names = {
+      lisboa:'Lisboa primeiro.',
+      norte:'Norte primeiro.',
+      centro:'Centro primeiro.',
+      alentejo:'Alentejo primeiro.',
+      algarve:'Algarve primeiro.',
+      madeira:'Madeira primeiro.',
+      acores:'Açores primeiro.',
+      desconhecida:'Comece pelo seu destino.'
+    };
+    title.textContent = names[region] || names.desconhecida;
+    description.textContent = region === 'desconhecida'
+      ? 'A localização não foi disponibilizada. O TURISTURIS mantém o modo nacional até escolher um destino.'
+      : 'A sua localização define a primeira camada. Aqui aparecem primeiro imagens e referências de ' + (regionLabels[region] || 'Portugal') + '. Só depois abre outras regiões.';
+    status.textContent = 'Prioridade atual: ' + (regionLabels[region] || 'Portugal');
+
+    section.hidden = false;
+  }
+
+  function configureOtherRegions(region) {
+    const destinations = document.querySelectorAll('#destinos .destination');
+    const destinationSection = document.getElementById('destinos');
+    if (!destinationSection) return;
+
+    destinations.forEach(card => card.classList.remove('is-location-hidden'));
+
+    if (region === 'lisboa') {
+      // A página começa com Lisboa; as restantes opções ficam disponíveis somente após a ação explícita.
+      destinations.forEach(card => {
+        const tag = card.querySelector('.tag');
+        const title = card.querySelector('h3');
+        const isLisboa = (tag && /Lisboa/i.test(tag.textContent)) || (title && /Lisboa/i.test(title.textContent));
+        if (!isLisboa) card.classList.add('is-location-hidden');
+      });
     }
+  }
+
+  function revealOtherRegions() {
+    const section = document.getElementById('destinos');
+    const button = document.getElementById('explore-all');
+    if (section) section.classList.add('location-expanded');
+    document.querySelectorAll('#destinos .destination.is-location-hidden').forEach(card => card.classList.remove('is-location-hidden'));
+    if (button) button.textContent = 'Todas as regiões estão disponíveis';
+  }
+
+  function applyLocationFirst(region) {
+    const localPool = imagePools[region] || imagePools.lisboa;
+    const hero = pick(localPool);
+
+    // A primeira imagem também pertence à localização atual.
+    updateHero(hero);
+    buildLocalFirst(region);
+    configureOtherRegions(region);
+
+    const note = document.getElementById('rotation-note');
+    if (note) note.textContent = 'Localização prioritária: ' + (regionLabels[region] || 'Portugal') + ' · imagens em rodízio aleatório.';
+
+    const button = document.getElementById('explore-all');
+    if (button) button.onclick = revealOtherRegions;
   }
 
   function fallbackRandom() {
-    applyRotation('desconhecida');
+    applyLocationFirst('desconhecida');
+    const section = document.getElementById('local-first');
+    const status = document.getElementById('local-status');
+    if (section) section.hidden = false;
+    if (status) status.textContent = 'Localização não autorizada · modo nacional';
   }
+
 
   if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(
       function (position) {
-        applyRotation(classify(position.coords.latitude, position.coords.longitude));
+        applyLocationFirst(classify(position.coords.latitude, position.coords.longitude));
       },
       fallbackRandom,
       {enableHighAccuracy:false, maximumAge:3600000, timeout:5000}
