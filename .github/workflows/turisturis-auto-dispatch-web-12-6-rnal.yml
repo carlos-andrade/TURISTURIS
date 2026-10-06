@@ -1,0 +1,69 @@
+name: TURISTURIS — Auto-dispatch WEB-12.6 RNAL Peso da Régua
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/turisturis-auto-dispatch-web-12-6-rnal.yml"
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: turisturis-auto-dispatch-web-12-6-rnal
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout estado publicado
+        uses: actions/checkout@v5
+
+      - name: Verificar e disparar próximo lote
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TARGET: turisturis-web-12-6-enriquecimento.yml
+          NORMALIZATION: turisturis-web-12-2-normalizacao.yml
+        run: |
+          set -euo pipefail
+
+          echo "== WEB-12.6 AUTO-DISPATCH =="
+
+          if gh run list --repo "$REPO" --workflow "$TARGET" --limit 20             --json status --jq 'any(.[]; .status == "queued" or .status == "in_progress")' | grep -q true; then
+            echo "WEB-12.6 já possui execução em curso. Nada a disparar."
+            exit 0
+          fi
+
+          next_offset=""
+          for offset in 0 50 100 150; do
+            file="CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/rnal_contactos_offset_${offset}.json"
+            if [ ! -f "$file" ]; then
+              next_offset="$offset"
+              break
+            fi
+          done
+
+          if [ -z "$next_offset" ]; then
+            echo "Todos os lotes WEB-12.6 já estão persistidos."
+            exit 0
+          fi
+
+          normalization_run_id="$(gh run list --repo "$REPO" --workflow "$NORMALIZATION"             --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+
+          if [ -z "$normalization_run_id" ] || [ "$normalization_run_id" = "null" ]; then
+            echo "ERRO: não existe execução WEB-12.2 bem-sucedida disponível."
+            exit 1
+          fi
+
+          echo "Próximo lote: offset=$next_offset"
+          echo "WEB-12.2 run id: $normalization_run_id"
+
+          gh workflow run "$TARGET"             --repo "$REPO"             --ref main             -f normalization_run_id="$normalization_run_id"             -f rnal_offset="$next_offset"             -f rnal_limit="50"             -f rnal_workers="4"
+
+          echo "workflow_dispatch enviado: $TARGET offset=$next_offset"
