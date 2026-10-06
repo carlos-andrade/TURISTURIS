@@ -6,6 +6,7 @@ on:
     branches: ["main"]
     paths:
       - "CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py"
+      - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
       - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/README.md"
       - ".github/workflows/turisturis-web-12-3-validacao.yml"
 
@@ -21,24 +22,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Recuperar artefato WEB-12.2
+      - name: Recuperar RAW WEB-12.1-A
         uses: actions/download-artifact@v5
         with:
-          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          name: TURISTURIS-WEB-12.1-A-RAW
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
-          run-id: 37402864529
+          run-id: 37401739852
           path: .
 
-      - name: Extrair normalização
-        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
+      - name: Extrair RAW
+        run: tar -xzf alojamentos-raw-web-12-1-a.tar.gz
+
+      - name: Reproduzir normalização WEB-12.2
+        run: python3 CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py
 
       - name: Executar validação
         run: python3 CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py
 
       - name: Gerar manifesto de validação
-        run: |
-          python3 CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py > validacao_alojamentos_web_12_3.json
+        run: python3 CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py > validacao_alojamentos_web_12_3.json
 
       - name: Publicar evidência
         uses: actions/upload-artifact@v4
