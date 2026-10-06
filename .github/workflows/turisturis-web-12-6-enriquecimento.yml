@@ -1,11 +1,26 @@
 name: TURISTURIS — WEB-12.6 enriquecimento de contactos RNAL
 on:
   workflow_dispatch:
-  push:
-    branches: ["main"]
-    paths:
-      - "CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py"
-      - "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/**"
+    inputs:
+      normalization_run_id:
+        description: "Run ID do WEB-12.2 que contém o artefato normalizado"
+        required: true
+        type: string
+      rnal_offset:
+        description: "Offset inicial no snapshot RNAL"
+        required: true
+        default: "0"
+        type: string
+      rnal_limit:
+        description: "Quantidade de registos do lote"
+        required: true
+        default: "50"
+        type: string
+      rnal_workers:
+        description: "Concorrência máxima"
+        required: true
+        default: "4"
+        type: string
 permissions:
   contents: read
 jobs:
@@ -14,18 +29,33 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      RNAL_OFFSET: "0"
-      RNAL_LIMIT: "50"
-      RNAL_WORKERS: "4"
+      RNAL_OFFSET: ${{ inputs.rnal_offset }}
+      RNAL_LIMIT: ${{ inputs.rnal_limit }}
+      RNAL_WORKERS: ${{ inputs.rnal_workers }}
+      NORMALIZATION_RUN_ID: ${{ inputs.normalization_run_id }}
     steps:
       - uses: actions/checkout@v5
+      - name: Validar parâmetros
+        run: |
+          python3 - <<'PY'
+          import os
+          run_id = os.environ["NORMALIZATION_RUN_ID"]
+          offset = int(os.environ["RNAL_OFFSET"])
+          limit = int(os.environ["RNAL_LIMIT"])
+          workers = int(os.environ["RNAL_WORKERS"])
+          assert run_id.isdigit() and int(run_id) > 0, "normalization_run_id inválido"
+          assert offset >= 0, "RNAL_OFFSET inválido"
+          assert 1 <= limit <= 500, "RNAL_LIMIT deve estar entre 1 e 500"
+          assert 1 <= workers <= 4, "RNAL_WORKERS deve estar entre 1 e 4"
+          print({"normalization_run_id": run_id, "offset": offset, "limit": limit, "workers": workers})
+          PY
       - name: Recuperar normalização WEB-12.2
         uses: actions/download-artifact@v5
         with:
           name: TURISTURIS-WEB-12.2-NORMALIZADO
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
-          run-id: 37403480142
+          run-id: ${{ inputs.normalization_run_id }}
           path: .
       - name: Extrair normalização
         run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
@@ -33,16 +63,15 @@ jobs:
         run: python3 CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py
       - name: Validar saída
         run: |
-          python3 - <<"PY"
-          import json
+          python3 - <<'PY'
+          import json, os
           from pathlib import Path
           p=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/RNAL_CONTACTOS_PUBLICOS_V1.json")
           d=json.loads(p.read_text(encoding="utf-8"))
-          assert 0 < d["record_count"] <= int("${RNAL_LIMIT}")
+          assert 0 < d["record_count"] <= int(os.environ["RNAL_LIMIT"])
           assert all("id" in r and "id_origem" in r and "status" in r for r in d["records"])
           print(json.dumps({
-            "offset": d.get("offset"),
-            "limit": d.get("limit"),
+            "offset": d["offset"], "limit": d["limit"],
             "records": d["record_count"],
             "statuses": sorted(set(r["status"] for r in d["records"]))
           }, ensure_ascii=False))
@@ -52,6 +81,6 @@ jobs:
       - name: Publicar artefato
         uses: actions/upload-artifact@v4
         with:
-          name: TURISTURIS-WEB-12.6-RNAL-CONTACTOS
+          name: TURISTURIS-WEB-12.6-RNAL-CONTACTOS-${{ inputs.rnal_offset }}
           path: rnal-contactos-publicos-web-12-6.tar.gz
           retention-days: 30
