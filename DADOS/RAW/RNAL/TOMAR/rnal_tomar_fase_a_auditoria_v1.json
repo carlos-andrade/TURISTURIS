@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "process": "TURISTURIS_RNAL_TOMAR_FASE_A_AUDITORIA",
+  "territory": {
+    "distrito": "Santarém",
+    "municipio": "Tomar"
+  },
+  "source": {
+    "authority": "Município de Tomar",
+    "title": "Onde dormir",
+    "url": "https://www.cm-tomar.pt/visitar/onde-dormir",
+    "accessed_utc": "2026-10-06T15:00:00Z",
+    "source_verified": true,
+    "al_section": {
+      "start_line": 142,
+      "end_line": 1860,
+      "modalities": [
+        {"name": "Apartamentos", "start_line": 143},
+        {"name": "Estabelecimento de Hospedagem", "start_line": 569},
+        {"name": "Estabelecimento de Hospedagem - Hostel", "start_line": 833},
+        {"name": "Moradias", "start_line": 893},
+        {"name": "Quartos", "start_line": 1780}
+      ]
+    }
+  },
+  "territorial_reference": {
+    "distrito": "Santarém",
+    "municipio": "Tomar",
+    "current_freguesia_count": 11,
+    "current_freguesias": [
+      "Asseiceira",
+      "Carregueiros",
+      "Olalhas",
+      "Paialvo",
+      "Sabacheira",
+      "São Pedro de Tomar",
+      "União das Freguesias de Além da Ribeira e Pedreira",
+      "União das Freguesias de Casais e Alviobeira",
+      "União das Freguesias de Madalena e Beselga",
+      "União das Freguesias de Serra e Junceira",
+      "União das Freguesias de Tomar (São João Baptista e Santa Maria dos Olivais)"
+    ],
+    "reference_source": "Município de Tomar"
+  },
+  "phase_a_status": {
+    "A0_source_capture": "PASS",
+    "A1_record_count": "PENDING",
+    "A2_freguesia_audit": "PENDING",
+    "A3_contact_audit": "PENDING",
+    "A4_phone_country_code_audit": "PENDING",
+    "A5_validation": "PENDING",
+    "A6_publication_preparation": "PENDING",
+    "overall": "IN_PROGRESS"
+  },
+  "critical_rule_checks": {
+    "phone_country_code": "preserve_explicitly",
+    "destructive_country_code_replacement": false,
+    "public_territory_order": ["Freguesia", "Município", "Distrito"],
+    "internal_validation_status_public": false
+  },
+  "phone_anomalies_observed": [
+    {
+      "name": "BIEN ÊTRE A TOMAR",
+      "rn_al": "90624/AL",
+      "source_phone": "(+41) 786 624 824 / (+41) 787 044 037",
+      "action": "PRESERVE +41; never convert to +351",
+      "source_lines": "232-240"
+    },
+    {
+      "name": "CASA DA PAREDINHA",
+      "rn_al": "157074/AL",
+      "source_phone": "(+351) +97254675070",
+      "action": "RETAIN AS SOURCE ANOMALY; do not silently normalize country code",
+      "source_lines": "1119-1127"
+    },
+    {
+      "name": "CASA PORTU-BREIZH",
+      "rn_al": "125066/AL",
+      "source_phone": "0033658225619",
+      "action": "RETAIN explicit international prefix; normalize only in a later controlled validation step",
+      "source_lines": "1808-1816"
+    }
+  ],
+  "territorial_anomaly_rule": {
+    "description": "Entries whose address only states 'Tomar' are not assigned to a freguesia by destructive inference. Freguesia remains PENDING until controlled reconciliation.",
+    "examples": ["A GOSTO", "APARTAMENTO EM TOMAR", "CASA ANTIGA"]
+  },
+  "next_gate": "A1 — extract and persist the complete AL RNAL catalogue before assigning any final record_count or promoting Phase A."
+}
