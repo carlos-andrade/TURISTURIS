@@ -1,0 +1,51 @@
+name: TURISTURIS — Publicar RNAL Tomar V2
+
+on:
+  push:
+    paths:
+      - "DADOS/INDICES/rnal_tomar.json"
+      - "DADOS/INDICES/rnal_tomar_manifest_validation_report.json"
+      - "FICHAS OFICIAIS RNAL/**/structured/ficha.json"
+      - "scripts/publicar_rnal_tomar.py"
+      - ".github/workflows/turisturis-publicar-rnal-tomar.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: turisturis-publicar-rnal-tomar-v2
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - name: Gerar camada pública
+        run: python3 scripts/publicar_rnal_tomar.py
+      - name: Validar contagem e contactos
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("CONTINENTE/DADOS/PUBLICACAO/RNAL_TOMAR_PUBLICAVEIS_V2.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          if d["record_count"] != 274:
+              raise SystemExit(f"CONTAGEM INCORRETA: {d['record_count']}")
+          if any("estado_validação" in r or "grau_confiança" in r for r in d["records"]):
+              raise SystemExit("ESTADO INTERNO PRESENTE NA CAMADA PÚBLICA")
+          print(f"PUBLICAÇÃO: {d['record_count']} registos")
+          PY
+      - name: Persistir
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "CONTINENTE/DADOS/PUBLICACAO/RNAL_TOMAR_PUBLICAVEIS_V2.json"
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração."
+          else
+            git commit -m "DATA: publicar camada RNAL Tomar V2"
+            git push origin HEAD:main
+          fi
