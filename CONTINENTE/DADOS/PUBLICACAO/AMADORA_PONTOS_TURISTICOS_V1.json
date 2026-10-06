@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "source": "CONTINENTE/DADOS/NORMALIZAÇÃO/AMADORA_PONTOS_TURISTICOS_V1.md",
+  "municipality": "Amadora",
+  "district": "Lisboa",
+  "validation_state": "VERIFICADO",
+  "confidence": "ALTO",
+  "records": [
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-AQUEDUTO-AGUAS-LIVRES",
+      "name": "Aqueduto Geral das Águas Livres",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-NECROPOLE-CARENQUE",
+      "name": "Necrópole de Carenque",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-ROQUE-GAMEIRO",
+      "name": "Casa Roque Gameiro",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASAL-FALAGUEIRA",
+      "name": "Núcleo Museológico do Casal da Falagueira",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MOINHO-PENEDO",
+      "name": "Núcleo Museológico do Moinho do Penedo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-VILLA-ROMANA-BOLACHA",
+      "name": "Villa Romana da Quinta da Bolacha",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-AQUEDUTO-ROMANO",
+      "name": "Aqueduto Romano da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-GARGANTADA",
+      "name": "Aqueduto da Gargantada / Nascentes da Gargantada",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-ASSENTISTA",
+      "name": "Quinta do Assentista",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CONDESS-LOUSA",
+      "name": "Palácio/Quinta dos Condes da Lousã",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-ORDEM-MALTA",
+      "name": "Casa da Ordem de Malta / Casal da Falagueira de Cima",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-APRIGIO-GOMES",
+      "name": "Casa Aprígio Gomes",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CASA-INFANTADO",
+      "name": "Fachada da Casa do Infantado / Palácio da Porcalhota",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CHALET-DESIDERIA",
+      "name": "Moradia Neorromântica / Chalet Desideria",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-IGREJA-MATRIZ",
+      "name": "Igreja Matriz da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CAPELA-FALAGUEIRA",
+      "name": "Capela da Falagueira / Nossa Senhora da Lapa",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CHAFARIZ-PORCALHOTA",
+      "name": "Chafariz da Porcalhota",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MINA-AGUA",
+      "name": "Mina de Água e Jardim da Mina",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PARQUE-DELFIM-GUIMARAES",
+      "name": "Parque Delfim Guimarães",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PONTE-FILIPINA",
+      "name": "Ponte Filipina / Ponte de Carenque de Baixo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-OUTEIRO",
+      "name": "Quinta do Outeiro",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-SAO-MIGUEL",
+      "name": "Quinta de São Miguel",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-RECREIOS-AMADORA",
+      "name": "Recreios da Amadora",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-PORTAS-BENFICA",
+      "name": "Portas de Benfica",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-MOINHO-CASTELINHO",
+      "name": "Moinho do Castelinho",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-QUINTA-GRANDE-ALFRAGIDE",
+      "name": "Quinta Grande de Alfragide",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-VILA-MARTELO",
+      "name": "Vila Martelo",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    },
+    {
+      "id": "PT-PTT-LISBOA-AMADORA-CABOS-AVILA",
+      "name": "Edifício Torreado da Fábrica dos Cabos Ávila",
+      "type": "Ponto turístico",
+      "municipality": "Amadora",
+      "district": "Lisboa",
+      "validation_state": "VERIFICADO",
+      "confidence": "ALTO"
+    }
+  ]
+}

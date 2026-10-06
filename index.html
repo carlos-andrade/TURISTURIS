@@ -217,9 +217,7 @@
         <input id="portal-search" class="portal-search" type="search" placeholder="Pesquisar ponto turístico…" aria-label="Pesquisar ponto turístico">
         <select id="portal-filter" class="portal-filter" aria-label="Filtrar informação">
           <option value="todos">Todos os 28</option>
-          <option value="patrimonio">Património e história</option>
-          <option value="museu">Museus e cultura</option>
-          <option value="natureza">Natureza e espaços públicos</option>
+          
         </select>
         <span id="portal-count" class="portal-count" aria-live="polite">28 resultados</span>
       </div>
@@ -382,9 +380,16 @@
     ]
   };
 
-  const localPoints = [
-    ['PT-01','Aqueduto Geral das Águas Livres','patrimonio'],['PT-02','Necrópole de Carenque','patrimonio'],['PT-03','Casa Roque Gameiro','museu'],['PT-04','Núcleo Museológico do Casal da Falagueira','museu'],['PT-05','Núcleo Museológico do Moinho do Penedo','museu'],['PT-06','Villa Romana da Quinta da Bolacha','patrimonio'],['PT-07','Aqueduto Romano da Amadora','patrimonio'],['PT-08','Aqueduto da Gargantada / Nascentes da Gargantada','patrimonio'],['PT-09','Quinta do Assentista','patrimonio'],['PT-10','Palácio/Quinta dos Condes da Lousã','patrimonio'],['PT-11','Casa da Ordem de Malta / Casal da Falagueira de Cima','patrimonio'],['PT-12','Casa Aprígio Gomes','patrimonio'],['PT-13','Fachada da Casa do Infantado / Palácio da Porcalhota','patrimonio'],['PT-14','Moradia Neorromântica / Chalet Desideria','patrimonio'],['PT-15','Igreja Matriz da Amadora','patrimonio'],['PT-16','Capela da Falagueira / Nossa Senhora da Lapa','patrimonio'],['PT-17','Chafariz da Porcalhota','patrimonio'],['PT-18','Mina de Água e Jardim da Mina','natureza'],['PT-19','Parque Delfim Guimarães','natureza'],['PT-20','Ponte Filipina / Ponte de Carenque de Baixo','patrimonio'],['PT-21','Quinta do Outeiro','patrimonio'],['PT-22','Quinta de São Miguel','patrimonio'],['PT-23','Recreios da Amadora','museu'],['PT-24','Portas de Benfica','patrimonio'],['PT-25','Moinho do Castelinho','patrimonio'],['PT-26','Quinta Grande de Alfragide','patrimonio'],['PT-27','Vila Martelo','patrimonio'],['PT-28','Edifício Torreado da Fábrica dos Cabos Ávila','patrimonio']
-  ];
+  const LOCAL_DATA_URL='CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json';
+  let localPoints=[];
+  async function loadLocalPortalData(){
+    const response=await fetch(LOCAL_DATA_URL,{cache:'no-store'});
+    if(!response.ok) throw new Error('Falha ao carregar dados canônicos: '+response.status);
+    const data=await response.json();
+    if(!Array.isArray(data.records)) throw new Error('Formato de dados inválido.');
+    localPoints=data.records;
+    renderLocalPortal();
+  }
 
   const regionLabels = {
     norte:'Norte de Portugal', centro:'Centro de Portugal', lisboa:'Lisboa',
@@ -404,12 +409,12 @@
       const f=filter.value;
       grid.innerHTML=''; let visible=0;
       localPoints.forEach((p,i)=>{
-        const matchesText=!q||p[1].toLocaleLowerCase('pt-PT').includes(q);
-        const matchesFilter=f==='todos'||p[2]===f;
+        const matchesText=!q||p.name.toLocaleLowerCase('pt-PT').includes(q);
+        const matchesFilter=f==='todos';
         if(!matchesText||!matchesFilter) return;
         visible++;
         const card=document.createElement('article'); card.className='portal-card';
-        card.innerHTML='<span class="portal-card-id">AMADORA · '+p[0]+'</span><h3>'+p[1]+'</h3><p>Registro turístico normalizado · confiança ALTO.</p>';
+        card.innerHTML='<span class="portal-card-id">AMADORA · '+p.id+'</span><h3>'+p.name+'</h3><p>'+p.type+' · estado '+p.validation_state+' · confiança '+p.confidence+'.</p>';
         grid.appendChild(card);
       });
       count.textContent=visible+' resultado'+(visible===1?'':'s'); empty.hidden=visible!==0;
@@ -543,7 +548,7 @@
   }
 
 
-  renderLocalPortal();
+  loadLocalPortalData().catch(error=>{console.error(error);const empty=document.getElementById('portal-empty');if(empty){empty.hidden=false;empty.textContent='Não foi possível carregar a base turística canônica.';}});
 
   if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(
