@@ -25,7 +25,7 @@ const SOURCE="../../DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json";
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arr=o=>o.records||[];
 async function load(){
- const o=await fetch(SOURCE).then(r=>r.json()), records=arr(o);
+ const o=await fetch(SOURCE).then(r=>r.json()), records=arr(o).filter(x=>['CONFIRMADO_FICHA_OFICIAL','CONFIRMADO_FONTE_PUBLICA'].includes(x.validation_state));
  const typeKey="tipo";
  const types=[...new Set(records.map(x=>x[typeKey]).filter(Boolean))].sort();
  document.getElementById('type').innerHTML='<option value="">Todos os tipos</option>'+types.map(x=>'<option>'+esc(x)+'</option>').join('');
