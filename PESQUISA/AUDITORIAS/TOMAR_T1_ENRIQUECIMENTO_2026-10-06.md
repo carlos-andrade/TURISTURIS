@@ -50,3 +50,14 @@ Esta evidência não altera por si só o estado de validação dos registos. A e
 ## Próximo checkpoint
 
 Completar a ligação entre as fichas individuais existentes e as fontes oficiais específicas; depois executar validação estrutural e de conteúdo antes de qualquer promoção para VERIFICADO.
+
+## Execução T1 — proveniência enriquecida
+
+Foi criado `CONTINENTE/DADOS/PUBLICACAO/TOMAR_PONTOS_INTERESSE_T1_ENRIQUECIDOS_V1.json` com **25/25** pontos, `record_count` derivado da coleção real, data de verificação e `fonte_url` por registo.
+
+- **19** registos apontam para páginas oficiais individuais identificadas.
+- **6** registos mantêm a camada oficial de catálogo (`Places/Index/wtd`) porque não foi encontrada, nesta execução, uma página individual inequívoca sem risco de associação incorreta.
+- Nenhum registo foi promovido para `VERIFICADO`.
+- Dados voláteis não foram inventados nem acrescentados sem evidência específica.
+
+Esta execução fecha o checkpoint de **proveniência T1** para os 25 pontos, mas não fecha toda a FASE T1, porque ainda há campos operacionais a enriquecer quando houver evidência específica.
