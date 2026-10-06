@@ -1,0 +1,69 @@
+name: TURISTURIS — Orquestrador canónico de fases
+
+on:
+  workflow_dispatch:
+    inputs:
+      fase:
+        description: "Fase a executar"
+        required: true
+        default: "A"
+        type: choice
+        options:
+          - A
+          - B
+          - C
+          - D
+          - ALL
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/orquestrador_fases_turisturis.py"
+      - "GOVERNANÇA/CARTAS/**"
+      - "DADOS/INDICES/rnal_peso_da_regua_contactos_auditoria_2026-10-06.json"
+      - "CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json"
+      - "index.html"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "turisturis-orquestrador-fases"
+  cancel-in-progress: false
+
+jobs:
+  executar:
+    name: Executar gates da fase
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Executar orquestrador
+        env:
+          FASE: ${{ github.event.inputs.fase || 'A' }}
+        run: |
+          python3 scripts/orquestrador_fases_turisturis.py --fase "$FASE"
+
+      - name: Persistir relatório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "DADOS/INDICES/turisturis_orquestrador_fases_ultimo.json"
+          if git diff --cached --quiet; then
+            echo "Nenhum relatório novo para persistir."
+          else
+            git commit -m "AUDIT: atualizar relatório do orquestrador de fases"
+            git push
+          fi
+
+      - name: Publicar relatório
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: TURISTURIS-ORQUESTRADOR-FASES
+          path: DADOS/INDICES/turisturis_orquestrador_fases_ultimo.json
+          if-no-files-found: error
+          retention-days: 30
