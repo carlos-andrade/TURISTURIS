@@ -1,0 +1,29 @@
+{
+  "authority": "DGAL",
+  "files": [
+    {
+      "path": "PESQUISA/FONTES/DGAL_PORTAL_AUTARQUICO/DADOS_ABERTOS/freguesias_2026_xls.xlsx",
+      "bytes": 1132818,
+      "sha256": "7297e36f2fadab3587d5244ef85b1fdc4a47a03f8eb171ba426a2011a6656fbe",
+      "url": "https://portalautarquico.dgal.gov.pt/ficheiros/?channel=266f4a32-848e-4d2c-99c6-ad5b5511d7fe&content_id=D00AE951-C5A9-4AC5-8CD4-B95B32A4F3FA&dtestate=2026-09-04113924&field=storage_image&filetype=xlsx&lang=pt&schema=f7664ca7-3a1a-4b25-9f46-2056eef44c33&ver=1"
+    },
+    {
+      "path": "PESQUISA/FONTES/DGAL_PORTAL_AUTARQUICO/DADOS_ABERTOS/freguesias_2026_ods.ods",
+      "bytes": 738241,
+      "sha256": "33291ae25125c36d43551cd0db350c1c3c3ca08408561707050ba558a84a456a",
+      "url": "https://portalautarquico.dgal.gov.pt/ficheiros/?channel=266f4a32-848e-4d2c-99c6-ad5b5511d7fe&content_id=3DEDD217-A6FD-4F6C-BD15-EC1ECC0EC058&dtestate=2026-09-04113946&field=storage_image&filetype=ods&lang=pt&schema=f7664ca7-3a1a-4b25-9f46-2056eef44c33&ver=1"
+    },
+    {
+      "path": "PESQUISA/FONTES/DGAL_PORTAL_AUTARQUICO/PAGINAS_OFICIAIS/freguesias.html",
+      "bytes": 43736,
+      "sha256": "8522c3be8b738f62aa4dee74eb3baddc8ad4656d913062a7c076b540098b5bb7",
+      "url": "https://portalautarquico.dgal.gov.pt/pt-PT/administracao-local/entidades-autarquicas/freguesias/"
+    },
+    {
+      "path": "PESQUISA/FONTES/DGAL_PORTAL_AUTARQUICO/PAGINAS_OFICIAIS/municipios.html",
+      "bytes": 44107,
+      "sha256": "9e8beaf9ec90f1edcf1a978f215ec310a279323ec4c32d1a4bd0fe620804a780",
+      "url": "https://portalautarquico.dgal.gov.pt/pt-PT/administracao-local/entidades-autarquicas/municipios/"
+    }
+  ]
+}
