@@ -24,17 +24,50 @@ jobs:
         continue-on-error: true
         shell: bash
         run: |
-          set -o pipefail
-          python3 scripts/capturar_fichas_rnet_rnal.py | tee captura-rnet-rnal-result.json
+          set +e
+          python3 scripts/capturar_fichas_rnet_rnal.py > captura-rnet-rnal-result.json
+          status=$?
+          cat captura-rnet-rnal-result.json
+          echo "capture_exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
 
-      - name: Verificar evidências geradas
+      - name: Validar evidências e resultado
+        id: validate
         if: always()
+        shell: bash
         run: |
           test -f "FICHAS OFICIAIS RNET/6803/audit/manifest.json"
           test -f "FICHAS OFICIAIS RNAL/15642/audit/manifest.json"
 
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          paths = [
+              Path("FICHAS OFICIAIS RNET/6803/audit/manifest.json"),
+              Path("FICHAS OFICIAIS RNAL/15642/audit/manifest.json"),
+          ]
+
+          for path in paths:
+              data = json.loads(path.read_text(encoding="utf-8"))
+              if data.get("result") != "SUCCESS":
+                  raise SystemExit(
+                      f"EVIDÊNCIA OFICIAL INVÁLIDA: {path} -> {data.get('result')}"
+                  )
+              if data.get("http_status") != 200:
+                  raise SystemExit(
+                      f"FONTE OFICIAL NÃO CONFIRMADA: {path} -> HTTP {data.get('http_status')}"
+                  )
+              if not data.get("source_sha256"):
+                  raise SystemExit(f"SHA-256 RAW AUSENTE: {path}")
+              if not data.get("structured_sha256"):
+                  raise SystemExit(f"SHA-256 STRUCTURED AUSENTE: {path}")
+
+          print("VALIDAÇÃO OFICIAL: RNET 6803 e RNAL 15642 = SUCCESS / HTTP 200")
+          PY
+
       - name: Persistir evidências no repositório
-        if: steps.capture.outcome == 'success'
+        if: steps.capture.outcome == 'success' && steps.validate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -58,8 +91,16 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Falhar se a captura oficial falhou
-        if: steps.capture.outcome == 'failure'
+      - name: Resultado final
+        if: always()
+        shell: bash
         run: |
-          echo "CAPTURA OFICIAL FALHOU. A falha foi registrada como evidência; não há autorização para tratar exemplos como evidência oficial."
-          exit 1
+          if [ "${{ steps.capture.outcome }}" != "success" ]; then
+            echo "CAPTURA OFICIAL FALHOU."
+            exit 1
+          fi
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then
+            echo "VALIDAÇÃO DAS EVIDÊNCIAS OFICIAIS FALHOU."
+            exit 1
+          fi
+          echo "CAPTURA E VALIDAÇÃO OFICIAL CONCLUÍDAS COM SUCESSO."
