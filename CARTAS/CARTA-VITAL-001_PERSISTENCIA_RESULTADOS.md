@@ -1,5 +1,30 @@
 # CARTA VITAL — REGRA DE PERSISTÊNCIA DOS RESULTADOS
 
+## CABEÇALHO HISTÓRICO DA CARTA
+
+| Campo | Informação |
+|---|---|
+| ID | `CARTA-VITAL-001` |
+| Projeto | TURISTURIS |
+| Título | Regra de Persistência dos Resultados |
+| Tipo | Carta central de governança |
+| Estado atual | **REGRA OBRIGATÓRIA, PERMANENTE E REGENTE** |
+| Versão | V1 / consolidação vigente |
+| Data de criação | 2026-10-06 |
+| Primeiro commit | `826e1d37e847b0c898d86fc641ee2e8bfc3729ac` |
+| Primeiro commit — mensagem | `GOV: criar CARTA-VITAL-001 sobre persistência obrigatória dos resultados` |
+| Data da primeira persistência | 2026-10-06 |
+| Última atualização registrada | 2026-10-06 |
+| Último commit | `57a8b10d7147add5a88916dd95a47864adee63dc` |
+| Última atualização — mensagem | `GOV: consolidar Carta Vital e cadeia CARTA-LAYOUT-CODIGO` |
+| Função histórica | Estabelecer o repositório como fonte oficial e impedir que decisões, evidências e resultados relevantes permaneçam apenas no ChatGPT |
+| Regra arquitetural consolidada | `CARTA → LAYOUT MESTRE → DADOS → CÓDIGO → VALIDAÇÃO → EVIDÊNCIA → REPOSITÓRIO` |
+| Alcance | Todas as Cartas, Layouts, workflows, pesquisas, ingestões, análises, publicações, dados, código e desenvolvimentos do TURISTURIS |
+| Relação com outras Cartas | Carta de governança superior; Cartas operacionais devem respeitar esta regra |
+| Histórico de versões | V1 criada em 2026-10-06; atualização posterior em 2026-10-06 para incorporar explicitamente Carta → Layout → Dados → Código → Validação → Evidência → Repositório, regras de não invenção e rastreabilidade |
+| Regra de continuidade | Uma nova sessão deve recuperar o estado pelo repositório, sem depender do histórico de chats |
+| Observação | O histórico Git é parte da evidência da evolução da Carta; versões anteriores não devem ser apagadas sem justificativa de governança. |
+
 **Código:** CARTA-VITAL-001  
 **Projeto:** TURISTURIS  
 **Data:** 2026-10-06  
