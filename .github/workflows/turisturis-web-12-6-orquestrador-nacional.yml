@@ -49,6 +49,24 @@ jobs:
               git push
             fi
           fi
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path("DADOS/INDICES/rnal_nacional_consolidacao.json").read_text(encoding="utf-8"))
+          lots=Path("CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES")
+          by_slug={}
+          for p in lots.glob("*/rnal_contactos_offset_*.json"):
+              d=json.loads(p.read_text(encoding="utf-8"))
+              s=p.parent.name
+              by_slug.setdefault(s, 0)
+              by_slug[s] += int(d.get("record_count", len(d.get("records", []))))
+          for m in report["municipios"]:
+              physical=by_slug.get(m["slug"], 0)
+              if physical != m["registros"]:
+                  raise SystemExit(f"evidência inconsistente: {m['municipio']} relatório={m['registros']} físico={physical}")
+          print("EVIDÊNCIA NACIONAL CONSISTENTE COM OS LOTES FÍSICOS")
+          PY
           next_municipio=""
           next_offset=""
           while IFS=$'\t' read -r municipio slug total; do
