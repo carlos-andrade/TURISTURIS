@@ -93,7 +93,7 @@ jobs:
           python3 CONTINENTE/DADOS/CODIGOS/consolidar_contactos_rnal_nacional_v1.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG"
+          git add "CONTINENTE/DADOS/ENRIQUECIMENTO/ALOJAMENTOS/LOTES/$SLUG" DADOS/INDICES/rnal_nacional_consolidacao.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "DATA: persistir WEB-12.6 RNAL $RNAL_MUNICIPIO offset $RNAL_OFFSET"
           git push
