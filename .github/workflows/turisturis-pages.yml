@@ -8,6 +8,10 @@ on:
       - ".github/workflows/turisturis-pages.yml"
       - "CONTINENTE/DADOS/NORMALIZAÇÃO/**"
       - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_pontos_turisticos.py"
+      - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_alojamentos.py"
+      - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
+      - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/**"
+      - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V1.json"
   workflow_dispatch:
 
 permissions:
@@ -27,6 +31,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Recuperar normalização validada WEB-12.2
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: 37403480142
+          path: .
+
+      - name: Extrair normalização validada
+        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
+
       - name: Preparar diretório de publicação
         run: |
           rm -rf _site
@@ -36,6 +52,8 @@ jobs:
           cp CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_COMPLETO_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
           cp CONTINENTE/DADOS/PUBLICACAO/CATALOGO_MUNICIPIOS_NORMALIZADOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
           cp CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
+          python3 CONTINENTE/DADOS/CODIGOS/gerar_publicacao_alojamentos.py
+          cp CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
 
       - name: Upload do artefato Pages
         uses: actions/upload-pages-artifact@v4
