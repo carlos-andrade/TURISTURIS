@@ -13,6 +13,7 @@ on:
       - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/**"
       - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json"
       - "CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py"
+      - "CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json"
   workflow_dispatch:
 
 permissions:
@@ -67,6 +68,7 @@ jobs:
           cp CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
           python3 CONTINENTE/DADOS/CODIGOS/gerar_publicacao_alojamentos.py
           cp CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json _site/CONTINENTE/DADOS/PUBLICACAO/
+          cp CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
 
       - name: Upload do artefato Pages
         uses: actions/upload-pages-artifact@v4
