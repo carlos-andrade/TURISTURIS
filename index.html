@@ -151,6 +151,7 @@
         <li><a href="#destinos">Destinos</a></li>
         <li><a href="#informacao-validada">Informação validada</a></li>
         <li><a href="#catalogo-nacional">Catálogo nacional</a></li>
+        <li><a href="#alojamentos">Alojamentos</a></li>
         <li><a href="#metodo">Método</a></li>
         <li><a href="#fontes">Fontes</a></li>
       </ul>
@@ -363,6 +364,24 @@
         <p class="muted">O objetivo do TURISTURIS é construir essa ligação progressivamente, mantendo a informação volátil identificada e a proveniência visível.</p>
       </div>
       <div class="feature-wrap"><img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra"><div class="image-place" aria-label="Local da fotografia: Sintra, Palácio Nacional, Portugal">Sintra · Palácio Nacional · Portugal</div></div>
+    </div>
+  </section>
+
+
+  <section id="alojamentos" class="national-catalog">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Alojamento nacional</div>
+        <h2>Onde ficar em Portugal.</h2>
+        <p class="muted">Catálogo nacional derivado dos registos RNET e RNAL, com proveniência, município, localidade e estado de validação.</p>
+      </div>
+      <div class="catalog-toolbar">
+        <input id="lodging-search" class="catalog-search" type="search" placeholder="Pesquisar alojamento, município ou localidade…" aria-label="Pesquisar alojamento">
+        <select id="lodging-source" class="portal-filter" aria-label="Filtrar fonte"><option value="todos">Todas as fontes</option><option value="RNET">RNET</option><option value="RNAL">RNAL</option></select>
+        <span id="lodging-count" class="catalog-count">A carregar…</span>
+      </div>
+      <div id="lodging-grid" class="point-grid"></div>
+      <div id="lodging-empty" class="portal-empty" hidden>Nenhum alojamento corresponde à pesquisa.</div>
     </div>
   </section>
 
@@ -613,6 +632,42 @@
   }
 
 
+
+
+  let nationalLodgings=[];
+  async function loadNationalLodgings(){
+    const response=await fetch('CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V1.json',{cache:'no-store'});
+    if(!response.ok) throw new Error('Falha ao carregar catálogo nacional de alojamentos.');
+    const data=await response.json();
+    nationalLodgings=data.records||[];
+    renderNationalLodgings();
+  }
+  function renderNationalLodgings(){
+    const grid=document.getElementById('lodging-grid');
+    const search=document.getElementById('lodging-search');
+    const source=document.getElementById('lodging-source');
+    const count=document.getElementById('lodging-count');
+    const empty=document.getElementById('lodging-empty');
+    if(!grid||!search||!source)return;
+    const q=search.value.trim().toLocaleLowerCase('pt-PT');
+    const sf=source.value;
+    const filtered=nationalLodgings.filter(x=>{
+      const text=[x.nome,x.município,x.localidade,x.distrito,x.endereço].filter(Boolean).join(' ').toLocaleLowerCase('pt-PT');
+      return (!q||text.includes(q))&&(sf==='todos'||x.fonte===sf);
+    });
+    count.textContent=filtered.length+' resultado'+(filtered.length===1?'':'s')+' de '+nationalLodgings.length;
+    grid.innerHTML='';
+    filtered.slice(0,120).forEach(x=>{
+      const card=document.createElement('article');card.className='point-card';
+      const links=x.website?'<a href="'+x.website+'" target="_blank" rel="noopener">Website ↗</a>':'';
+      card.innerHTML='<span class="point-card-id">'+x.fonte+' · '+x.id_origem+'</span><h3>'+x.nome+'</h3><p>'+(x.município||'')+(x.localidade?' · '+x.localidade:'')+'</p><span class="point-badge">'+x.estado_validação+' · '+x.grau_confiança+'</span>'+links;
+      grid.appendChild(card);
+    });
+    empty.hidden=filtered.length!==0;
+  }
+  document.getElementById('lodging-search')?.addEventListener('input',renderNationalLodgings);
+  document.getElementById('lodging-source')?.addEventListener('change',renderNationalLodgings);
+  loadNationalLodgings().catch(error=>{console.error(error);const count=document.getElementById('lodging-count');if(count)count.textContent='Catálogo indisponível';});
 
   let nationalMunicipalities=[];
   let publicPoints=[];
