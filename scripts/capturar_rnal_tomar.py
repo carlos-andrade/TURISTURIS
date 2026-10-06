@@ -81,7 +81,7 @@ def main():
     OUT_TXT.parent.mkdir(parents=True, exist_ok=True)
     OUT_TXT.write_text(raw, encoding="utf-8")
 
-    rnal_re = re.compile(r"N\\.º Registo:\\s*([0-9]+)\\s*/\\s*AL", re.I)
+    rnal_re = re.compile(r"N\.º Registo:\s*([0-9]+)\s*/\s*AL", re.I)
     rnal_ids = [m.group(1) for m in map(rnal_re.search, al_lines) if m]
     dupes = sorted(
         [k for k, v in Counter(rnal_ids).items() if v > 1],
