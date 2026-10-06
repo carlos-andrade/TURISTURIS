@@ -1,0 +1,48 @@
+name: TURISTURIS — WEB-12.3 validação nacional de alojamentos
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py"
+      - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/README.md"
+      - ".github/workflows/turisturis-web-12-3-validacao.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  validacao:
+    name: Validar RNET + RNAL
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Recuperar artefato WEB-12.2
+        uses: actions/download-artifact@v5
+        with:
+          name: TURISTURIS-WEB-12.2-NORMALIZADO
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: 37402864529
+          path: .
+
+      - name: Extrair normalização
+        run: tar -xzf alojamentos-normalizados-web-12-2.tar.gz
+
+      - name: Executar validação
+        run: python3 CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py
+
+      - name: Gerar manifesto de validação
+        run: |
+          python3 CONTINENTE/DADOS/CODIGOS/validacao_alojamentos_nacional_v1.py > validacao_alojamentos_web_12_3.json
+
+      - name: Publicar evidência
+        uses: actions/upload-artifact@v4
+        with:
+          name: TURISTURIS-WEB-12.3-VALIDACAO
+          path: validacao_alojamentos_web_12_3.json
+          retention-days: 30
