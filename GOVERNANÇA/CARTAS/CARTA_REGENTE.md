@@ -36,3 +36,10 @@ Documento fundacional do projeto.
 ## 8. Regra fiel — identidade internacional dos contactos telefónicos
 
 Todo contacto telefónico deve preservar obrigatoriamente o código telefónico internacional do país de origem. Esta regra é global: aplica-se a Portugal e a qualquer país que venha a ser incorporado no TURISTURIS. O código de país não pode ser eliminado, truncado ou substituído durante captura, normalização, validação, enriquecimento, armazenamento, exportação ou publicação. A representação internacional é a forma canónica; a apresentação nacional/local, quando existir, é derivada e nunca substitui o valor internacional.
+
+
+## 9. Regra de publicação — estados internos não são conteúdo público
+
+Os estados internos de validação e confiança pertencem à camada de governança, auditoria e dados do TURISTURIS. Valores como `CONFIRMADO_FICHA_OFICIAL`, `CONFIRMADO_FONTE_PUBLICA`, `ALTO` e equivalentes **não devem ser exibidos no site público**, salvo decisão futura expressamente documentada.
+
+A interface pública deve apresentar a informação turística destinada ao visitante, sem expor etiquetas técnicas de validação, grau de confiança ou estados operacionais internos. Esses valores devem permanecer preservados nas camadas internas para auditoria e rastreabilidade.
