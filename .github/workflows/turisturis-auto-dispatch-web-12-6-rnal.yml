@@ -1,5 +1,5 @@
 name: TURISTURIS — Auto-dispatch WEB-12.6 RNAL Peso da Régua
-# CONTROLE: reavaliar próximo lote WEB-12.6 após persistência do offset 0
+# CONTROLE: reavaliar próximo lote WEB-12.6 após persistência dos lotes publicados
 
 on:
   push:
