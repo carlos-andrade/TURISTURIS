@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "municipio": "Tomar",
+  "distrito": "Santarém",
+  "source": {
+    "nome": "Turismo de Tomar / Município de Tomar",
+    "url": "https://www.turismo.cm-tomar.pt/Places/Index/wtd",
+    "mapa_url": "https://www.cm-tomar.pt/images/CMT/visitar/Mapa%20Tomar%202025%20-%2012%20-%20FINAL_compressed.pdf"
+  },
+  "criterio": "Catálogo complementar de pontos de interesse identificados em fontes oficiais. Não constitui ranking.",
+  "pontos": [
+    {
+      "ordem": 1,
+      "id": "PT-PTT-SANTAREM-TOMAR-PELOURINHO-DE-TOMAR",
+      "nome": "Pelourinho de Tomar",
+      "tipo": "Património",
+      "localizacao": "Largo do Pelourinho",
+      "descricao": "O pelourinho barroco de Tomar remonta ao século XVII; o conjunto atual resulta de reconstrução de 1939-40 e reúne os elementos originais, com exceção do pedestal.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 2,
+      "id": "PT-PTT-SANTAREM-TOMAR-CAPELA-NOSSA-SENHORA-DA-PIEDADE",
+      "nome": "Capela de Nossa Senhora da Piedade",
+      "tipo": "Igreja / Capela",
+      "localizacao": "Tomar",
+      "descricao": "Capela erguida no século XIV, situada numa colina diante do Castelo e do Convento de Cristo; o acesso ao santuário faz-se por uma escadaria de 292 degraus.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 3,
+      "id": "PT-PTT-SANTAREM-TOMAR-PARQUE-DO-MOUCHAO",
+      "nome": "Parque do Mouchão",
+      "tipo": "Parque / Paisagem",
+      "localizacao": "Rio Nabão, centro histórico de Tomar",
+      "descricao": "Espaço ajardinado numa pequena ilha do rio Nabão, ligado à cidade por pontes pedonais, junto à Roda do Nabão.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 4,
+      "id": "PT-PTT-SANTAREM-TOMAR-MATA-SETEMONTES",
+      "nome": "Mata Nacional dos Sete Montes",
+      "tipo": "Natureza / Parque",
+      "localizacao": "Tomar",
+      "descricao": "Espaço verde associado ao Convento de Cristo e integrado nos percursos históricos oficiais de Tomar.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 5,
+      "id": "PT-PTT-SANTAREM-TOMAR-IGREJA-SANTA-MARIA-DO-OLIVAL",
+      "nome": "Igreja de Santa Maria do Olival",
+      "tipo": "Património religioso",
+      "localizacao": "Tomar",
+      "descricao": "Igreja histórica incluída no percurso histórico oficial de Tomar e no mapa turístico municipal.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 6,
+      "id": "PT-PTT-SANTAREM-TOMAR-CONVENTO-SANTA-IRIA",
+      "nome": "Convento de Santa Iria",
+      "tipo": "Património religioso",
+      "localizacao": "Tomar",
+      "descricao": "Conjunto histórico incluído no percurso histórico oficial de Tomar, com capela associada.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 7,
+      "id": "PT-PTT-SANTAREM-TOMAR-CASA-DOS-CUBOS",
+      "nome": "Casa dos Cubos / CEFT",
+      "tipo": "Edifício de interesse / Cultura",
+      "localizacao": "Centro histórico de Tomar",
+      "descricao": "Edifício junto ao rio Nabão, atualmente associado ao Centro de Estudos em Fotografia de Tomar.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 8,
+      "id": "PT-PTT-SANTAREM-TOMAR-COMPLEXO-LEVADA",
+      "nome": "Complexo Cultural da Levada",
+      "tipo": "Cultura / Património industrial",
+      "localizacao": "Tomar",
+      "descricao": "Conjunto ligado à relação histórica da cidade com o rio e à antiga atividade industrial, incluindo estruturas recuperadas para usos turísticos e culturais.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 9,
+      "id": "PT-PTT-SANTAREM-TOMAR-MUSEU-DOS-FOSFOROS",
+      "nome": "Museu dos Fósforos – Aquiles da Mota Lima",
+      "tipo": "Museu",
+      "localizacao": "Tomar",
+      "descricao": "Museu identificado pelo Município como equipamento museológico e integrado no percurso turístico da cidade.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 10,
+      "id": "PT-PTT-SANTAREM-TOMAR-NAC",
+      "nome": "NAC – Núcleo de Arte Contemporânea",
+      "tipo": "Museu / Arte",
+      "localizacao": "Tomar",
+      "descricao": "Núcleo de arte contemporânea incluído no percurso histórico e nos mapas turísticos municipais.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 11,
+      "id": "PT-PTT-SANTAREM-TOMAR-CAPELA-NOSSA-SENHORA-CONCEICAO",
+      "nome": "Capela de Nossa Senhora da Conceição",
+      "tipo": "Igreja / Capela",
+      "localizacao": "Tomar",
+      "descricao": "Capela integrada no percurso histórico complementar oficial de Tomar, com vista sobre o rio Nabão.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    },
+    {
+      "ordem": 12,
+      "id": "PT-PTT-SANTAREM-TOMAR-IGREJA-CONVENTO-SAO-FRANCISCO",
+      "nome": "Igreja e Convento de São Francisco",
+      "tipo": "Património religioso",
+      "localizacao": "Tomar",
+      "descricao": "Conjunto identificado pelo Município no mapa turístico de Tomar entre as igrejas e capelas do destino.",
+      "fonte": "Turismo de Tomar / Município de Tomar"
+    }
+  ]
+}
