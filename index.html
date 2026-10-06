@@ -192,19 +192,19 @@
 
   <div class="wrap">
     <div class="stats" aria-label="Visão geral do projeto">
-      <div class="stat"><strong>28</strong><span>pontos turísticos de Amadora normalizados</span></div>
-      <div class="stat"><strong>ALTO</strong><span>nível de confiança no lote validado</span></div>
-      <div class="stat"><strong>0</strong><span>duplicações no lote de Amadora</span></div>
-      <div class="stat"><strong>0</strong><span>perdas na normalização do lote</span></div>
+      <div class="stat"><strong>237</strong><span>registos explicitamente prontos para publicação</span></div>
+      <div class="stat"><strong>28</strong><span>pontos turísticos verificados em Amadora</span></div>
+      <div class="stat"><strong>28</strong><span>pontos turísticos verificados no catálogo nacional</span></div>
+      <div class="stat"><strong>181</strong><span>alojamentos RNAL confirmados em Peso da Régua</span></div>
     </div>
   </div>
 
   <section id="destinos">
     <div class="wrap">
       <div class="section-head">
-        <div class="kicker">Um país, muitas geografias</div>
-        <h2>Depois, explore o restante do território.</h2>
-        <p class="muted">O TURISTURIS começa pela sua localização quando possível. A partir daí, pode abrir outras regiões, destinos e ilhas sem perder o contexto geográfico.</p>
+        <div class="kicker">Conteúdo publicado</div>
+        <h2>Tudo o que já está pronto.</h2>
+        <p class="muted">O TURISTURIS apresenta primeiro o conteúdo já validado e publicável. O catálogo cresce por etapas, sem publicar registos ainda em verificação.</p>
       </div>
       <div class="destinations">
         <article class="destination">
@@ -467,14 +467,23 @@
     ]
   };
 
-  const LOCAL_DATA_URL='CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json';
+  const PUBLISHED_POINT_SOURCES=[
+    'CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json',
+    'CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_V1.json'
+  ];
   let localPoints=[];
   async function loadLocalPortalData(){
-    const response=await fetch(LOCAL_DATA_URL,{cache:'no-store'});
-    if(!response.ok) throw new Error('Falha ao carregar dados canônicos: '+response.status);
-    const data=await response.json();
-    if(!Array.isArray(data.records)) throw new Error('Formato de dados inválido.');
-    localPoints=data.records;
+    const responses=await Promise.all(PUBLISHED_POINT_SOURCES.map(url=>fetch(url,{cache:'no-store'})));
+    if(responses.some(r=>!r.ok)) throw new Error('Falha ao carregar um ou mais catálogos de publicação.');
+    const datasets=await Promise.all(responses.map(r=>r.json()));
+    const byId=new Map();
+    datasets.forEach(data=>{
+      if(!Array.isArray(data.records)) throw new Error('Formato de dados inválido.');
+      data.records.forEach(p=>{
+        if(['VERIFICADO','CONFIRMADO_FICHA_OFICIAL','CONFIRMADO_FONTE_PUBLICA'].includes(p.validation_state)) byId.set(p.id,p);
+      });
+    });
+    localPoints=Array.from(byId.values());
     renderLocalPortal();
   }
 
@@ -496,12 +505,13 @@
       const f=filter.value;
       grid.innerHTML=''; let visible=0;
       localPoints.forEach((p,i)=>{
-        const matchesText=!q||p.name.toLocaleLowerCase('pt-PT').includes(q);
+        const searchable=[p.name,p.municipality,p.district,p.type].filter(Boolean).join(' ').toLocaleLowerCase('pt-PT');
+        const matchesText=!q||searchable.includes(q);
         const matchesFilter=f==='todos';
         if(!matchesText||!matchesFilter) return;
         visible++;
         const card=document.createElement('article'); card.className='portal-card';
-        card.innerHTML='<span class="portal-card-id">AMADORA · '+p.id+'</span><h3>'+p.name+'</h3><p>'+p.type+' · estado '+p.validation_state+' · confiança '+p.confidence+'.</p>';
+        card.innerHTML='<span class="portal-card-id">'+(p.municipality||'Portugal')+' · '+p.id+'</span><h3>'+p.name+'</h3><p>'+p.type+' · '+(p.municipality||'Portugal')+' · '+(p.district||'').trim()+'</p>';
         grid.appendChild(card);
       });
       count.textContent=visible+' resultado'+(visible===1?'':'s'); empty.hidden=visible!==0;
