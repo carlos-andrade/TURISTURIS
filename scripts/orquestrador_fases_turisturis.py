@@ -196,11 +196,58 @@ def phase_c():
 
 
 def phase_d():
-    return [{
-        "gate": "D1 — consolidação do portal",
-        "status": "BLOCKED",
-        "detail": "Fase D depende da promoção formal das fases anteriores.",
-    }]
+    results = []
+
+    prerequisites_c = phase_c()
+    c_ok = all(item["status"] == "PASS" for item in prerequisites_c)
+    results.append({
+        "gate": "D1.A — pré-requisito da Fase C",
+        "status": "PASS" if c_ok else "BLOCKED",
+        "detail": "Fase C aprovada integralmente."
+        if c_ok
+        else f"Fase C não aprovada: {[item for item in prerequisites_c if item['status'] != 'PASS']}",
+    })
+
+    def publication_dataset():
+        pub = load_json(ROOT / "CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json")
+        records = pub.get("records", [])
+        if pub.get("record_count") != 182 or len(records) != 182:
+            raise GateFailure(
+                f"Catálogo RNAL não consolidado: record_count={pub.get('record_count')}, records={len(records)}"
+            )
+        return "Catálogo público RNAL de Peso da Régua com 182 registos"
+
+    results.append(gate("D1.B — catálogo público consolidado", publication_dataset))
+
+    index = read_text(ROOT / "index.html")
+
+    def portal_publication():
+        required = [
+            'id="alojamentos"',
+            "Alojamentos",
+            "Freguesia:",
+            "Município:",
+            "Distrito:",
+        ]
+        missing = [item for item in required if item not in index]
+        if missing:
+            raise GateFailure(f"Elementos públicos obrigatórios ausentes: {missing}")
+
+        internal_markers = [
+            "estado_validação",
+            "grau_confiança",
+            "CONFIRMADO_FICHA_OFICIAL",
+            "CONFIRMADO_FONTE_PUBLICA",
+        ]
+        exposed = [item for item in internal_markers if item in index]
+        if exposed:
+            raise GateFailure(f"Campos/estados internos expostos no portal: {exposed}")
+
+        return "Portal contém a secção de alojamentos, território canónico e não expõe estados internos"
+
+    results.append(gate("D1.C — publicação pública do portal", portal_publication))
+
+    return results
 
 
 RUNNERS = {"A": phase_a, "B": phase_b, "C": phase_c, "D": phase_d}
