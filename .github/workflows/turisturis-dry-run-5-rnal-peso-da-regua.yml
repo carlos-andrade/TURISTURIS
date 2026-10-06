@@ -1,6 +1,9 @@
 name: TURISTURIS — DRY-RUN controlado 5 RNAL Peso da Régua
 
 on:
+  push:
+    paths:
+      - ".github/workflows/turisturis-dry-run-5-rnal-peso-da-regua.yml"
   workflow_dispatch:
 
 permissions:
