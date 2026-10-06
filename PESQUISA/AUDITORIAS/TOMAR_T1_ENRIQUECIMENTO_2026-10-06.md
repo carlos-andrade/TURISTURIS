@@ -61,3 +61,10 @@ Foi criado `CONTINENTE/DADOS/PUBLICACAO/TOMAR_PONTOS_INTERESSE_T1_ENRIQUECIDOS_V
 - Dados voláteis não foram inventados nem acrescentados sem evidência específica.
 
 Esta execução fecha o checkpoint de **proveniência T1** para os 25 pontos, mas não fecha toda a FASE T1, porque ainda há campos operacionais a enriquecer quando houver evidência específica.
+
+
+## Correção de classificação de proveniência — 2026-10-06
+
+Foi corrigida a classificação dos registos sem página individual inequívoca. Os **6 pontos** ligados apenas ao catálogo oficial `Places/Index/wtd` passam a ter `tipo_fonte = catalogo_oficial`; não são classificados como `pagina_oficial`. Os **19 pontos** com URL individual inequívoca permanecem como `pagina_oficial`.
+
+A correção não altera `record_count` (25), não promove estados de validação e não acrescenta dados operacionais sem evidência específica.
