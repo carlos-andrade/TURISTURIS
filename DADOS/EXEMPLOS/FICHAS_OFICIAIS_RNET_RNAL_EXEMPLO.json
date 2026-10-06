@@ -1,0 +1,82 @@
+{
+  "tipo": "EXEMPLO_DE_ESTRUTURA",
+  "status": "NAO_SUBSTITUI_EVIDENCIA_OFICIAL",
+  "finalidade": "Fixture de validação para confirmar o modelo de captura semântica antes da captura oficial.",
+  "regra": "Os valores abaixo foram fornecidos como dados públicos de exemplo. Não constituem o raw HTML oficial e não podem ser usados como prova de captura.",
+  "RNET": {
+    "numero_registo": "6803",
+    "registado_em": "2017-03-20",
+    "tipologia": "EMPREENDIMENTO DE TURISMO NO ESPAÇO RURAL | CASA DE CAMPO",
+    "nome": "QUINTA AZUL",
+    "localizacao": "Monte da Barradinha apartado nº 1114 8671-909 ALJEZUR Aljezur, Faro",
+    "ERT_DRT": "Região de Turismo do Algarve",
+    "NUTS": "Algarve",
+    "contactos": {
+      "telefone": "917461607",
+      "email": "tacaquinta@gmail.com"
+    },
+    "marca_comercial": "---",
+    "classificacao": {
+      "estado": "Classificado em auditoria",
+      "data_ultima_classificacao": "2022-03-28"
+    },
+    "capacidade": {
+      "unidades_de_alojamento": 4,
+      "quartos": 4,
+      "total": 8
+    },
+    "exploracao_e_proprietario": {
+      "diretor_responsavel": "Alexandra Osbelt",
+      "entidade_exploradora": "261535730 - Alexandra Osbelt",
+      "proprietario": "261535730 - Alexandra Osbelt"
+    },
+    "funcionamento": {
+      "ano_abertura": 2017,
+      "utilidade_turistica": "Não",
+      "turismo_natureza": "Não",
+      "atividades_proprias_agente_animacao_turistica": "Não",
+      "periodos_encerramento": "Não encerra este ano"
+    },
+    "observacoes": "Sem observações"
+  },
+  "RNAL": {
+    "numero_registo": "15642/AL",
+    "registado_em": "2015-06-15",
+    "nome_alojamento": "AL AROEIRA 1",
+    "data_abertura_publico": "2015-07-14",
+    "imovel_posterior_a_1951": "Sim",
+    "titulo_autorizacao_utilizacao": "169/2002",
+    "modalidade": "Apartamento",
+    "capacidade": {
+      "utentes": 2,
+      "quartos": 1,
+      "camas": 1
+    },
+    "localizacao": {
+      "tipo_via": "Rua",
+      "designacao_via": "Dom João II",
+      "porta": "5",
+      "andar": "R/C",
+      "lado": "",
+      "codigo_postal": "7645-270",
+      "localidade_postal": "Vila Nova de Milfontes",
+      "localidade": "Vila Nova de Milfontes",
+      "freguesia": "Vila Nova de Milfontes",
+      "concelho": "Odemira",
+      "distrito": "Beja"
+    },
+    "titular": {
+      "numero": 1,
+      "qualidade": "Comodatário",
+      "NIPC_NIF": "195311531",
+      "nome": "VERA CRISTINA BENTO AROEIRA GONÇALVES OSÓRIO",
+      "email": "vera.aroeira@avv-aroeira.pt"
+    },
+    "seguro_responsabilidade_civil": {
+      "companhia": "Generali Tranquilidade",
+      "apolice": "9883251",
+      "data_inicio": "2025-05-16",
+      "validade": "2026-05-16"
+    }
+  }
+}
