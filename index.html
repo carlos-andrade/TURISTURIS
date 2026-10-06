@@ -25,7 +25,13 @@
     .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
       linear-gradient(90deg,rgba(5,28,27,.86),rgba(5,28,27,.35) 58%,rgba(5,28,27,.12)),
       url("https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa-lisbon-_panorama.jpg") center/cover no-repeat}
-    .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(5,28,27,.72),transparent 55%)}
+    .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(5,28,27,.82),transparent 55%)}
+    .image-place{position:absolute;left:24px;bottom:20px;padding:7px 11px;border-radius:999px;background:rgba(5,28,27,.72);color:#fff;font-size:.76rem;font-weight:800;letter-spacing:.03em;border:1px solid rgba(255,255,255,.22)}
+    .image-wrap{position:relative;overflow:hidden}
+    .image-wrap img{display:block}
+    .image-place-card{position:absolute;left:14px;bottom:14px;padding:6px 9px;border-radius:8px;background:rgba(16,42,42,.78);color:#fff;font-size:.72rem;font-weight:800;line-height:1.25}
+    .feature-wrap{position:relative}
+    .feature-wrap .image-place{left:16px;bottom:16px}
     .hero-inner{padding:110px 0 82px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:800;color:#e5c77f}
     h1{font-size:clamp(3rem,7vw,6.4rem);line-height:.94;letter-spacing:-.045em;margin:16px 0 24px;max-width:900px}
     .lead{font-size:clamp(1.1rem,2vw,1.35rem);max-width:760px;color:#edf5f2}
@@ -83,6 +89,7 @@
 <main>
   <section class="hero" id="inicio">
     <div class="wrap hero-inner">
+      <div class="image-place" aria-label="Local da imagem: Lisboa">Lisboa · Portugal</div>
       <div class="eyebrow">Portugal · território · património · experiências</div>
       <h1>Descobrir Portugal com informação que faz sentido.</h1>
       <p class="lead">O TURISTURIS organiza informação turística de Portugal para tornar destinos, lugares e experiências mais fáceis de descobrir, comparar e investigar.</p>
@@ -111,27 +118,27 @@
       </div>
       <div class="destinations">
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Douro%2C_Porto.jpg" alt="Rio Douro junto ao Porto"><span class="image-place-card">Porto · Rio Douro</span></div>
           <div class="body"><span class="tag">Norte</span><h3>Porto &amp; Douro</h3><p>Património urbano, rio, vinho, paisagem e acesso ao Norte de Portugal.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Douro,_Porto.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Explorar estrutura continental →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_nacional_de_Sintra.jpg" alt="Palácio Nacional de Sintra"><span class="image-place-card">Sintra · Palácio Nacional</span></div>
           <div class="body"><span class="tag">Lisboa · Património</span><h3>Sintra</h3><p>Paisagem cultural, palácios, parques e uma das áreas turísticas mais emblemáticas do país.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Palacio_nacional_de_Sintra.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Algarve%20Beach.jpg" alt="Praia no Algarve ao pôr do sol"><span class="image-place-card">Algarve · Portugal</span></div>
           <div class="body"><span class="tag">Sul · Atlântico</span><h3>Algarve</h3><p>Litoral, praias, falésias, natureza e destinos urbanos para diferentes perfis de viagem.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Algarve_Beach.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madeira%20Portugal.jpg" alt="Paisagem da Madeira"><span class="image-place-card">Madeira · Portugal</span></div>
           <div class="body"><span class="tag">Ilhas · Madeira</span><h3>Madeira</h3><p>Montanha, levadas, costa atlântica, natureza e identidade insular.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Madeira_Portugal.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sete%20cidades.jpg" alt="Lagoas de Sete Cidades nos Açores"><span class="image-place-card">Sete Cidades · São Miguel · Açores</span></div>
           <div class="body"><span class="tag">Ilhas · Açores</span><h3>Açores</h3><p>Vulcanismo, lagoas, paisagens atlânticas e experiências ligadas à natureza.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Sete_cidades.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Explorar ilhas →</a></div>
         </article>
         <article class="destination">
-          <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa">
+          <div class="image-wrap"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_panorama.jpg" alt="Panorama de Lisboa"><span class="image-place-card">Lisboa · Portugal</span></div>
           <div class="body"><span class="tag">Capital · Tejo</span><h3>Lisboa</h3><p>História, bairros, museus, gastronomia, mobilidade e ligação a Sintra e Cascais.</p><a class="credit-link" href="https://commons.wikimedia.org/wiki/File:Lisboa_panorama.jpg" target="_blank" rel="noopener">Crédito da imagem ↗</a><br><a href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver território →</a></div>
         </article>
       </div>
@@ -147,7 +154,7 @@
         <p class="muted">Um destino turístico ganha valor quando a informação está ligada: localização, património, natureza, acessos, alojamento, restauração, horários, contactos e fontes.</p>
         <p class="muted">O objetivo do TURISTURIS é construir essa ligação progressivamente, mantendo a informação volátil identificada e a proveniência visível.</p>
       </div>
-      <img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra">
+      <div class="feature-wrap"><img class="feature-img" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20RoyalPalace.jpg" alt="Palácio Nacional de Sintra"><span class="image-place">Sintra · Palácio Nacional · Portugal</span></div>
     </div>
   </section>
 
