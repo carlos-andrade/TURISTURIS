@@ -6,6 +6,8 @@ on:
     paths:
       - "index.html"
       - ".github/workflows/turisturis-pages.yml"
+      - "CONTINENTE/DADOS/NORMALIZAÇÃO/**"
+      - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_pontos_turisticos.py"
   workflow_dispatch:
 
 permissions:
@@ -28,8 +30,12 @@ jobs:
       - name: Preparar diretório de publicação
         run: |
           rm -rf _site
-          mkdir -p _site
+          mkdir -p _site/CONTINENTE/DADOS/PUBLICACAO
           cp index.html _site/index.html
+          python3 CONTINENTE/DADOS/CODIGOS/gerar_publicacao_pontos_turisticos.py
+          cp CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_COMPLETO_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
+          cp CONTINENTE/DADOS/PUBLICACAO/CATALOGO_MUNICIPIOS_NORMALIZADOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
+          cp CONTINENTE/DADOS/PUBLICACAO/AMADORA_PONTOS_TURISTICOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
 
       - name: Upload do artefato Pages
         uses: actions/upload-pages-artifact@v4

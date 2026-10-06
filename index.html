@@ -619,7 +619,7 @@
   async function loadNationalCatalog(){
     const [municipalityResponse,pointResponse]=await Promise.all([
       fetch('CONTINENTE/DADOS/PUBLICACAO/CATALOGO_MUNICIPIOS_NORMALIZADOS_V1.json',{cache:'no-store'}),
-      fetch('CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_V1.json',{cache:'no-store'})
+      fetch('CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_COMPLETO_V1.json',{cache:'no-store'})
     ]);
     if(!municipalityResponse.ok||!pointResponse.ok) throw new Error('Falha ao carregar catálogo nacional.');
     const municipalityData=await municipalityResponse.json();
