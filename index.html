@@ -54,6 +54,19 @@
     .btn-local:hover{background:#e9efeb}
     .destination.is-location-hidden{display:none}
     .destinations.location-expanded .destination.is-location-hidden{display:block}
+    .portal-local{background:#f5f3ed}
+    .portal-toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}
+    .portal-search{flex:1;min-width:240px;border:1px solid var(--line);border-radius:999px;padding:13px 17px;font:inherit;background:#fff;color:var(--ink)}
+    .portal-filter{border:1px solid var(--line);border-radius:999px;padding:12px 15px;background:#fff;color:var(--accent);font:inherit;font-weight:800}
+    .portal-count{font-size:.8rem;font-weight:800;color:var(--muted)}
+    .portal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .portal-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;min-height:132px;box-shadow:0 7px 22px rgba(16,42,42,.05)}
+    .portal-card[hidden]{display:none}
+    .portal-card-id{display:block;color:var(--accent-2);font-size:.68rem;font-weight:900;letter-spacing:.08em;margin-bottom:7px}
+    .portal-card h3{font-size:1rem;line-height:1.25;margin:0 0 8px}
+    .portal-card p{font-size:.78rem;color:var(--muted);margin:0}
+    .portal-empty{padding:20px;border:1px dashed var(--line);border-radius:16px;color:var(--muted);background:#fff}
+    @media(max-width:900px){.portal-grid{grid-template-columns:repeat(2,1fr)}}
     section{padding:84px 0}.section-head{max-width:760px;margin-bottom:38px}
     .kicker{color:var(--accent-2);font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em}
     h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.025em;margin:8px 0 14px}
@@ -190,6 +203,29 @@
         </article>
       </div>
       <p class="gallery-note">Créditos e licenças das imagens: cada cartão identifica a página do ficheiro no Wikimedia Commons. A utilização deve respeitar os termos da licença indicada pelo autor.</p>
+    </div>
+  </section>
+
+  <section id="portal-local" class="portal-local">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Portal local</div>
+        <h2>Lisboa &amp; Amadora começam aqui.</h2>
+        <p class="muted">O primeiro nível público do portal usa o lote turístico já normalizado de Amadora. Os registros aparecem como entidades turísticas verificadas no lote; campos operacionais continuam protegidos contra publicação sem verificação individual.</p>
+      </div>
+      <div class="portal-toolbar">
+        <input id="portal-search" class="portal-search" type="search" placeholder="Pesquisar ponto turístico…" aria-label="Pesquisar ponto turístico">
+        <select id="portal-filter" class="portal-filter" aria-label="Filtrar informação">
+          <option value="todos">Todos os 28</option>
+          <option value="patrimonio">Património e história</option>
+          <option value="museu">Museus e cultura</option>
+          <option value="natureza">Natureza e espaços públicos</option>
+        </select>
+        <span id="portal-count" class="portal-count" aria-live="polite">28 resultados</span>
+      </div>
+      <div id="portal-grid" class="portal-grid"></div>
+      <div id="portal-empty" class="portal-empty" hidden>Nenhum registro corresponde à pesquisa.</div>
+      <p class="public-note">Base: Amadora, lote normalizado de 04/10/2026. Não são apresentados aqui endereço, coordenadas, horários, preços, contactos ou reservas sem verificação específica.</p>
     </div>
   </section>
 
@@ -346,11 +382,40 @@
     ]
   };
 
+  const localPoints = [
+    ['PT-01','Aqueduto Geral das Águas Livres','patrimonio'],['PT-02','Necrópole de Carenque','patrimonio'],['PT-03','Casa Roque Gameiro','museu'],['PT-04','Núcleo Museológico do Casal da Falagueira','museu'],['PT-05','Núcleo Museológico do Moinho do Penedo','museu'],['PT-06','Villa Romana da Quinta da Bolacha','patrimonio'],['PT-07','Aqueduto Romano da Amadora','patrimonio'],['PT-08','Aqueduto da Gargantada / Nascentes da Gargantada','patrimonio'],['PT-09','Quinta do Assentista','patrimonio'],['PT-10','Palácio/Quinta dos Condes da Lousã','patrimonio'],['PT-11','Casa da Ordem de Malta / Casal da Falagueira de Cima','patrimonio'],['PT-12','Casa Aprígio Gomes','patrimonio'],['PT-13','Fachada da Casa do Infantado / Palácio da Porcalhota','patrimonio'],['PT-14','Moradia Neorromântica / Chalet Desideria','patrimonio'],['PT-15','Igreja Matriz da Amadora','patrimonio'],['PT-16','Capela da Falagueira / Nossa Senhora da Lapa','patrimonio'],['PT-17','Chafariz da Porcalhota','patrimonio'],['PT-18','Mina de Água e Jardim da Mina','natureza'],['PT-19','Parque Delfim Guimarães','natureza'],['PT-20','Ponte Filipina / Ponte de Carenque de Baixo','patrimonio'],['PT-21','Quinta do Outeiro','patrimonio'],['PT-22','Quinta de São Miguel','patrimonio'],['PT-23','Recreios da Amadora','museu'],['PT-24','Portas de Benfica','patrimonio'],['PT-25','Moinho do Castelinho','patrimonio'],['PT-26','Quinta Grande de Alfragide','patrimonio'],['PT-27','Vila Martelo','patrimonio'],['PT-28','Edifício Torreado da Fábrica dos Cabos Ávila','patrimonio']
+  ];
+
   const regionLabels = {
     norte:'Norte de Portugal', centro:'Centro de Portugal', lisboa:'Lisboa',
     alentejo:'Alentejo', algarve:'Algarve', madeira:'Madeira', acores:'Açores',
     desconhecida:'Portugal'
   };
+
+  function renderLocalPortal() {
+    const grid=document.getElementById('portal-grid');
+    const search=document.getElementById('portal-search');
+    const filter=document.getElementById('portal-filter');
+    const count=document.getElementById('portal-count');
+    const empty=document.getElementById('portal-empty');
+    if(!grid||!search||!filter) return;
+    function render(){
+      const q=search.value.trim().toLocaleLowerCase('pt-PT');
+      const f=filter.value;
+      grid.innerHTML=''; let visible=0;
+      localPoints.forEach((p,i)=>{
+        const matchesText=!q||p[1].toLocaleLowerCase('pt-PT').includes(q);
+        const matchesFilter=f==='todos'||p[2]===f;
+        if(!matchesText||!matchesFilter) return;
+        visible++;
+        const card=document.createElement('article'); card.className='portal-card';
+        card.innerHTML='<span class="portal-card-id">AMADORA · '+p[0]+'</span><h3>'+p[1]+'</h3><p>Registro turístico normalizado · confiança ALTO.</p>';
+        grid.appendChild(card);
+      });
+      count.textContent=visible+' resultado'+(visible===1?'':'s'); empty.hidden=visible!==0;
+    }
+    search.addEventListener('input',render); filter.addEventListener('change',render); render();
+  }
 
   function pick(list) {
     return list[Math.floor(Math.random() * list.length)];
@@ -477,6 +542,8 @@
     if (status) status.textContent = 'Localização não autorizada · modo nacional';
   }
 
+
+  renderLocalPortal();
 
   if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(
