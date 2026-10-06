@@ -6,14 +6,11 @@ on:
     paths:
       - "index.html"
       - ".github/workflows/turisturis-pages.yml"
+      - "CONTINENTE/SITE/**"
       - "CONTINENTE/DADOS/NORMALIZAÇÃO/**"
-      - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_pontos_turisticos.py"
-      - "CONTINENTE/DADOS/CODIGOS/gerar_publicacao_alojamentos.py"
-      - "CONTINENTE/DADOS/CODIGOS/normalizacao_alojamentos_nacional_v1.py"
-      - "CONTINENTE/DADOS/VALIDAÇÃO/ALOJAMENTOS/**"
-      - "CONTINENTE/DADOS/PUBLICACAO/ALOJAMENTOS_PUBLICAVEIS_V2.json"
-      - "CONTINENTE/DADOS/CODIGOS/enriquecimento_contatos_rnal_v1.py"
-      - "CONTINENTE/DADOS/PUBLICACAO/RNAL_PESO_DA_REGUA_PUBLICAVEIS_V1.json"
+      - "CONTINENTE/DADOS/CODIGOS/**"
+      - "CONTINENTE/DADOS/VALIDAÇÃO/**"
+      - "CONTINENTE/DADOS/PUBLICACAO/**"
   workflow_dispatch:
 
 permissions:
@@ -62,6 +59,7 @@ jobs:
           rm -rf _site
           mkdir -p _site/CONTINENTE/DADOS/PUBLICACAO
           cp index.html _site/index.html
+          cp -R CONTINENTE/SITE _site/CONTINENTE/
           python3 CONTINENTE/DADOS/CODIGOS/gerar_publicacao_pontos_turisticos.py
           cp CONTINENTE/DADOS/PUBLICACAO/PONTOS_TURISTICOS_PUBLICAVEIS_COMPLETO_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
           cp CONTINENTE/DADOS/PUBLICACAO/CATALOGO_MUNICIPIOS_NORMALIZADOS_V1.json _site/CONTINENTE/DADOS/PUBLICACAO/
