@@ -177,3 +177,16 @@ Para o município **Peso da Régua**, o enquadramento territorial canónico do T
 - **Distrito:** Vila Real
 
 Esta correspondência deve ser preservada de forma consistente em captura, normalização, validação, armazenamento, publicação, filtros e demais artefactos do projeto. Não deve ser substituída por inferência ou por designação territorial divergente sem fonte oficial e atualização expressamente documentada.
+
+
+## Padrão permanente — apresentação territorial no site
+
+As fichas públicas de entidades e alojamentos devem apresentar, quando os dados estiverem disponíveis, o enquadramento territorial nesta ordem e com estes rótulos:
+
+- **Freguesia:**
+- **Município:**
+- **Distrito:**
+
+Este é o padrão canónico de apresentação territorial do TURISTURIS. A **Freguesia** deve ser preservada e publicada quando existir na fonte validada; o **Município** e o **Distrito** devem seguir o mesmo princípio. A ordem Freguesia → Município → Distrito deve ser mantida para proporcionar uma apresentação territorial uniforme, clara e comparável no site.
+
+Para o conjunto atualmente tratado de **Peso da Régua**, o exemplo validado é **Freguesia: Vilarinho dos Freires**, **Município: Peso da Régua**, **Distrito: Vila Real** quando aplicável ao registo.
