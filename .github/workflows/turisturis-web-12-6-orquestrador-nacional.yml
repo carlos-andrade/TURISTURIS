@@ -26,13 +26,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           TARGET: turisturis-web-12-6-enriquecimento-nacional.yml
+          CATALOG: turisturis-web-12-6-catalogo-municipios.yml
           NORMALIZATION: turisturis-web-12-2-normalizacao.yml
         run: |
           set -euo pipefail
           if gh run list --repo "$REPO" --workflow "$TARGET" --limit 20 --json status --jq 'any(.[]; .status == "queued" or .status == "in_progress")' | grep -q true; then
             echo "Execução nacional já em curso."; exit 0
           fi
-          test -f DADOS/INDICES/rnal_municipios_catalogo.json
+          if [ ! -f DADOS/INDICES/rnal_municipios_catalogo.json ]; then
+            echo "Catálogo nacional ausente; disparando geração controlada."
+            gh workflow run "$CATALOG" --repo "$REPO" --ref main -f normalization_run_id="37402864529"
+            exit 0
+          fi
           next_municipio=""
           next_offset=""
           while IFS=$'\t' read -r municipio slug total; do
