@@ -11,12 +11,12 @@
 | Estado atual | **REGRA OBRIGATÓRIA, PERMANENTE E REGENTE PARA OS CABEÇALHOS DAS CARTAS** |
 | Versão | V1 |
 | Data de criação | 2026-10-06 |
-| Primeiro commit | Será registrado imediatamente após a criação desta Carta |
+| Primeiro commit | `64929a058e5206f970d3481772c5d05e0d29b1ce` |
 | Primeiro commit — mensagem | `GOV: criar CARTA-CH-001 para padronização dos cabeçalhos históricos` |
 | Data da primeira persistência | 2026-10-06 |
 | Última atualização registrada | 2026-10-06 |
-| Último commit | Igual ao primeiro até que esta Carta seja atualizada |
-| Última atualização — mensagem | `GOV: criar CARTA-CH-001 para padronização dos cabeçalhos históricos` |
+| Último commit | Será registrado nesta atualização |
+| Última atualização — mensagem | `GOV: registrar histórico inicial de CARTA-CH-001` |
 | Função histórica | Estabelecer uma única regra específica para preservar e padronizar o histórico documental de todas as Cartas do TURISTURIS |
 | Hierarquia | Subordinada à CARTA-VITAL-001 e aplicável a todas as demais Cartas |
 | Relação com o LAYOUT MESTRE | O cabeçalho histórico deve ser preservado antes de qualquer conteúdo da Carta ser utilizado pelo Layout |
