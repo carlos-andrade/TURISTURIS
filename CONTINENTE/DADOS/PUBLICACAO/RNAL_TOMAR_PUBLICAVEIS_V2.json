@@ -1,0 +1,5490 @@
+{
+  "schema_version": "2.0",
+  "process": "PUBLICACAO_RNAL_TOMAR",
+  "source_index": "DADOS/INDICES/rnal_tomar.json",
+  "validation_report": "DADOS/INDICES/rnal_tomar_manifest_validation_report.json",
+  "record_count": 274,
+  "contact_policy": "publicar_apenas_contactos_extraidos_de_contexto_de_contacto; preservar_prefixo_internacional_explicito",
+  "records": [
+    {
+      "id": "RNAL:1945",
+      "rn_al": "1945",
+      "nome": "Casa de Pedra",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "1ª Rua Principal",
+      "codigo_postal": "2300-233",
+      "localidade": "Esteveira",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5878116461933 ; -8,41811180996366",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1945",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:2807",
+      "rn_al": "2807",
+      "nome": "Ninho do Falcão-Actividades Hoteleiras, Lda",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 17,
+      "morada": "Estrada Estrada do Castelo do Bode 24",
+      "codigo_postal": "2300-184",
+      "localidade": "Quinta do Falcão",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5485080011875 ; -8,37875149967738",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2807",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:2897",
+      "rn_al": "2897",
+      "nome": "Residencial União-GuestHuse-AL",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 49,
+      "morada": "Rua Rua Serpa Pinto 94",
+      "codigo_postal": "2300-592",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6041810092316 ; -8,41345658893698",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2897",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:2997",
+      "rn_al": "2997",
+      "nome": "António José dos Santos/Residencial Luz",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 32,
+      "morada": "Rua Rua Serpa Pinto 144",
+      "codigo_postal": "2300-592",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6039729504925 ; -8,41432125994515",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2997",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:3217",
+      "rn_al": "3217",
+      "nome": "João Luis Marques Lourinho",
+      "tipo": "Moradia",
+      "capacidade": 48,
+      "morada": "Quinta Quinta dos Ganados",
+      "codigo_postal": "2305-321",
+      "localidade": "Casais",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5556602219154 ; -8,43393000042324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=3217",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:4441",
+      "rn_al": "4441",
+      "nome": "Casa do Trovador",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 13,
+      "morada": "Estrada Estrada do Ôuteiro da Barreira",
+      "codigo_postal": "2300-263",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5993489593272 ; -8,29088009641338",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=4441",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:9003",
+      "rn_al": "9003",
+      "nome": "Casa Ceres",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Principal 5A",
+      "codigo_postal": "2305-303",
+      "localidade": "Arroteia",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5556602219154 ; -8,43393000042324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9003",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:9479",
+      "rn_al": "9479",
+      "nome": "Hostel Luanda",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 34,
+      "morada": "Avenida Marquês de Tomar 15",
+      "codigo_postal": "2300-586",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6054433616229 ; -8,41456981881166",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9479",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:9504",
+      "rn_al": "9504",
+      "nome": "Thomar Story",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 24,
+      "morada": "Rua Everard 49 a 53",
+      "codigo_postal": "2300-561",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6035700010526 ; -8,41183550050487",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9504",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:9769",
+      "rn_al": "9769",
+      "nome": "Hostel 2300 Thomar",
+      "tipo": "EstabelecimentoHospedagemHostel",
+      "capacidade": 44,
+      "morada": "Rua Serpo Peinto 43",
+      "codigo_postal": "2300-592",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6043227963375 ; -8,41257411356711",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9769",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:11459",
+      "rn_al": "11459",
+      "nome": "Alojamento Local-Santa Cita",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 14,
+      "morada": "Rua Rua Assunção Rasteiro, 5",
+      "codigo_postal": "2305-123",
+      "localidade": "Santa Cita",
+      "freguesia": "Asseiceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5414700008857 ; -8,38882700055868",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11459",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:13658",
+      "rn_al": "13658",
+      "nome": "Casa da Fonte Velha",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Fonte Velha 12",
+      "codigo_postal": "2300-035",
+      "localidade": "Poço Redondo",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6202787279887 ; -8,38089297844255",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13658",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:14022",
+      "rn_al": "14022",
+      "nome": "Casinha da Pedra",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Travessa Arco 7",
+      "codigo_postal": "2300-597",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6024278862809 ; -8,41367210611791",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14022",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:15657",
+      "rn_al": "15657",
+      "nome": "Casa da Quinta",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "2ª Rua Principal 64",
+      "codigo_postal": "2300-171",
+      "localidade": "Durões",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5422575064077 ; -8,3799249567572",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15657",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:19929",
+      "rn_al": "19929",
+      "nome": "Casinha do Arco",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Travessa Travessa Arco 9 e 11",
+      "codigo_postal": "2300-597",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6024550727771 ; -8,41368351203325",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=19929",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:22296",
+      "rn_al": "22296",
+      "nome": "Paraíso Azul",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "1ª Rua Vila Nova 52",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5843010013087 ; -8,26438400023795",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=22296",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:22841",
+      "rn_al": "22841",
+      "nome": "Horta dos Cedros",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Rua Rua Horta do Perú s/n",
+      "codigo_postal": "2300-316",
+      "localidade": "Borda da Vala",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6122986839281 ; -8,40899064043824",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=22841",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:24334",
+      "rn_al": "24334",
+      "nome": "Casa do Alqueidãozinho",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "1ª Rua Rua Principal 50-A",
+      "codigo_postal": "2300-213",
+      "localidade": "Alqueidãozinho",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5870100012728 ; -8,2770875004604",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=24334",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:26475",
+      "rn_al": "26475",
+      "nome": "Quinta de Monchite",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Rua Monchite 92",
+      "codigo_postal": "2305-618",
+      "localidade": "Monchite",
+      "freguesia": "Sabacheira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6769560013395 ; -8,49327200007611",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26475",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:27655",
+      "rn_al": "27655",
+      "nome": "Pátio da Laranjeira",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Sacadura Cabral 17 R/C Esquerdo",
+      "codigo_postal": "2300-591",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6049779852555 ; -8,41460768832442",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=27655",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:33025",
+      "rn_al": "33025",
+      "nome": "Casa à Beira do Lago",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "2ª Rua Montes - Montes - Olalhas",
+      "codigo_postal": "2300-087",
+      "localidade": "Montes",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,637221001346 ; -8,26512199975721",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33025",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:34113",
+      "rn_al": "34113",
+      "nome": "A Casa do Olival",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "1ª Rua Rua do Olival 18",
+      "codigo_postal": "2300-218",
+      "localidade": "Barreira Grande",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34113",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:37694",
+      "rn_al": "37694",
+      "nome": "QUINTA DA BIZELGA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Quinta QUINTA DA BIZELGA",
+      "codigo_postal": "2305-425",
+      "localidade": "MADALENA",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5556602219154 ; -8,43393000042324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37694",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38393",
+      "rn_al": "38393",
+      "nome": "Fla",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Santa Iria 21 1º Drto Frt",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6039761145428 ; -8,40993873180666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38393",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38401",
+      "rn_al": "38401",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Santa Iria 21 1º Drto Tras",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6039761145428 ; -8,40993873180666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38401",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38402",
+      "rn_al": "38402",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Santa Iria 21 2º Drto Frt",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6039761145428 ; -8,40993873180666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38402",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38526",
+      "rn_al": "38526",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Rua Santa Iria 21 2º Drto Tras",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6039761145428 ; -8,40993873180666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38526",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38527",
+      "rn_al": "38527",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Santa Iria 11 2º Esq. Frt.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6041012661635 ; -8,41001793988666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38527",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38528",
+      "rn_al": "38528",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Rua Santa Iria 11 2º Esq. Tras.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6041012661635 ; -8,41001793988666",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38528",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:38543",
+      "rn_al": "38543",
+      "nome": "Casa do Pinheiro",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "1ª Rua Rua Maximina dos Santos 16",
+      "codigo_postal": "2300-211",
+      "localidade": "Abadia",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38543",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:40179",
+      "rn_al": "40179",
+      "nome": "Casa José Gomes Pedro",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Rua Regueira",
+      "codigo_postal": "2305-240",
+      "localidade": "Vale do Carvalho",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6374100006785 ; -8,44373600003371",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40179",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:40237",
+      "rn_al": "40237",
+      "nome": "Casa dos Vidros",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "1ª Rua Rua da Conheira - Vale da Lage",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6020580013647 ; -8,30648149997601",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40237",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:44400",
+      "rn_al": "44400",
+      "nome": "Casa de São Simão",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Aparicio Azevedo 107 - -",
+      "codigo_postal": "2305-202",
+      "localidade": "Barroqueiros",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6415034615117 ; -8,44041634423458",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44400",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:45556",
+      "rn_al": "45556",
+      "nome": "Casa da Paredinha",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Rua Principal",
+      "codigo_postal": "2300-246",
+      "localidade": "Pederneira",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45556",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:46323",
+      "rn_al": "46323",
+      "nome": "Casa da Roda",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua de Camões 17",
+      "codigo_postal": "2305-122",
+      "localidade": "Asseiceira",
+      "freguesia": "Asseiceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,4936080006855 ; -8,37516049988736",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46323",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:46625",
+      "rn_al": "46625",
+      "nome": "Lodge Residence",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Carlos Maria Pereira 9 3º Esqº",
+      "codigo_postal": "2300-457",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6045840080665 ; -8,40170708841207",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46625",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:47083",
+      "rn_al": "47083",
+      "nome": "Casa das Flores",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "1ª Rua Casal de São Lourenço 1",
+      "codigo_postal": "2305-163",
+      "localidade": "Casal de São Lourenço",
+      "freguesia": "Sabacheira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6736662664884 ; -8,47880909924807",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47083",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:47219",
+      "rn_al": "47219",
+      "nome": "Residencial Avenida Hostel",
+      "tipo": "Moradia",
+      "capacidade": 36,
+      "morada": "Avenida Avenida Dom Nuno Álvares Pereira 41",
+      "codigo_postal": "2300-532",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5990039234292 ; -8,41056446282",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47219",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:48585",
+      "rn_al": "48585",
+      "nome": "Casa do Pai",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua Principal",
+      "codigo_postal": "2300-232",
+      "localidade": "Espinheiro",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48585",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:48586",
+      "rn_al": "48586",
+      "nome": "Templarflats",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua São João 92 2",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6037490931021 ; -8,41366881218857",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48586",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:48717",
+      "rn_al": "48717",
+      "nome": "João Miguel Pereira Belo",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Dr. Joaquim Jacinto 88",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6032668023515 ; -8,41406662759172",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48717",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:48718",
+      "rn_al": "48718",
+      "nome": "Templarflats",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua São João 92 1",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6037490931021 ; -8,41366881218857",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48718",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:49258",
+      "rn_al": "49258",
+      "nome": "Moinhos de Matrena",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 30,
+      "morada": "Quinta Quinta de Matrena s/n",
+      "codigo_postal": "2305-115",
+      "localidade": "Matrena",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5556602219154 ; -8,43393000042324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49258",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:50383",
+      "rn_al": "50383",
+      "nome": "CASA DA BUGANVÍLIA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Travessa DO ARCO 9",
+      "codigo_postal": "2300-597",
+      "localidade": "TOMAR",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,602457809797 ; -8,41368208048814",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50383",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:50409",
+      "rn_al": "50409",
+      "nome": "Casa do Azevinho",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Aldeamento S. Gião 8",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6020580013647 ; -8,30648149997601",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50409",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:54200",
+      "rn_al": "54200",
+      "nome": "Casa dos Arcos",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Rua Arcos 104",
+      "codigo_postal": "2300-574",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6012698594126 ; -8,41521964530576",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54200",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:56144",
+      "rn_al": "56144",
+      "nome": "Casa do Vale",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Travessa Casa do Vale S/n",
+      "codigo_postal": "2300-152",
+      "localidade": "Alverangel",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=56144",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:56148",
+      "rn_al": "56148",
+      "nome": "Casa do Vale",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Travessa Casa do Vale S/n",
+      "codigo_postal": "2300-152",
+      "localidade": "Alverangel",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5517388790044 ; -8,31235018386395",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=56148",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:58169",
+      "rn_al": "58169",
+      "nome": "Casa Glória",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Rua Principal 10A R/C Dto",
+      "codigo_postal": "2305-314",
+      "localidade": "Casal Novo",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6167370009147 ; -8,45715500018446",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58169",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:58767",
+      "rn_al": "58767",
+      "nome": "Comenda da Povoa - Casa do Carôlo de Milho",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Principal 27",
+      "codigo_postal": "2305-309",
+      "localidade": "Povoa - Tomar",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6571274045183 ; -8,4039958937693",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58767",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:58768",
+      "rn_al": "58768",
+      "nome": "Comenda da Povoa - Casa da Mina de Água",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Rua S Lourenço 40",
+      "codigo_postal": "2305-020",
+      "localidade": "Póvoa",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6582462042826 ; -8,40361164333137",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58768",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:58769",
+      "rn_al": "58769",
+      "nome": "Comenda da Povoa - Casa de Pisar as Uvas",
+      "tipo": "EstabelecimentoHospedagemHostel",
+      "capacidade": 8,
+      "morada": "Rua Rua Direita 28",
+      "codigo_postal": "2305-020",
+      "localidade": "Póvoa",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6581200093983 ; -8,40346504865505",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58769",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:64314",
+      "rn_al": "64314",
+      "nome": "Casa da Anunciada",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Quinta Quinta da Anunciada Velha",
+      "codigo_postal": "2305-432",
+      "localidade": "Quinta da Anunciada",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5556602219154 ; -8,43393000042324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=64314",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:64725",
+      "rn_al": "64725",
+      "nome": "Casa",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Principal Lote 3 R",
+      "codigo_postal": "2300-259",
+      "localidade": "Vale do Vime",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5892233659754 ; -8,41704115512774",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=64725",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:66542",
+      "rn_al": "66542",
+      "nome": "Lagar das 2 mós",
+      "tipo": "Moradia",
+      "capacidade": 30,
+      "morada": "Avenida Avenida Vera Cruz 71",
+      "codigo_postal": "2305-515",
+      "localidade": "Paialvo",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5630345171334 ; -8,46607900416158",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=66542",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:68296",
+      "rn_al": "68296",
+      "nome": "Yellow House",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Doutor Joaquim Jacinto 8 1º",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6037329580498 ; -8,41218831172501",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68296",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:68300",
+      "rn_al": "68300",
+      "nome": "Yellow House",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Doutor Joaquim Jacinto 8 2º",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6037329580498 ; -8,41218831172501",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68300",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:68303",
+      "rn_al": "68303",
+      "nome": "Casa do Lago",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Zona Salgueirinha- Alverangel 429",
+      "codigo_postal": "2300-152",
+      "localidade": "São Pedro",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5999900009481 ; -8,33700091193357",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68303",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:68862",
+      "rn_al": "68862",
+      "nome": "A Casa do Avô",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua do Vale 57",
+      "codigo_postal": "2300-236",
+      "localidade": "Levegada",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5729245328456 ; -8,30511867008365",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68862",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:71008",
+      "rn_al": "71008",
+      "nome": "Doticonta, lda.",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Urbanização dos Bacelos 12-A",
+      "codigo_postal": "2300-470",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6117690008231 ; -8,40633200007887",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=71008",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:72134",
+      "rn_al": "72134",
+      "nome": "A Gosto",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Rua Marquês Pombal 64",
+      "codigo_postal": "2300-510",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6046405119664 ; -8,41051484055899",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=72134",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:73306",
+      "rn_al": "73306",
+      "nome": "Quinta da Ti Júlia",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 9,
+      "morada": "Rua Rua Escola Primária 80",
+      "codigo_postal": "2300-608",
+      "localidade": "Valdonas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5969570622749 ; -8,37333788264566",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=73306",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:74245",
+      "rn_al": "74245",
+      "nome": "Granny's Flat",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "1ª Rua do Conde de Ferreira 5 Anexo",
+      "codigo_postal": "2300-557",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6009426939319 ; -8,4116652892399",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74245",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:76612",
+      "rn_al": "76612",
+      "nome": "Templar's Home",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 6,
+      "morada": "1ª Rua Rua do Teatro 10 n/a n/a",
+      "codigo_postal": "2300-573",
+      "localidade": "Lisboa",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,602434201915 ; -8,41496749893439",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76612",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:76716",
+      "rn_al": "76716",
+      "nome": "37 CASINHA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Travessa Travessa Quental 37",
+      "codigo_postal": "2300-600",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6020745027303 ; -8,4153530486281",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76716",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:76722",
+      "rn_al": "76722",
+      "nome": "Villa Nova Nautic & Nature Hostel",
+      "tipo": "EstabelecimentoHospedagemHostel",
+      "capacidade": 50,
+      "morada": "Rua Cadavias - Serra de Tomar 430",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5757463803087 ; -8,2659630017551",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76722",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:79021",
+      "rn_al": "79021",
+      "nome": "Casa da Zu",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Gaios - Madalena 20",
+      "codigo_postal": "2305-422",
+      "localidade": "Gaios",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5884244417817 ; -8,47261895234311",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79021",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:80004",
+      "rn_al": "80004",
+      "nome": "LodgeResidence - By Vila Palmeira",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Azinhaga Azinhaga Bacelos 2-B 1.º",
+      "codigo_postal": "2300-439",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6097530011281 ; -8,40500899992073",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80004",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:80816",
+      "rn_al": "80816",
+      "nome": "Floresta",
+      "tipo": "Quartos",
+      "capacidade": 4,
+      "morada": "Estrada Estrada Indústrias 1018",
+      "codigo_postal": "2240-426",
+      "localidade": "Lameiras",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6319236114957 ; -8,2653625147017",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80816",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:80843",
+      "rn_al": "80843",
+      "nome": "Casa da Albufeira",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Rua Rua Principal",
+      "codigo_postal": "2300-259",
+      "localidade": "Vale do Vime",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5791373016809 ; -8,40987398127305",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80843",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:80848",
+      "rn_al": "80848",
+      "nome": "Casa do Alambique",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 3,
+      "morada": "Avenida Avenida Dom João I 197",
+      "codigo_postal": "2300-338",
+      "localidade": "Carvalhos de Figueiredo",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5782092647801 ; -8,39602956373029",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80848",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:81298",
+      "rn_al": "81298",
+      "nome": "TEMPLAR SECRETS HOUSE",
+      "tipo": "Apartamento",
+      "capacidade": 9,
+      "morada": "Casal dos Aromas LT 14 R/C G",
+      "codigo_postal": "2300-308",
+      "localidade": "Alto do Piolhinho",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5923646273181 ; -8,41706089643793",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=81298",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:82059",
+      "rn_al": "82059",
+      "nome": "Casa da Quinta das Olas",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Principal 2",
+      "codigo_postal": "2305-322",
+      "localidade": "Olas",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6854467953005 ; -8,40654216349372",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82059",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:82124",
+      "rn_al": "82124",
+      "nome": "Andreia Godinho de Andrade",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 5,
+      "morada": "Rua Rua João Santos Simões 74 6º Esq.",
+      "codigo_postal": "2300-501",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6051727063511 ; -8,40798789432689",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82124",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:82447",
+      "rn_al": "82447",
+      "nome": "Casas São Gião",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua de São Gião 4",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6010974979894 ; -8,41096651259708",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82447",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:82453",
+      "rn_al": "82453",
+      "nome": "Casas São Gião",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua de São Gião 2",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6010614977173 ; -8,4109575119476",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82453",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:82721",
+      "rn_al": "82721",
+      "nome": "Casa da Lameira",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "1ª Rua Capela 40",
+      "codigo_postal": "2630-236",
+      "localidade": "Levegada",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5746715298132 ; -8,29928737023752",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82721",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:85074",
+      "rn_al": "85074",
+      "nome": "Casa das Rolas",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Lameirinhas nº 25 - Carregueiros 25",
+      "codigo_postal": "2305-229",
+      "localidade": "Pinhal de Frades",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6200220008158 ; -8,43598250007665",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85074",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:89094",
+      "rn_al": "89094",
+      "nome": "Casa das Marias",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Pedro Dias 43 1º Esqº",
+      "codigo_postal": "",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,602719960574 ; -8,41304660681494",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=89094",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:90683",
+      "rn_al": "90683",
+      "nome": "Casa da Mó",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "1ª Rua Casa da Mó 50",
+      "codigo_postal": "2300-213",
+      "localidade": "Alqueidãozinho",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5870100012728 ; -8,2770875004604",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90683",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:93262",
+      "rn_al": "93262",
+      "nome": "Casa da Laranjeira",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Rua Bacelos",
+      "codigo_postal": "2300-470",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6111722372474 ; -8,40605080006519",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93262",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:94473",
+      "rn_al": "94473",
+      "nome": "CO PROJECT",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Rua Lagar de Azeite 15",
+      "codigo_postal": "2300-234",
+      "localidade": "Figueira Redonda",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,592894871348 ; -8,2715219054723",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94473",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:95033",
+      "rn_al": "95033",
+      "nome": "Casita Rosa",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "1ª Rua Rua Principal 18",
+      "codigo_postal": "2300-232",
+      "localidade": "Espinheiro",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5910104046969 ; -8,41629229725415",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95033",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:95418",
+      "rn_al": "95418",
+      "nome": "Albergue do Infante",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Rua Pé da Costa de Baixo 3",
+      "codigo_postal": "2300-588",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6018289284787 ; -8,41571556251539",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95418",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:95641",
+      "rn_al": "95641",
+      "nome": "Barracão da Anunciada",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Quinta Quinta da Anunciada Velha",
+      "codigo_postal": "2305-432",
+      "localidade": "Quinta da Anunciada",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5951459828182 ; -8,44524299368124",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95641",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:95753",
+      "rn_al": "95753",
+      "nome": "Casa da Fonte",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Estrada Estrada Nacional 238 14",
+      "codigo_postal": "2305-072",
+      "localidade": "Portela de Nexebra",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6894531708873 ; -8,33909053987036",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95753",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:96265",
+      "rn_al": "96265",
+      "nome": "CASA AMARELA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua RUA PERO CALVO 29",
+      "codigo_postal": "2300-180",
+      "localidade": "Pêro Calvo",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5809718581665 ; -8,34613726688295",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96265",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:96986",
+      "rn_al": "96986",
+      "nome": "CASA JONE Olival",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua Porto Carro",
+      "codigo_postal": "2300-035",
+      "localidade": "Poço Redondo",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6281070629188 ; -8,31626742223487",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96986",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:97972",
+      "rn_al": "97972",
+      "nome": "Herdade dos Templários",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Arruamento Casal Silvestre",
+      "codigo_postal": "2300-608",
+      "localidade": "Valdonas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5992140007922 ; -8,3730635002047",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97972",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:98373",
+      "rn_al": "98373",
+      "nome": "Casa do Lago",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Vale do Vime, Serra - Tomar 3",
+      "codigo_postal": "2300-259",
+      "localidade": "Vale do Vime",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5733717104212 ; -8,28575374971621",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98373",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99092",
+      "rn_al": "99092",
+      "nome": "Lameira da Longra",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Rua Santo António 85",
+      "codigo_postal": "2305-173",
+      "localidade": "Longra",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6175903237009 ; -8,47477923812514",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99092",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99185",
+      "rn_al": "99185",
+      "nome": "RioTempo",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua da Comarca",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6020580013647 ; -8,30648149997601",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99185",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99737",
+      "rn_al": "99737",
+      "nome": "O Paço- Vintage Suites",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 17,
+      "morada": "Rua Rua Voluntários da República 166",
+      "codigo_postal": "2300-489",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6050536112548 ; -8,40919401521879",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99737",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99792",
+      "rn_al": "99792",
+      "nome": "Bairro das Flores 1",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Sacadura Cabral 1 R/c",
+      "codigo_postal": "2300-591",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6050969349106 ; -8,41415318845466",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99792",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99793",
+      "rn_al": "99793",
+      "nome": "Bairro das Flores 2",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Travessa Travessa Gil Avô 5",
+      "codigo_postal": "2300-605",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6050087264299 ; -8,41407889380507",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99793",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:99794",
+      "rn_al": "99794",
+      "nome": "Bairro das Flores 3",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Travessa Travessa Gil Avô 7 R/c",
+      "codigo_postal": "2300-605",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6049727265701 ; -8,41406089401732",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99794",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:101293",
+      "rn_al": "101293",
+      "nome": "Casa da Avó Gracinda",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Amendoeiras 29 C",
+      "codigo_postal": "2300-334",
+      "localidade": "Carvalheiros",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6163806717936 ; -8,38390240706924",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101293",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:102138",
+      "rn_al": "102138",
+      "nome": "Retiro dos Aztecas",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Rua Capela 23",
+      "codigo_postal": "2305-632",
+      "localidade": "Vale Meão",
+      "freguesia": "Sabacheira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,7030497607633 ; -8,46526682055188",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102138",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:103332",
+      "rn_al": "103332",
+      "nome": "Pé do Castelo - Casinha",
+      "tipo": "Quartos",
+      "capacidade": 2,
+      "morada": "Rua Rua Pé da Costa de Cima 15",
+      "codigo_postal": "2300-360",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6030963048164 ; -8,41584246893223",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103332",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:104709",
+      "rn_al": "104709",
+      "nome": "Casa do Vale",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "1ª Rua Rua Principal 595",
+      "codigo_postal": "2300-257",
+      "localidade": "Vale das Vacas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5878243610994 ; -8,41811769406088",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104709",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:104841",
+      "rn_al": "104841",
+      "nome": "Alojamento \"Rio Nabão\"",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Avenida Avenida General Norton de Matos 40 4º Dto",
+      "codigo_postal": "2300-438",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6034620011379 ; -8,4092120004288",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104841",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:105002",
+      "rn_al": "105002",
+      "nome": "Varandas do Nabão",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Moinhos 1B 2º",
+      "codigo_postal": "2300-575",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6027015938752 ; -8,41222447956405",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105002",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:105308",
+      "rn_al": "105308",
+      "nome": "Take Time",
+      "tipo": "EstabelecimentoHospedagemHostel",
+      "capacidade": 12,
+      "morada": "Avenida Avenida Dom Nuno Álvares Pereira 71 a 75",
+      "codigo_postal": "2300-532",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5979787177789 ; -8,40985249627751",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105308",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:106165",
+      "rn_al": "106165",
+      "nome": "Infantaria 15",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Infantaria 15",
+      "codigo_postal": "2300-585",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6014501335883 ; -8,41445576391324",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106165",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:106166",
+      "rn_al": "106166",
+      "nome": "Emanuel Lopes Silva",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Infantaria 15 24 1",
+      "codigo_postal": "2300-585",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6021654491994 ; -8,41463602864953",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106166",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:106210",
+      "rn_al": "106210",
+      "nome": "Casa do Castelo",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Rua Rua Doutor Joaquim Jacinto 90",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,60325595748 ; -8,41410564708399",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106210",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:106211",
+      "rn_al": "106211",
+      "nome": "Casa Flor do Camarão",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Camarão 36",
+      "codigo_postal": "2300-560",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6052353185503 ; -8,41526446774333",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106211",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:107087",
+      "rn_al": "107087",
+      "nome": "Quinta Vida Doce",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Rua São José 24",
+      "codigo_postal": "2300-180",
+      "localidade": "Pêro Calvo",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6175894587349 ; -8,39006161840652",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107087",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:109916",
+      "rn_al": "109916",
+      "nome": "Vista do Vale",
+      "tipo": "Quartos",
+      "capacidade": 10,
+      "morada": "Rua Rua Central do Alto do Piolhinho 644",
+      "codigo_postal": "2300-308",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5932820182274 ; -8,41042564644738",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=109916",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:111276",
+      "rn_al": "111276",
+      "nome": "Quinta das Laranjeiras",
+      "tipo": "Quartos",
+      "capacidade": 6,
+      "morada": "Rua Rua Principal 26",
+      "codigo_postal": "2300-184",
+      "localidade": "Quinta do Falcão",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,541290581135 ; -8,36538648155662",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111276",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:111411",
+      "rn_al": "111411",
+      "nome": "Castle, terrace & relax",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Sacadura Cabral 30 2 esq",
+      "codigo_postal": "2300-591",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,604910007209 ; -8,41512996110789",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111411",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:111412",
+      "rn_al": "111412",
+      "nome": "LA BERGERIE",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Traviscais 8 R/C",
+      "codigo_postal": "2305-177",
+      "localidade": "São Silvestre",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5946023200575 ; -8,48207605328647",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111412",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:111525",
+      "rn_al": "111525",
+      "nome": "Quinta da Alba",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua TULHAS 6",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5908088331257 ; -8,34996268161901",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111525",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:112653",
+      "rn_al": "112653",
+      "nome": "Casa da Mó",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "1ª Rua Alqueidãozinho 50",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6020620047878 ; -8,30648096622432",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112653",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:112681",
+      "rn_al": "112681",
+      "nome": "Quinta DA SILVA",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Estrada Nacional Estrada Nacional 113",
+      "codigo_postal": "2305-631",
+      "localidade": "Vale dos Ovos",
+      "freguesia": "Sabacheira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6546495622476 ; -8,49310680693255",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112681",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:112683",
+      "rn_al": "112683",
+      "nome": "Wake Villa - Guesthouse",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Estrada Vale da Menina S/N",
+      "codigo_postal": "2300-256",
+      "localidade": "Vale da Menina",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5744030645399 ; -8,28051221852723",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112683",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:114320",
+      "rn_al": "114320",
+      "nome": "Quinta de S. Pedro de Tomar",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Rua Igreja",
+      "codigo_postal": "2300-192",
+      "localidade": "Vermoeiros",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,5670036883312 ; -8,3650996388933",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114320",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:114368",
+      "rn_al": "114368",
+      "nome": "Quinta do Ventozel",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Rua Ventozel 7",
+      "codigo_postal": "2300-261",
+      "localidade": "Ventozel",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6112699860907 ; -8,28483000835946",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114368",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:114437",
+      "rn_al": "114437",
+      "nome": "Casa da Aldeia",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Igreja 2",
+      "codigo_postal": "2305-511",
+      "localidade": "Curvaceiras",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,6788300120105 ; -8,41160998126967",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114437",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:114514",
+      "rn_al": "114514",
+      "nome": "Rua S.Jose - Bairrada -Tomar",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Rua Rua São José 8",
+      "codigo_postal": "2300-153",
+      "localidade": "Bairrada",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,573079981417 ; -8,36095001035937",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114514",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:114762",
+      "rn_al": "114762",
+      "nome": "Monte do Valinho",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Rua Bica 6",
+      "codigo_postal": "2300-152",
+      "localidade": "Alverangel",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39,557133481326 ; -8,31971408216337",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114762",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:116578",
+      "rn_al": "116578",
+      "nome": "Casal das Abelhas",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua Rua Principal 25",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.55608 ; -8.36795",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=116578",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:116739",
+      "rn_al": "116739",
+      "nome": "D'El Rey Guest House",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 2,
+      "morada": "Casal Casal do Láparo 40",
+      "codigo_postal": "2300-376",
+      "localidade": "Casal do Láparo",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60592 ; -8.41914",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=116739",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:117389",
+      "rn_al": "117389",
+      "nome": "Casa da Ribeira",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Doutor Manuel Rosa Rodrigues 11",
+      "codigo_postal": "2300-391",
+      "localidade": "Covas de Valdonas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.58887 ; -8.36528",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117389",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:117537",
+      "rn_al": "117537",
+      "nome": "Murtinhal, Casalinho",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Murtinhal - Casalinho",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.599905 ; -8.30267",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117537",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:117602",
+      "rn_al": "117602",
+      "nome": "Tomarhousing - City Centre",
+      "tipo": "Apartamento",
+      "capacidade": 10,
+      "morada": "Rua Rua São João 92",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60377 ; -8.41367",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117602",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:117747",
+      "rn_al": "117747",
+      "nome": "Cerradas - Coito",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua Cerradas 110",
+      "codigo_postal": "2300-168",
+      "localidade": "Coito",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.58287 ; -8.377435",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117747",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118127",
+      "rn_al": "118127",
+      "nome": "Casa dos terranhos",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "2ª Azinhaga Azinhaga do Rio",
+      "codigo_postal": "2305-554",
+      "localidade": "Pedreira",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.64004 ; -8.40864",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118127",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118154",
+      "rn_al": "118154",
+      "nome": "ARCOS 61",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Arcos 61 1º DTO.",
+      "codigo_postal": "2300-574",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60158 ; -8.4138",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118154",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118155",
+      "rn_al": "118155",
+      "nome": "ARCOS 61",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Arcos 61 1º FTE",
+      "codigo_postal": "2300-574",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60158 ; -8.4138",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118155",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118156",
+      "rn_al": "118156",
+      "nome": "ARCOS 61",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Arcos 61 1º FTE",
+      "codigo_postal": "2300-574",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60158 ; -8.4138",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118156",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118157",
+      "rn_al": "118157",
+      "nome": "ARCOS 61",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Arcos 61 1º ESQ",
+      "codigo_postal": "2300-574",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60158 ; -8.4138",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118157",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118299",
+      "rn_al": "118299",
+      "nome": "THAT'S IT",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Principal",
+      "codigo_postal": "2300-088",
+      "localidade": "Olalhas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5791481 ; -8.4098741",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118299",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118452",
+      "rn_al": "118452",
+      "nome": "Templar Spot",
+      "tipo": "Apartamento",
+      "capacidade": 5,
+      "morada": "Rua Rua Serpa Pinto 52 3 Esq",
+      "codigo_postal": "2300-592",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60435 ; -8.41284",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118452",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118565",
+      "rn_al": "118565",
+      "nome": "Artistic Guesthouse",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 9,
+      "morada": "Avenida Avenida Doutor Cândido Madureira 23 1º",
+      "codigo_postal": "2300-531",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60224 ; -8.41262",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118565",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:118620",
+      "rn_al": "118620",
+      "nome": "Alto do Rio - Vale da Lage",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Alto do Rio - Vale da Lage - Albufeira de Castelo do Bode - Serra",
+      "codigo_postal": "2300-255",
+      "localidade": "Vale da Lage",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5512025 ; -8.3050323",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118620",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:119460",
+      "rn_al": "119460",
+      "nome": "Cantinho dos Rizos",
+      "tipo": "Moradia",
+      "capacidade": 12,
+      "morada": "Rua Rua Almoínhas 4",
+      "codigo_postal": "2300-035",
+      "localidade": "Poço Redondo",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.62616 ; -8.32201",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119460",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:119513",
+      "rn_al": "119513",
+      "nome": "Fazenda do Marante",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Rua Rua Associação 79",
+      "codigo_postal": "2305-418",
+      "localidade": "Charneca do Maxial",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.651655 ; -8.3840972",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119513",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:119813",
+      "rn_al": "119813",
+      "nome": "Jovalo Gestão Imobiliária Lda",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Rua Pedro Dias 41 R/C",
+      "codigo_postal": "2300-589",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60273 ; -8.41302",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119813",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:120331",
+      "rn_al": "120331",
+      "nome": "FAMILYHOUSE",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Rua Serpa Pinto 63 1º",
+      "codigo_postal": "2300-592",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60417 ; -8.41312",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=120331",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:121005",
+      "rn_al": "121005",
+      "nome": "O Templário Sonolento",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Pé da Costa de Baixo 17",
+      "codigo_postal": "2300-588",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60287 ; -8.41563",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=121005",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:122937",
+      "rn_al": "122937",
+      "nome": "SÃO GIÃO",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua São Gião 10 e 10 A",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6012 ; -8.41098",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122937",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:123767",
+      "rn_al": "123767",
+      "nome": "Tomar Old Town House",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua Teatro 26",
+      "codigo_postal": "2300-573",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6024 ; -8.4152",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123767",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:123968",
+      "rn_al": "123968",
+      "nome": "Love Tomar",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Doutor Sousa 17",
+      "codigo_postal": "2300-579",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60541 ; -8.41549",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123968",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:123984",
+      "rn_al": "123984",
+      "nome": "Ti Voglio Bene Confort",
+      "tipo": "Moradia",
+      "capacidade": 16,
+      "morada": "Estrada Nacional EN 110 86",
+      "codigo_postal": "2305-067",
+      "localidade": "Cêras",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.690455 ; -8.3599",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123984",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:125066",
+      "rn_al": "125066",
+      "nome": "Casa Portu-Breizh",
+      "tipo": "Quartos",
+      "capacidade": 6,
+      "morada": "Rua Granja das Fontes 138",
+      "codigo_postal": "2305-228",
+      "localidade": "Granja das Fontes",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6162392 ; -8.4525173",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=125066",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:125123",
+      "rn_al": "125123",
+      "nome": "Casa da Torre",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Rua Torre de Cima 1",
+      "codigo_postal": "2300-188",
+      "localidade": "Pinheiro",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5789002 ; -8.3257918",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=125123",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:129046",
+      "rn_al": "129046",
+      "nome": "Casalinho",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Rua Casalinho 4",
+      "codigo_postal": "2305-170",
+      "localidade": "Fonte da Longra",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.61352 ; -8.47185",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129046",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:129140",
+      "rn_al": "129140",
+      "nome": "Casa de Nexebra Velha",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "1ª Rua Rua Nexebra Velha nº 33 33",
+      "codigo_postal": "2305-072",
+      "localidade": "Portela de Nexebra",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.685435 ; -8.338985",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129140",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:129394",
+      "rn_al": "129394",
+      "nome": "Seven Hills Apartments",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Rua Dona Aurora de Macedo 34 R/C",
+      "codigo_postal": "2300-556",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60284 ; -8.41436",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129394",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:130810",
+      "rn_al": "130810",
+      "nome": "GîTe Manubelle",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua Doutor Luís de Brito Guimarães 11",
+      "codigo_postal": "2305-554",
+      "localidade": "Pedreira",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.63856 ; -8.40556",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130810",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:130983",
+      "rn_al": "130983",
+      "nome": "Casa do Prado",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada Estrada Prado 38",
+      "codigo_postal": "2300-312",
+      "localidade": "Arrascada",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6159928 ; -8.4104656",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130983",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:132407",
+      "rn_al": "132407",
+      "nome": "FAMILYHOUSECUP",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Estrada Nacional EN110",
+      "codigo_postal": "2305-334",
+      "localidade": "Valgamito",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.649982 ; -8.3704717",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132407",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:132665",
+      "rn_al": "132665",
+      "nome": "A Casa da Lua",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Estrada Estrada Serra 39",
+      "codigo_postal": "2300-013",
+      "localidade": "Carril",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.59356 ; -8.34739",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132665",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:132903",
+      "rn_al": "132903",
+      "nome": "ALOJAMENTO MARYLETE CRUZ",
+      "tipo": "Quartos",
+      "capacidade": 14,
+      "morada": "Rua Rua Dona Aurora de Macedo 44 A 48",
+      "codigo_postal": "2300-556",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60281 ; -8.41449",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132903",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:134262",
+      "rn_al": "134262",
+      "nome": "TAKE TOMAR",
+      "tipo": "Apartamento",
+      "capacidade": 9,
+      "morada": "Rua Rua São João 73 1.º",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60377 ; -8.41327",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134262",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:134265",
+      "rn_al": "134265",
+      "nome": "TAKE TOMAR",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Rua Associação 76",
+      "codigo_postal": "2305-309",
+      "localidade": "Casais",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6517 ; -8.38615",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134265",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:134448",
+      "rn_al": "134448",
+      "nome": "A Quintinha",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Escola 3",
+      "codigo_postal": "2300-317",
+      "localidade": "Cabeças",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.57545 ; -8.41464",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134448",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:134500",
+      "rn_al": "134500",
+      "nome": "Casa Machuca",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Machuca 13",
+      "codigo_postal": "2300-400",
+      "localidade": "Cabeças",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.582 ; -8.4117",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134500",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:134763",
+      "rn_al": "134763",
+      "nome": "Vale do Espinheiro",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Estrada Estrada Espinheiro 18 A",
+      "codigo_postal": "2300-232",
+      "localidade": "Espinheiro",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60315 ; -8.41201",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134763",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:135533",
+      "rn_al": "135533",
+      "nome": "Jovalo Gestão Imobiliária Lda",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Voluntários da República 150 2 A",
+      "codigo_postal": "2300-489",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60526 ; -8.40925",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=135533",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:135535",
+      "rn_al": "135535",
+      "nome": "Jovalo Gestão Imobiliária Lda",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Doutor Joaquim Jacinto 42 rc A",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60353 ; -8.41291",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=135535",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:136848",
+      "rn_al": "136848",
+      "nome": "THOMAR HOUSE",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Avenida Combatentes da Grande Guerra S/N",
+      "codigo_postal": "2300-533",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5998007 ; -8.4124053",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=136848",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:137165",
+      "rn_al": "137165",
+      "nome": "Casa Yvonne",
+      "tipo": "Moradia",
+      "capacidade": 12,
+      "morada": "Rua Principal da Quinta do Filipe 12",
+      "codigo_postal": "2300-250",
+      "localidade": "Quinta do Filipe",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5938907 ; -8.2904388",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=137165",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:137356",
+      "rn_al": "137356",
+      "nome": "Casa dos Monstros",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Casal Pedro",
+      "codigo_postal": "2300-187",
+      "localidade": "São Pedro",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5636576 ; -8.3651546",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=137356",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:138271",
+      "rn_al": "138271",
+      "nome": "Estúdio 81",
+      "tipo": "Quartos",
+      "capacidade": 3,
+      "morada": "Rua Doutor Joaquim Jacinto 81",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60317 ; -8.41416",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138271",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:138893",
+      "rn_al": "138893",
+      "nome": "CANTINHO DA ALDEIA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Igreja 1 R/C",
+      "codigo_postal": "2305-511",
+      "localidade": "Curvaceiras",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.53575 ; -8.44136",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138893",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:139174",
+      "rn_al": "139174",
+      "nome": "Casarão do Largo da Eira",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Major Piloto Aviador António da Silva Cardoso 81",
+      "codigo_postal": "2305-554",
+      "localidade": "Pedreira",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.62911 ; -8.409395",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139174",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:139341",
+      "rn_al": "139341",
+      "nome": "AL Calvinosnatura",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua da Capela 29",
+      "codigo_postal": "2305-308",
+      "localidade": "Calvinos",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.67474 ; -8.37688",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139341",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:139550",
+      "rn_al": "139550",
+      "nome": "Tomar - Cândido Madureira",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Avenida Doutor Cândido Madureira 52 2º Esquerdo",
+      "codigo_postal": "2300-531",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60243 ; -8.4128",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139550",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:139986",
+      "rn_al": "139986",
+      "nome": "LARGO DA PENA",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Largo da Pena 153",
+      "codigo_postal": "2305-554",
+      "localidade": "Pedreira",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.64185 ; -8.41016",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139986",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:140359",
+      "rn_al": "140359",
+      "nome": "Casa do Avô Lopes",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Bairro Senhora Anjos 17",
+      "codigo_postal": "2300-429",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5983849 ; -8.419905",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140359",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:140362",
+      "rn_al": "140362",
+      "nome": "VILA POMBAL BOUTIQUE GUEST HOUSE & EVENTS",
+      "tipo": "Apartamento",
+      "capacidade": 20,
+      "morada": "Rua Bela Vista- Alto do Piolhinho - Vila Pombal 1",
+      "codigo_postal": "2300-308",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.59235 ; -8.41191",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140362",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:141206",
+      "rn_al": "141206",
+      "nome": "Refúgio do Carrascal",
+      "tipo": "Quartos",
+      "capacidade": 4,
+      "morada": "Rua Carrascal 45-C",
+      "codigo_postal": "2300-331",
+      "localidade": "Carrascal",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.62559 ; -8.39032",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141206",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:141463",
+      "rn_al": "141463",
+      "nome": "Casinha São Gião",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Rua São Gião 2",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60107 ; -8.41094",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141463",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:141467",
+      "rn_al": "141467",
+      "nome": "VILA MONTES",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Estrada Montes",
+      "codigo_postal": "2300-087",
+      "localidade": "Montes",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.639175 ; -8.26844",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141467",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142427",
+      "rn_al": "142427",
+      "nome": "ASPAS DIDÁTICAS UNIPESSOAL, LDA",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Conde",
+      "codigo_postal": "2305-203",
+      "localidade": "Brasões",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6161864 ; -8.4496975",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142427",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142730",
+      "rn_al": "142730",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 35 2º ESQ.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60367 ; -8.40954",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142730",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142732",
+      "rn_al": "142732",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 35 2º DRT.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60367 ; -8.40954",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142732",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142738",
+      "rn_al": "142738",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 35 3º ESQ.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60367 ; -8.40954",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142738",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142741",
+      "rn_al": "142741",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 35 3º DRT.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60367 ; -8.40954",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142741",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142746",
+      "rn_al": "142746",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 21 1º ESQ.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60402 ; -8.40987",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142746",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:142750",
+      "rn_al": "142750",
+      "nome": "Flattered to be in Tomar",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Rua Santa Iria 21 2º ESQ.",
+      "codigo_postal": "2300-475",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60402 ; -8.40987",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142750",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:143406",
+      "rn_al": "143406",
+      "nome": "Varandas do Nabão 1",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Moinhos 1 B 1º Andar",
+      "codigo_postal": "2300-575",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6027 ; -8.41223",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143406",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:143461",
+      "rn_al": "143461",
+      "nome": "Jovalo Gestão Imobiliária Lda",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Pedro Dias 37",
+      "codigo_postal": "2300-589",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60274 ; -8.41296",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143461",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:143464",
+      "rn_al": "143464",
+      "nome": "RUA DOS MOINHO - JP",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 6,
+      "morada": "Rua Moinhos 15 1.º",
+      "codigo_postal": "2300-575",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60285 ; -8.41235",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143464",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:143470",
+      "rn_al": "143470",
+      "nome": "Jovalo Gestão Imobiliária Lda",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Rua Pedro Dias 39 1",
+      "codigo_postal": "2300-589",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60273 ; -8.413",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143470",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:144676",
+      "rn_al": "144676",
+      "nome": "Escola da Portela - Alojamento e Núcleo Museológico",
+      "tipo": "EstabelecimentoHospedagemHostel",
+      "capacidade": 20,
+      "morada": "Rua Alegria",
+      "codigo_postal": "2300-182",
+      "localidade": "Portela",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5401337 ; -8.3664403",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144676",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:144895",
+      "rn_al": "144895",
+      "nome": "VillaRibeiro1941",
+      "tipo": "Moradia",
+      "capacidade": 12,
+      "morada": "Rua Coreto 36 e 38",
+      "codigo_postal": "2300-226",
+      "localidade": "Castelo Novo",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.59095 ; -8.314885",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144895",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:145209",
+      "rn_al": "145209",
+      "nome": "Casa do Lago",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada Venda Moradia C",
+      "codigo_postal": "2300-260",
+      "localidade": "Venda",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5703091 ; -8.2916613",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145209",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:145290",
+      "rn_al": "145290",
+      "nome": "Refúgio do Bode 17",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Escola Primária 17",
+      "codigo_postal": "2300-241",
+      "localidade": "Outeiro do Forno",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6011751 ; -8.3758672",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145290",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:145430",
+      "rn_al": "145430",
+      "nome": "Maria",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Dom Lopo Dias de Sousa Nº2D 1º Esquerdo",
+      "codigo_postal": "2300-483",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.607335 ; -8.40203",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145430",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:145900",
+      "rn_al": "145900",
+      "nome": "St Mary House",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Avenida Dona Maria II 11",
+      "codigo_postal": "2300-434",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60212 ; -8.40505",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145900",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:146543",
+      "rn_al": "146543",
+      "nome": "Casa Santa Maria",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "1ª Rua Aquiles da Mota Lima 1 R/C Esquerdo",
+      "codigo_postal": "2300-455",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.59956 ; -8.4067669",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146543",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:146592",
+      "rn_al": "146592",
+      "nome": "Refúgio da Cigarra",
+      "tipo": "Moradia",
+      "capacidade": 15,
+      "morada": "Rua Casal Novo 1A",
+      "codigo_postal": "2300-080",
+      "localidade": "Aboboreira Fundeira",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.628705 ; -8.345385",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146592",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:147728",
+      "rn_al": "147728",
+      "nome": "Rio coracao",
+      "tipo": "Apartamento",
+      "capacidade": 5,
+      "morada": "Rua Rio Nabão 19 2° C",
+      "codigo_postal": "2300-572",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60154 ; -8.41084",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147728",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:147746",
+      "rn_al": "147746",
+      "nome": "Retiro dos Cavaleiros",
+      "tipo": "Quartos",
+      "capacidade": 14,
+      "morada": "Largo Igreja 56",
+      "codigo_postal": "2300-088",
+      "localidade": "Olalhas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5767863 ; -8.4122364",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147746",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:148106",
+      "rn_al": "148106",
+      "nome": "Casa da Serra",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Principal 41",
+      "codigo_postal": "2300-223",
+      "localidade": "Carvalhal",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.589657 ; -8.3057752",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148106",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:148850",
+      "rn_al": "148850",
+      "nome": "Castle View",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Rua Carlos Pereira 11 4 ESQ",
+      "codigo_postal": "2300-459",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60732 ; -8.40434",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148850",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:148851",
+      "rn_al": "148851",
+      "nome": "Chess House",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada do Prado 24 r/c",
+      "codigo_postal": "2300-312",
+      "localidade": "Arrascada",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60949 ; -8.41317",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148851",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:149327",
+      "rn_al": "149327",
+      "nome": "Casa do Joãozinho",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua de Camarão 30/32",
+      "codigo_postal": "2300-560",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60524 ; -8.41519",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149327",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:149899",
+      "rn_al": "149899",
+      "nome": "Casa Rio",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Rua da Bairradinha 486",
+      "codigo_postal": "2240-322",
+      "localidade": "Bairradinha",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.645745 ; -8.24587",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149899",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:150218",
+      "rn_al": "150218",
+      "nome": "Thomar River Home Inside City",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Horta do Barão 2",
+      "codigo_postal": "2300-631",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.606721 ; -8.409728",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150218",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:150559",
+      "rn_al": "150559",
+      "nome": "Sunshine Houses",
+      "tipo": "Moradia",
+      "capacidade": 16,
+      "morada": "Rua Casa do Monte 47",
+      "codigo_postal": "2300-158",
+      "localidade": "Boca da Mata",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.55387 ; -8.34778",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150559",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:150702",
+      "rn_al": "150702",
+      "nome": "Casa da Levada",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Everard 97 1º Fração D",
+      "codigo_postal": "2300-561",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60408 ; -8.41178",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150702",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:150817",
+      "rn_al": "150817",
+      "nome": "JUST RUBY - Kingdom of Stone",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua dos Sombreireiros 112",
+      "codigo_postal": "2300-102",
+      "localidade": "Montes Olalhas",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60315 ; -8.41201",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150817",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:150999",
+      "rn_al": "150999",
+      "nome": "O Cantinho",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Torres Pinheiro 76-78",
+      "codigo_postal": "2300-538",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60127 ; -8.4115",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150999",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:151363",
+      "rn_al": "151363",
+      "nome": "CASA DE PEDRA",
+      "tipo": "Moradia",
+      "capacidade": 12,
+      "morada": "Rua Casal João DIas 4",
+      "codigo_postal": "2305-415",
+      "localidade": "Delongo",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.549265 ; -8.4491774",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151363",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:152439",
+      "rn_al": "152439",
+      "nome": "Casa Renaissance",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Zona Portela de Caramouchel 12",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.59977 ; -8.30267",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152439",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:152448",
+      "rn_al": "152448",
+      "nome": "Casa Yvonne",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Rua Principal 12",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5964273 ; -8.3050343",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152448",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:152486",
+      "rn_al": "152486",
+      "nome": "Casa Americo",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Rua Principal 9A",
+      "codigo_postal": "2300-251",
+      "localidade": "Serra",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5900223 ; -8.4168524",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152486",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:152657",
+      "rn_al": "152657",
+      "nome": "Le Chant des Oliviers",
+      "tipo": "Moradia",
+      "capacidade": 3,
+      "morada": "Rua Gil Avô 82",
+      "codigo_postal": "2300-580",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.604655 ; -8.41463",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152657",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:154171",
+      "rn_al": "154171",
+      "nome": "Casa da Barragem",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua do Fundo da Rua 73",
+      "codigo_postal": "2240-322",
+      "localidade": "Bairradinha",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.645745 ; -8.24587",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154171",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:154258",
+      "rn_al": "154258",
+      "nome": "Honeycomb House",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Rua Dona Aurora de Macedo 14a 1",
+      "codigo_postal": "2300-556",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6030822 ; -8.4131096",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154258",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:154617",
+      "rn_al": "154617",
+      "nome": "Casa São Sebastião",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua de São Sebastião 211",
+      "codigo_postal": "2305-417",
+      "localidade": "Cem Soldos",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.58524 ; -8.451495",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154617",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155496",
+      "rn_al": "155496",
+      "nome": "Casa do Lago",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada dos Montes",
+      "codigo_postal": "2300-087",
+      "localidade": "Montes",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6386013;-8.2681867",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155496",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155556",
+      "rn_al": "155556",
+      "nome": "Casa da Nogueira",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada Nacional 349-3",
+      "codigo_postal": "2305-419",
+      "localidade": "Choupal",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5893003;-8.4516657",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155556",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155705",
+      "rn_al": "155705",
+      "nome": "Quinta Vale da Nora",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Principal Vale da Nora 2",
+      "codigo_postal": "2300-614",
+      "localidade": "Vale da Nora",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5893697;-8.4170146",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155705",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155732",
+      "rn_al": "155732",
+      "nome": "Casa Azul",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Rua Rua de Santa Cruz - Valdonas 3 B 1º",
+      "codigo_postal": "2300-313",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6005008;-8.3830583",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155732",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155801",
+      "rn_al": "155801",
+      "nome": "Quinta do Remanso",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua António João Antunes 29",
+      "codigo_postal": "2305-061",
+      "localidade": "Alviobeira",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.679131;-8.3555816",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155801",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:155986",
+      "rn_al": "155986",
+      "nome": "Casa Amarancho",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua de Santo António 119",
+      "codigo_postal": "2305-176",
+      "localidade": "Vale do Calvo",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6171912;-8.4742925",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155986",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:156761",
+      "rn_al": "156761",
+      "nome": "CASA ANJEMA",
+      "tipo": "Apartamento",
+      "capacidade": 8,
+      "morada": "Estrada do Barracão 12",
+      "codigo_postal": "2305-329",
+      "localidade": "Soianda",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.603677;-8.4128291",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156761",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:156945",
+      "rn_al": "156945",
+      "nome": "Rialize",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Principal 21",
+      "codigo_postal": "2305-108",
+      "localidade": "Cerejeira",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6674673;-8.3516461",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156945",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157074",
+      "rn_al": "157074",
+      "nome": "Casa da Paredinha",
+      "tipo": "Moradia",
+      "capacidade": 7,
+      "morada": "Rua Principal da Pederneira",
+      "codigo_postal": "2300-246",
+      "localidade": "Pederneira",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5909612;-8.3553179",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157074",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157209",
+      "rn_al": "157209",
+      "nome": "Cantinho da Charneca",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Principal 38-D",
+      "codigo_postal": "2305-418",
+      "localidade": "Charneca do Maxial",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5602032;-8.4079188",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157209",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157365",
+      "rn_al": "157365",
+      "nome": "CASA DO PINHAL",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua do Valinho",
+      "codigo_postal": "2300-072",
+      "localidade": "Carqueijal",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6385237;-8.3163437",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157365",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157367",
+      "rn_al": "157367",
+      "nome": "Casa Lorena",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Principal da Pederneira 26",
+      "codigo_postal": "2300-246",
+      "localidade": "Pederneira",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.603677;-8.4128291",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157367",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157900",
+      "rn_al": "157900",
+      "nome": "Horto do Amor",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "Rua da Escola 46",
+      "codigo_postal": "2300-013",
+      "localidade": "Carril",
+      "freguesia": "Junceira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5928891;-8.3528552",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157900",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:157945",
+      "rn_al": "157945",
+      "nome": "lake Prestige",
+      "tipo": "Moradia",
+      "capacidade": 25,
+      "morada": "Rua da Capela 45",
+      "codigo_postal": "2300-236",
+      "localidade": "Levegada",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6161631;-8.382338",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157945",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:158233",
+      "rn_al": "158233",
+      "nome": "Refúgio do Prado",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Casal Cordeiro 10",
+      "codigo_postal": "2305-310",
+      "localidade": "Casal Cordeiro",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6415382;-8.3986294",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158233",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:158926",
+      "rn_al": "158926",
+      "nome": "Casa Natura",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua de Santo António 46",
+      "codigo_postal": "2300-236",
+      "localidade": "Levegada",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5748176;-8.3021044",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158926",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:159504",
+      "rn_al": "159504",
+      "nome": "Paraiso Azul 1",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 20,
+      "morada": "Rua Barca do Loureiro 52",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.603677;-8.4128291",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159504",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:159943",
+      "rn_al": "159943",
+      "nome": "Quinta das Laranjeiras",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua do Cruzeiro",
+      "codigo_postal": "2305-503",
+      "localidade": "Carrazede",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5346682 ; -8.4605217",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159943",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:160719",
+      "rn_al": "160719",
+      "nome": "TemplarDreams",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua de São João 92 1",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6037823 ; -8.4137264",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160719",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:160720",
+      "rn_al": "160720",
+      "nome": "TemplarDreams",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua de São João 92 2",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6037823 ; -8.4137264",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160720",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:161501",
+      "rn_al": "161501",
+      "nome": "Casa Castilho",
+      "tipo": "Moradia",
+      "capacidade": 14,
+      "morada": "Rua Principal 35",
+      "codigo_postal": "2305-321",
+      "localidade": "Ganados",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.656179 ; -8.3434657",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=161501",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:163101",
+      "rn_al": "163101",
+      "nome": "A Casa do Mestre",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua dos Moinhos 21",
+      "codigo_postal": "2300-575",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6030162 ; -8.4124926",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=163101",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:163920",
+      "rn_al": "163920",
+      "nome": "Casa Soares",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua de Camarão 40",
+      "codigo_postal": "2300-560",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6052556 ; -8.4153042",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=163920",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:164726",
+      "rn_al": "164726",
+      "nome": "Casa dos Marias",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada Principal Corredoura 84 RC A",
+      "codigo_postal": "2300-063",
+      "localidade": "Alqueidão",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6305838 ; -8.2772513",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=164726",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:165735",
+      "rn_al": "165735",
+      "nome": "JANELAS DO PASSADO",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Silva Magalhães 63B 1.º",
+      "codigo_postal": "2300-593",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6047163 ; -8.4148363",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165735",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:166592",
+      "rn_al": "166592",
+      "nome": "Santa Catarina",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 8,
+      "morada": "Rua de Santa Catarina 29A B",
+      "codigo_postal": "2305-512",
+      "localidade": "Delongo",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5460214 ; -8.4519788",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=166592",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:167039",
+      "rn_al": "167039",
+      "nome": "Quinta da Cachopa",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua da Esperança 7",
+      "codigo_postal": "2300-174",
+      "localidade": "Fontaínhas",
+      "freguesia": "São Pedro de Tomar",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5596249 ; -8.3674874",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167039",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:167740",
+      "rn_al": "167740",
+      "nome": "Casa da Barragem",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua Barca do Loureiro 54",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.603677 ; -8.4128291",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167740",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:168394",
+      "rn_al": "168394",
+      "nome": "CASA DO VALE",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Estrada do Paço 595",
+      "codigo_postal": "2300-257",
+      "localidade": "Vale das Vacas",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6057091 ; -8.2945485",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168394",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:168556",
+      "rn_al": "168556",
+      "nome": "Casa do Sino",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Largo do Rossio 216",
+      "codigo_postal": "2305-417",
+      "localidade": "Cem Soldos",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5861451 ; -8.4528253",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168556",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:170268",
+      "rn_al": "170268",
+      "nome": "Centro Coração",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Rua Sacadura Cabral 17 2 Dto",
+      "codigo_postal": "2300-591",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6049241 ; -8.4145809",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170268",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:170934",
+      "rn_al": "170934",
+      "nome": "Celeiro do Conde",
+      "tipo": "Quartos",
+      "capacidade": 18,
+      "morada": "Estrada Nova Casal do Láparo 2",
+      "codigo_postal": "2300-376",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6081337 ; -8.4171541",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170934",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:171151",
+      "rn_al": "171151",
+      "nome": "A Casa Dani",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Granja das Fontes 138",
+      "codigo_postal": "2305-228",
+      "localidade": "Brasões",
+      "freguesia": "Carregueiros",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6146819 ; -8.4535499",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171151",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:171271",
+      "rn_al": "171271",
+      "nome": "Figueira Grande",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Avenida Aquiles da Mota Lima 58",
+      "codigo_postal": "2300-455",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5955704 ; -8.4042313",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171271",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:171890",
+      "rn_al": "171890",
+      "nome": "Casa Grande",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua Padre António Joaquim Nicolau 26",
+      "codigo_postal": "2305-426",
+      "localidade": "Marmeleiro",
+      "freguesia": "União das freguesias de Madalena e Beselga",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5554049 ; -8.4403427",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171890",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:172919",
+      "rn_al": "172919",
+      "nome": "Templar Arch Retreat",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Doutor Joaquim Jacinto 42 R/C A",
+      "codigo_postal": "2300-577",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.603541 ; -8.4129337",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=172919",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:173590",
+      "rn_al": "173590",
+      "nome": "Afluente",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Rua Casal Cordeiro 7",
+      "codigo_postal": "2305-310",
+      "localidade": "Casal Cordeiro",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6419074 ; -8.3986192",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173590",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:173677",
+      "rn_al": "173677",
+      "nome": "Rose'mary",
+      "tipo": "Quartos",
+      "capacidade": 2,
+      "morada": "Rua Principal 6",
+      "codigo_postal": "2305-312",
+      "localidade": "Olas",
+      "freguesia": "Sabacheira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6621983 ; -8.452756",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173677",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:175942",
+      "rn_al": "175942",
+      "nome": "Herdade do Rio",
+      "tipo": "Moradia",
+      "capacidade": 8,
+      "morada": "Rua das Flores 4",
+      "codigo_postal": "2300-233",
+      "localidade": "Esteveira",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6115709 ; -8.3891371",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175942",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:176443",
+      "rn_al": "176443",
+      "nome": "Jovalo Gestão Imobiliária, Lda",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Pedro Dias 45 R/C",
+      "codigo_postal": "2300-589",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6027245 ; -8.4130794",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176443",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:176446",
+      "rn_al": "176446",
+      "nome": "Jovalo Gestão Imobiliária, Lda",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua Pedro Dias 43 1 D",
+      "codigo_postal": "2300-589",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6027314 ; -8.4130458",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176446",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177014",
+      "rn_al": "177014",
+      "nome": "Villa Nova Country House",
+      "tipo": "Moradia",
+      "capacidade": 12,
+      "morada": "Rua Doutor Aurélio Ribeiro 23",
+      "codigo_postal": "2305-518",
+      "localidade": "Vila Nova",
+      "freguesia": "Paialvo",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5404831 ; -8.4709374",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177014",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177190",
+      "rn_al": "177190",
+      "nome": "Lurdes Silva",
+      "tipo": "Apartamento",
+      "capacidade": 2,
+      "morada": "Rua Infantaria 15 21 2º",
+      "codigo_postal": "2300-583",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6021407 ; -8.4147327",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177190",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177266",
+      "rn_al": "177266",
+      "nome": "Vista Castelo Residence",
+      "tipo": "Apartamento",
+      "capacidade": 6,
+      "morada": "Rua de São João 46 1 Esquerdo",
+      "codigo_postal": "2300-568",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6040373 ; -8.4125864",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177266",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177267",
+      "rn_al": "177267",
+      "nome": "Segunda Casa",
+      "tipo": "Quartos",
+      "capacidade": 4,
+      "morada": "Rua Marquês Pombal 33 1º",
+      "codigo_postal": "2300-510",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6045847 ; -8.4096427",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177267",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177548",
+      "rn_al": "177548",
+      "nome": "NabaoHouse",
+      "tipo": "Quartos",
+      "capacidade": 6,
+      "morada": "Rua do Rio Nabão 19 1 B",
+      "codigo_postal": "2300-572",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6006734 ; -8.4106285",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177548",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:177689",
+      "rn_al": "177689",
+      "nome": "Pied-a-Terra Tomar",
+      "tipo": "Moradia",
+      "capacidade": 5,
+      "morada": "Rua de São Gião 34",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6016091 ; -8.4110513",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177689",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:178053",
+      "rn_al": "178053",
+      "nome": "Casa do Mau Feitio",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Estrada do Vale do Vime Lote 3",
+      "codigo_postal": "2300-259",
+      "localidade": "Vale do Vime",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5732757 ; -8.2861683",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178053",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:178699",
+      "rn_al": "178699",
+      "nome": "\"Refúgio Templário\"",
+      "tipo": "Moradia",
+      "capacidade": 10,
+      "morada": "Rua da Capela 15",
+      "codigo_postal": "2305-558",
+      "localidade": "São Simão",
+      "freguesia": "União das freguesias de Além da Ribeira e Pedreira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.640727 ; -8.439132",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178699",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:179100",
+      "rn_al": "179100",
+      "nome": "ACavalheiro",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 10,
+      "morada": "Rua Tonito Gonçalves 66",
+      "codigo_postal": "2300-305",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.60263 ; -8.39833",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179100",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:179190",
+      "rn_al": "179190",
+      "nome": "Casa da Ilha",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua da Capela 9004",
+      "codigo_postal": "2300-236",
+      "localidade": "Levegada",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5758025 ; -8.3009714",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179190",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:179514",
+      "rn_al": "179514",
+      "nome": "Quinta dos Montes",
+      "tipo": "EstabelecimentoHospedagem",
+      "capacidade": 56,
+      "morada": "Estrada dos Montes 134",
+      "codigo_postal": "2300-087",
+      "localidade": "Montes",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6353718 ; -8.2607664",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179514",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:180251",
+      "rn_al": "180251",
+      "nome": "Casa Madrinha",
+      "tipo": "Apartamento",
+      "capacidade": 4,
+      "morada": "Rua de São Gião 53-A",
+      "codigo_postal": "2300-567",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6021939 ; -8.4113448",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180251",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:180252",
+      "rn_al": "180252",
+      "nome": "L'Ulivo Guesthouse",
+      "tipo": "Moradia",
+      "capacidade": 3,
+      "morada": "Rua Principal 8",
+      "codigo_postal": "2305-108",
+      "localidade": "Cerejeira",
+      "freguesia": "União das freguesias de Casais e Alviobeira",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6689162 ; -8.3522917",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180252",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:180279",
+      "rn_al": "180279",
+      "nome": "RM Maison Rui & Mi Boutique Luxury Stay",
+      "tipo": "Moradia",
+      "capacidade": 9,
+      "morada": "Avenida Aquiles da Mota Lima 14",
+      "codigo_postal": "2300-455",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.5991243 ; -8.4068268",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180279",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:180454",
+      "rn_al": "180454",
+      "nome": "Quinta Templária",
+      "tipo": "Moradia",
+      "capacidade": 4,
+      "morada": "Rua Principal 24B",
+      "codigo_postal": "2300-388",
+      "localidade": "Casas de Além",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6171352 ; -8.3712038",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180454",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:180621",
+      "rn_al": "180621",
+      "nome": "Casa do Teatro",
+      "tipo": "Moradia",
+      "capacidade": 3,
+      "morada": "Rua do Teatro 34",
+      "codigo_postal": "2300-573",
+      "localidade": "Tomar",
+      "freguesia": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6024094 ; -8.4153393",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180621",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:181263",
+      "rn_al": "181263",
+      "nome": "Casinha do Azeite",
+      "tipo": "Moradia",
+      "capacidade": 2,
+      "morada": "1ª Rua Principal da Casa Nova 6 A",
+      "codigo_postal": "2300-224",
+      "localidade": "Casa Nova",
+      "freguesia": "Serra",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.6177225 ; -8.3036139",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181263",
+      "fonte": "Turismo de Portugal — RNAL"
+    },
+    {
+      "id": "RNAL:181462",
+      "rn_al": "181462",
+      "nome": "Casinha",
+      "tipo": "Moradia",
+      "capacidade": 6,
+      "morada": "Rua Principal 56A",
+      "codigo_postal": "2300-262",
+      "localidade": "Vila Nova",
+      "freguesia": "Olalhas",
+      "municipio": "Tomar",
+      "distrito": "Santarém",
+      "coordenadas": "39.625755 ; -8.3046702",
+      "contactos": {
+        "telefone": [],
+        "email": []
+      },
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181462",
+      "fonte": "Turismo de Portugal — RNAL"
+    }
+  ]
+}
