@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TURISTURIS — inteligência turística de Portugal. Informação turística organizada, rastreável e em permanente evolução.">
+  <meta name="theme-color" content="#0b3d3a">
+  <title>TURISTURIS — Inteligência turística de Portugal</title>
+  <style>
+    :root {
+      --ink: #102a2a;
+      --muted: #5b6b6b;
+      --accent: #0b3d3a;
+      --accent-2: #176b63;
+      --paper: #f7f5ef;
+      --card: #ffffff;
+      --line: #dfe5e2;
+      --max: 1120px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); line-height: 1.6; }
+    a { color: inherit; }
+    .wrap { width: min(92%, var(--max)); margin: 0 auto; }
+    header { background: var(--accent); color: white; position: sticky; top: 0; z-index: 10; }
+    nav { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; margin: 0; flex-wrap: wrap; }
+    nav a { text-decoration: none; opacity: .92; }
+    nav a:hover, nav a:focus { opacity: 1; text-decoration: underline; }
+    .hero { padding: 96px 0 82px; background: linear-gradient(135deg, #0b3d3a 0%, #176b63 60%, #2a8176 100%); color: white; }
+    .hero .wrap { max-width: 900px; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; font-weight: 700; opacity: .8; }
+    h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: .98; margin: 16px 0 24px; max-width: 850px; }
+    .lead { font-size: clamp(1.1rem, 2vw, 1.35rem); max-width: 760px; opacity: .92; }
+    .cta { display: inline-block; margin-top: 24px; padding: 13px 20px; border-radius: 999px; background: white; color: var(--accent); text-decoration: none; font-weight: 750; }
+    section { padding: 72px 0; }
+    .section-head { max-width: 720px; margin-bottom: 34px; }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.1; margin: 0 0 12px; }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 28px; box-shadow: 0 8px 28px rgba(16,42,42,.06); }
+    .card h3 { margin-top: 0; font-size: 1.35rem; }
+    .pill { display: inline-block; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 10px; }
+    .card-link { display: inline-block; margin-top: 10px; font-weight: 750; color: var(--accent-2); text-decoration: none; }
+    .card-link:hover { text-decoration: underline; }
+    .principle { background: #eaf0ed; }
+    .principle strong { color: var(--accent); }
+    footer { background: #102a2a; color: #dfe9e6; padding: 34px 0; }
+    footer a { color: white; }
+    .footer-row { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+    @media (max-width: 720px) {
+      nav { padding: 12px 0; align-items: flex-start; flex-direction: column; }
+      .hero { padding: 70px 0 60px; }
+      .grid { grid-template-columns: 1fr; }
+      section { padding: 56px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Navegação principal">
+        <a class="brand" href="#inicio">TURISTURIS</a>
+        <ul>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#metodo">Método</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap">
+        <div class="eyebrow">Portugal · turismo · informação</div>
+        <h1>Inteligência turística de Portugal.</h1>
+        <p class="lead">Um projeto para coletar, organizar, validar e disponibilizar informação turística de Portugal com rastreabilidade de fontes e controle de atualização.</p>
+        <a class="cta" href="#destinos">Explorar o projeto</a>
+      </div>
+    </section>
+
+    <section id="destinos">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Portugal para descobrir</h2>
+          <p class="muted">A estrutura inicial do TURISTURIS separa o território continental e insular para permitir uma expansão organizada por destinos, cidades e entidades turísticas.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="pill">Território</div>
+            <h3>Continente</h3>
+            <p>Base para organizar destinos, cidades, património, experiências, alojamentos, restauração e transportes do território continental português.</p>
+            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/CONTINENTE" target="_blank" rel="noopener">Ver estrutura no GitHub →</a>
+          </article>
+          <article class="card">
+            <div class="pill">Território</div>
+            <h3>Ilhas</h3>
+            <p>Base para a organização turística dos arquipélagos portugueses, com expansão futura por ilhas, destinos e entidades.</p>
+            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/ILHA" target="_blank" rel="noopener">Ver estrutura no GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="principle" id="estrutura">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Uma arquitetura orientada por dados</h2>
+          <p>O projeto foi concebido para transformar informação turística dispersa em informação estruturada e reutilizável.</p>
+        </div>
+        <div class="card">
+          <p><strong>CARTAS → LAYOUT MESTRE → DADOS → CÓDIGO</strong></p>
+          <p class="muted">O Layout Mestre funciona como referência operacional para novos artefatos. A informação deve possuir proveniência identificável e os dados voláteis devem ser datados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Informação com rastreabilidade</h2>
+          <p class="muted">O objetivo é construir uma base turística consultável, atualizável e auditável, mantendo separadas a coleta, a organização, a validação e a apresentação.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="pill">Projeto</div>
+            <h3>Governança</h3>
+            <p>Regras e decisões do projeto ficam organizadas no repositório para preservar o histórico e a rastreabilidade.</p>
+            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS/tree/main/GOVERNAN%C3%87A" target="_blank" rel="noopener">Consultar governança →</a>
+          </article>
+          <article class="card">
+            <div class="pill">Fonte</div>
+            <h3>Repositório oficial</h3>
+            <p>O GitHub é a fonte de código e de organização documental do projeto.</p>
+            <a class="card-link" href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">Abrir TURISTURIS no GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div><strong>TURISTURIS</strong><br>Inteligência turística de Portugal.</div>
+      <div><a href="https://github.com/carlos-andrade/TURISTURIS" target="_blank" rel="noopener">GitHub</a></div>
+    </div>
+  </footer>
+</body>
+</html>
