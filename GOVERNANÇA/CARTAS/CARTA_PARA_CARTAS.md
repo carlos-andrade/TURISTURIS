@@ -50,3 +50,8 @@ Quando uma alteração exigir mudança na hierarquia, a mudança deve ser docume
 
 Estado inicial: ATIVO.
 Data: 2026-10-04.
+
+
+## 7. Regra fiel para cartas que tratem contactos
+
+Quando uma regra de contacto telefónico afetar captura, dados, validação, enriquecimento ou publicação, ela deve ser refletida nas Cartas correspondentes. A preservação do código telefónico internacional é obrigatória e transversal. Nenhuma Carta especializada pode autorizar uma normalização que elimine ou substitua o código internacional.
