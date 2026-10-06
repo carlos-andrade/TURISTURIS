@@ -684,12 +684,11 @@
     grid.innerHTML='';
     filtered.forEach(x=>{
       const card=document.createElement('article');card.className='point-card';
-      const links=[];
       const contact=[];
       if(x.morada) contact.push('<strong>Morada:</strong> '+x.morada);
       if(x.telefone) contact.push('<strong>Telefone:</strong> <a href="tel:'+x.telefone+'">'+x.telefone+'</a>');
       if(x.email) contact.push('<strong>Email:</strong> <a href="mailto:'+x.email+'">'+x.email+'</a>');
-      card.innerHTML='<span class="point-card-id">'+x.fonte+' · '+x.id_origem+'</span><h3>'+x.nome+'</h3><p>'+(x.município||'')+(x.localidade?' · '+x.localidade:'')+'</p>'+(contact.length?'<p style="margin-top:9px">'+contact.join('<br>')+'</p>':'<p style="margin-top:9px;color:var(--muted)">Contactos públicos não disponíveis no conjunto estruturado.</p>')+(links.length?'<div style="margin-top:9px">'+links.join(' · ')+'</div>':'');
+      card.innerHTML='<span class="point-card-id">'+x.fonte+' · '+x.id_origem+'</span><h3>'+x.nome+'</h3><p>'+(x.município||'')+(x.localidade?' · '+x.localidade:'')+'</p>'+(contact.length?'<p style="margin-top:9px">'+contact.join('<br>')+'</p>':'<p style="margin-top:9px;color:var(--muted)">Contactos públicos não disponíveis no conjunto estruturado.</p>');
       grid.appendChild(card);
     });
     empty.hidden=filtered.length!==0;
