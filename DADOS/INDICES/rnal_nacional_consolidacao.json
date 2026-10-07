@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 111,
+  "municipios_validados": 112,
   "acceptance": false,
   "municipios": [
     {
@@ -1231,13 +1231,11 @@
       "municipio": "Lisboa",
       "slug": "lisboa",
       "target_total": 11868,
-      "lotes": 237,
-      "lotes_em_falta": [
-        11850
-      ],
-      "registros": 11850,
-      "ids_unicos": 11850,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 238,
+      "lotes_em_falta": [],
+      "registros": 11868,
+      "ids_unicos": 11868,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
