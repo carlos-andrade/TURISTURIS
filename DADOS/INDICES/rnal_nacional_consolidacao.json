@@ -76,9 +76,8 @@
       "municipio": "Alcobaça",
       "slug": "alcobaca",
       "target_total": 1005,
-      "lotes": 9,
+      "lotes": 10,
       "lotes_em_falta": [
-        450,
         500,
         550,
         600,
@@ -91,8 +90,8 @@
         950,
         1000
       ],
-      "registros": 450,
-      "ids_unicos": 450,
+      "registros": 500,
+      "ids_unicos": 500,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
