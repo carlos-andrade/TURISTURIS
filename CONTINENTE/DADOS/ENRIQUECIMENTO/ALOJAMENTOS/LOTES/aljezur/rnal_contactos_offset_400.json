@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Aljezur",
+  "target_total": 1403,
+  "offset": 400,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-32217",
+      "id_origem": 32217,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32217",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-32455",
+      "id_origem": 32455,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32455",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-32548",
+      "id_origem": 32548,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32548",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-32883",
+      "id_origem": 32883,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32883",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33503",
+      "id_origem": 33503,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33503",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33504",
+      "id_origem": 33504,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33504",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33512",
+      "id_origem": 33512,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33512",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33656",
+      "id_origem": 33656,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33656",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33682",
+      "id_origem": 33682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-33865",
+      "id_origem": 33865,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33865",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-34515",
+      "id_origem": 34515,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34515",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-34679",
+      "id_origem": 34679,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34679",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-34694",
+      "id_origem": 34694,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34694",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-34718",
+      "id_origem": 34718,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34718",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-35423",
+      "id_origem": 35423,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=35423",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-35594",
+      "id_origem": 35594,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=35594",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-37265",
+      "id_origem": 37265,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37265",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-37450",
+      "id_origem": 37450,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37450",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-37629",
+      "id_origem": 37629,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37629",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-37653",
+      "id_origem": 37653,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37653",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38312",
+      "id_origem": 38312,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38312",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38549",
+      "id_origem": 38549,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38549",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38624",
+      "id_origem": 38624,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38624",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38699",
+      "id_origem": 38699,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38699",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38773",
+      "id_origem": 38773,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38773",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-38929",
+      "id_origem": 38929,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38929",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-39276",
+      "id_origem": 39276,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39276",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-39393",
+      "id_origem": 39393,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39393",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40159",
+      "id_origem": 40159,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40159",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40221",
+      "id_origem": 40221,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40221",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40260",
+      "id_origem": 40260,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40260",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40279",
+      "id_origem": 40279,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40279",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40399",
+      "id_origem": 40399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40660",
+      "id_origem": 40660,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40660",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40779",
+      "id_origem": 40779,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40779",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40782",
+      "id_origem": 40782,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40782",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40841",
+      "id_origem": 40841,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40841",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40975",
+      "id_origem": 40975,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40975",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-40977",
+      "id_origem": 40977,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40977",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-41116",
+      "id_origem": 41116,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=41116",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-41648",
+      "id_origem": 41648,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=41648",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-41651",
+      "id_origem": 41651,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=41651",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42432",
+      "id_origem": 42432,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42432",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42468",
+      "id_origem": 42468,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42468",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42601",
+      "id_origem": 42601,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42601",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42656",
+      "id_origem": 42656,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42656",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42666",
+      "id_origem": 42666,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42666",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42806",
+      "id_origem": 42806,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42806",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42810",
+      "id_origem": 42810,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42810",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-42893",
+      "id_origem": 42893,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=42893",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:09:13Z"
+    }
+  ]
+}
