@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Avis",
+  "target_total": 56,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 6,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 6
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-169532",
+      "id_origem": 169532,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169532",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-170473",
+      "id_origem": 170473,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170473",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-175461",
+      "id_origem": 175461,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175461",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-176376",
+      "id_origem": 176376,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176376",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-178396",
+      "id_origem": 178396,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178396",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AVIS-180259",
+      "id_origem": 180259,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180259",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:01:51Z"
+    }
+  ]
+}
