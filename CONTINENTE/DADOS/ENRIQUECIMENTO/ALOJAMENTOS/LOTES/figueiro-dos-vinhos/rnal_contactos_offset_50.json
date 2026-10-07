@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Figueiró dos Vinhos",
+  "target_total": 52,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 2,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 2
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-FIGUEIR-DOS-VINHOS-180091",
+      "id_origem": 180091,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180091",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:38:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FIGUEIR-DOS-VINHOS-180411",
+      "id_origem": 180411,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180411",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:38:01Z"
+    }
+  ]
+}
