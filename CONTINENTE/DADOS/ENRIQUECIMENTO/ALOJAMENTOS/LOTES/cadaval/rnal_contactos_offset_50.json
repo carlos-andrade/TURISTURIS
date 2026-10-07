@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Cadaval",
+  "target_total": 54,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CADAVAL-177176",
+      "id_origem": 177176,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177176",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:23:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CADAVAL-177911",
+      "id_origem": 177911,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177911",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:23:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CADAVAL-177966",
+      "id_origem": 177966,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177966",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:23:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CADAVAL-181393",
+      "id_origem": 181393,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181393",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:23:25Z"
+    }
+  ]
+}
