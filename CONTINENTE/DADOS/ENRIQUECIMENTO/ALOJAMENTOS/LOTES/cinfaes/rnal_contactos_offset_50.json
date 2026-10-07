@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Cinfães",
+  "target_total": 52,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 2,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 2
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CINF-ES-177134",
+      "id_origem": 177134,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177134",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:16:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CINF-ES-177373",
+      "id_origem": 177373,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177373",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:16:22Z"
+    }
+  ]
+}
