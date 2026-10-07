@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Matosinhos",
+  "target_total": 654,
+  "offset": 650,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MATOSINHOS-181260",
+      "id_origem": 181260,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181260",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MATOSINHOS-181301",
+      "id_origem": 181301,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181301",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MATOSINHOS-181311",
+      "id_origem": 181311,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181311",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MATOSINHOS-181386",
+      "id_origem": 181386,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181386",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:14Z"
+    }
+  ]
+}

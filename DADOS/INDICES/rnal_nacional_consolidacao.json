@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 125,
+  "municipios_validados": 126,
   "acceptance": false,
   "municipios": [
     {
@@ -1385,13 +1385,11 @@
       "municipio": "Matosinhos",
       "slug": "matosinhos",
       "target_total": 654,
-      "lotes": 13,
-      "lotes_em_falta": [
-        650
-      ],
-      "registros": 650,
-      "ids_unicos": 650,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 14,
+      "lotes_em_falta": [],
+      "registros": 654,
+      "ids_unicos": 654,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
