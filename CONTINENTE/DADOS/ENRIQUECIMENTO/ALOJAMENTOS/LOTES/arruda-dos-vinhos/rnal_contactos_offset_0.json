@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Arruda dos Vinhos",
+  "target_total": 10,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 10,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 10
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-143991",
+      "id_origem": 143991,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143991",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-148669",
+      "id_origem": 148669,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148669",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-168156",
+      "id_origem": 168156,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168156",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-37335",
+      "id_origem": 37335,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37335",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-3791",
+      "id_origem": 3791,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=3791",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-43527",
+      "id_origem": 43527,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43527",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-69313",
+      "id_origem": 69313,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=69313",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-71088",
+      "id_origem": 71088,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=71088",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-74207",
+      "id_origem": 74207,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74207",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ARRUDA-DOS-VINHOS-79657",
+      "id_origem": 79657,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79657",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:55:07Z"
+    }
+  ]
+}
