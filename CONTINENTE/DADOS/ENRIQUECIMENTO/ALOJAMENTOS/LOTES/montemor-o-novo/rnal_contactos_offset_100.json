@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Montemor-O-Novo",
+  "target_total": 104,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MONTEMOR-O-NOVO-176723",
+      "id_origem": 176723,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176723",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:26:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONTEMOR-O-NOVO-178402",
+      "id_origem": 178402,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178402",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:26:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONTEMOR-O-NOVO-178470",
+      "id_origem": 178470,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178470",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:26:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONTEMOR-O-NOVO-179012",
+      "id_origem": 179012,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179012",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:26:05Z"
+    }
+  ]
+}

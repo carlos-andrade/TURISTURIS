@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 141,
+  "municipios_validados": 142,
   "acceptance": false,
   "municipios": [
     {
@@ -1561,13 +1561,11 @@
       "municipio": "Montemor-O-Novo",
       "slug": "montemor-o-novo",
       "target_total": 104,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 104,
+      "ids_unicos": 104,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
