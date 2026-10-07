@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Murtosa",
+  "target_total": 115,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-101811",
+      "id_origem": 101811,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101811",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-101872",
+      "id_origem": 101872,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101872",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-107585",
+      "id_origem": 107585,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107585",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-107784",
+      "id_origem": 107784,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107784",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-108557",
+      "id_origem": 108557,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108557",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-109611",
+      "id_origem": 109611,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=109611",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-111219",
+      "id_origem": 111219,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111219",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-111778",
+      "id_origem": 111778,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111778",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-111850",
+      "id_origem": 111850,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111850",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-112337",
+      "id_origem": 112337,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112337",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-112984",
+      "id_origem": 112984,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112984",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-113035",
+      "id_origem": 113035,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113035",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-113211",
+      "id_origem": 113211,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113211",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-116764",
+      "id_origem": 116764,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=116764",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-120308",
+      "id_origem": 120308,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=120308",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-120531",
+      "id_origem": 120531,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=120531",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-126280",
+      "id_origem": 126280,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=126280",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-126643",
+      "id_origem": 126643,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=126643",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-128955",
+      "id_origem": 128955,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=128955",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-132989",
+      "id_origem": 132989,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132989",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-133164",
+      "id_origem": 133164,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=133164",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-135708",
+      "id_origem": 135708,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=135708",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-136074",
+      "id_origem": 136074,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=136074",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-138833",
+      "id_origem": 138833,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138833",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-138835",
+      "id_origem": 138835,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138835",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-140521",
+      "id_origem": 140521,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140521",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-141736",
+      "id_origem": 141736,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141736",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-143142",
+      "id_origem": 143142,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143142",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-145813",
+      "id_origem": 145813,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145813",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-146916",
+      "id_origem": 146916,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146916",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-147117",
+      "id_origem": 147117,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147117",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-148153",
+      "id_origem": 148153,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148153",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-149027",
+      "id_origem": 149027,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149027",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-149131",
+      "id_origem": 149131,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149131",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-153768",
+      "id_origem": 153768,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153768",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-154215",
+      "id_origem": 154215,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154215",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-154557",
+      "id_origem": 154557,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154557",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-154716",
+      "id_origem": 154716,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154716",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-155198",
+      "id_origem": 155198,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155198",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-155725",
+      "id_origem": 155725,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155725",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-156022",
+      "id_origem": 156022,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156022",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-157338",
+      "id_origem": 157338,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157338",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-159742",
+      "id_origem": 159742,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159742",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-164215",
+      "id_origem": 164215,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=164215",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-165156",
+      "id_origem": 165156,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165156",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-89336",
+      "id_origem": 89336,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=89336",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-92934",
+      "id_origem": 92934,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92934",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-95051",
+      "id_origem": 95051,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95051",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-96562",
+      "id_origem": 96562,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96562",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MURTOSA-96937",
+      "id_origem": 96937,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96937",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:32:40Z"
+    }
+  ]
+}
