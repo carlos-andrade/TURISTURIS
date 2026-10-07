@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 185,
+  "municipios_validados": 186,
   "acceptance": false,
   "municipios": [
     {
@@ -2045,13 +2045,11 @@
       "municipio": "Ponte de Lima",
       "slug": "ponte-de-lima",
       "target_total": 429,
-      "lotes": 8,
-      "lotes_em_falta": [
-        400
-      ],
-      "registros": 400,
-      "ids_unicos": 400,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 9,
+      "lotes_em_falta": [],
+      "registros": 429,
+      "ids_unicos": 429,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
