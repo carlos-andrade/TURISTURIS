@@ -1264,9 +1264,8 @@
       "municipio": "Lourinhã",
       "slug": "lourinha",
       "target_total": 568,
-      "lotes": 1,
+      "lotes": 2,
       "lotes_em_falta": [
-        50,
         100,
         150,
         200,
@@ -1278,8 +1277,8 @@
         500,
         550
       ],
-      "registros": 50,
-      "ids_unicos": 50,
+      "registros": 100,
+      "ids_unicos": 100,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
