@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 139,
+  "municipios_validados": 140,
   "acceptance": false,
   "municipios": [
     {
@@ -1539,13 +1539,11 @@
       "municipio": "Monforte",
       "slug": "monforte",
       "target_total": 11,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 11,
+      "ids_unicos": 11,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
