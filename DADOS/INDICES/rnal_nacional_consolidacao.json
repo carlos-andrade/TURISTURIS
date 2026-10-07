@@ -604,9 +604,8 @@
       "municipio": "Caminha",
       "slug": "caminha",
       "target_total": 728,
-      "lotes": 2,
+      "lotes": 3,
       "lotes_em_falta": [
-        100,
         150,
         200,
         250,
@@ -620,8 +619,8 @@
         650,
         700
       ],
-      "registros": 100,
-      "ids_unicos": 100,
+      "registros": 150,
+      "ids_unicos": 150,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
