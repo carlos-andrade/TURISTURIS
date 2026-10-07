@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 40,
+  "municipios_validados": 41,
   "acceptance": false,
   "municipios": [
     {
@@ -450,13 +450,11 @@
       "municipio": "Barrancos",
       "slug": "barrancos",
       "target_total": 5,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 5,
+      "ids_unicos": 5,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

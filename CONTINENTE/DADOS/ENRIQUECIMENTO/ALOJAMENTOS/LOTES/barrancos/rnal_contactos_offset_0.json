@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Barrancos",
+  "target_total": 5,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-BARRANCOS-111154",
+      "id_origem": 111154,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111154",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARRANCOS-17699",
+      "id_origem": 17699,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17699",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARRANCOS-17982",
+      "id_origem": 17982,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17982",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARRANCOS-83226",
+      "id_origem": 83226,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83226",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARRANCOS-84120",
+      "id_origem": 84120,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=84120",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:25Z"
+    }
+  ]
+}
