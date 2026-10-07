@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 9,
+  "municipios_validados": 10,
   "acceptance": false,
   "municipios": [
     {
@@ -109,13 +109,11 @@
       "municipio": "Alcácer do Sal",
       "slug": "alcacer-do-sal",
       "target_total": 312,
-      "lotes": 6,
-      "lotes_em_falta": [
-        300
-      ],
-      "registros": 300,
-      "ids_unicos": 300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 7,
+      "lotes_em_falta": [],
+      "registros": 312,
+      "ids_unicos": 312,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
