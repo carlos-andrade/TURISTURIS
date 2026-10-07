@@ -1198,9 +1198,8 @@
       "municipio": "Lagos",
       "slug": "lagos",
       "target_total": 4773,
-      "lotes": 4,
+      "lotes": 5,
       "lotes_em_falta": [
-        200,
         250,
         300,
         350,
@@ -1293,8 +1292,8 @@
         4700,
         4750
       ],
-      "registros": 200,
-      "ids_unicos": 200,
+      "registros": 250,
+      "ids_unicos": 250,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
