@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 61,
+  "municipios_validados": 62,
   "acceptance": false,
   "municipios": [
     {
@@ -681,13 +681,11 @@
       "municipio": "Castanheira de Pêra",
       "slug": "castanheira-de-pera",
       "target_total": 54,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 54,
+      "ids_unicos": 54,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

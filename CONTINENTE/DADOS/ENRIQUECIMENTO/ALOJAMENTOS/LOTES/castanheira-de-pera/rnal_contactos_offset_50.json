@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Castanheira de Pêra",
+  "target_total": 54,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-168824",
+      "id_origem": 168824,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168824",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-168881",
+      "id_origem": 168881,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168881",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-180514",
+      "id_origem": 180514,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180514",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-180723",
+      "id_origem": 180723,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180723",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:32Z"
+    }
+  ]
+}
