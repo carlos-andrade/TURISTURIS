@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Castanheira de Pêra",
+  "target_total": 54,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-100184",
+      "id_origem": 100184,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100184",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-100325",
+      "id_origem": 100325,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100325",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-100857",
+      "id_origem": 100857,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100857",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-100861",
+      "id_origem": 100861,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100861",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-105589",
+      "id_origem": 105589,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105589",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-105736",
+      "id_origem": 105736,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105736",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-106629",
+      "id_origem": 106629,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106629",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-121536",
+      "id_origem": 121536,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=121536",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-127387",
+      "id_origem": 127387,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=127387",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-127465",
+      "id_origem": 127465,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=127465",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-127468",
+      "id_origem": 127468,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=127468",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-127641",
+      "id_origem": 127641,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=127641",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-129235",
+      "id_origem": 129235,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129235",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-131499",
+      "id_origem": 131499,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131499",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-134572",
+      "id_origem": 134572,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134572",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-143087",
+      "id_origem": 143087,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143087",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-147044",
+      "id_origem": 147044,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147044",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-147105",
+      "id_origem": 147105,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147105",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-149504",
+      "id_origem": 149504,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149504",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-149582",
+      "id_origem": 149582,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149582",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-153598",
+      "id_origem": 153598,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153598",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-154512",
+      "id_origem": 154512,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154512",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-156584",
+      "id_origem": 156584,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156584",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-156780",
+      "id_origem": 156780,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156780",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-158945",
+      "id_origem": 158945,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158945",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-163376",
+      "id_origem": 163376,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=163376",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165373",
+      "id_origem": 165373,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165373",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165447",
+      "id_origem": 165447,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165447",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165448",
+      "id_origem": 165448,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165448",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165450",
+      "id_origem": 165450,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165450",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165451",
+      "id_origem": 165451,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165451",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-165623",
+      "id_origem": 165623,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=165623",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-166549",
+      "id_origem": 166549,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=166549",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-167605",
+      "id_origem": 167605,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167605",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-168793",
+      "id_origem": 168793,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168793",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58054",
+      "id_origem": 58054,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58054",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58057",
+      "id_origem": 58057,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58057",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58058",
+      "id_origem": 58058,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58058",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58060",
+      "id_origem": 58060,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58060",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58062",
+      "id_origem": 58062,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58062",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-58064",
+      "id_origem": 58064,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58064",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-60160",
+      "id_origem": 60160,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60160",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-60165",
+      "id_origem": 60165,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60165",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-60167",
+      "id_origem": 60167,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60167",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-64277",
+      "id_origem": 64277,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=64277",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-90986",
+      "id_origem": 90986,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90986",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-91043",
+      "id_origem": 91043,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91043",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-91118",
+      "id_origem": 91118,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91118",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-91119",
+      "id_origem": 91119,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91119",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTANHEIRA-DE-P-RA-97200",
+      "id_origem": 97200,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97200",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:02:09Z"
+    }
+  ]
+}
