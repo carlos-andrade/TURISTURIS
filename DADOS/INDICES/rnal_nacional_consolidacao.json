@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 4,
+  "municipios_validados": 5,
   "acceptance": false,
   "municipios": [
     {
@@ -54,13 +54,11 @@
       "municipio": "Albufeira",
       "slug": "albufeira",
       "target_total": 10485,
-      "lotes": 209,
-      "lotes_em_falta": [
-        10450
-      ],
-      "registros": 10450,
-      "ids_unicos": 10450,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 210,
+      "lotes_em_falta": [],
+      "registros": 10485,
+      "ids_unicos": 10485,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
