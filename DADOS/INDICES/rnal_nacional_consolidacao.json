@@ -1726,9 +1726,8 @@
       "municipio": "Odemira",
       "slug": "odemira",
       "target_total": 879,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50,
         100,
         150,
@@ -1747,9 +1746,9 @@
         800,
         850
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
