@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 168,
+  "municipios_validados": 169,
   "acceptance": false,
   "municipios": [
     {
@@ -1858,13 +1858,11 @@
       "municipio": "Palmela",
       "slug": "palmela",
       "target_total": 247,
-      "lotes": 4,
-      "lotes_em_falta": [
-        200
-      ],
-      "registros": 200,
-      "ids_unicos": 200,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 5,
+      "lotes_em_falta": [],
+      "registros": 247,
+      "ids_unicos": 247,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
