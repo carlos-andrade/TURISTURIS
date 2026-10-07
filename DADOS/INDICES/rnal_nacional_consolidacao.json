@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 120,
+  "municipios_validados": 121,
   "acceptance": false,
   "municipios": [
     {
@@ -1330,13 +1330,11 @@
       "municipio": "Mangualde",
       "slug": "mangualde",
       "target_total": 23,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 23,
+      "ids_unicos": 23,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
