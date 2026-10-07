@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 98,
+  "municipios_validados": 99,
   "acceptance": false,
   "municipios": [
     {
@@ -1088,13 +1088,11 @@
       "municipio": "Gavião",
       "slug": "gaviao",
       "target_total": 17,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 17,
+      "ids_unicos": 17,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
