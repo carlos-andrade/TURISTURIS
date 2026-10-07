@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 60,
+  "municipios_validados": 61,
   "acceptance": false,
   "municipios": [
     {
@@ -670,13 +670,11 @@
       "municipio": "Cascais",
       "slug": "cascais",
       "target_total": 2458,
-      "lotes": 49,
-      "lotes_em_falta": [
-        2450
-      ],
-      "registros": 2450,
-      "ids_unicos": 2450,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 50,
+      "lotes_em_falta": [],
+      "registros": 2458,
+      "ids_unicos": 2458,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
