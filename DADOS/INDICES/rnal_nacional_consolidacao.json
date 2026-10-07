@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 87,
+  "municipios_validados": 88,
   "acceptance": false,
   "municipios": [
     {
@@ -967,13 +967,11 @@
       "municipio": "Faro",
       "slug": "faro",
       "target_total": 1303,
-      "lotes": 26,
-      "lotes_em_falta": [
-        1300
-      ],
-      "registros": 1300,
-      "ids_unicos": 1300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 27,
+      "lotes_em_falta": [],
+      "registros": 1303,
+      "ids_unicos": 1303,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
