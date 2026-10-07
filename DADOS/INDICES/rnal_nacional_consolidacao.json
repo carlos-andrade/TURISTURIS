@@ -1308,14 +1308,13 @@
       "municipio": "Mafra",
       "slug": "mafra",
       "target_total": 1135,
-      "lotes": 20,
+      "lotes": 21,
       "lotes_em_falta": [
-        1000,
         1050,
         1100
       ],
-      "registros": 1000,
-      "ids_unicos": 1000,
+      "registros": 1050,
+      "ids_unicos": 1050,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
