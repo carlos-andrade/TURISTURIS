@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 153,
+  "municipios_validados": 154,
   "acceptance": false,
   "municipios": [
     {
@@ -1693,13 +1693,11 @@
       "municipio": "Nazaré",
       "slug": "nazare",
       "target_total": 1289,
-      "lotes": 25,
-      "lotes_em_falta": [
-        1250
-      ],
-      "registros": 1250,
-      "ids_unicos": 1250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 26,
+      "lotes_em_falta": [],
+      "registros": 1289,
+      "ids_unicos": 1289,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
