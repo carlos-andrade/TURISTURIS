@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Amadora",
+  "target_total": 211,
+  "offset": 200,
+  "limit": 50,
+  "record_count": 11,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 11
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-175651",
+      "id_origem": 175651,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175651",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-176294",
+      "id_origem": 176294,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176294",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-176843",
+      "id_origem": 176843,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176843",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-177004",
+      "id_origem": 177004,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177004",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-177350",
+      "id_origem": 177350,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177350",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-177478",
+      "id_origem": 177478,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177478",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-178357",
+      "id_origem": 178357,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178357",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-179239",
+      "id_origem": 179239,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179239",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-180459",
+      "id_origem": 180459,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180459",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-180491",
+      "id_origem": 180491,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180491",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-AMADORA-180981",
+      "id_origem": 180981,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180981",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:41:55Z"
+    }
+  ]
+}
