@@ -736,17 +736,16 @@
       "municipio": "Castro Marim",
       "slug": "castro-marim",
       "target_total": 497,
-      "lotes": 4,
+      "lotes": 5,
       "lotes_em_falta": [
-        200,
         250,
         300,
         350,
         400,
         450
       ],
-      "registros": 200,
-      "ids_unicos": 200,
+      "registros": 250,
+      "ids_unicos": 250,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
