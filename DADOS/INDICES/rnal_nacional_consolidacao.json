@@ -153,9 +153,8 @@
       "municipio": "Aljezur",
       "slug": "aljezur",
       "target_total": 1403,
-      "lotes": 7,
+      "lotes": 8,
       "lotes_em_falta": [
-        350,
         400,
         450,
         500,
@@ -178,8 +177,8 @@
         1350,
         1400
       ],
-      "registros": 350,
-      "ids_unicos": 350,
+      "registros": 400,
+      "ids_unicos": 400,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
