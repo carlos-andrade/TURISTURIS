@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Odemira",
+  "target_total": 879,
+  "offset": 200,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-24799",
+      "id_origem": 24799,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=24799",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-25267",
+      "id_origem": 25267,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25267",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-25288",
+      "id_origem": 25288,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25288",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-25355",
+      "id_origem": 25355,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25355",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-25484",
+      "id_origem": 25484,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25484",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-25816",
+      "id_origem": 25816,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25816",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-26156",
+      "id_origem": 26156,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26156",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-26290",
+      "id_origem": 26290,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26290",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-26423",
+      "id_origem": 26423,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26423",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-27668",
+      "id_origem": 27668,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=27668",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-28168",
+      "id_origem": 28168,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=28168",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-28284",
+      "id_origem": 28284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=28284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-28819",
+      "id_origem": 28819,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=28819",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-29526",
+      "id_origem": 29526,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=29526",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-29631",
+      "id_origem": 29631,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=29631",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-29836",
+      "id_origem": 29836,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=29836",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30124",
+      "id_origem": 30124,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30124",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30209",
+      "id_origem": 30209,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30209",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30382",
+      "id_origem": 30382,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30382",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30455",
+      "id_origem": 30455,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30455",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30524",
+      "id_origem": 30524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30554",
+      "id_origem": 30554,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30554",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30631",
+      "id_origem": 30631,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30631",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-30666",
+      "id_origem": 30666,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30666",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-31619",
+      "id_origem": 31619,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31619",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-31765",
+      "id_origem": 31765,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31765",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-32284",
+      "id_origem": 32284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-32287",
+      "id_origem": 32287,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32287",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-32560",
+      "id_origem": 32560,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32560",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-32816",
+      "id_origem": 32816,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32816",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-32897",
+      "id_origem": 32897,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32897",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-34637",
+      "id_origem": 34637,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34637",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-34706",
+      "id_origem": 34706,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34706",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-35717",
+      "id_origem": 35717,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=35717",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-35754",
+      "id_origem": 35754,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=35754",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-35921",
+      "id_origem": 35921,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=35921",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-36119",
+      "id_origem": 36119,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=36119",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-36333",
+      "id_origem": 36333,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=36333",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-36364",
+      "id_origem": 36364,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=36364",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-36409",
+      "id_origem": 36409,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=36409",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-36985",
+      "id_origem": 36985,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=36985",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-38080",
+      "id_origem": 38080,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38080",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-38341",
+      "id_origem": 38341,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38341",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-38525",
+      "id_origem": 38525,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38525",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-38677",
+      "id_origem": 38677,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38677",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-39240",
+      "id_origem": 39240,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39240",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-39801",
+      "id_origem": 39801,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39801",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-40008",
+      "id_origem": 40008,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40008",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-40553",
+      "id_origem": 40553,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40553",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ODEMIRA-40793",
+      "id_origem": 40793,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=40793",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:51:52Z"
+    }
+  ]
+}
