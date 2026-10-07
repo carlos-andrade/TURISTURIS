@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Leiria",
+  "target_total": 252,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-100080",
+      "id_origem": 100080,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100080",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-100081",
+      "id_origem": 100081,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100081",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-100536",
+      "id_origem": 100536,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100536",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-101571",
+      "id_origem": 101571,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101571",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-101917",
+      "id_origem": 101917,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101917",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-101918",
+      "id_origem": 101918,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101918",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-101919",
+      "id_origem": 101919,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101919",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-102687",
+      "id_origem": 102687,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102687",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-103189",
+      "id_origem": 103189,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103189",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-104027",
+      "id_origem": 104027,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104027",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-105666",
+      "id_origem": 105666,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105666",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-107029",
+      "id_origem": 107029,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107029",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-107406",
+      "id_origem": 107406,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107406",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-107605",
+      "id_origem": 107605,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107605",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-107836",
+      "id_origem": 107836,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107836",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-107942",
+      "id_origem": 107942,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107942",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-64686",
+      "id_origem": 64686,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=64686",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-67122",
+      "id_origem": 67122,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=67122",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-69628",
+      "id_origem": 69628,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=69628",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-70861",
+      "id_origem": 70861,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=70861",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-70904",
+      "id_origem": 70904,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=70904",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-73453",
+      "id_origem": 73453,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=73453",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-74732",
+      "id_origem": 74732,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74732",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-74739",
+      "id_origem": 74739,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74739",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-74843",
+      "id_origem": 74843,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74843",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-78908",
+      "id_origem": 78908,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=78908",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-79738",
+      "id_origem": 79738,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79738",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-80115",
+      "id_origem": 80115,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80115",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-80170",
+      "id_origem": 80170,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80170",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-80524",
+      "id_origem": 80524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-82251",
+      "id_origem": 82251,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82251",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-83401",
+      "id_origem": 83401,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83401",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-84680",
+      "id_origem": 84680,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=84680",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-85588",
+      "id_origem": 85588,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85588",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-85609",
+      "id_origem": 85609,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85609",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-85623",
+      "id_origem": 85623,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85623",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-92761",
+      "id_origem": 92761,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92761",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-92825",
+      "id_origem": 92825,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92825",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-93284",
+      "id_origem": 93284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-93707",
+      "id_origem": 93707,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93707",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-94097",
+      "id_origem": 94097,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94097",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-95725",
+      "id_origem": 95725,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95725",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-96708",
+      "id_origem": 96708,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96708",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-97550",
+      "id_origem": 97550,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97550",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-98206",
+      "id_origem": 98206,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98206",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-98287",
+      "id_origem": 98287,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98287",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-98288",
+      "id_origem": 98288,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98288",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-98363",
+      "id_origem": 98363,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98363",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-98437",
+      "id_origem": 98437,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98437",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LEIRIA-99977",
+      "id_origem": 99977,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99977",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:17:55Z"
+    }
+  ]
+}
