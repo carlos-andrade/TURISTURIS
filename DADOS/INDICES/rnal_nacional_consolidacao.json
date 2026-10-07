@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 69,
+  "municipios_validados": 70,
   "acceptance": false,
   "municipios": [
     {
@@ -769,13 +769,11 @@
       "municipio": "Celorico de Basto",
       "slug": "celorico-de-basto",
       "target_total": 168,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 168,
+      "ids_unicos": 168,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
