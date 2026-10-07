@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Alcobaça",
+  "target_total": 1005,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-10043",
+      "id_origem": 10043,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10043",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-10214",
+      "id_origem": 10214,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10214",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-10250",
+      "id_origem": 10250,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10250",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-10763",
+      "id_origem": 10763,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10763",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-10958",
+      "id_origem": 10958,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10958",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-11089",
+      "id_origem": 11089,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11089",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-11323",
+      "id_origem": 11323,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11323",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-11543",
+      "id_origem": 11543,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11543",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-11550",
+      "id_origem": 11550,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11550",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-11622",
+      "id_origem": 11622,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=11622",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12093",
+      "id_origem": 12093,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12093",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12203",
+      "id_origem": 12203,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12203",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12229",
+      "id_origem": 12229,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12229",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12233",
+      "id_origem": 12233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12236",
+      "id_origem": 12236,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12236",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12238",
+      "id_origem": 12238,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12238",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12240",
+      "id_origem": 12240,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12240",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-12852",
+      "id_origem": 12852,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12852",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13014",
+      "id_origem": 13014,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13014",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13071",
+      "id_origem": 13071,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13071",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13076",
+      "id_origem": 13076,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13076",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13084",
+      "id_origem": 13084,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13084",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13111",
+      "id_origem": 13111,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13111",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13138",
+      "id_origem": 13138,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13138",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13172",
+      "id_origem": 13172,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13172",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13183",
+      "id_origem": 13183,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13183",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13362",
+      "id_origem": 13362,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13362",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13668",
+      "id_origem": 13668,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13668",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13707",
+      "id_origem": 13707,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13707",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-13971",
+      "id_origem": 13971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14627",
+      "id_origem": 14627,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14627",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14718",
+      "id_origem": 14718,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14718",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14761",
+      "id_origem": 14761,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14761",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14765",
+      "id_origem": 14765,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14765",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14827",
+      "id_origem": 14827,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14827",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14832",
+      "id_origem": 14832,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14832",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-14857",
+      "id_origem": 14857,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14857",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15009",
+      "id_origem": 15009,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15009",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15115",
+      "id_origem": 15115,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15115",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15462",
+      "id_origem": 15462,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15462",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15672",
+      "id_origem": 15672,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15672",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15816",
+      "id_origem": 15816,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15816",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-15844",
+      "id_origem": 15844,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15844",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-16012",
+      "id_origem": 16012,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16012",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-16015",
+      "id_origem": 16015,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16015",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-16032",
+      "id_origem": 16032,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16032",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-16083",
+      "id_origem": 16083,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16083",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-16197",
+      "id_origem": 16197,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16197",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-9445",
+      "id_origem": 9445,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9445",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-9745",
+      "id_origem": 9745,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9745",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:50:18Z"
+    }
+  ]
+}
