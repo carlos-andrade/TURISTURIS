@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 140,
+  "municipios_validados": 141,
   "acceptance": false,
   "municipios": [
     {
@@ -1550,13 +1550,11 @@
       "municipio": "Montalegre",
       "slug": "montalegre",
       "target_total": 175,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 175,
+      "ids_unicos": 175,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
