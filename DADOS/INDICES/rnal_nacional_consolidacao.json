@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 56,
+  "municipios_validados": 57,
   "acceptance": false,
   "municipios": [
     {
@@ -626,13 +626,11 @@
       "municipio": "Cantanhede",
       "slug": "cantanhede",
       "target_total": 32,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 32,
+      "ids_unicos": 32,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
