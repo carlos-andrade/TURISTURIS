@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 66,
+  "municipios_validados": 67,
   "acceptance": false,
   "municipios": [
     {
@@ -736,13 +736,11 @@
       "municipio": "Castro Marim",
       "slug": "castro-marim",
       "target_total": 497,
-      "lotes": 9,
-      "lotes_em_falta": [
-        450
-      ],
-      "registros": 450,
-      "ids_unicos": 450,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 10,
+      "lotes_em_falta": [],
+      "registros": 497,
+      "ids_unicos": 497,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
