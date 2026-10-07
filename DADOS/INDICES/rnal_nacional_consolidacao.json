@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 107,
+  "municipios_validados": 108,
   "acceptance": false,
   "municipios": [
     {
@@ -1187,13 +1187,11 @@
       "municipio": "Lagoa",
       "slug": "lagoa",
       "target_total": 3260,
-      "lotes": 65,
-      "lotes_em_falta": [
-        3250
-      ],
-      "registros": 3250,
-      "ids_unicos": 3250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 66,
+      "lotes_em_falta": [],
+      "registros": 3260,
+      "ids_unicos": 3260,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

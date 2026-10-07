@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Lagoa",
+  "target_total": 3260,
+  "offset": 3250,
+  "limit": 50,
+  "record_count": 10,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 10
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181179",
+      "id_origem": 181179,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181179",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181180",
+      "id_origem": 181180,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181180",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181181",
+      "id_origem": 181181,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181181",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181183",
+      "id_origem": 181183,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181183",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181184",
+      "id_origem": 181184,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181184",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181186",
+      "id_origem": 181186,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181186",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181187",
+      "id_origem": 181187,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181187",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181188",
+      "id_origem": 181188,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181188",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181323",
+      "id_origem": 181323,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181323",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOA-181324",
+      "id_origem": 181324,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181324",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:29:32Z"
+    }
+  ]
+}
