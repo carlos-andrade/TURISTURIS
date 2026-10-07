@@ -274,14 +274,13 @@
       "municipio": "Amarante",
       "slug": "amarante",
       "target_total": 223,
-      "lotes": 2,
+      "lotes": 3,
       "lotes_em_falta": [
-        100,
         150,
         200
       ],
-      "registros": 100,
-      "ids_unicos": 100,
+      "registros": 150,
+      "ids_unicos": 150,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
