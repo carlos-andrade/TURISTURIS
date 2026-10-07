@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 73,
+  "municipios_validados": 74,
   "acceptance": false,
   "municipios": [
     {
@@ -813,13 +813,11 @@
       "municipio": "Coimbra",
       "slug": "coimbra",
       "target_total": 478,
-      "lotes": 9,
-      "lotes_em_falta": [
-        450
-      ],
-      "registros": 450,
-      "ids_unicos": 450,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 10,
+      "lotes_em_falta": [],
+      "registros": 478,
+      "ids_unicos": 478,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
