@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 184,
+  "municipios_validados": 185,
   "acceptance": false,
   "municipios": [
     {
@@ -2034,13 +2034,11 @@
       "municipio": "Ponte da Barca",
       "slug": "ponte-da-barca",
       "target_total": 119,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 119,
+      "ids_unicos": 119,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
