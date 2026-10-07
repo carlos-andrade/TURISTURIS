@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 35,
+  "municipios_validados": 36,
   "acceptance": false,
   "municipios": [
     {
@@ -395,13 +395,11 @@
       "municipio": "Aveiro",
       "slug": "aveiro",
       "target_total": 729,
-      "lotes": 14,
-      "lotes_em_falta": [
-        700
-      ],
-      "registros": 700,
-      "ids_unicos": 700,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 15,
+      "lotes_em_falta": [],
+      "registros": 729,
+      "ids_unicos": 729,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
