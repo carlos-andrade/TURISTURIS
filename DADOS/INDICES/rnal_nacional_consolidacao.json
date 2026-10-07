@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 13,
+  "municipios_validados": 14,
   "acceptance": false,
   "municipios": [
     {
@@ -153,13 +153,11 @@
       "municipio": "Aljezur",
       "slug": "aljezur",
       "target_total": 1403,
-      "lotes": 28,
-      "lotes_em_falta": [
-        1400
-      ],
-      "registros": 1400,
-      "ids_unicos": 1400,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 29,
+      "lotes_em_falta": [],
+      "registros": 1403,
+      "ids_unicos": 1403,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

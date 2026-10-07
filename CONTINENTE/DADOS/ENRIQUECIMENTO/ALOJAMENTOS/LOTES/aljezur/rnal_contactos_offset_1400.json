@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Aljezur",
+  "target_total": 1403,
+  "offset": 1400,
+  "limit": 50,
+  "record_count": 3,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 3
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-180903",
+      "id_origem": 180903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:18:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-180920",
+      "id_origem": 180920,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180920",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:18:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALJEZUR-181575",
+      "id_origem": 181575,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181575",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:18:39Z"
+    }
+  ]
+}
