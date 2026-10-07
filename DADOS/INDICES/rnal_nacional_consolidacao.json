@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 130,
+  "municipios_validados": 131,
   "acceptance": false,
   "municipios": [
     {
@@ -1440,13 +1440,11 @@
       "municipio": "Mira",
       "slug": "mira",
       "target_total": 144,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 144,
+      "ids_unicos": 144,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
