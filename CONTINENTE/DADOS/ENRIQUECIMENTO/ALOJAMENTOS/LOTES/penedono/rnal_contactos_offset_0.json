@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Penedono",
+  "target_total": 8,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 8,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 8
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-132417",
+      "id_origem": 132417,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132417",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-144051",
+      "id_origem": 144051,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144051",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-164637",
+      "id_origem": 164637,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=164637",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-168213",
+      "id_origem": 168213,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168213",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-170120",
+      "id_origem": 170120,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170120",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-170122",
+      "id_origem": 170122,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170122",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-87755",
+      "id_origem": 87755,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=87755",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENEDONO-98792",
+      "id_origem": 98792,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98792",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:03Z"
+    }
+  ]
+}
