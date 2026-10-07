@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Arraiolos",
+  "target_total": 51,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 1,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 1
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ARRAIOLOS-179312",
+      "id_origem": 179312,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179312",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T04:54:26Z"
+    }
+  ]
+}
