@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 91,
+  "municipios_validados": 92,
   "acceptance": false,
   "municipios": [
     {
@@ -1011,13 +1011,11 @@
       "municipio": "Figueira da Foz",
       "slug": "figueira-da-foz",
       "target_total": 536,
-      "lotes": 10,
-      "lotes_em_falta": [
-        500
-      ],
-      "registros": 500,
-      "ids_unicos": 500,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 11,
+      "lotes_em_falta": [],
+      "registros": 536,
+      "ids_unicos": 536,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
