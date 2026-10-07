@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Mação",
+  "target_total": 53,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 3,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 3
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MA-O-176872",
+      "id_origem": 176872,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176872",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MA-O-177695",
+      "id_origem": 177695,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177695",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MA-O-178062",
+      "id_origem": 178062,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178062",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T15:05:58Z"
+    }
+  ]
+}
