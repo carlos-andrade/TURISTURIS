@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Albufeira",
+  "target_total": 10485,
+  "offset": 9150,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159905",
+      "id_origem": 159905,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159905",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159906",
+      "id_origem": 159906,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159906",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159951",
+      "id_origem": 159951,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159951",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159952",
+      "id_origem": 159952,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159952",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159955",
+      "id_origem": 159955,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159955",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159971",
+      "id_origem": 159971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159974",
+      "id_origem": 159974,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159974",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-159975",
+      "id_origem": 159975,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159975",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160012",
+      "id_origem": 160012,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160012",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160013",
+      "id_origem": 160013,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160013",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160042",
+      "id_origem": 160042,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160042",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160043",
+      "id_origem": 160043,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160043",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160049",
+      "id_origem": 160049,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160049",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160050",
+      "id_origem": 160050,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160050",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160072",
+      "id_origem": 160072,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160072",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160073",
+      "id_origem": 160073,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160073",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160074",
+      "id_origem": 160074,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160074",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160076",
+      "id_origem": 160076,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160076",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160077",
+      "id_origem": 160077,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160077",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160078",
+      "id_origem": 160078,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160078",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160079",
+      "id_origem": 160079,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160079",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160081",
+      "id_origem": 160081,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160081",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160096",
+      "id_origem": 160096,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160096",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160097",
+      "id_origem": 160097,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160097",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160099",
+      "id_origem": 160099,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160099",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160105",
+      "id_origem": 160105,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160105",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160107",
+      "id_origem": 160107,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160107",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160111",
+      "id_origem": 160111,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160111",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160112",
+      "id_origem": 160112,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160112",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160114",
+      "id_origem": 160114,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160114",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160115",
+      "id_origem": 160115,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160115",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160116",
+      "id_origem": 160116,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160116",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160117",
+      "id_origem": 160117,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160117",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160118",
+      "id_origem": 160118,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160118",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160123",
+      "id_origem": 160123,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160123",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160126",
+      "id_origem": 160126,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160126",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160134",
+      "id_origem": 160134,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160134",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160136",
+      "id_origem": 160136,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160136",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160137",
+      "id_origem": 160137,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160137",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160141",
+      "id_origem": 160141,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160141",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160142",
+      "id_origem": 160142,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160142",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160162",
+      "id_origem": 160162,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160162",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160163",
+      "id_origem": 160163,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160163",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160174",
+      "id_origem": 160174,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160174",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160175",
+      "id_origem": 160175,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160175",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160176",
+      "id_origem": 160176,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160176",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160178",
+      "id_origem": 160178,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160178",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160180",
+      "id_origem": 160180,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160180",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160181",
+      "id_origem": 160181,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160181",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALBUFEIRA-160182",
+      "id_origem": 160182,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=160182",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:37:25Z"
+    }
+  ]
+}
