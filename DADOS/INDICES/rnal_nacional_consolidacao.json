@@ -1990,9 +1990,8 @@
       "municipio": "Peniche",
       "slug": "peniche",
       "target_total": 1335,
-      "lotes": 19,
+      "lotes": 20,
       "lotes_em_falta": [
-        950,
         1000,
         1050,
         1100,
@@ -2001,8 +2000,8 @@
         1250,
         1300
       ],
-      "registros": 950,
-      "ids_unicos": 950,
+      "registros": 1000,
+      "ids_unicos": 1000,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
