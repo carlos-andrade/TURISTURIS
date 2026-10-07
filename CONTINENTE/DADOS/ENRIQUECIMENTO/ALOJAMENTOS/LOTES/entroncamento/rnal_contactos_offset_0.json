@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Entroncamento",
+  "target_total": 5,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ENTRONCAMENTO-121059",
+      "id_origem": 121059,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=121059",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:08:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ENTRONCAMENTO-148541",
+      "id_origem": 148541,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148541",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:08:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ENTRONCAMENTO-163326",
+      "id_origem": 163326,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=163326",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:08:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ENTRONCAMENTO-174599",
+      "id_origem": 174599,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174599",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:08:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ENTRONCAMENTO-85249",
+      "id_origem": 85249,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85249",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:08:33Z"
+    }
+  ]
+}
