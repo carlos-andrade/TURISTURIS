@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 172,
+  "municipios_validados": 173,
   "acceptance": false,
   "municipios": [
     {
@@ -1902,13 +1902,11 @@
       "municipio": "Paços de Ferreira",
       "slug": "pacos-de-ferreira",
       "target_total": 33,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 33,
+      "ids_unicos": 33,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
