@@ -967,9 +967,8 @@
       "municipio": "Faro",
       "slug": "faro",
       "target_total": 1303,
-      "lotes": 6,
+      "lotes": 7,
       "lotes_em_falta": [
-        300,
         350,
         400,
         450,
@@ -991,8 +990,8 @@
         1250,
         1300
       ],
-      "registros": 300,
-      "ids_unicos": 300,
+      "registros": 350,
+      "ids_unicos": 350,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
