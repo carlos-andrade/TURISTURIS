@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 156,
+  "municipios_validados": 157,
   "acceptance": false,
   "municipios": [
     {
@@ -1726,13 +1726,11 @@
       "municipio": "Odemira",
       "slug": "odemira",
       "target_total": 879,
-      "lotes": 17,
-      "lotes_em_falta": [
-        850
-      ],
-      "registros": 850,
-      "ids_unicos": 850,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 18,
+      "lotes_em_falta": [],
+      "registros": 879,
+      "ids_unicos": 879,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
