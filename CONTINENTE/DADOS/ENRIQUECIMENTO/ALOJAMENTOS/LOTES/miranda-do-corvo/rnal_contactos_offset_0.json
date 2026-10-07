@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Miranda do Corvo",
+  "target_total": 78,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-102971",
+      "id_origem": 102971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-103954",
+      "id_origem": 103954,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103954",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-105985",
+      "id_origem": 105985,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105985",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-108051",
+      "id_origem": 108051,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108051",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-108052",
+      "id_origem": 108052,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108052",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-108874",
+      "id_origem": 108874,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108874",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-110721",
+      "id_origem": 110721,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110721",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-111218",
+      "id_origem": 111218,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111218",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-113292",
+      "id_origem": 113292,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113292",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-113886",
+      "id_origem": 113886,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113886",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-114159",
+      "id_origem": 114159,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114159",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-114799",
+      "id_origem": 114799,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114799",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-116563",
+      "id_origem": 116563,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=116563",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-117201",
+      "id_origem": 117201,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117201",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-117926",
+      "id_origem": 117926,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117926",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-12296",
+      "id_origem": 12296,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=12296",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-129096",
+      "id_origem": 129096,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129096",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-129100",
+      "id_origem": 129100,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129100",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-129107",
+      "id_origem": 129107,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129107",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-129110",
+      "id_origem": 129110,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=129110",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-132240",
+      "id_origem": 132240,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132240",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-132506",
+      "id_origem": 132506,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132506",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-132652",
+      "id_origem": 132652,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=132652",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-134230",
+      "id_origem": 134230,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134230",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-139726",
+      "id_origem": 139726,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139726",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-144136",
+      "id_origem": 144136,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144136",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-144188",
+      "id_origem": 144188,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144188",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-144193",
+      "id_origem": 144193,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144193",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-145487",
+      "id_origem": 145487,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145487",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-18564",
+      "id_origem": 18564,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18564",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-26468",
+      "id_origem": 26468,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26468",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-32003",
+      "id_origem": 32003,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32003",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-34945",
+      "id_origem": 34945,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34945",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-38426",
+      "id_origem": 38426,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38426",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-41880",
+      "id_origem": 41880,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=41880",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-50195",
+      "id_origem": 50195,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50195",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-62919",
+      "id_origem": 62919,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=62919",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-69342",
+      "id_origem": 69342,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=69342",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-69980",
+      "id_origem": 69980,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=69980",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-71625",
+      "id_origem": 71625,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=71625",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-72178",
+      "id_origem": 72178,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=72178",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-77900",
+      "id_origem": 77900,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=77900",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-79370",
+      "id_origem": 79370,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79370",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-79898",
+      "id_origem": 79898,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79898",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-80081",
+      "id_origem": 80081,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80081",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-80101",
+      "id_origem": 80101,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80101",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-82510",
+      "id_origem": 82510,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82510",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-82931",
+      "id_origem": 82931,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82931",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-90731",
+      "id_origem": 90731,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90731",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MIRANDA-DO-CORVO-91610",
+      "id_origem": 91610,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91610",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:17:04Z"
+    }
+  ]
+}
