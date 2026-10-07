@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Penela",
+  "target_total": 59,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 9,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 9
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-170964",
+      "id_origem": 170964,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170964",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-174479",
+      "id_origem": 174479,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174479",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-174481",
+      "id_origem": 174481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-176604",
+      "id_origem": 176604,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176604",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-176606",
+      "id_origem": 176606,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176606",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-178822",
+      "id_origem": 178822,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178822",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-178823",
+      "id_origem": 178823,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178823",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-180571",
+      "id_origem": 180571,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180571",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PENELA-180572",
+      "id_origem": 180572,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180572",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:06:48Z"
+    }
+  ]
+}
