@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 144,
+  "municipios_validados": 145,
   "acceptance": false,
   "municipios": [
     {
@@ -1594,13 +1594,11 @@
       "municipio": "Monção",
       "slug": "moncao",
       "target_total": 109,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 109,
+      "ids_unicos": 109,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

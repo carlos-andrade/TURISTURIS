@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Monção",
+  "target_total": 109,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 9,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 9
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-175925",
+      "id_origem": 175925,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175925",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-176077",
+      "id_origem": 176077,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176077",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-176128",
+      "id_origem": 176128,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176128",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-176172",
+      "id_origem": 176172,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176172",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-176552",
+      "id_origem": 176552,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176552",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-177752",
+      "id_origem": 177752,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177752",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-178309",
+      "id_origem": 178309,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178309",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-179767",
+      "id_origem": 179767,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179767",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MON-O-180484",
+      "id_origem": 180484,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180484",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:29:38Z"
+    }
+  ]
+}
