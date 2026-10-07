@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Moimenta da Beira",
+  "target_total": 8,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 8,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 8
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-118353",
+      "id_origem": 118353,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=118353",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-13749",
+      "id_origem": 13749,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13749",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-142881",
+      "id_origem": 142881,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142881",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-179108",
+      "id_origem": 179108,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179108",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-28153",
+      "id_origem": 28153,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=28153",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-323",
+      "id_origem": 323,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=323",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-414",
+      "id_origem": 414,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=414",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOIMENTA-DA-BEIRA-924",
+      "id_origem": 924,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=924",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:23Z"
+    }
+  ]
+}
