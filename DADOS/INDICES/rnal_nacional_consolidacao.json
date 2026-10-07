@@ -1187,9 +1187,8 @@
       "municipio": "Lagoa",
       "slug": "lagoa",
       "target_total": 3260,
-      "lotes": 55,
+      "lotes": 56,
       "lotes_em_falta": [
-        2750,
         2800,
         2850,
         2900,
@@ -1201,8 +1200,8 @@
         3200,
         3250
       ],
-      "registros": 2750,
-      "ids_unicos": 2750,
+      "registros": 2800,
+      "ids_unicos": 2800,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
