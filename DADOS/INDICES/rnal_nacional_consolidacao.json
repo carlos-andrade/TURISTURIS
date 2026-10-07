@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 47,
+  "municipios_validados": 48,
   "acceptance": false,
   "municipios": [
     {
@@ -527,13 +527,11 @@
       "municipio": "Borba",
       "slug": "borba",
       "target_total": 28,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 28,
+      "ids_unicos": 28,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
