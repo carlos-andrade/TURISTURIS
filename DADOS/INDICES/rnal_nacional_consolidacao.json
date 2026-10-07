@@ -54,9 +54,8 @@
       "municipio": "Albufeira",
       "slug": "albufeira",
       "target_total": 10485,
-      "lotes": 24,
+      "lotes": 25,
       "lotes_em_falta": [
-        1200,
         1250,
         1300,
         1350,
@@ -243,8 +242,8 @@
         10400,
         10450
       ],
-      "registros": 1200,
-      "ids_unicos": 1200,
+      "registros": 1250,
+      "ids_unicos": 1250,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
