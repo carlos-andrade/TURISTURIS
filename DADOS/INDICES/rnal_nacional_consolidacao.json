@@ -1385,14 +1385,13 @@
       "municipio": "Matosinhos",
       "slug": "matosinhos",
       "target_total": 654,
-      "lotes": 11,
+      "lotes": 12,
       "lotes_em_falta": [
-        550,
         600,
         650
       ],
-      "registros": 550,
-      "ids_unicos": 550,
+      "registros": 600,
+      "ids_unicos": 600,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
