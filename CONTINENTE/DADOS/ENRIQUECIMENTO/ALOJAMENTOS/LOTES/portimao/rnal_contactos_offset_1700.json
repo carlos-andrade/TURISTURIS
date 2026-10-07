@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Portimão",
+  "target_total": 5693,
+  "offset": 1700,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-58885",
+      "id_origem": 58885,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58885",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-58949",
+      "id_origem": 58949,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58949",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-58954",
+      "id_origem": 58954,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58954",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-58957",
+      "id_origem": 58957,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58957",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-58962",
+      "id_origem": 58962,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58962",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59041",
+      "id_origem": 59041,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59041",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59083",
+      "id_origem": 59083,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59083",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59183",
+      "id_origem": 59183,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59183",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59341",
+      "id_origem": 59341,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59341",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59465",
+      "id_origem": 59465,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59465",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59531",
+      "id_origem": 59531,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59531",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59566",
+      "id_origem": 59566,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59566",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59590",
+      "id_origem": 59590,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59590",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59596",
+      "id_origem": 59596,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59596",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59728",
+      "id_origem": 59728,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59728",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59734",
+      "id_origem": 59734,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59734",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59746",
+      "id_origem": 59746,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59746",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59844",
+      "id_origem": 59844,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59844",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-59907",
+      "id_origem": 59907,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=59907",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60004",
+      "id_origem": 60004,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60004",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60018",
+      "id_origem": 60018,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60018",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60124",
+      "id_origem": 60124,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60124",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60272",
+      "id_origem": 60272,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60272",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60283",
+      "id_origem": 60283,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60283",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60314",
+      "id_origem": 60314,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60314",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60404",
+      "id_origem": 60404,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60404",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60530",
+      "id_origem": 60530,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60530",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60743",
+      "id_origem": 60743,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60743",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60757",
+      "id_origem": 60757,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60757",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-60761",
+      "id_origem": 60761,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60761",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61049",
+      "id_origem": 61049,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61049",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61092",
+      "id_origem": 61092,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61092",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61099",
+      "id_origem": 61099,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61099",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61125",
+      "id_origem": 61125,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61125",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61169",
+      "id_origem": 61169,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61169",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61171",
+      "id_origem": 61171,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61171",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61196",
+      "id_origem": 61196,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61196",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61354",
+      "id_origem": 61354,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61354",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61374",
+      "id_origem": 61374,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61374",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61381",
+      "id_origem": 61381,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61381",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61444",
+      "id_origem": 61444,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61444",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61604",
+      "id_origem": 61604,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61604",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61692",
+      "id_origem": 61692,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61692",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61785",
+      "id_origem": 61785,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61785",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61917",
+      "id_origem": 61917,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61917",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61922",
+      "id_origem": 61922,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61922",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61969",
+      "id_origem": 61969,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61969",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-61994",
+      "id_origem": 61994,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61994",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-62022",
+      "id_origem": 62022,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=62022",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PORTIM-O-62025",
+      "id_origem": 62025,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=62025",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:45:44Z"
+    }
+  ]
+}
