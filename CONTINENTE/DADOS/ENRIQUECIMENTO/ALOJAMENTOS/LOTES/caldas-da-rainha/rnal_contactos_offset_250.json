@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Caldas da Rainha",
+  "target_total": 687,
+  "offset": 250,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-100319",
+      "id_origem": 100319,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100319",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-101319",
+      "id_origem": 101319,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101319",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-101511",
+      "id_origem": 101511,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101511",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-101656",
+      "id_origem": 101656,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101656",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-101657",
+      "id_origem": 101657,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101657",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-101844",
+      "id_origem": 101844,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101844",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-102195",
+      "id_origem": 102195,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102195",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-102196",
+      "id_origem": 102196,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102196",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92141",
+      "id_origem": 92141,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92141",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92142",
+      "id_origem": 92142,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92142",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92155",
+      "id_origem": 92155,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92155",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92156",
+      "id_origem": 92156,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92156",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92238",
+      "id_origem": 92238,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92238",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92409",
+      "id_origem": 92409,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92409",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92410",
+      "id_origem": 92410,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92410",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92484",
+      "id_origem": 92484,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92484",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92493",
+      "id_origem": 92493,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92493",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-92850",
+      "id_origem": 92850,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92850",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93137",
+      "id_origem": 93137,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93137",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93485",
+      "id_origem": 93485,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93485",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93486",
+      "id_origem": 93486,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93486",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93553",
+      "id_origem": 93553,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93553",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93682",
+      "id_origem": 93682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93789",
+      "id_origem": 93789,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93789",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93893",
+      "id_origem": 93893,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93893",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93894",
+      "id_origem": 93894,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93894",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93901",
+      "id_origem": 93901,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93901",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93902",
+      "id_origem": 93902,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93902",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93903",
+      "id_origem": 93903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93963",
+      "id_origem": 93963,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93963",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-93972",
+      "id_origem": 93972,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93972",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-94052",
+      "id_origem": 94052,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94052",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-94133",
+      "id_origem": 94133,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94133",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-94288",
+      "id_origem": 94288,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94288",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-94647",
+      "id_origem": 94647,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94647",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-95609",
+      "id_origem": 95609,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95609",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-95645",
+      "id_origem": 95645,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95645",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-95654",
+      "id_origem": 95654,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95654",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-96695",
+      "id_origem": 96695,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96695",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-97181",
+      "id_origem": 97181,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97181",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-97387",
+      "id_origem": 97387,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97387",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-97438",
+      "id_origem": 97438,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97438",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-97833",
+      "id_origem": 97833,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97833",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-98108",
+      "id_origem": 98108,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98108",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-98111",
+      "id_origem": 98111,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98111",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-98325",
+      "id_origem": 98325,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98325",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-99007",
+      "id_origem": 99007,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99007",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-99020",
+      "id_origem": 99020,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99020",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-99096",
+      "id_origem": 99096,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99096",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CALDAS-DA-RAINHA-99376",
+      "id_origem": 99376,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99376",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:25:56Z"
+    }
+  ]
+}

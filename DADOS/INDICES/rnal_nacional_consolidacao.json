@@ -593,9 +593,8 @@
       "municipio": "Caldas da Rainha",
       "slug": "caldas-da-rainha",
       "target_total": 687,
-      "lotes": 5,
+      "lotes": 6,
       "lotes_em_falta": [
-        250,
         300,
         350,
         400,
@@ -605,8 +604,8 @@
         600,
         650
       ],
-      "registros": 250,
-      "ids_unicos": 250,
+      "registros": 300,
+      "ids_unicos": 300,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
