@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Gouveia",
+  "target_total": 101,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 1,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 1
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-GOUVEIA-181400",
+      "id_origem": 181400,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181400",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:44:33Z"
+    }
+  ]
+}
