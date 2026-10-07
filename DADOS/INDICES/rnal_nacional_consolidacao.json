@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 149,
+  "municipios_validados": 150,
   "acceptance": false,
   "municipios": [
     {
@@ -1649,13 +1649,11 @@
       "municipio": "Murtosa",
       "slug": "murtosa",
       "target_total": 115,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 115,
+      "ids_unicos": 115,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
