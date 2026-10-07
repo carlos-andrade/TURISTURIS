@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Coimbra",
+  "target_total": 478,
+  "offset": 150,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100104",
+      "id_origem": 100104,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100104",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100186",
+      "id_origem": 100186,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100186",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100188",
+      "id_origem": 100188,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100188",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100424",
+      "id_origem": 100424,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100424",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100425",
+      "id_origem": 100425,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100425",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100484",
+      "id_origem": 100484,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100484",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-100692",
+      "id_origem": 100692,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100692",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-101798",
+      "id_origem": 101798,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101798",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-102923",
+      "id_origem": 102923,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102923",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-102924",
+      "id_origem": 102924,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102924",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-103464",
+      "id_origem": 103464,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103464",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-83856",
+      "id_origem": 83856,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83856",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85116",
+      "id_origem": 85116,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85116",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85838",
+      "id_origem": 85838,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85838",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85843",
+      "id_origem": 85843,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85843",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85915",
+      "id_origem": 85915,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85915",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85919",
+      "id_origem": 85919,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85919",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85926",
+      "id_origem": 85926,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85926",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-85930",
+      "id_origem": 85930,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85930",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-86462",
+      "id_origem": 86462,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=86462",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-86591",
+      "id_origem": 86591,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=86591",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-87409",
+      "id_origem": 87409,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=87409",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-89248",
+      "id_origem": 89248,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=89248",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-89847",
+      "id_origem": 89847,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=89847",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-90177",
+      "id_origem": 90177,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90177",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-90457",
+      "id_origem": 90457,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90457",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-91106",
+      "id_origem": 91106,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91106",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-91211",
+      "id_origem": 91211,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91211",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-91270",
+      "id_origem": 91270,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91270",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-91271",
+      "id_origem": 91271,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=91271",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-92365",
+      "id_origem": 92365,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92365",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-92458",
+      "id_origem": 92458,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92458",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-92642",
+      "id_origem": 92642,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92642",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-94682",
+      "id_origem": 94682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-95366",
+      "id_origem": 95366,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95366",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-95512",
+      "id_origem": 95512,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95512",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-95719",
+      "id_origem": 95719,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95719",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-96509",
+      "id_origem": 96509,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96509",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-96739",
+      "id_origem": 96739,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96739",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-96993",
+      "id_origem": 96993,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96993",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-97478",
+      "id_origem": 97478,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97478",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-97479",
+      "id_origem": 97479,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97479",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-97480",
+      "id_origem": 97480,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97480",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-97481",
+      "id_origem": 97481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-97661",
+      "id_origem": 97661,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97661",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-99619",
+      "id_origem": 99619,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99619",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-99772",
+      "id_origem": 99772,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99772",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-99773",
+      "id_origem": 99773,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99773",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-99774",
+      "id_origem": 99774,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99774",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-COIMBRA-99903",
+      "id_origem": 99903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T08:58:51Z"
+    }
+  ]
+}
