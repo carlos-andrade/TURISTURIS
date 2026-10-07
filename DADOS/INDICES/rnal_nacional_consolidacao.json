@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 162,
+  "municipios_validados": 163,
   "acceptance": false,
   "municipios": [
     {
@@ -1792,13 +1792,11 @@
       "municipio": "Oliveira de Frades",
       "slug": "oliveira-de-frades",
       "target_total": 55,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 55,
+      "ids_unicos": 55,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

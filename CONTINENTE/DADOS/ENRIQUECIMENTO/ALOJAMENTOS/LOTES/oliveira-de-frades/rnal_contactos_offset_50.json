@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Oliveira de Frades",
+  "target_total": 55,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DE-FRADES-173752",
+      "id_origem": 173752,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173752",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DE-FRADES-177746",
+      "id_origem": 177746,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177746",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DE-FRADES-178004",
+      "id_origem": 178004,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178004",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DE-FRADES-178232",
+      "id_origem": 178232,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178232",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DE-FRADES-178233",
+      "id_origem": 178233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:15Z"
+    }
+  ]
+}
