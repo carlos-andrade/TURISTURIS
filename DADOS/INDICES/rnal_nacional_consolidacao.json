@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 118,
+  "municipios_validados": 119,
   "acceptance": false,
   "municipios": [
     {
@@ -1308,13 +1308,11 @@
       "municipio": "Mafra",
       "slug": "mafra",
       "target_total": 1135,
-      "lotes": 22,
-      "lotes_em_falta": [
-        1100
-      ],
-      "registros": 1100,
-      "ids_unicos": 1100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 23,
+      "lotes_em_falta": [],
+      "registros": 1135,
+      "ids_unicos": 1135,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
