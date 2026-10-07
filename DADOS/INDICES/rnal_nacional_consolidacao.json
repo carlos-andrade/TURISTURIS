@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 108,
+  "municipios_validados": 109,
   "acceptance": false,
   "municipios": [
     {
@@ -1198,13 +1198,11 @@
       "municipio": "Lagos",
       "slug": "lagos",
       "target_total": 4773,
-      "lotes": 95,
-      "lotes_em_falta": [
-        4750
-      ],
-      "registros": 4750,
-      "ids_unicos": 4750,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 96,
+      "lotes_em_falta": [],
+      "registros": 4773,
+      "ids_unicos": 4773,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
