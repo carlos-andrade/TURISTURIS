@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 133,
+  "municipios_validados": 134,
   "acceptance": false,
   "municipios": [
     {
@@ -1473,13 +1473,11 @@
       "municipio": "Mirandela",
       "slug": "mirandela",
       "target_total": 36,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 36,
+      "ids_unicos": 36,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
