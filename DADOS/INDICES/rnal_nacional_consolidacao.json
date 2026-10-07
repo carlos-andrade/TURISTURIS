@@ -1308,9 +1308,8 @@
       "municipio": "Mafra",
       "slug": "mafra",
       "target_total": 1135,
-      "lotes": 10,
+      "lotes": 11,
       "lotes_em_falta": [
-        500,
         550,
         600,
         650,
@@ -1324,8 +1323,8 @@
         1050,
         1100
       ],
-      "registros": 500,
-      "ids_unicos": 500,
+      "registros": 550,
+      "ids_unicos": 550,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
