@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 155,
+  "municipios_validados": 156,
   "acceptance": false,
   "municipios": [
     {
@@ -1715,13 +1715,11 @@
       "municipio": "Nisa",
       "slug": "nisa",
       "target_total": 51,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 51,
+      "ids_unicos": 51,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
