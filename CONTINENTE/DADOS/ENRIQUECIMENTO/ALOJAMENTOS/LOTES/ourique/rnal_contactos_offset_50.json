@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Ourique",
+  "target_total": 54,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-OURIQUE-177175",
+      "id_origem": 177175,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177175",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:51:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OURIQUE-177458",
+      "id_origem": 177458,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177458",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:51:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OURIQUE-178387",
+      "id_origem": 178387,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178387",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:51:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OURIQUE-178765",
+      "id_origem": 178765,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178765",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:51:25Z"
+    }
+  ]
+}
