@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 50,
+  "municipios_validados": 51,
   "acceptance": false,
   "municipios": [
     {
@@ -560,13 +560,11 @@
       "municipio": "Bragança",
       "slug": "braganca",
       "target_total": 253,
-      "lotes": 5,
-      "lotes_em_falta": [
-        250
-      ],
-      "registros": 250,
-      "ids_unicos": 250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 6,
+      "lotes_em_falta": [],
+      "registros": 253,
+      "ids_unicos": 253,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Bragança",
+  "target_total": 253,
+  "offset": 250,
+  "limit": 50,
+  "record_count": 3,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 3
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-BRAGAN-A-179986",
+      "id_origem": 179986,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179986",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:20:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BRAGAN-A-180201",
+      "id_origem": 180201,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180201",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:20:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BRAGAN-A-180231",
+      "id_origem": 180231,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180231",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:20:57Z"
+    }
+  ]
+}
