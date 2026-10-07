@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 17,
+  "municipios_validados": 18,
   "acceptance": false,
   "municipios": [
     {
@@ -197,13 +197,11 @@
       "municipio": "Almeirim",
       "slug": "almeirim",
       "target_total": 25,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 25,
+      "ids_unicos": 25,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
