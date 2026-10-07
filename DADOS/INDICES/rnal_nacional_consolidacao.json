@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 129,
+  "municipios_validados": 130,
   "acceptance": false,
   "municipios": [
     {
@@ -1429,13 +1429,11 @@
       "municipio": "Mesão Frio",
       "slug": "mesao-frio",
       "target_total": 57,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 57,
+      "ids_unicos": 57,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

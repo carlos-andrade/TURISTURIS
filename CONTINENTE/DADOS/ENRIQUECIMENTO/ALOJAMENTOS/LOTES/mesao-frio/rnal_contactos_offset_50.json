@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Mesão Frio",
+  "target_total": 57,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 7,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 7
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-169963",
+      "id_origem": 169963,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169963",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-170117",
+      "id_origem": 170117,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170117",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-170843",
+      "id_origem": 170843,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170843",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-174956",
+      "id_origem": 174956,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174956",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-175712",
+      "id_origem": 175712,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175712",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-175748",
+      "id_origem": 175748,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175748",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MES-O-FRIO-180718",
+      "id_origem": 180718,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180718",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:15:29Z"
+    }
+  ]
+}
