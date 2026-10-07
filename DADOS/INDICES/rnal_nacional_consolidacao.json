@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 163,
+  "municipios_validados": 164,
   "acceptance": false,
   "municipios": [
     {
@@ -1803,13 +1803,11 @@
       "municipio": "Oliveira do Bairro",
       "slug": "oliveira-do-bairro",
       "target_total": 16,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 16,
+      "ids_unicos": 16,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
