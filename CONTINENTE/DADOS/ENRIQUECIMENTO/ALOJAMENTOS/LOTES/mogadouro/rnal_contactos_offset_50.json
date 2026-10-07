@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Mogadouro",
+  "target_total": 55,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MOGADOURO-167765",
+      "id_origem": 167765,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167765",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOGADOURO-169989",
+      "id_origem": 169989,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169989",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOGADOURO-173393",
+      "id_origem": 173393,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173393",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOGADOURO-174771",
+      "id_origem": 174771,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174771",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MOGADOURO-174776",
+      "id_origem": 174776,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174776",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:19:06Z"
+    }
+  ]
+}
