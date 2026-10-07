@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 186,
+  "municipios_validados": 187,
   "acceptance": false,
   "municipios": [
     {
@@ -2056,13 +2056,11 @@
       "municipio": "Ponte de Sor",
       "slug": "ponte-de-sor",
       "target_total": 134,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 134,
+      "ids_unicos": 134,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
