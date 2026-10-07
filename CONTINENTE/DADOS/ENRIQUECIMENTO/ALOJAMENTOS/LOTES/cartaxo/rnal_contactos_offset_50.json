@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Cartaxo",
+  "target_total": 56,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 6,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 6
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-167208",
+      "id_origem": 167208,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167208",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-168077",
+      "id_origem": 168077,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168077",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-168165",
+      "id_origem": 168165,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168165",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-177788",
+      "id_origem": 177788,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177788",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-180036",
+      "id_origem": 180036,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180036",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CARTAXO-180923",
+      "id_origem": 180923,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180923",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:39:14Z"
+    }
+  ]
+}
