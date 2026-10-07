@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Beja",
+  "target_total": 103,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 3,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 3
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-BEJA-179882",
+      "id_origem": 179882,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179882",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:08:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BEJA-180582",
+      "id_origem": 180582,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180582",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:08:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BEJA-181562",
+      "id_origem": 181562,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181562",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:08:32Z"
+    }
+  ]
+}
