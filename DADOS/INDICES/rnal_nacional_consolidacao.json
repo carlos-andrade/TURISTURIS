@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 102,
+  "municipios_validados": 103,
   "acceptance": false,
   "municipios": [
     {
@@ -1132,13 +1132,11 @@
       "municipio": "Grândola",
       "slug": "grandola",
       "target_total": 765,
-      "lotes": 15,
-      "lotes_em_falta": [
-        750
-      ],
-      "registros": 750,
-      "ids_unicos": 750,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 16,
+      "lotes_em_falta": [],
+      "registros": 765,
+      "ids_unicos": 765,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
