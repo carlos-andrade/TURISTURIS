@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 10,
+  "municipios_validados": 11,
   "acceptance": false,
   "municipios": [
     {
@@ -120,13 +120,11 @@
       "municipio": "Alenquer",
       "slug": "alenquer",
       "target_total": 127,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 127,
+      "ids_unicos": 127,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
