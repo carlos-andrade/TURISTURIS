@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 71,
+  "municipios_validados": 72,
   "acceptance": false,
   "municipios": [
     {
@@ -791,13 +791,11 @@
       "municipio": "Chaves",
       "slug": "chaves",
       "target_total": 136,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 136,
+      "ids_unicos": 136,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
