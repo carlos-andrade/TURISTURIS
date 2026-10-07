@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Oliveira do Hospital",
+  "target_total": 125,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-10264",
+      "id_origem": 10264,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10264",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-102653",
+      "id_origem": 102653,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102653",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-10386",
+      "id_origem": 10386,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10386",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-104577",
+      "id_origem": 104577,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104577",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-104915",
+      "id_origem": 104915,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104915",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-105431",
+      "id_origem": 105431,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105431",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-105935",
+      "id_origem": 105935,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105935",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-107679",
+      "id_origem": 107679,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107679",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-108231",
+      "id_origem": 108231,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108231",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-108585",
+      "id_origem": 108585,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108585",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-13155",
+      "id_origem": 13155,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=13155",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-15108",
+      "id_origem": 15108,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15108",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-18573",
+      "id_origem": 18573,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18573",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-21216",
+      "id_origem": 21216,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=21216",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-2218",
+      "id_origem": 2218,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2218",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-2224",
+      "id_origem": 2224,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2224",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-30684",
+      "id_origem": 30684,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=30684",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-32521",
+      "id_origem": 32521,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=32521",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-34424",
+      "id_origem": 34424,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34424",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-43687",
+      "id_origem": 43687,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43687",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-49820",
+      "id_origem": 49820,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49820",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-51464",
+      "id_origem": 51464,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51464",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-51471",
+      "id_origem": 51471,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51471",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-52755",
+      "id_origem": 52755,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=52755",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-53537",
+      "id_origem": 53537,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53537",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-54168",
+      "id_origem": 54168,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54168",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-54170",
+      "id_origem": 54170,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54170",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-56080",
+      "id_origem": 56080,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=56080",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-56301",
+      "id_origem": 56301,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=56301",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-56987",
+      "id_origem": 56987,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=56987",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-57419",
+      "id_origem": 57419,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=57419",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-60340",
+      "id_origem": 60340,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=60340",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-70395",
+      "id_origem": 70395,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=70395",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-70700",
+      "id_origem": 70700,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=70700",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-75340",
+      "id_origem": 75340,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=75340",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-76345",
+      "id_origem": 76345,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76345",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-77561",
+      "id_origem": 77561,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=77561",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-81342",
+      "id_origem": 81342,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=81342",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-81347",
+      "id_origem": 81347,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=81347",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-83077",
+      "id_origem": 83077,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83077",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-83266",
+      "id_origem": 83266,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83266",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-84301",
+      "id_origem": 84301,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=84301",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-84638",
+      "id_origem": 84638,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=84638",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-88715",
+      "id_origem": 88715,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=88715",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-89197",
+      "id_origem": 89197,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=89197",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-90563",
+      "id_origem": 90563,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=90563",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-92389",
+      "id_origem": 92389,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92389",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-92440",
+      "id_origem": 92440,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92440",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-96924",
+      "id_origem": 96924,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96924",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-OLIVEIRA-DO-HOSPITAL-99931",
+      "id_origem": 99931,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99931",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:49:53Z"
+    }
+  ]
+}
