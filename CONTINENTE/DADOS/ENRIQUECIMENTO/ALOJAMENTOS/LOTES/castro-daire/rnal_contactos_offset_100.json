@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Castro Daire",
+  "target_total": 108,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 8,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 8
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-171815",
+      "id_origem": 171815,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171815",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-171816",
+      "id_origem": 171816,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171816",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-172305",
+      "id_origem": 172305,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=172305",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-174591",
+      "id_origem": 174591,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174591",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-176789",
+      "id_origem": 176789,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176789",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-177154",
+      "id_origem": 177154,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177154",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-179507",
+      "id_origem": 179507,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179507",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASTRO-DAIRE-180836",
+      "id_origem": 180836,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180836",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T06:06:38Z"
+    }
+  ]
+}
