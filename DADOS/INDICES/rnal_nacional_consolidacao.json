@@ -1242,9 +1242,8 @@
       "municipio": "Loulé",
       "slug": "loule",
       "target_total": 7335,
-      "lotes": 99,
+      "lotes": 100,
       "lotes_em_falta": [
-        4950,
         5000,
         5050,
         5100,
@@ -1293,8 +1292,8 @@
         7250,
         7300
       ],
-      "registros": 4950,
-      "ids_unicos": 4950,
+      "registros": 5000,
+      "ids_unicos": 5000,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
