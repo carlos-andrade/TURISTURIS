@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 147,
+  "municipios_validados": 148,
   "acceptance": false,
   "municipios": [
     {
@@ -1627,13 +1627,11 @@
       "municipio": "Moura",
       "slug": "moura",
       "target_total": 44,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 44,
+      "ids_unicos": 44,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
