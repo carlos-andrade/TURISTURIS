@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 83,
+  "municipios_validados": 84,
   "acceptance": false,
   "municipios": [
     {
@@ -923,13 +923,11 @@
       "municipio": "Esposende",
       "slug": "esposende",
       "target_total": 476,
-      "lotes": 9,
-      "lotes_em_falta": [
-        450
-      ],
-      "registros": 450,
-      "ids_unicos": 450,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 10,
+      "lotes_em_falta": [],
+      "registros": 476,
+      "ids_unicos": 476,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
