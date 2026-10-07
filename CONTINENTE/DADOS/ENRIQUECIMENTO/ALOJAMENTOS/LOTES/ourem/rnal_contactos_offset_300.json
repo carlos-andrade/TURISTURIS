@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Ourém",
+  "target_total": 301,
+  "offset": 300,
+  "limit": 50,
+  "record_count": 1,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 1
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-OUR-M-181014",
+      "id_origem": 181014,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181014",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T21:54:16Z"
+    }
+  ]
+}
