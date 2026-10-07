@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Maia",
+  "target_total": 53,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 3,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 3
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MAIA-174269",
+      "id_origem": 174269,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174269",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T14:50:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MAIA-175053",
+      "id_origem": 175053,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175053",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T14:50:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MAIA-181581",
+      "id_origem": 181581,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181581",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T14:50:58Z"
+    }
+  ]
+}

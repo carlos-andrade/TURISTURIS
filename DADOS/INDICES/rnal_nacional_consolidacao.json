@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 119,
+  "municipios_validados": 120,
   "acceptance": false,
   "municipios": [
     {
@@ -1319,13 +1319,11 @@
       "municipio": "Maia",
       "slug": "maia",
       "target_total": 53,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 53,
+      "ids_unicos": 53,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
