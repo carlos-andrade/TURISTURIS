@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Alcobaça",
+  "target_total": 1005,
+  "offset": 1000,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-179233",
+      "id_origem": 179233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:57:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-180737",
+      "id_origem": 180737,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180737",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:57:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-180739",
+      "id_origem": 180739,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180739",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:57:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-180919",
+      "id_origem": 180919,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180919",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:57:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOBA-A-181287",
+      "id_origem": 181287,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181287",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:57:55Z"
+    }
+  ]
+}

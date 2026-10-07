@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 6,
+  "municipios_validados": 7,
   "acceptance": false,
   "municipios": [
     {
@@ -76,13 +76,11 @@
       "municipio": "Alcobaça",
       "slug": "alcobaca",
       "target_total": 1005,
-      "lotes": 20,
-      "lotes_em_falta": [
-        1000
-      ],
-      "registros": 1000,
-      "ids_unicos": 1000,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 21,
+      "lotes_em_falta": [],
+      "registros": 1005,
+      "ids_unicos": 1005,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
