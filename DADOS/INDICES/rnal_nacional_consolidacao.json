@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 150,
+  "municipios_validados": 151,
   "acceptance": false,
   "municipios": [
     {
@@ -1660,13 +1660,11 @@
       "municipio": "Murça",
       "slug": "murca",
       "target_total": 12,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 12,
+      "ids_unicos": 12,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
