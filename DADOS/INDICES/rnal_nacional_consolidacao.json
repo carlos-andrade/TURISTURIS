@@ -1231,9 +1231,8 @@
       "municipio": "Lisboa",
       "slug": "lisboa",
       "target_total": 11868,
-      "lotes": 219,
+      "lotes": 220,
       "lotes_em_falta": [
-        10950,
         11000,
         11050,
         11100,
@@ -1253,8 +1252,8 @@
         11800,
         11850
       ],
-      "registros": 10950,
-      "ids_unicos": 10950,
+      "registros": 11000,
+      "ids_unicos": 11000,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
