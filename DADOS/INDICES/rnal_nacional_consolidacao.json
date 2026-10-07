@@ -1132,15 +1132,14 @@
       "municipio": "Grândola",
       "slug": "grandola",
       "target_total": 765,
-      "lotes": 12,
+      "lotes": 13,
       "lotes_em_falta": [
-        600,
         650,
         700,
         750
       ],
-      "registros": 600,
-      "ids_unicos": 600,
+      "registros": 650,
+      "ids_unicos": 650,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
