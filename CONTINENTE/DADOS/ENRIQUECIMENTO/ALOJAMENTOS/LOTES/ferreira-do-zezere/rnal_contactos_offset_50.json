@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Ferreira do Zêzere",
+  "target_total": 99,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 49,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 49
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-130457",
+      "id_origem": 130457,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130457",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-136000",
+      "id_origem": 136000,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=136000",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-136088",
+      "id_origem": 136088,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=136088",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-137890",
+      "id_origem": 137890,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=137890",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-139282",
+      "id_origem": 139282,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139282",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-143266",
+      "id_origem": 143266,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143266",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-144483",
+      "id_origem": 144483,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144483",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-145355",
+      "id_origem": 145355,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145355",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-147057",
+      "id_origem": 147057,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147057",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-147873",
+      "id_origem": 147873,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147873",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-148706",
+      "id_origem": 148706,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148706",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-151039",
+      "id_origem": 151039,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151039",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-151145",
+      "id_origem": 151145,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151145",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-151500",
+      "id_origem": 151500,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151500",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-153391",
+      "id_origem": 153391,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153391",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-153800",
+      "id_origem": 153800,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153800",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-154245",
+      "id_origem": 154245,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154245",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-154508",
+      "id_origem": 154508,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154508",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-154546",
+      "id_origem": 154546,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154546",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-154656",
+      "id_origem": 154656,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154656",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-155483",
+      "id_origem": 155483,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155483",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-155697",
+      "id_origem": 155697,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155697",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-155950",
+      "id_origem": 155950,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155950",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-156088",
+      "id_origem": 156088,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156088",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-157284",
+      "id_origem": 157284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-157286",
+      "id_origem": 157286,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157286",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-159225",
+      "id_origem": 159225,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159225",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-159421",
+      "id_origem": 159421,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159421",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-159448",
+      "id_origem": 159448,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=159448",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-161465",
+      "id_origem": 161465,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=161465",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-161467",
+      "id_origem": 161467,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=161467",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-161474",
+      "id_origem": 161474,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=161474",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-161638",
+      "id_origem": 161638,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=161638",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-163204",
+      "id_origem": 163204,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=163204",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-166467",
+      "id_origem": 166467,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=166467",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-167537",
+      "id_origem": 167537,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=167537",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-168483",
+      "id_origem": 168483,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168483",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-168693",
+      "id_origem": 168693,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168693",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-169546",
+      "id_origem": 169546,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169546",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-170913",
+      "id_origem": 170913,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170913",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-172853",
+      "id_origem": 172853,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=172853",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-172857",
+      "id_origem": 172857,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=172857",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-173026",
+      "id_origem": 173026,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173026",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-176842",
+      "id_origem": 176842,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176842",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-179295",
+      "id_origem": 179295,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179295",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-179296",
+      "id_origem": 179296,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179296",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-180065",
+      "id_origem": 180065,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180065",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-180971",
+      "id_origem": 180971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FERREIRA-DO-Z-ZERE-181561",
+      "id_origem": 181561,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181561",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:31:59Z"
+    }
+  ]
+}
