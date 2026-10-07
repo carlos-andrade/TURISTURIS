@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Monchique",
+  "target_total": 108,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-100",
+      "id_origem": 100,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-1094",
+      "id_origem": 1094,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1094",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-1216",
+      "id_origem": 1216,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1216",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-14825",
+      "id_origem": 14825,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14825",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-14828",
+      "id_origem": 14828,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14828",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-1813",
+      "id_origem": 1813,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1813",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-19144",
+      "id_origem": 19144,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=19144",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-19668",
+      "id_origem": 19668,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=19668",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-19672",
+      "id_origem": 19672,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=19672",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-19674",
+      "id_origem": 19674,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=19674",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2210",
+      "id_origem": 2210,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2210",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2311",
+      "id_origem": 2311,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2311",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2356",
+      "id_origem": 2356,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2356",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2422",
+      "id_origem": 2422,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2422",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-25294",
+      "id_origem": 25294,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25294",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26136",
+      "id_origem": 26136,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26136",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26210",
+      "id_origem": 26210,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26210",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26211",
+      "id_origem": 26211,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26211",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26324",
+      "id_origem": 26324,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26324",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26529",
+      "id_origem": 26529,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26529",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-26540",
+      "id_origem": 26540,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=26540",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-28624",
+      "id_origem": 28624,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=28624",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2871",
+      "id_origem": 2871,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2871",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2885",
+      "id_origem": 2885,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2885",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2891",
+      "id_origem": 2891,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2891",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-2903",
+      "id_origem": 2903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-29496",
+      "id_origem": 29496,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=29496",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-3923",
+      "id_origem": 3923,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=3923",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-39494",
+      "id_origem": 39494,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39494",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-39839",
+      "id_origem": 39839,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=39839",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-43961",
+      "id_origem": 43961,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43961",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-47366",
+      "id_origem": 47366,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47366",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-50906",
+      "id_origem": 50906,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50906",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-51927",
+      "id_origem": 51927,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51927",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-54832",
+      "id_origem": 54832,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54832",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-61009",
+      "id_origem": 61009,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61009",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-61379",
+      "id_origem": 61379,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61379",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-61422",
+      "id_origem": 61422,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61422",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-61973",
+      "id_origem": 61973,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=61973",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-62759",
+      "id_origem": 62759,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=62759",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-66235",
+      "id_origem": 66235,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=66235",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-6702",
+      "id_origem": 6702,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=6702",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-7243",
+      "id_origem": 7243,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=7243",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-77719",
+      "id_origem": 77719,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=77719",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-78084",
+      "id_origem": 78084,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=78084",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-78096",
+      "id_origem": 78096,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=78096",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-78131",
+      "id_origem": 78131,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=78131",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-83443",
+      "id_origem": 83443,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83443",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-83946",
+      "id_origem": 83946,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83946",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-MONCHIQUE-8862",
+      "id_origem": 8862,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=8862",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T16:20:43Z"
+    }
+  ]
+}
