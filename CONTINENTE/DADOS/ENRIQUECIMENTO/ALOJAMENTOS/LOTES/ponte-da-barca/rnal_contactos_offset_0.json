@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Ponte da Barca",
+  "target_total": 119,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-100938",
+      "id_origem": 100938,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100938",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-105474",
+      "id_origem": 105474,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105474",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-106962",
+      "id_origem": 106962,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106962",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-108280",
+      "id_origem": 108280,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=108280",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-110206",
+      "id_origem": 110206,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110206",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-111052",
+      "id_origem": 111052,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111052",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-111168",
+      "id_origem": 111168,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111168",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-112339",
+      "id_origem": 112339,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112339",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-113852",
+      "id_origem": 113852,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113852",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-115577",
+      "id_origem": 115577,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115577",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-115578",
+      "id_origem": 115578,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115578",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-117043",
+      "id_origem": 117043,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117043",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-117044",
+      "id_origem": 117044,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117044",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-119699",
+      "id_origem": 119699,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119699",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-119702",
+      "id_origem": 119702,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119702",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-119717",
+      "id_origem": 119717,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119717",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-120440",
+      "id_origem": 120440,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=120440",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-122300",
+      "id_origem": 122300,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122300",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-122990",
+      "id_origem": 122990,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122990",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-14909",
+      "id_origem": 14909,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=14909",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-17744",
+      "id_origem": 17744,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17744",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-18032",
+      "id_origem": 18032,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18032",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-18628",
+      "id_origem": 18628,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18628",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-20700",
+      "id_origem": 20700,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=20700",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-24728",
+      "id_origem": 24728,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=24728",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-31364",
+      "id_origem": 31364,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31364",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-34797",
+      "id_origem": 34797,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34797",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-37470",
+      "id_origem": 37470,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=37470",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-45488",
+      "id_origem": 45488,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45488",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-45974",
+      "id_origem": 45974,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45974",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-46105",
+      "id_origem": 46105,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46105",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-46231",
+      "id_origem": 46231,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46231",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-46524",
+      "id_origem": 46524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-46800",
+      "id_origem": 46800,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46800",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-47505",
+      "id_origem": 47505,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47505",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-48796",
+      "id_origem": 48796,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48796",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-50901",
+      "id_origem": 50901,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50901",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-50903",
+      "id_origem": 50903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-64212",
+      "id_origem": 64212,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=64212",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-65203",
+      "id_origem": 65203,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=65203",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-68182",
+      "id_origem": 68182,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68182",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-74302",
+      "id_origem": 74302,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74302",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-75232",
+      "id_origem": 75232,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=75232",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-75929",
+      "id_origem": 75929,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=75929",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-94038",
+      "id_origem": 94038,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94038",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-94853",
+      "id_origem": 94853,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94853",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-95622",
+      "id_origem": 95622,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95622",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-96868",
+      "id_origem": 96868,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96868",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-97133",
+      "id_origem": 97133,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97133",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PONTE-DA-BARCA-98963",
+      "id_origem": 98963,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98963",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T22:22:35Z"
+    }
+  ]
+}
