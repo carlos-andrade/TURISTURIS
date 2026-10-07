@@ -1693,17 +1693,16 @@
       "municipio": "Nazaré",
       "slug": "nazare",
       "target_total": 1289,
-      "lotes": 20,
+      "lotes": 21,
       "lotes_em_falta": [
-        1000,
         1050,
         1100,
         1150,
         1200,
         1250
       ],
-      "registros": 1000,
-      "ids_unicos": 1000,
+      "registros": 1050,
+      "ids_unicos": 1050,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
