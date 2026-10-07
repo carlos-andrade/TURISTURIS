@@ -1748,9 +1748,8 @@
       "municipio": "Oeiras",
       "slug": "oeiras",
       "target_total": 614,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50,
         100,
         150,
@@ -1764,9 +1763,9 @@
         550,
         600
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
