@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 82,
+  "municipios_validados": 83,
   "acceptance": false,
   "municipios": [
     {
@@ -912,13 +912,11 @@
       "municipio": "Espinho",
       "slug": "espinho",
       "target_total": 167,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 167,
+      "ids_unicos": 167,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
