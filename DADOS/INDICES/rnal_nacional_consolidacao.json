@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 75,
+  "municipios_validados": 76,
   "acceptance": false,
   "municipios": [
     {
@@ -835,13 +835,11 @@
       "municipio": "Constância",
       "slug": "constancia",
       "target_total": 30,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 30,
+      "ids_unicos": 30,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
