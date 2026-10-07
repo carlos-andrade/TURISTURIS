@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Lagos",
+  "target_total": 4773,
+  "offset": 2100,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-100066",
+      "id_origem": 100066,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100066",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-100222",
+      "id_origem": 100222,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100222",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-100534",
+      "id_origem": 100534,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100534",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-100609",
+      "id_origem": 100609,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100609",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98293",
+      "id_origem": 98293,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98293",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98296",
+      "id_origem": 98296,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98296",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98458",
+      "id_origem": 98458,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98458",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98462",
+      "id_origem": 98462,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98462",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98463",
+      "id_origem": 98463,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98463",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98528",
+      "id_origem": 98528,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98528",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98529",
+      "id_origem": 98529,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98529",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98533",
+      "id_origem": 98533,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98533",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98535",
+      "id_origem": 98535,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98535",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98611",
+      "id_origem": 98611,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98611",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98614",
+      "id_origem": 98614,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98614",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98617",
+      "id_origem": 98617,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98617",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:43Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98619",
+      "id_origem": 98619,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98619",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98704",
+      "id_origem": 98704,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98704",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98707",
+      "id_origem": 98707,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98707",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98713",
+      "id_origem": 98713,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98713",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:44Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98715",
+      "id_origem": 98715,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98715",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98717",
+      "id_origem": 98717,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98717",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98720",
+      "id_origem": 98720,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98720",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98721",
+      "id_origem": 98721,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98721",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98895",
+      "id_origem": 98895,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98895",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98896",
+      "id_origem": 98896,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98896",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98903",
+      "id_origem": 98903,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98903",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98907",
+      "id_origem": 98907,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98907",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98913",
+      "id_origem": 98913,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98913",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98914",
+      "id_origem": 98914,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98914",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98917",
+      "id_origem": 98917,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98917",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-98918",
+      "id_origem": 98918,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98918",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99103",
+      "id_origem": 99103,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99103",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99105",
+      "id_origem": 99105,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99105",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99109",
+      "id_origem": 99109,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99109",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99218",
+      "id_origem": 99218,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99218",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99223",
+      "id_origem": 99223,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99223",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99349",
+      "id_origem": 99349,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99349",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99459",
+      "id_origem": 99459,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99459",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99461",
+      "id_origem": 99461,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99461",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99476",
+      "id_origem": 99476,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99476",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99498",
+      "id_origem": 99498,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99498",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99502",
+      "id_origem": 99502,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99502",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99670",
+      "id_origem": 99670,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99670",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99748",
+      "id_origem": 99748,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99748",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99864",
+      "id_origem": 99864,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99864",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99985",
+      "id_origem": 99985,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99985",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99987",
+      "id_origem": 99987,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99987",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99995",
+      "id_origem": 99995,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99995",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LAGOS-99997",
+      "id_origem": 99997,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99997",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T10:49:52Z"
+    }
+  ]
+}
