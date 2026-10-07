@@ -1693,9 +1693,8 @@
       "municipio": "Nazaré",
       "slug": "nazare",
       "target_total": 1289,
-      "lotes": 7,
+      "lotes": 8,
       "lotes_em_falta": [
-        350,
         400,
         450,
         500,
@@ -1715,8 +1714,8 @@
         1200,
         1250
       ],
-      "registros": 350,
-      "ids_unicos": 350,
+      "registros": 400,
+      "ids_unicos": 400,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
