@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 53,
+  "municipios_validados": 54,
   "acceptance": false,
   "municipios": [
     {
@@ -593,13 +593,11 @@
       "municipio": "Caldas da Rainha",
       "slug": "caldas-da-rainha",
       "target_total": 687,
-      "lotes": 13,
-      "lotes_em_falta": [
-        650
-      ],
-      "registros": 650,
-      "ids_unicos": 650,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 14,
+      "lotes_em_falta": [],
+      "registros": 687,
+      "ids_unicos": 687,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
