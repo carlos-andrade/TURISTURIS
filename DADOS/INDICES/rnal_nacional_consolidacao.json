@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 97,
+  "municipios_validados": 98,
   "acceptance": false,
   "municipios": [
     {
@@ -1077,13 +1077,11 @@
       "municipio": "Fundão",
       "slug": "fundao",
       "target_total": 166,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 166,
+      "ids_unicos": 166,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
