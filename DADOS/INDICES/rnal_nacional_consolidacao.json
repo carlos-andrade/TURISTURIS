@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 12,
+  "municipios_validados": 13,
   "acceptance": false,
   "municipios": [
     {
@@ -142,13 +142,11 @@
       "municipio": "Alijó",
       "slug": "alijo",
       "target_total": 91,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 91,
+      "ids_unicos": 91,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
