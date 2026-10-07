@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Fafe",
+  "target_total": 60,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 10,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 10
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-174910",
+      "id_origem": 174910,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174910",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-176802",
+      "id_origem": 176802,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176802",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-177794",
+      "id_origem": 177794,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177794",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-178247",
+      "id_origem": 178247,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178247",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-178809",
+      "id_origem": 178809,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178809",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-179768",
+      "id_origem": 179768,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179768",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-179965",
+      "id_origem": 179965,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179965",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-180516",
+      "id_origem": 180516,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180516",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-180567",
+      "id_origem": 180567,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180567",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-FAFE-181495",
+      "id_origem": 181495,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181495",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:16:52Z"
+    }
+  ]
+}
