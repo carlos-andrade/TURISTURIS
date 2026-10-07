@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 77,
+  "municipios_validados": 78,
   "acceptance": false,
   "municipios": [
     {
@@ -857,13 +857,11 @@
       "municipio": "Covilhã",
       "slug": "covilha",
       "target_total": 277,
-      "lotes": 5,
-      "lotes_em_falta": [
-        250
-      ],
-      "registros": 250,
-      "ids_unicos": 250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 6,
+      "lotes_em_falta": [],
+      "registros": 277,
+      "ids_unicos": 277,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
