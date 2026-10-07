@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Guarda",
+  "target_total": 109,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 9,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 9
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-176342",
+      "id_origem": 176342,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176342",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-176351",
+      "id_origem": 176351,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176351",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-176352",
+      "id_origem": 176352,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176352",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-176394",
+      "id_origem": 176394,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176394",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-178248",
+      "id_origem": 178248,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178248",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-178631",
+      "id_origem": 178631,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178631",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-179915",
+      "id_origem": 179915,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179915",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-180482",
+      "id_origem": 180482,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180482",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUARDA-180673",
+      "id_origem": 180673,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180673",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T09:53:38Z"
+    }
+  ]
+}
