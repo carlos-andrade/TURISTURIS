@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 54,
+  "municipios_validados": 55,
   "acceptance": false,
   "municipios": [
     {
@@ -604,13 +604,11 @@
       "municipio": "Caminha",
       "slug": "caminha",
       "target_total": 728,
-      "lotes": 14,
-      "lotes_em_falta": [
-        700
-      ],
-      "registros": 700,
-      "ids_unicos": 700,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 15,
+      "lotes_em_falta": [],
+      "registros": 728,
+      "ids_unicos": 728,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
