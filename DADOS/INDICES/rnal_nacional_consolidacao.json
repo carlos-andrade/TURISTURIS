@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 112,
+  "municipios_validados": 113,
   "acceptance": false,
   "municipios": [
     {
@@ -1242,13 +1242,11 @@
       "municipio": "Loulé",
       "slug": "loule",
       "target_total": 7335,
-      "lotes": 146,
-      "lotes_em_falta": [
-        7300
-      ],
-      "registros": 7300,
-      "ids_unicos": 7300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 147,
+      "lotes_em_falta": [],
+      "registros": 7335,
+      "ids_unicos": 7335,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
