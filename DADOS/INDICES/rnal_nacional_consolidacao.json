@@ -604,15 +604,14 @@
       "municipio": "Caminha",
       "slug": "caminha",
       "target_total": 728,
-      "lotes": 11,
+      "lotes": 12,
       "lotes_em_falta": [
-        550,
         600,
         650,
         700
       ],
-      "registros": 550,
-      "ids_unicos": 550,
+      "registros": 600,
+      "ids_unicos": 600,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
