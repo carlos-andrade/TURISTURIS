@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 160,
+  "municipios_validados": 161,
   "acceptance": false,
   "municipios": [
     {
@@ -1770,13 +1770,11 @@
       "municipio": "Olhão",
       "slug": "olhao",
       "target_total": 1663,
-      "lotes": 33,
-      "lotes_em_falta": [
-        1650
-      ],
-      "registros": 1650,
-      "ids_unicos": 1650,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 34,
+      "lotes_em_falta": [],
+      "registros": 1663,
+      "ids_unicos": 1663,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
