@@ -175,9 +175,8 @@
       "municipio": "Almada",
       "slug": "almada",
       "target_total": 1815,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50,
         100,
         150,
@@ -215,9 +214,9 @@
         1750,
         1800
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
