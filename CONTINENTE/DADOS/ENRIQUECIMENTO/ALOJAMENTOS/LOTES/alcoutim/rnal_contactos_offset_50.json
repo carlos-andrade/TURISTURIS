@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Alcoutim",
+  "target_total": 52,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 2,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 2
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-ALCOUTIM-180481",
+      "id_origem": 180481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:59:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-ALCOUTIM-180590",
+      "id_origem": 180590,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180590",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T03:59:31Z"
+    }
+  ]
+}
