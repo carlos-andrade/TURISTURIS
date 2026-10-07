@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Barcelos",
+  "target_total": 160,
+  "offset": 150,
+  "limit": 50,
+  "record_count": 10,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 10
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-173808",
+      "id_origem": 173808,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173808",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-173811",
+      "id_origem": 173811,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173811",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-173812",
+      "id_origem": 173812,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=173812",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-175373",
+      "id_origem": 175373,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=175373",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-176697",
+      "id_origem": 176697,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176697",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-178191",
+      "id_origem": 178191,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178191",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-179073",
+      "id_origem": 179073,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179073",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-180213",
+      "id_origem": 180213,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180213",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-180995",
+      "id_origem": 180995,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180995",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BARCELOS-181596",
+      "id_origem": 181596,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181596",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:05:12Z"
+    }
+  ]
+}

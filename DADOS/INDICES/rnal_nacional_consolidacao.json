@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 39,
+  "municipios_validados": 40,
   "acceptance": false,
   "municipios": [
     {
@@ -439,13 +439,11 @@
       "municipio": "Barcelos",
       "slug": "barcelos",
       "target_total": 160,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 160,
+      "ids_unicos": 160,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
