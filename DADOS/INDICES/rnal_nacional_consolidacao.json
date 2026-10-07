@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 46,
+  "municipios_validados": 47,
   "acceptance": false,
   "municipios": [
     {
@@ -516,13 +516,11 @@
       "municipio": "Bombarral",
       "slug": "bombarral",
       "target_total": 85,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 85,
+      "ids_unicos": 85,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
