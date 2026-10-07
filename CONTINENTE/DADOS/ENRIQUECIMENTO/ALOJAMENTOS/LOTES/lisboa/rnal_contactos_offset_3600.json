@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Lisboa",
+  "target_total": 11868,
+  "offset": 3600,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43293",
+      "id_origem": 43293,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43293",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43300",
+      "id_origem": 43300,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43300",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43306",
+      "id_origem": 43306,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43306",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43314",
+      "id_origem": 43314,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43314",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43315",
+      "id_origem": 43315,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43315",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43318",
+      "id_origem": 43318,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43318",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43335",
+      "id_origem": 43335,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43335",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43348",
+      "id_origem": 43348,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43348",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43351",
+      "id_origem": 43351,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43351",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43354",
+      "id_origem": 43354,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43354",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43360",
+      "id_origem": 43360,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43360",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43363",
+      "id_origem": 43363,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43363",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43365",
+      "id_origem": 43365,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43365",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43375",
+      "id_origem": 43375,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43375",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43382",
+      "id_origem": 43382,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43382",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43437",
+      "id_origem": 43437,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43437",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43444",
+      "id_origem": 43444,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43444",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43445",
+      "id_origem": 43445,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43445",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43446",
+      "id_origem": 43446,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43446",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43447",
+      "id_origem": 43447,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43447",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43482",
+      "id_origem": 43482,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43482",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43486",
+      "id_origem": 43486,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43486",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43499",
+      "id_origem": 43499,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43499",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43502",
+      "id_origem": 43502,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43502",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43504",
+      "id_origem": 43504,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43504",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43510",
+      "id_origem": 43510,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43510",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43536",
+      "id_origem": 43536,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43536",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43557",
+      "id_origem": 43557,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43557",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43582",
+      "id_origem": 43582,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43582",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43586",
+      "id_origem": 43586,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43586",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43607",
+      "id_origem": 43607,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43607",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43622",
+      "id_origem": 43622,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43622",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43658",
+      "id_origem": 43658,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43658",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43659",
+      "id_origem": 43659,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43659",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43660",
+      "id_origem": 43660,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43660",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43661",
+      "id_origem": 43661,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43661",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43680",
+      "id_origem": 43680,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43680",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43681",
+      "id_origem": 43681,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43681",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43682",
+      "id_origem": 43682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43704",
+      "id_origem": 43704,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43704",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43713",
+      "id_origem": 43713,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43713",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43716",
+      "id_origem": 43716,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43716",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43719",
+      "id_origem": 43719,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43719",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43726",
+      "id_origem": 43726,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43726",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43740",
+      "id_origem": 43740,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43740",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43782",
+      "id_origem": 43782,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43782",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43788",
+      "id_origem": 43788,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43788",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43792",
+      "id_origem": 43792,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43792",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43840",
+      "id_origem": 43840,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43840",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-LISBOA-43847",
+      "id_origem": 43847,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43847",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T11:53:35Z"
+    }
+  ]
+}
