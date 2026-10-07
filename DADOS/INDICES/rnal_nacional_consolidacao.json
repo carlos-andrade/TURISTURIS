@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 14,
+  "municipios_validados": 15,
   "acceptance": false,
   "municipios": [
     {
@@ -164,13 +164,11 @@
       "municipio": "Aljustrel",
       "slug": "aljustrel",
       "target_total": 21,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 21,
+      "ids_unicos": 21,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
