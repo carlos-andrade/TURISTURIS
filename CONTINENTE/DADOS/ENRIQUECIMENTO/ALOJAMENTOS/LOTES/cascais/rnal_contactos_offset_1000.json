@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Cascais",
+  "target_total": 2458,
+  "offset": 1000,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-100101",
+      "id_origem": 100101,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100101",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:49:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-100180",
+      "id_origem": 100180,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100180",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:49:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-100323",
+      "id_origem": 100323,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100323",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:49:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97000",
+      "id_origem": 97000,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97000",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97106",
+      "id_origem": 97106,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97106",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97339",
+      "id_origem": 97339,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97339",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97340",
+      "id_origem": 97340,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97340",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97389",
+      "id_origem": 97389,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97389",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97390",
+      "id_origem": 97390,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97390",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97476",
+      "id_origem": 97476,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97476",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97660",
+      "id_origem": 97660,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97660",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97982",
+      "id_origem": 97982,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97982",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97983",
+      "id_origem": 97983,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97983",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97984",
+      "id_origem": 97984,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97984",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97985",
+      "id_origem": 97985,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97985",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-97986",
+      "id_origem": 97986,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97986",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98136",
+      "id_origem": 98136,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98136",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98140",
+      "id_origem": 98140,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98140",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98328",
+      "id_origem": 98328,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98328",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98480",
+      "id_origem": 98480,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98480",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98481",
+      "id_origem": 98481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98482",
+      "id_origem": 98482,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98482",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98547",
+      "id_origem": 98547,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98547",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98548",
+      "id_origem": 98548,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98548",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98549",
+      "id_origem": 98549,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98549",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98550",
+      "id_origem": 98550,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98550",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98551",
+      "id_origem": 98551,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98551",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98643",
+      "id_origem": 98643,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98643",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98732",
+      "id_origem": 98732,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98732",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98739",
+      "id_origem": 98739,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98739",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98758",
+      "id_origem": 98758,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98758",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98760",
+      "id_origem": 98760,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98760",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98765",
+      "id_origem": 98765,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98765",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98774",
+      "id_origem": 98774,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98774",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98776",
+      "id_origem": 98776,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98776",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98779",
+      "id_origem": 98779,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98779",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98821",
+      "id_origem": 98821,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98821",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98824",
+      "id_origem": 98824,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98824",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-98825",
+      "id_origem": 98825,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98825",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99029",
+      "id_origem": 99029,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99029",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99030",
+      "id_origem": 99030,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99030",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99131",
+      "id_origem": 99131,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99131",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99379",
+      "id_origem": 99379,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99379",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99520",
+      "id_origem": 99520,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99520",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99617",
+      "id_origem": 99617,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99617",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99695",
+      "id_origem": 99695,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99695",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99766",
+      "id_origem": 99766,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99766",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99900",
+      "id_origem": 99900,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99900",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:48:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99901",
+      "id_origem": 99901,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99901",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:49:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-CASCAIS-99902",
+      "id_origem": 99902,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99902",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-07T05:49:00Z"
+    }
+  ]
+}
