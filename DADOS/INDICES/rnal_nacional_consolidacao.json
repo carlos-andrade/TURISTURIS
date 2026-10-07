@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 158,
+  "municipios_validados": 159,
   "acceptance": false,
   "municipios": [
     {
@@ -1748,13 +1748,11 @@
       "municipio": "Oeiras",
       "slug": "oeiras",
       "target_total": 614,
-      "lotes": 12,
-      "lotes_em_falta": [
-        600
-      ],
-      "registros": 600,
-      "ids_unicos": 600,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 13,
+      "lotes_em_falta": [],
+      "registros": 614,
+      "ids_unicos": 614,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
