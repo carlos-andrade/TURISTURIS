@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 49,
+  "municipios_validados": 50,
   "acceptance": false,
   "municipios": [
     {
@@ -549,13 +549,11 @@
       "municipio": "Braga",
       "slug": "braga",
       "target_total": 723,
-      "lotes": 14,
-      "lotes_em_falta": [
-        700
-      ],
-      "registros": 700,
-      "ids_unicos": 700,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 15,
+      "lotes_em_falta": [],
+      "registros": 723,
+      "ids_unicos": 723,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
