@@ -670,9 +670,8 @@
       "municipio": "Cascais",
       "slug": "cascais",
       "target_total": 2458,
-      "lotes": 7,
+      "lotes": 8,
       "lotes_em_falta": [
-        350,
         400,
         450,
         500,
@@ -716,8 +715,8 @@
         2400,
         2450
       ],
-      "registros": 350,
-      "ids_unicos": 350,
+      "registros": 400,
+      "ids_unicos": 400,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
