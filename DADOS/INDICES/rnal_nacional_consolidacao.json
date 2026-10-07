@@ -1847,13 +1847,12 @@
       "municipio": "Ovar",
       "slug": "ovar",
       "target_total": 336,
-      "lotes": 5,
+      "lotes": 6,
       "lotes_em_falta": [
-        250,
         300
       ],
-      "registros": 250,
-      "ids_unicos": 250,
+      "registros": 300,
+      "ids_unicos": 300,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
