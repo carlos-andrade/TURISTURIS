@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Póvoa de Varzim",
+  "target_total": 341,
+  "offset": 200,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-139206",
+      "id_origem": 139206,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139206",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-139570",
+      "id_origem": 139570,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=139570",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-140375",
+      "id_origem": 140375,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140375",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-140390",
+      "id_origem": 140390,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140390",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-140417",
+      "id_origem": 140417,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=140417",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-141452",
+      "id_origem": 141452,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141452",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-141782",
+      "id_origem": 141782,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141782",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-142365",
+      "id_origem": 142365,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142365",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-142769",
+      "id_origem": 142769,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142769",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-143008",
+      "id_origem": 143008,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143008",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-143482",
+      "id_origem": 143482,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143482",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-143483",
+      "id_origem": 143483,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143483",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-143655",
+      "id_origem": 143655,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143655",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-143905",
+      "id_origem": 143905,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143905",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-144159",
+      "id_origem": 144159,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144159",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-144233",
+      "id_origem": 144233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-144234",
+      "id_origem": 144234,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144234",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-145872",
+      "id_origem": 145872,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=145872",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-146263",
+      "id_origem": 146263,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146263",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-146421",
+      "id_origem": 146421,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146421",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-146491",
+      "id_origem": 146491,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146491",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-146825",
+      "id_origem": 146825,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146825",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-146967",
+      "id_origem": 146967,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=146967",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-147617",
+      "id_origem": 147617,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147617",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-147905",
+      "id_origem": 147905,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147905",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-148005",
+      "id_origem": 148005,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148005",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-148931",
+      "id_origem": 148931,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148931",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-149243",
+      "id_origem": 149243,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149243",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-149323",
+      "id_origem": 149323,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149323",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-149647",
+      "id_origem": 149647,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=149647",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-150480",
+      "id_origem": 150480,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150480",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-150481",
+      "id_origem": 150481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-150971",
+      "id_origem": 150971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-151174",
+      "id_origem": 151174,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151174",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-151992",
+      "id_origem": 151992,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151992",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-152622",
+      "id_origem": 152622,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152622",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-152623",
+      "id_origem": 152623,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152623",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-153082",
+      "id_origem": 153082,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153082",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-153592",
+      "id_origem": 153592,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153592",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-153893",
+      "id_origem": 153893,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153893",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154029",
+      "id_origem": 154029,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154029",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154289",
+      "id_origem": 154289,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154289",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154377",
+      "id_origem": 154377,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154377",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154590",
+      "id_origem": 154590,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154590",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154639",
+      "id_origem": 154639,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154639",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154753",
+      "id_origem": 154753,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154753",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154802",
+      "id_origem": 154802,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154802",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-154882",
+      "id_origem": 154882,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154882",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-155005",
+      "id_origem": 155005,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=155005",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-P-VOA-DE-VARZIM-156672",
+      "id_origem": 156672,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156672",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:53:24Z"
+    }
+  ]
+}
