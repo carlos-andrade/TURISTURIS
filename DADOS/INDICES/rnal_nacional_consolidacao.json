@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 197,
+  "municipios_validados": 198,
   "acceptance": false,
   "municipios": [
     {
@@ -2177,13 +2177,11 @@
       "municipio": "Resende",
       "slug": "resende",
       "target_total": 92,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 92,
+      "ids_unicos": 92,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
