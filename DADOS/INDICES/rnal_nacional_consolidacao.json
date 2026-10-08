@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 260,
+  "municipios_validados": 261,
   "acceptance": false,
   "municipios": [
     {
@@ -2870,13 +2870,11 @@
       "municipio": "Vila Nova de Gaia",
       "slug": "vila-nova-de-gaia",
       "target_total": 1713,
-      "lotes": 34,
-      "lotes_em_falta": [
-        1700
-      ],
-      "registros": 1700,
-      "ids_unicos": 1700,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 35,
+      "lotes_em_falta": [],
+      "registros": 1713,
+      "ids_unicos": 1713,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
