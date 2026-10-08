@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 267,
+  "municipios_validados": 268,
   "acceptance": false,
   "municipios": [
     {
@@ -2947,13 +2947,11 @@
       "municipio": "Vila Verde",
       "slug": "vila-verde",
       "target_total": 82,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 82,
+      "ids_unicos": 82,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
