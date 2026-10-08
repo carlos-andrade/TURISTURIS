@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Seixal",
+  "target_total": 384,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-100041",
+      "id_origem": 100041,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100041",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-101284",
+      "id_origem": 101284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-101446",
+      "id_origem": 101446,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101446",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-101447",
+      "id_origem": 101447,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101447",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-101850",
+      "id_origem": 101850,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101850",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-102135",
+      "id_origem": 102135,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102135",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-102508",
+      "id_origem": 102508,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102508",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-102893",
+      "id_origem": 102893,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102893",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-102894",
+      "id_origem": 102894,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102894",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-103160",
+      "id_origem": 103160,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103160",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-105626",
+      "id_origem": 105626,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105626",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-105844",
+      "id_origem": 105844,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=105844",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-106565",
+      "id_origem": 106565,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106565",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-109553",
+      "id_origem": 109553,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=109553",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-110934",
+      "id_origem": 110934,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110934",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-112214",
+      "id_origem": 112214,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112214",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-112244",
+      "id_origem": 112244,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112244",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-112245",
+      "id_origem": 112245,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112245",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-112282",
+      "id_origem": 112282,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112282",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-112927",
+      "id_origem": 112927,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=112927",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-113451",
+      "id_origem": 113451,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113451",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-113616",
+      "id_origem": 113616,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113616",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-113686",
+      "id_origem": 113686,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113686",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-113819",
+      "id_origem": 113819,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113819",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-115285",
+      "id_origem": 115285,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115285",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-115286",
+      "id_origem": 115286,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115286",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-115582",
+      "id_origem": 115582,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115582",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-115854",
+      "id_origem": 115854,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115854",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-116363",
+      "id_origem": 116363,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=116363",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-117196",
+      "id_origem": 117196,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117196",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-117562",
+      "id_origem": 117562,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117562",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-117743",
+      "id_origem": 117743,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117743",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-117744",
+      "id_origem": 117744,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117744",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-117745",
+      "id_origem": 117745,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=117745",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-93773",
+      "id_origem": 93773,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93773",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-93865",
+      "id_origem": 93865,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93865",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-94273",
+      "id_origem": 94273,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94273",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-94546",
+      "id_origem": 94546,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94546",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-94674",
+      "id_origem": 94674,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94674",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-95031",
+      "id_origem": 95031,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95031",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-95934",
+      "id_origem": 95934,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95934",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-96328",
+      "id_origem": 96328,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96328",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-96412",
+      "id_origem": 96412,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96412",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-96497",
+      "id_origem": 96497,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96497",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-96667",
+      "id_origem": 96667,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96667",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-97027",
+      "id_origem": 97027,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97027",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-98016",
+      "id_origem": 98016,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98016",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-98404",
+      "id_origem": 98404,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98404",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-98984",
+      "id_origem": 98984,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98984",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SEIXAL-99562",
+      "id_origem": 99562,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99562",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:12:30Z"
+    }
+  ]
+}
