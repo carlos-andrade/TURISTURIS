@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 252,
+  "municipios_validados": 253,
   "acceptance": false,
   "municipios": [
     {
@@ -2782,13 +2782,11 @@
       "municipio": "Vila do Bispo",
       "slug": "vila-do-bispo",
       "target_total": 1181,
-      "lotes": 23,
-      "lotes_em_falta": [
-        1150
-      ],
-      "registros": 1150,
-      "ids_unicos": 1150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 24,
+      "lotes_em_falta": [],
+      "registros": 1181,
+      "ids_unicos": 1181,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
