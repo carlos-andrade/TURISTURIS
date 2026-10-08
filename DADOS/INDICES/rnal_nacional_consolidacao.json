@@ -2518,15 +2518,14 @@
       "municipio": "São Pedro do Sul",
       "slug": "sao-pedro-do-sul",
       "target_total": 142,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50,
         100
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
