@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Santa Maria da Feira",
+  "target_total": 108,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 8,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 8
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-169251",
+      "id_origem": 169251,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169251",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-169397",
+      "id_origem": 169397,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169397",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-171948",
+      "id_origem": 171948,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171948",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-171952",
+      "id_origem": 171952,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=171952",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:41Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-172302",
+      "id_origem": 172302,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=172302",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-174961",
+      "id_origem": 174961,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=174961",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-176684",
+      "id_origem": 176684,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176684",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:42Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SANTA-MARIA-DA-FEIRA-180427",
+      "id_origem": 180427,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180427",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:02:42Z"
+    }
+  ]
+}
