@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 211,
+  "municipios_validados": 212,
   "acceptance": false,
   "municipios": [
     {
@@ -2331,13 +2331,11 @@
       "municipio": "Seixal",
       "slug": "seixal",
       "target_total": 384,
-      "lotes": 7,
-      "lotes_em_falta": [
-        350
-      ],
-      "registros": 350,
-      "ids_unicos": 350,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 8,
+      "lotes_em_falta": [],
+      "registros": 384,
+      "ids_unicos": 384,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
