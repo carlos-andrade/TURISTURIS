@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 239,
+  "municipios_validados": 240,
   "acceptance": false,
   "municipios": [
     {
@@ -2639,13 +2639,11 @@
       "municipio": "Trofa",
       "slug": "trofa",
       "target_total": 24,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 24,
+      "ids_unicos": 24,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
