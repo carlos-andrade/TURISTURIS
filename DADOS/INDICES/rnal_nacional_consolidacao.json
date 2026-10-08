@@ -2562,17 +2562,16 @@
       "municipio": "Terras de Bouro",
       "slug": "terras-de-bouro",
       "target_total": 525,
-      "lotes": 5,
+      "lotes": 6,
       "lotes_em_falta": [
-        250,
         300,
         350,
         400,
         450,
         500
       ],
-      "registros": 250,
-      "ids_unicos": 250,
+      "registros": 300,
+      "ids_unicos": 300,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
