@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vale de Cambra",
+  "target_total": 63,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-100398",
+      "id_origem": 100398,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100398",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-102175",
+      "id_origem": 102175,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102175",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-107203",
+      "id_origem": 107203,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=107203",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-110255",
+      "id_origem": 110255,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110255",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-110667",
+      "id_origem": 110667,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110667",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-111230",
+      "id_origem": 111230,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111230",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-111624",
+      "id_origem": 111624,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111624",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-115895",
+      "id_origem": 115895,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115895",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-119361",
+      "id_origem": 119361,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=119361",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-122474",
+      "id_origem": 122474,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122474",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-122941",
+      "id_origem": 122941,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122941",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-123392",
+      "id_origem": 123392,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123392",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-124401",
+      "id_origem": 124401,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=124401",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-125068",
+      "id_origem": 125068,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=125068",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-128223",
+      "id_origem": 128223,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=128223",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-130054",
+      "id_origem": 130054,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130054",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-130667",
+      "id_origem": 130667,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130667",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-130668",
+      "id_origem": 130668,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=130668",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-131475",
+      "id_origem": 131475,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131475",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-142442",
+      "id_origem": 142442,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=142442",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-151624",
+      "id_origem": 151624,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151624",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-152997",
+      "id_origem": 152997,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=152997",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-153002",
+      "id_origem": 153002,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153002",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-153003",
+      "id_origem": 153003,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153003",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-153006",
+      "id_origem": 153006,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153006",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-153013",
+      "id_origem": 153013,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153013",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-153682",
+      "id_origem": 153682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=153682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-154540",
+      "id_origem": 154540,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=154540",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-156345",
+      "id_origem": 156345,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156345",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-156892",
+      "id_origem": 156892,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156892",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-157999",
+      "id_origem": 157999,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=157999",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-158685",
+      "id_origem": 158685,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158685",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-158906",
+      "id_origem": 158906,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158906",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-25319",
+      "id_origem": 25319,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=25319",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-47488",
+      "id_origem": 47488,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47488",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-50173",
+      "id_origem": 50173,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50173",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-50536",
+      "id_origem": 50536,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50536",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-51300",
+      "id_origem": 51300,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51300",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-51973",
+      "id_origem": 51973,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51973",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-53440",
+      "id_origem": 53440,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53440",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-53448",
+      "id_origem": 53448,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53448",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-55225",
+      "id_origem": 55225,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=55225",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-58116",
+      "id_origem": 58116,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=58116",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-62695",
+      "id_origem": 62695,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=62695",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-67715",
+      "id_origem": 67715,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=67715",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-74019",
+      "id_origem": 74019,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74019",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-80481",
+      "id_origem": 80481,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80481",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-82285",
+      "id_origem": 82285,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82285",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-9612",
+      "id_origem": 9612,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=9612",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VALE-DE-CAMBRA-97707",
+      "id_origem": 97707,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97707",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:05:29Z"
+    }
+  ]
+}
