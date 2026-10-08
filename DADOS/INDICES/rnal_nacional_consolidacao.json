@@ -2386,9 +2386,8 @@
       "municipio": "Setúbal",
       "slug": "setubal",
       "target_total": 1110,
-      "lotes": 14,
+      "lotes": 15,
       "lotes_em_falta": [
-        700,
         750,
         800,
         850,
@@ -2398,8 +2397,8 @@
         1050,
         1100
       ],
-      "registros": 700,
-      "ids_unicos": 700,
+      "registros": 750,
+      "ids_unicos": 750,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
