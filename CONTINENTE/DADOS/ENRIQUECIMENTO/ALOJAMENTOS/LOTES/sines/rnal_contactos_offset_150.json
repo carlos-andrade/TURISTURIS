@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Sines",
+  "target_total": 155,
+  "offset": 150,
+  "limit": 50,
+  "record_count": 5,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 5
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SINES-179098",
+      "id_origem": 179098,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179098",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:03:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINES-179970",
+      "id_origem": 179970,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179970",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:03:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINES-180034",
+      "id_origem": 180034,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180034",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:03:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINES-180321",
+      "id_origem": 180321,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180321",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:03:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINES-181406",
+      "id_origem": 181406,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181406",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:03:36Z"
+    }
+  ]
+}

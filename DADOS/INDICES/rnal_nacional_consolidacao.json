@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 219,
+  "municipios_validados": 220,
   "acceptance": false,
   "municipios": [
     {
@@ -2419,13 +2419,11 @@
       "municipio": "Sines",
       "slug": "sines",
       "target_total": 155,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 155,
+      "ids_unicos": 155,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
