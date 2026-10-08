@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 251,
+  "municipios_validados": 252,
   "acceptance": false,
   "municipios": [
     {
@@ -2771,13 +2771,11 @@
       "municipio": "Vila de Rei",
       "slug": "vila-de-rei",
       "target_total": 38,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 38,
+      "ids_unicos": 38,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
