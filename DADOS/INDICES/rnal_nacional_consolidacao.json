@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 189,
+  "municipios_validados": 190,
   "acceptance": false,
   "municipios": [
     {
@@ -2089,13 +2089,11 @@
       "municipio": "Portimão",
       "slug": "portimao",
       "target_total": 5693,
-      "lotes": 113,
-      "lotes_em_falta": [
-        5650
-      ],
-      "registros": 5650,
-      "ids_unicos": 5650,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 114,
+      "lotes_em_falta": [],
+      "registros": 5693,
+      "ids_unicos": 5693,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
