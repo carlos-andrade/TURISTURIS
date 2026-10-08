@@ -2408,9 +2408,8 @@
       "municipio": "Silves",
       "slug": "silves",
       "target_total": 2745,
-      "lotes": 5,
+      "lotes": 6,
       "lotes_em_falta": [
-        250,
         300,
         350,
         400,
@@ -2461,8 +2460,8 @@
         2650,
         2700
       ],
-      "registros": 250,
-      "ids_unicos": 250,
+      "registros": 300,
+      "ids_unicos": 300,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
