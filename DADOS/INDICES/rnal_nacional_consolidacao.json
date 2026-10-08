@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 210,
+  "municipios_validados": 211,
   "acceptance": false,
   "municipios": [
     {
@@ -2320,13 +2320,11 @@
       "municipio": "Seia",
       "slug": "seia",
       "target_total": 311,
-      "lotes": 6,
-      "lotes_em_falta": [
-        300
-      ],
-      "registros": 300,
-      "ids_unicos": 300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 7,
+      "lotes_em_falta": [],
+      "registros": 311,
+      "ids_unicos": 311,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
