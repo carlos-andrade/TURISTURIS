@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 194,
+  "municipios_validados": 195,
   "acceptance": false,
   "municipios": [
     {
@@ -2144,13 +2144,11 @@
       "municipio": "Póvoa de Varzim",
       "slug": "povoa-de-varzim",
       "target_total": 341,
-      "lotes": 6,
-      "lotes_em_falta": [
-        300
-      ],
-      "registros": 300,
-      "ids_unicos": 300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 7,
+      "lotes_em_falta": [],
+      "registros": 341,
+      "ids_unicos": 341,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
