@@ -2430,9 +2430,8 @@
       "municipio": "Sintra",
       "slug": "sintra",
       "target_total": 1234,
-      "lotes": 12,
+      "lotes": 13,
       "lotes_em_falta": [
-        600,
         650,
         700,
         750,
@@ -2446,8 +2445,8 @@
         1150,
         1200
       ],
-      "registros": 600,
-      "ids_unicos": 600,
+      "registros": 650,
+      "ids_unicos": 650,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
