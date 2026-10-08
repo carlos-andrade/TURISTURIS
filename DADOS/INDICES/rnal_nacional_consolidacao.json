@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 265,
+  "municipios_validados": 266,
   "acceptance": false,
   "municipios": [
     {
@@ -2925,13 +2925,11 @@
       "municipio": "Vila Real de Santo António",
       "slug": "vila-real-de-santo-antonio",
       "target_total": 1260,
-      "lotes": 25,
-      "lotes_em_falta": [
-        1250
-      ],
-      "registros": 1250,
-      "ids_unicos": 1250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 26,
+      "lotes_em_falta": [],
+      "registros": 1260,
+      "ids_unicos": 1260,
+      "estado": "VALIDADO",
       "erros": []
     },
     {

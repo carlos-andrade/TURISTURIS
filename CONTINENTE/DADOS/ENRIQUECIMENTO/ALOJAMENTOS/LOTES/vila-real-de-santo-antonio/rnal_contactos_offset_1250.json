@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila Real de Santo António",
+  "target_total": 1260,
+  "offset": 1250,
+  "limit": 50,
+  "record_count": 10,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 10
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-179802",
+      "id_origem": 179802,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179802",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-180643",
+      "id_origem": 180643,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180643",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-180731",
+      "id_origem": 180731,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180731",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-180734",
+      "id_origem": 180734,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180734",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-180834",
+      "id_origem": 180834,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180834",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-181117",
+      "id_origem": 181117,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181117",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-181150",
+      "id_origem": 181150,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181150",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-181357",
+      "id_origem": 181357,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181357",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-181358",
+      "id_origem": 181358,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181358",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-REAL-DE-SANTO-ANT-NIO-181515",
+      "id_origem": 181515,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181515",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:08:23Z"
+    }
+  ]
+}
