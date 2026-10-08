@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 230,
+  "municipios_validados": 231,
   "acceptance": false,
   "municipios": [
     {
@@ -2540,13 +2540,11 @@
       "municipio": "Tarouca",
       "slug": "tarouca",
       "target_total": 42,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 42,
+      "ids_unicos": 42,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
