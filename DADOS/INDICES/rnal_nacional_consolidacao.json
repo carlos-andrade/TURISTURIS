@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 218,
+  "municipios_validados": 219,
   "acceptance": false,
   "municipios": [
     {
@@ -2408,13 +2408,11 @@
       "municipio": "Silves",
       "slug": "silves",
       "target_total": 2745,
-      "lotes": 54,
-      "lotes_em_falta": [
-        2700
-      ],
-      "registros": 2700,
-      "ids_unicos": 2700,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 55,
+      "lotes_em_falta": [],
+      "registros": 2745,
+      "ids_unicos": 2745,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
