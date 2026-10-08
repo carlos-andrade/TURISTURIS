@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 263,
+  "municipios_validados": 264,
   "acceptance": false,
   "municipios": [
     {
@@ -2903,13 +2903,11 @@
       "municipio": "Vila Pouca de Aguiar",
       "slug": "vila-pouca-de-aguiar",
       "target_total": 15,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 15,
+      "ids_unicos": 15,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
