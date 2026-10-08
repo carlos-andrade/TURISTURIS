@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila Nova de Gaia",
+  "target_total": 1713,
+  "offset": 600,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-100135",
+      "id_origem": 100135,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100135",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-100279",
+      "id_origem": 100279,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100279",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-94961",
+      "id_origem": 94961,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94961",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:43:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-94962",
+      "id_origem": 94962,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=94962",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:43:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95073",
+      "id_origem": 95073,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95073",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:43:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95212",
+      "id_origem": 95212,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95212",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:43:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95307",
+      "id_origem": 95307,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95307",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95308",
+      "id_origem": 95308,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95308",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95643",
+      "id_origem": 95643,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95643",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-95774",
+      "id_origem": 95774,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95774",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96336",
+      "id_origem": 96336,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96336",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96422",
+      "id_origem": 96422,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96422",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96429",
+      "id_origem": 96429,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96429",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96430",
+      "id_origem": 96430,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96430",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96431",
+      "id_origem": 96431,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96431",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96432",
+      "id_origem": 96432,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96432",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96433",
+      "id_origem": 96433,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96433",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96434",
+      "id_origem": 96434,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96434",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96435",
+      "id_origem": 96435,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96435",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96436",
+      "id_origem": 96436,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96436",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96524",
+      "id_origem": 96524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96525",
+      "id_origem": 96525,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96525",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96526",
+      "id_origem": 96526,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96526",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96578",
+      "id_origem": 96578,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96578",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96681",
+      "id_origem": 96681,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96681",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96963",
+      "id_origem": 96963,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96963",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-96964",
+      "id_origem": 96964,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96964",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97030",
+      "id_origem": 97030,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97030",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97219",
+      "id_origem": 97219,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97219",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97254",
+      "id_origem": 97254,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97254",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97255",
+      "id_origem": 97255,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97255",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97435",
+      "id_origem": 97435,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97435",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97708",
+      "id_origem": 97708,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97708",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97825",
+      "id_origem": 97825,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97825",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-97974",
+      "id_origem": 97974,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97974",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98026",
+      "id_origem": 98026,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98026",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98696",
+      "id_origem": 98696,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98696",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98697",
+      "id_origem": 98697,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98697",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98767",
+      "id_origem": 98767,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98767",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98884",
+      "id_origem": 98884,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98884",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98996",
+      "id_origem": 98996,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98996",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98997",
+      "id_origem": 98997,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98997",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-98998",
+      "id_origem": 98998,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98998",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99093",
+      "id_origem": 99093,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99093",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99190",
+      "id_origem": 99190,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99190",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99330",
+      "id_origem": 99330,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99330",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99741",
+      "id_origem": 99741,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99741",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99742",
+      "id_origem": 99742,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99742",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99861",
+      "id_origem": 99861,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99861",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-GAIA-99975",
+      "id_origem": 99975,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99975",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:44:09Z"
+    }
+  ]
+}
