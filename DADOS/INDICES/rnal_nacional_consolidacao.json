@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 202,
+  "municipios_validados": 203,
   "acceptance": false,
   "municipios": [
     {
@@ -2232,13 +2232,11 @@
       "municipio": "Salvaterra de Magos",
       "slug": "salvaterra-de-magos",
       "target_total": 43,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 43,
+      "ids_unicos": 43,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
