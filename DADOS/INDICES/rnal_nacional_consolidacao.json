@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 255,
+  "municipios_validados": 256,
   "acceptance": false,
   "municipios": [
     {
@@ -2815,13 +2815,11 @@
       "municipio": "Vila Franca de Xira",
       "slug": "vila-franca-de-xira",
       "target_total": 67,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 67,
+      "ids_unicos": 67,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
