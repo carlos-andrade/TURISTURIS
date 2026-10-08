@@ -3,8 +3,8 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 277,
-  "acceptance": false,
+  "municipios_validados": 278,
+  "acceptance": true,
   "municipios": [
     {
       "municipio": "Abrantes",
@@ -3057,13 +3057,11 @@
       "municipio": "Óbidos",
       "slug": "obidos",
       "target_total": 757,
-      "lotes": 15,
-      "lotes_em_falta": [
-        750
-      ],
-      "registros": 750,
-      "ids_unicos": 750,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 16,
+      "lotes_em_falta": [],
+      "registros": 757,
+      "ids_unicos": 757,
+      "estado": "VALIDADO",
       "erros": []
     }
   ]

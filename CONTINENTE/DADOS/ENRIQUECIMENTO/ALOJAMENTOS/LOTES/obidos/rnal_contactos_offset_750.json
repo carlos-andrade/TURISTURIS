@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Óbidos",
+  "target_total": 757,
+  "offset": 750,
+  "limit": 50,
+  "record_count": 7,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 7
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-180797",
+      "id_origem": 180797,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180797",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-180900",
+      "id_origem": 180900,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180900",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-181094",
+      "id_origem": 181094,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181094",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-181142",
+      "id_origem": 181142,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181142",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-181392",
+      "id_origem": 181392,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181392",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-181397",
+      "id_origem": 181397,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181397",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-BIDOS-181399",
+      "id_origem": 181399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=181399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:28:16Z"
+    }
+  ]
+}
