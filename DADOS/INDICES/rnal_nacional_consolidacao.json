@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 275,
+  "municipios_validados": 276,
   "acceptance": false,
   "municipios": [
     {
@@ -3035,13 +3035,11 @@
       "municipio": "Évora",
       "slug": "evora",
       "target_total": 448,
-      "lotes": 8,
-      "lotes_em_falta": [
-        400
-      ],
-      "registros": 400,
-      "ids_unicos": 400,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 9,
+      "lotes_em_falta": [],
+      "registros": 448,
+      "ids_unicos": 448,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
