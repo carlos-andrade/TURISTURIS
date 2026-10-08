@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 256,
+  "municipios_validados": 257,
   "acceptance": false,
   "municipios": [
     {
@@ -2826,13 +2826,11 @@
       "municipio": "Vila Nova da Barquinha",
       "slug": "vila-nova-da-barquinha",
       "target_total": 19,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 19,
+      "ids_unicos": 19,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
