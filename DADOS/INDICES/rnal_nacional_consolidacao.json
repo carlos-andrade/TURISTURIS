@@ -2551,9 +2551,8 @@
       "municipio": "Tavira",
       "slug": "tavira",
       "target_total": 2998,
-      "lotes": 8,
+      "lotes": 9,
       "lotes_em_falta": [
-        400,
         450,
         500,
         550,
@@ -2606,8 +2605,8 @@
         2900,
         2950
       ],
-      "registros": 400,
-      "ids_unicos": 400,
+      "registros": 450,
+      "ids_unicos": 450,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
