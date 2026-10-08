@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 232,
+  "municipios_validados": 233,
   "acceptance": false,
   "municipios": [
     {
@@ -2562,13 +2562,11 @@
       "municipio": "Terras de Bouro",
       "slug": "terras-de-bouro",
       "target_total": 525,
-      "lotes": 10,
-      "lotes_em_falta": [
-        500
-      ],
-      "registros": 500,
-      "ids_unicos": 500,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 11,
+      "lotes_em_falta": [],
+      "registros": 525,
+      "ids_unicos": 525,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
