@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 223,
+  "municipios_validados": 224,
   "acceptance": false,
   "municipios": [
     {
@@ -2463,13 +2463,11 @@
       "municipio": "Sousel",
       "slug": "sousel",
       "target_total": 29,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 29,
+      "ids_unicos": 29,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
