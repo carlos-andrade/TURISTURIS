@@ -2089,9 +2089,8 @@
       "municipio": "Portimão",
       "slug": "portimao",
       "target_total": 5693,
-      "lotes": 100,
+      "lotes": 101,
       "lotes_em_falta": [
-        5000,
         5050,
         5100,
         5150,
@@ -2106,8 +2105,8 @@
         5600,
         5650
       ],
-      "registros": 5000,
-      "ids_unicos": 5000,
+      "registros": 5050,
+      "ids_unicos": 5050,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
