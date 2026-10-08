@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila do Conde",
+  "target_total": 440,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-100048",
+      "id_origem": 100048,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100048",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-100917",
+      "id_origem": 100917,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=100917",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-101975",
+      "id_origem": 101975,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101975",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-102030",
+      "id_origem": 102030,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102030",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-102236",
+      "id_origem": 102236,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102236",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-102754",
+      "id_origem": 102754,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102754",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-103209",
+      "id_origem": 103209,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103209",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-104064",
+      "id_origem": 104064,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=104064",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-76043",
+      "id_origem": 76043,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76043",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-76187",
+      "id_origem": 76187,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76187",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-76190",
+      "id_origem": 76190,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76190",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-76924",
+      "id_origem": 76924,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=76924",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-79107",
+      "id_origem": 79107,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79107",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-79386",
+      "id_origem": 79386,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=79386",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-80149",
+      "id_origem": 80149,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80149",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-80203",
+      "id_origem": 80203,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80203",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-80287",
+      "id_origem": 80287,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80287",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-80459",
+      "id_origem": 80459,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=80459",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83019",
+      "id_origem": 83019,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83019",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83233",
+      "id_origem": 83233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83254",
+      "id_origem": 83254,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83254",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83327",
+      "id_origem": 83327,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83327",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83329",
+      "id_origem": 83329,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83329",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83339",
+      "id_origem": 83339,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83339",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83370",
+      "id_origem": 83370,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83370",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-83995",
+      "id_origem": 83995,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=83995",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-84330",
+      "id_origem": 84330,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=84330",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-85505",
+      "id_origem": 85505,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85505",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-85707",
+      "id_origem": 85707,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=85707",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-87832",
+      "id_origem": 87832,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=87832",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-88396",
+      "id_origem": 88396,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=88396",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-92847",
+      "id_origem": 92847,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92847",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:27Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-93179",
+      "id_origem": 93179,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93179",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-93263",
+      "id_origem": 93263,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93263",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-93872",
+      "id_origem": 93872,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93872",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-93957",
+      "id_origem": 93957,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93957",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:28Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-95306",
+      "id_origem": 95306,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95306",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-95980",
+      "id_origem": 95980,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=95980",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-96423",
+      "id_origem": 96423,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96423",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-96680",
+      "id_origem": 96680,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96680",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-97074",
+      "id_origem": 97074,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97074",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-97252",
+      "id_origem": 97252,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97252",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-97433",
+      "id_origem": 97433,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97433",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-97530",
+      "id_origem": 97530,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97530",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-98694",
+      "id_origem": 98694,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98694",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-98882",
+      "id_origem": 98882,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=98882",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-99188",
+      "id_origem": 99188,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99188",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-99189",
+      "id_origem": 99189,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99189",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-99329",
+      "id_origem": 99329,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99329",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-CONDE-99974",
+      "id_origem": 99974,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=99974",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:30:32Z"
+    }
+  ]
+}
