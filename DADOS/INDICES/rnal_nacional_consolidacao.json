@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 216,
+  "municipios_validados": 217,
   "acceptance": false,
   "municipios": [
     {
@@ -2386,13 +2386,11 @@
       "municipio": "Setúbal",
       "slug": "setubal",
       "target_total": 1110,
-      "lotes": 22,
-      "lotes_em_falta": [
-        1100
-      ],
-      "registros": 1100,
-      "ids_unicos": 1100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 23,
+      "lotes_em_falta": [],
+      "registros": 1110,
+      "ids_unicos": 1110,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
