@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 273,
+  "municipios_validados": 274,
   "acceptance": false,
   "municipios": [
     {
@@ -3013,13 +3013,11 @@
       "municipio": "Vouzela",
       "slug": "vouzela",
       "target_total": 68,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 68,
+      "ids_unicos": 68,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
