@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Tondela",
+  "target_total": 54,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 4,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-TONDELA-176761",
+      "id_origem": 176761,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=176761",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:58:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-TONDELA-177795",
+      "id_origem": 177795,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=177795",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:58:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-TONDELA-178569",
+      "id_origem": 178569,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178569",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:58:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-TONDELA-180524",
+      "id_origem": 180524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:58:31Z"
+    }
+  ]
+}
