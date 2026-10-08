@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila Franca de Xira",
+  "target_total": 67,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-102101",
+      "id_origem": 102101,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102101",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-103124",
+      "id_origem": 103124,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=103124",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-106819",
+      "id_origem": 106819,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=106819",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-110683",
+      "id_origem": 110683,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110683",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-110944",
+      "id_origem": 110944,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110944",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-113889",
+      "id_origem": 113889,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113889",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-113890",
+      "id_origem": 113890,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=113890",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-114685",
+      "id_origem": 114685,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114685",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-115232",
+      "id_origem": 115232,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115232",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-121369",
+      "id_origem": 121369,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=121369",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-122447",
+      "id_origem": 122447,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=122447",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-128728",
+      "id_origem": 128728,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=128728",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-131294",
+      "id_origem": 131294,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131294",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-131298",
+      "id_origem": 131298,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131298",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-131301",
+      "id_origem": 131301,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131301",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-131303",
+      "id_origem": 131303,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131303",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-131866",
+      "id_origem": 131866,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=131866",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-133006",
+      "id_origem": 133006,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=133006",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-134944",
+      "id_origem": 134944,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=134944",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-135107",
+      "id_origem": 135107,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=135107",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-138347",
+      "id_origem": 138347,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138347",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-138505",
+      "id_origem": 138505,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138505",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-138515",
+      "id_origem": 138515,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138515",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-138529",
+      "id_origem": 138529,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=138529",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-141867",
+      "id_origem": 141867,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=141867",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-143181",
+      "id_origem": 143181,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=143181",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-147395",
+      "id_origem": 147395,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147395",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-147399",
+      "id_origem": 147399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-147966",
+      "id_origem": 147966,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=147966",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-148653",
+      "id_origem": 148653,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=148653",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-150184",
+      "id_origem": 150184,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150184",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-150700",
+      "id_origem": 150700,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=150700",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-151567",
+      "id_origem": 151567,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=151567",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-156067",
+      "id_origem": 156067,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=156067",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-158033",
+      "id_origem": 158033,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=158033",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-164393",
+      "id_origem": 164393,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=164393",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:34:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-1750",
+      "id_origem": 1750,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1750",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-17635",
+      "id_origem": 17635,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17635",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-1833",
+      "id_origem": 1833,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1833",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-18855",
+      "id_origem": 18855,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18855",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-18980",
+      "id_origem": 18980,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18980",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-18981",
+      "id_origem": 18981,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18981",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-284",
+      "id_origem": 284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-292",
+      "id_origem": 292,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=292",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-38821",
+      "id_origem": 38821,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=38821",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-48224",
+      "id_origem": 48224,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48224",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-48734",
+      "id_origem": 48734,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48734",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-51572",
+      "id_origem": 51572,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51572",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-93025",
+      "id_origem": 93025,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=93025",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-FRANCA-DE-XIRA-97336",
+      "id_origem": 97336,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=97336",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:33:57Z"
+    }
+  ]
+}
