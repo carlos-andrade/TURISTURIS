@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Proença-A-Nova",
+  "target_total": 68,
+  "offset": 0,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-10044",
+      "id_origem": 10044,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=10044",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-101283",
+      "id_origem": 101283,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=101283",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-102798",
+      "id_origem": 102798,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=102798",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-110134",
+      "id_origem": 110134,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=110134",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-111451",
+      "id_origem": 111451,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=111451",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-114020",
+      "id_origem": 114020,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114020",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-114874",
+      "id_origem": 114874,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=114874",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-115345",
+      "id_origem": 115345,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=115345",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-120576",
+      "id_origem": 120576,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=120576",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-121521",
+      "id_origem": 121521,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=121521",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123069",
+      "id_origem": 123069,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123069",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123073",
+      "id_origem": 123073,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123073",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123076",
+      "id_origem": 123076,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123076",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123080",
+      "id_origem": 123080,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123080",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123083",
+      "id_origem": 123083,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123083",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-123086",
+      "id_origem": 123086,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=123086",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-144384",
+      "id_origem": 144384,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144384",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-144797",
+      "id_origem": 144797,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=144797",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-15649",
+      "id_origem": 15649,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15649",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-1809",
+      "id_origem": 1809,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1809",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-1811",
+      "id_origem": 1811,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1811",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-1831",
+      "id_origem": 1831,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1831",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-1832",
+      "id_origem": 1832,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1832",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-1855",
+      "id_origem": 1855,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=1855",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-2075",
+      "id_origem": 2075,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2075",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:58Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-21669",
+      "id_origem": 21669,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=21669",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-2519",
+      "id_origem": 2519,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2519",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-2520",
+      "id_origem": 2520,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2520",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-2523",
+      "id_origem": 2523,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2523",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-2524",
+      "id_origem": 2524,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=2524",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-31399",
+      "id_origem": 31399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-31407",
+      "id_origem": 31407,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31407",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-31409",
+      "id_origem": 31409,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31409",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-31413",
+      "id_origem": 31413,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=31413",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-33920",
+      "id_origem": 33920,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=33920",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-34813",
+      "id_origem": 34813,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=34813",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-43945",
+      "id_origem": 43945,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43945",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-44377",
+      "id_origem": 44377,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44377",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:01Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-45",
+      "id_origem": 45,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-55314",
+      "id_origem": 55314,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=55314",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-63082",
+      "id_origem": 63082,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=63082",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-68788",
+      "id_origem": 68788,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=68788",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-69044",
+      "id_origem": 69044,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=69044",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-74758",
+      "id_origem": 74758,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=74758",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-75",
+      "id_origem": 75,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=75",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:49:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-8156",
+      "id_origem": 8156,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=8156",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-82548",
+      "id_origem": 82548,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=82548",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-92399",
+      "id_origem": 92399,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=92399",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-96494",
+      "id_origem": 96494,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96494",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-PROEN-A-A-NOVA-96495",
+      "id_origem": 96495,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=96495",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T02:50:04Z"
+    }
+  ]
+}
