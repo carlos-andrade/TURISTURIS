@@ -2375,17 +2375,16 @@
       "municipio": "Sesimbra",
       "slug": "sesimbra",
       "target_total": 960,
-      "lotes": 14,
+      "lotes": 15,
       "lotes_em_falta": [
-        700,
         750,
         800,
         850,
         900,
         950
       ],
-      "registros": 700,
-      "ids_unicos": 700,
+      "registros": 750,
+      "ids_unicos": 750,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
