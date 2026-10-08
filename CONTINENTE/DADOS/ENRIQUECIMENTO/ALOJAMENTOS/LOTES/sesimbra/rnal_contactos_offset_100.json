@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Sesimbra",
+  "target_total": 960,
+  "offset": 100,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-43007",
+      "id_origem": 43007,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43007",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-43028",
+      "id_origem": 43028,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43028",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-43036",
+      "id_origem": 43036,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43036",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-43039",
+      "id_origem": 43039,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=43039",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:45Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44434",
+      "id_origem": 44434,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44434",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44470",
+      "id_origem": 44470,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44470",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44471",
+      "id_origem": 44471,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44471",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44495",
+      "id_origem": 44495,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44495",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:46Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44734",
+      "id_origem": 44734,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44734",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-44835",
+      "id_origem": 44835,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=44835",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-45052",
+      "id_origem": 45052,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45052",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-45486",
+      "id_origem": 45486,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45486",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:47Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-45580",
+      "id_origem": 45580,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45580",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46017",
+      "id_origem": 46017,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46017",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46053",
+      "id_origem": 46053,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46053",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46061",
+      "id_origem": 46061,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46061",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:48Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46134",
+      "id_origem": 46134,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46134",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46148",
+      "id_origem": 46148,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46148",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46528",
+      "id_origem": 46528,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46528",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-46836",
+      "id_origem": 46836,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46836",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:49Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-47158",
+      "id_origem": 47158,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47158",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48449",
+      "id_origem": 48449,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48449",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48451",
+      "id_origem": 48451,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48451",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48452",
+      "id_origem": 48452,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48452",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:50Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48453",
+      "id_origem": 48453,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48453",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48459",
+      "id_origem": 48459,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48459",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48460",
+      "id_origem": 48460,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48460",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48462",
+      "id_origem": 48462,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48462",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:51Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48464",
+      "id_origem": 48464,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48464",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-48465",
+      "id_origem": 48465,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48465",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-49271",
+      "id_origem": 49271,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49271",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-50084",
+      "id_origem": 50084,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50084",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:52Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-50150",
+      "id_origem": 50150,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50150",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-50703",
+      "id_origem": 50703,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50703",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-51526",
+      "id_origem": 51526,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51526",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-51610",
+      "id_origem": 51610,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51610",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-51658",
+      "id_origem": 51658,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51658",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:53Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-52358",
+      "id_origem": 52358,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=52358",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-52366",
+      "id_origem": 52366,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=52366",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-52914",
+      "id_origem": 52914,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=52914",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-52981",
+      "id_origem": 52981,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=52981",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-53027",
+      "id_origem": 53027,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53027",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-53097",
+      "id_origem": 53097,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53097",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:54Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-53307",
+      "id_origem": 53307,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53307",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-53513",
+      "id_origem": 53513,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=53513",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-54452",
+      "id_origem": 54452,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54452",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-54648",
+      "id_origem": 54648,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54648",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-54923",
+      "id_origem": 54923,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=54923",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:55Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-55020",
+      "id_origem": 55020,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=55020",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:56Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SESIMBRA-55032",
+      "id_origem": 55032,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=55032",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:17:56Z"
+    }
+  ]
+}
