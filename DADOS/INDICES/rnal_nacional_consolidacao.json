@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 264,
+  "municipios_validados": 265,
   "acceptance": false,
   "municipios": [
     {
@@ -2914,13 +2914,11 @@
       "municipio": "Vila Real",
       "slug": "vila-real",
       "target_total": 196,
-      "lotes": 3,
-      "lotes_em_falta": [
-        150
-      ],
-      "registros": 150,
-      "ids_unicos": 150,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 4,
+      "lotes_em_falta": [],
+      "registros": 196,
+      "ids_unicos": 196,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
