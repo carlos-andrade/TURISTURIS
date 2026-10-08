@@ -2738,9 +2738,8 @@
       "municipio": "Viana do Castelo",
       "slug": "viana-do-castelo",
       "target_total": 533,
-      "lotes": 4,
+      "lotes": 5,
       "lotes_em_falta": [
-        200,
         250,
         300,
         350,
@@ -2748,8 +2747,8 @@
         450,
         500
       ],
-      "registros": 200,
-      "ids_unicos": 200,
+      "registros": 250,
+      "ids_unicos": 250,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
