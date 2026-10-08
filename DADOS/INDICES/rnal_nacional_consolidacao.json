@@ -2617,14 +2617,13 @@
       "municipio": "Torres Vedras",
       "slug": "torres-vedras",
       "target_total": 346,
-      "lotes": 4,
+      "lotes": 5,
       "lotes_em_falta": [
-        200,
         250,
         300
       ],
-      "registros": 200,
-      "ids_unicos": 200,
+      "registros": 250,
+      "ids_unicos": 250,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
