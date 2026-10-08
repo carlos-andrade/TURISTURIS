@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 253,
+  "municipios_validados": 254,
   "acceptance": false,
   "municipios": [
     {
@@ -2793,13 +2793,11 @@
       "municipio": "Vila do Conde",
       "slug": "vila-do-conde",
       "target_total": 440,
-      "lotes": 8,
-      "lotes_em_falta": [
-        400
-      ],
-      "registros": 400,
-      "ids_unicos": 400,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 9,
+      "lotes_em_falta": [],
+      "registros": 440,
+      "ids_unicos": 440,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
