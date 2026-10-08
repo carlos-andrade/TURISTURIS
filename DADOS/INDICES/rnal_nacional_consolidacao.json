@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 242,
+  "municipios_validados": 243,
   "acceptance": false,
   "municipios": [
     {
@@ -2672,13 +2672,11 @@
       "municipio": "Vale de Cambra",
       "slug": "vale-de-cambra",
       "target_total": 63,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 63,
+      "ids_unicos": 63,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
