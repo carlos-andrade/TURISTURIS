@@ -2100,9 +2100,8 @@
       "municipio": "Porto",
       "slug": "porto",
       "target_total": 9923,
-      "lotes": 110,
+      "lotes": 111,
       "lotes_em_falta": [
-        5500,
         5550,
         5600,
         5650,
@@ -2192,8 +2191,8 @@
         9850,
         9900
       ],
-      "registros": 5500,
-      "ids_unicos": 5500,
+      "registros": 5550,
+      "ids_unicos": 5550,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
