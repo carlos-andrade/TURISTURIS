@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 257,
+  "municipios_validados": 258,
   "acceptance": false,
   "municipios": [
     {
@@ -2837,13 +2837,11 @@
       "municipio": "Vila Nova de Cerveira",
       "slug": "vila-nova-de-cerveira",
       "target_total": 130,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 130,
+      "ids_unicos": 130,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
