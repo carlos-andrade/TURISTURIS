@@ -2595,14 +2595,13 @@
       "municipio": "Torre de Moncorvo",
       "slug": "torre-de-moncorvo",
       "target_total": 73,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
