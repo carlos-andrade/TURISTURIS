@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 207,
+  "municipios_validados": 208,
   "acceptance": false,
   "municipios": [
     {
@@ -2287,13 +2287,11 @@
       "municipio": "Santiago do Cacém",
       "slug": "santiago-do-cacem",
       "target_total": 340,
-      "lotes": 6,
-      "lotes_em_falta": [
-        300
-      ],
-      "registros": 300,
-      "ids_unicos": 300,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 7,
+      "lotes_em_falta": [],
+      "registros": 340,
+      "ids_unicos": 340,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
