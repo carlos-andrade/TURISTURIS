@@ -2375,9 +2375,8 @@
       "municipio": "Sesimbra",
       "slug": "sesimbra",
       "target_total": 960,
-      "lotes": 3,
+      "lotes": 4,
       "lotes_em_falta": [
-        150,
         200,
         250,
         300,
@@ -2395,8 +2394,8 @@
         900,
         950
       ],
-      "registros": 150,
-      "ids_unicos": 150,
+      "registros": 200,
+      "ids_unicos": 200,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
