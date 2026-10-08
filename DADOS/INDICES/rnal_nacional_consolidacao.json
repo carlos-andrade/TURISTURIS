@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 250,
+  "municipios_validados": 251,
   "acceptance": false,
   "municipios": [
     {
@@ -2760,13 +2760,11 @@
       "municipio": "Vieira do Minho",
       "slug": "vieira-do-minho",
       "target_total": 373,
-      "lotes": 7,
-      "lotes_em_falta": [
-        350
-      ],
-      "registros": 350,
-      "ids_unicos": 350,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 8,
+      "lotes_em_falta": [],
+      "registros": 373,
+      "ids_unicos": 373,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
