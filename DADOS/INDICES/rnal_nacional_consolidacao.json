@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 248,
+  "municipios_validados": 249,
   "acceptance": false,
   "municipios": [
     {
@@ -2738,13 +2738,11 @@
       "municipio": "Viana do Castelo",
       "slug": "viana-do-castelo",
       "target_total": 533,
-      "lotes": 10,
-      "lotes_em_falta": [
-        500
-      ],
-      "registros": 500,
-      "ids_unicos": 500,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 11,
+      "lotes_em_falta": [],
+      "registros": 533,
+      "ids_unicos": 533,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
