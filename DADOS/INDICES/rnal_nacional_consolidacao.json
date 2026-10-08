@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 190,
+  "municipios_validados": 191,
   "acceptance": false,
   "municipios": [
     {
@@ -2100,13 +2100,11 @@
       "municipio": "Porto",
       "slug": "porto",
       "target_total": 9923,
-      "lotes": 198,
-      "lotes_em_falta": [
-        9900
-      ],
-      "registros": 9900,
-      "ids_unicos": 9900,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 199,
+      "lotes_em_falta": [],
+      "registros": 9923,
+      "ids_unicos": 9923,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
