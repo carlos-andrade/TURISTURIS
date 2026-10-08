@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 220,
+  "municipios_validados": 221,
   "acceptance": false,
   "municipios": [
     {
@@ -2430,13 +2430,11 @@
       "municipio": "Sintra",
       "slug": "sintra",
       "target_total": 1234,
-      "lotes": 24,
-      "lotes_em_falta": [
-        1200
-      ],
-      "registros": 1200,
-      "ids_unicos": 1200,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 25,
+      "lotes_em_falta": [],
+      "registros": 1234,
+      "ids_unicos": 1234,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
