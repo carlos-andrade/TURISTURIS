@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 226,
+  "municipios_validados": 227,
   "acceptance": false,
   "municipios": [
     {
@@ -2496,13 +2496,11 @@
       "municipio": "São João da Madeira",
       "slug": "sao-joao-da-madeira",
       "target_total": 18,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 18,
+      "ids_unicos": 18,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
