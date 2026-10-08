@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Silves",
+  "target_total": 2745,
+  "offset": 2450,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 49,
+    "ERRO_REDE": 1
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168456",
+      "id_origem": 168456,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168456",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168457",
+      "id_origem": 168457,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168457",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168499",
+      "id_origem": 168499,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168499",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168501",
+      "id_origem": 168501,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168501",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168503",
+      "id_origem": 168503,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168503",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168620",
+      "id_origem": 168620,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168620",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168717",
+      "id_origem": 168717,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168717",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168719",
+      "id_origem": 168719,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168719",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168724",
+      "id_origem": 168724,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168724",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168770",
+      "id_origem": 168770,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168770",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168777",
+      "id_origem": 168777,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168777",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-168781",
+      "id_origem": 168781,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=168781",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169122",
+      "id_origem": 169122,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169122",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169128",
+      "id_origem": 169128,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169128",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169161",
+      "id_origem": 169161,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169161",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169163",
+      "id_origem": 169163,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169163",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169168",
+      "id_origem": 169168,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169168",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169395",
+      "id_origem": 169395,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169395",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169404",
+      "id_origem": 169404,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169404",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169447",
+      "id_origem": 169447,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169447",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169451",
+      "id_origem": 169451,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169451",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169454",
+      "id_origem": 169454,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169454",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169459",
+      "id_origem": 169459,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169459",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169461",
+      "id_origem": 169461,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169461",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169507",
+      "id_origem": 169507,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169507",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169547",
+      "id_origem": 169547,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169547",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169640",
+      "id_origem": 169640,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169640",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169646",
+      "id_origem": 169646,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169646",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169649",
+      "id_origem": 169649,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169649",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169735",
+      "id_origem": 169735,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169735",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169814",
+      "id_origem": 169814,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169814",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169853",
+      "id_origem": 169853,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169853",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:21Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169970",
+      "id_origem": 169970,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169970",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169971",
+      "id_origem": 169971,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169971",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169980",
+      "id_origem": 169980,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169980",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-169982",
+      "id_origem": 169982,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=169982",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170074",
+      "id_origem": 170074,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170074",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170081",
+      "id_origem": 170081,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170081",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170292",
+      "id_origem": 170292,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170292",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170298",
+      "id_origem": 170298,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170298",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170300",
+      "id_origem": 170300,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170300",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170305",
+      "id_origem": 170305,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170305",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170309",
+      "id_origem": 170309,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170309",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170402",
+      "id_origem": 170402,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170402",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170493",
+      "id_origem": 170493,
+      "status": "ERRO_REDE",
+      "erro": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170501",
+      "id_origem": 170501,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170501",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170619",
+      "id_origem": 170619,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170619",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170621",
+      "id_origem": 170621,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170621",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170647",
+      "id_origem": 170647,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170647",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:26Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SILVES-170649",
+      "id_origem": 170649,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=170649",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T03:59:27Z"
+    }
+  ]
+}
