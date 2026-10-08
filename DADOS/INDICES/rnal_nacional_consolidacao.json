@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 201,
+  "municipios_validados": 202,
   "acceptance": false,
   "municipios": [
     {
@@ -2221,13 +2221,11 @@
       "municipio": "Sabugal",
       "slug": "sabugal",
       "target_total": 73,
-      "lotes": 1,
-      "lotes_em_falta": [
-        50
-      ],
-      "registros": 50,
-      "ids_unicos": 50,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 2,
+      "lotes_em_falta": [],
+      "registros": 73,
+      "ids_unicos": 73,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
