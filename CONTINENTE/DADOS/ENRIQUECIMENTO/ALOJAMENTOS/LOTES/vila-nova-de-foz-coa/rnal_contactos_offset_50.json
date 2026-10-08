@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila Nova de Foz Côa",
+  "target_total": 51,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 1,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 1
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-NOVA-DE-FOZ-C-A-179168",
+      "id_origem": 179168,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=179168",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:38:10Z"
+    }
+  ]
+}
