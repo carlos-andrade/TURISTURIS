@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 196,
+  "municipios_validados": 197,
   "acceptance": false,
   "municipios": [
     {
@@ -2166,13 +2166,11 @@
       "municipio": "Reguengos de Monsaraz",
       "slug": "reguengos-de-monsaraz",
       "target_total": 282,
-      "lotes": 5,
-      "lotes_em_falta": [
-        250
-      ],
-      "registros": 250,
-      "ids_unicos": 250,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 6,
+      "lotes_em_falta": [],
+      "registros": 282,
+      "ids_unicos": 282,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
