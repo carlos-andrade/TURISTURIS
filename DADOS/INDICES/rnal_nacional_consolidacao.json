@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 222,
+  "municipios_validados": 223,
   "acceptance": false,
   "municipios": [
     {
@@ -2452,13 +2452,11 @@
       "municipio": "Soure",
       "slug": "soure",
       "target_total": 26,
-      "lotes": 0,
-      "lotes_em_falta": [
-        0
-      ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "lotes": 1,
+      "lotes_em_falta": [],
+      "registros": 26,
+      "ids_unicos": 26,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
