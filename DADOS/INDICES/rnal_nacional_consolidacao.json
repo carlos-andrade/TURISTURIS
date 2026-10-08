@@ -2782,9 +2782,8 @@
       "municipio": "Vila do Bispo",
       "slug": "vila-do-bispo",
       "target_total": 1181,
-      "lotes": 6,
+      "lotes": 7,
       "lotes_em_falta": [
-        300,
         350,
         400,
         450,
@@ -2803,8 +2802,8 @@
         1100,
         1150
       ],
-      "registros": 300,
-      "ids_unicos": 300,
+      "registros": 350,
+      "ids_unicos": 350,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },

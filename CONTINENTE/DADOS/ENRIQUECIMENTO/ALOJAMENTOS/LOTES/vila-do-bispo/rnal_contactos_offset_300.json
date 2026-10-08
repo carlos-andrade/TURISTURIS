@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Vila do Bispo",
+  "target_total": 1181,
+  "offset": 300,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 50
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-15875",
+      "id_origem": 15875,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15875",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:20:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-15879",
+      "id_origem": 15879,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15879",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:20:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-15888",
+      "id_origem": 15888,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=15888",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:20:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16039",
+      "id_origem": 16039,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16039",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:20:59Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16875",
+      "id_origem": 16875,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16875",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16943",
+      "id_origem": 16943,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16943",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16973",
+      "id_origem": 16973,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16973",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16974",
+      "id_origem": 16974,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16974",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:00Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-16982",
+      "id_origem": 16982,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=16982",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17038",
+      "id_origem": 17038,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17038",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17133",
+      "id_origem": 17133,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17133",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17134",
+      "id_origem": 17134,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17134",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:02Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17142",
+      "id_origem": 17142,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17142",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17182",
+      "id_origem": 17182,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17182",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17193",
+      "id_origem": 17193,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17193",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17233",
+      "id_origem": 17233,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17233",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17272",
+      "id_origem": 17272,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17272",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:03Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17273",
+      "id_origem": 17273,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17273",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17274",
+      "id_origem": 17274,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17274",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17275",
+      "id_origem": 17275,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17275",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17277",
+      "id_origem": 17277,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17277",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:04Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17278",
+      "id_origem": 17278,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17278",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17279",
+      "id_origem": 17279,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17279",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17280",
+      "id_origem": 17280,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17280",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:05Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17281",
+      "id_origem": 17281,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17281",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17282",
+      "id_origem": 17282,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17282",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17283",
+      "id_origem": 17283,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17283",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17284",
+      "id_origem": 17284,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17284",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:06Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17331",
+      "id_origem": 17331,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17331",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17436",
+      "id_origem": 17436,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17436",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17479",
+      "id_origem": 17479,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17479",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17485",
+      "id_origem": 17485,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17485",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17502",
+      "id_origem": 17502,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17502",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:07Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17513",
+      "id_origem": 17513,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17513",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17556",
+      "id_origem": 17556,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17556",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17578",
+      "id_origem": 17578,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17578",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17710",
+      "id_origem": 17710,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17710",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:08Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17748",
+      "id_origem": 17748,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17748",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17768",
+      "id_origem": 17768,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17768",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17824",
+      "id_origem": 17824,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17824",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17835",
+      "id_origem": 17835,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17835",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:09Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17841",
+      "id_origem": 17841,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17841",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17850",
+      "id_origem": 17850,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17850",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17964",
+      "id_origem": 17964,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17964",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17978",
+      "id_origem": 17978,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17978",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:10Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17986",
+      "id_origem": 17986,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17986",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17989",
+      "id_origem": 17989,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17989",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-17991",
+      "id_origem": 17991,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=17991",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-18013",
+      "id_origem": 18013,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18013",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:11Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-VILA-DO-BISPO-18018",
+      "id_origem": 18018,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=18018",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T05:21:11Z"
+    }
+  ]
+}
