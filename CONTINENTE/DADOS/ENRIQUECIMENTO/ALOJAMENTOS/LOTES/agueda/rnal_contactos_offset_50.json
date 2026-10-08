@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Águeda",
+  "target_total": 52,
+  "offset": 50,
+  "limit": 50,
+  "record_count": 2,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 2
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-GUEDA-178904",
+      "id_origem": 178904,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=178904",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:13:57Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-GUEDA-180507",
+      "id_origem": 180507,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=180507",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T06:13:57Z"
+    }
+  ]
+}
