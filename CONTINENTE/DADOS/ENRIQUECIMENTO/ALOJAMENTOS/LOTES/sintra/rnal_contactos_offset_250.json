@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.2",
+  "process": "WEB-12.6",
+  "source": "RNT/RNAL",
+  "municipio": "Sintra",
+  "target_total": 1234,
+  "offset": 250,
+  "limit": 50,
+  "record_count": 50,
+  "status_counts": {
+    "CONTACTOS_GENERICOS_FONTE": 46,
+    "ERRO_REDE": 4
+  },
+  "records": [
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45203",
+      "id_origem": 45203,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45203",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45253",
+      "id_origem": 45253,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45253",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45281",
+      "id_origem": 45281,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45281",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45319",
+      "id_origem": 45319,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45319",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:12Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45320",
+      "id_origem": 45320,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45320",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-45869",
+      "id_origem": 45869,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=45869",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46322",
+      "id_origem": 46322,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46322",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46626",
+      "id_origem": 46626,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46626",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:13Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46712",
+      "id_origem": 46712,
+      "status": "ERRO_REDE",
+      "erro": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46717",
+      "id_origem": 46717,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46717",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46745",
+      "id_origem": 46745,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46745",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46803",
+      "id_origem": 46803,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46803",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-46875",
+      "id_origem": 46875,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=46875",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-47086",
+      "id_origem": 47086,
+      "status": "ERRO_REDE",
+      "erro": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-47095",
+      "id_origem": 47095,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47095",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:14Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-47199",
+      "id_origem": 47199,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=47199",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:15Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48556",
+      "id_origem": 48556,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48556",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:24Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48558",
+      "id_origem": 48558,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48558",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:16Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48560",
+      "id_origem": 48560,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48560",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:17Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48561",
+      "id_origem": 48561,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48561",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48687",
+      "id_origem": 48687,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48687",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:18Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48690",
+      "id_origem": 48690,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48690",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:19Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48693",
+      "id_origem": 48693,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48693",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48821",
+      "id_origem": 48821,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48821",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:20Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48842",
+      "id_origem": 48842,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48842",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:22Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48930",
+      "id_origem": 48930,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48930",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:23Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-48947",
+      "id_origem": 48947,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=48947",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:25Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49099",
+      "id_origem": 49099,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49099",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49105",
+      "id_origem": 49105,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49105",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:29Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49324",
+      "id_origem": 49324,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49324",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:30Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49328",
+      "id_origem": 49328,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49328",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:31Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49330",
+      "id_origem": 49330,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49330",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49339",
+      "id_origem": 49339,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49339",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:32Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49466",
+      "id_origem": 49466,
+      "status": "ERRO_REDE",
+      "erro": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49782",
+      "id_origem": 49782,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49782",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-49996",
+      "id_origem": 49996,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=49996",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:33Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50035",
+      "id_origem": 50035,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50035",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:34Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50040",
+      "id_origem": 50040,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50040",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50046",
+      "id_origem": 50046,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50046",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:35Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50246",
+      "id_origem": 50246,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50246",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:36Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50342",
+      "id_origem": 50342,
+      "status": "ERRO_REDE",
+      "erro": "<urlopen error timed out>"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50651",
+      "id_origem": 50651,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50651",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:37Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50745",
+      "id_origem": 50745,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50745",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-50952",
+      "id_origem": 50952,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=50952",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:38Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51582",
+      "id_origem": 51582,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51582",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51682",
+      "id_origem": 51682,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51682",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51850",
+      "id_origem": 51850,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51850",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51878",
+      "id_origem": 51878,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51878",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:39Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51879",
+      "id_origem": 51879,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51879",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:40Z"
+    },
+    {
+      "id": "PT-ALOJ-RNAL-SINTRA-51887",
+      "id_origem": 51887,
+      "status": "CONTACTOS_GENERICOS_FONTE",
+      "ficha_oficial": "https://rnt.turismodeportugal.pt/RNT/RNAL.aspx?nr=51887",
+      "telefone": [],
+      "email": [],
+      "data_recolha_utc": "2026-10-08T04:06:40Z"
+    }
+  ]
+}
