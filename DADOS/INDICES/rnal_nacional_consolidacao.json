@@ -2870,9 +2870,8 @@
       "municipio": "Vila Nova de Gaia",
       "slug": "vila-nova-de-gaia",
       "target_total": 1713,
-      "lotes": 15,
+      "lotes": 16,
       "lotes_em_falta": [
-        750,
         800,
         850,
         900,
@@ -2893,8 +2892,8 @@
         1650,
         1700
       ],
-      "registros": 750,
-      "ids_unicos": 750,
+      "registros": 800,
+      "ids_unicos": 800,
       "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
