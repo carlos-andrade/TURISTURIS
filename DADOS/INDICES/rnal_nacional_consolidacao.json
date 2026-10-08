@@ -2320,9 +2320,8 @@
       "municipio": "Seia",
       "slug": "seia",
       "target_total": 311,
-      "lotes": 0,
+      "lotes": 1,
       "lotes_em_falta": [
-        0,
         50,
         100,
         150,
@@ -2330,9 +2329,9 @@
         250,
         300
       ],
-      "registros": 0,
-      "ids_unicos": 0,
-      "estado": "PENDENTE",
+      "registros": 50,
+      "ids_unicos": 50,
+      "estado": "EM_PROCESSAMENTO",
       "erros": []
     },
     {
