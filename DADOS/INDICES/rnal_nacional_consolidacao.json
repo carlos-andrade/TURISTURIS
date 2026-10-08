@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 228,
+  "municipios_validados": 229,
   "acceptance": false,
   "municipios": [
     {
@@ -2518,13 +2518,11 @@
       "municipio": "São Pedro do Sul",
       "slug": "sao-pedro-do-sul",
       "target_total": 142,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 142,
+      "ids_unicos": 142,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
