@@ -3,7 +3,7 @@
   "process": "WEB-12.6-CONSOLIDACAO-NACIONAL",
   "municipios_total": 278,
   "registos_rnal_total": 111869,
-  "municipios_validados": 191,
+  "municipios_validados": 192,
   "acceptance": false,
   "municipios": [
     {
@@ -2111,13 +2111,11 @@
       "municipio": "Porto de Mós",
       "slug": "porto-de-mos",
       "target_total": 116,
-      "lotes": 2,
-      "lotes_em_falta": [
-        100
-      ],
-      "registros": 100,
-      "ids_unicos": 100,
-      "estado": "EM_PROCESSAMENTO",
+      "lotes": 3,
+      "lotes_em_falta": [],
+      "registros": 116,
+      "ids_unicos": 116,
+      "estado": "VALIDADO",
       "erros": []
     },
     {
