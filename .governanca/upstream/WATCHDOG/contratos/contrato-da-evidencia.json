@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de evidência WATCHDOG",
+  "type": "object",
+  "required": ["control_id", "checked_at", "state", "source", "evaluator_version"],
+  "properties": {
+    "control_id": {"type": "string", "minLength": 1},
+    "checked_at": {"type": "string", "format": "date-time"},
+    "state": {"enum": ["PASS", "WARN", "FAIL", "UNKNOWN"]},
+    "source": {"type": "string", "minLength": 1},
+    "evaluator_version": {"type": "string", "minLength": 1},
+    "evidence_ref": {"type": "string"},
+    "details": {"type": "string"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "policy": "WATCHDOG",
+  "rules": [
+    {"id": "WD-COV-001", "name": "Inventário com owner e criticidade", "required": true},
+    {"id": "WD-COV-002", "name": "Evidência rastreável para cada PASS", "required": true},
+    {"id": "WD-COV-003", "name": "Dados ausentes nunca classificados como PASS", "required": true},
+    {"id": "WD-COV-004", "name": "Escalonamento e responsável definidos", "required": true},
+    {"id": "WD-COV-005", "name": "Supervisão independente do próprio monitor", "required": true},
+    {"id": "WD-COV-006", "name": "Teste de falha e recuperação para controlos críticos", "required": true}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de monitor WATCHDOG",
+  "type": "object",
+  "required": ["schema_version", "systems"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "owner", "criticality", "checks"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]+$"},
+          "name": {"type": "string", "minLength": 1},
+          "owner": {"type": "string", "minLength": 1},
+          "criticality": {"enum": ["critical", "high", "medium", "low"]},
+          "checks": {"type": "array", "items": {"type": "object"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

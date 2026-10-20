@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de alerta WATCHDOG",
+  "type": "object",
+  "required": ["alert_id", "control_id", "state", "severity", "detected_at", "summary"],
+  "properties": {
+    "alert_id": {"type": "string", "minLength": 1},
+    "control_id": {"type": "string", "minLength": 1},
+    "state": {"enum": ["WARN", "FAIL", "UNKNOWN"]},
+    "severity": {"enum": ["SEV-1", "SEV-2", "SEV-3", "SEV-4"]},
+    "detected_at": {"type": "string", "format": "date-time"},
+    "summary": {"type": "string", "minLength": 1},
+    "evidence_ref": {"type": "string"}
+  },
+  "additionalProperties": false
+}

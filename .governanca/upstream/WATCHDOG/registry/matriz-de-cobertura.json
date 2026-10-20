@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "domains": [
+    {"id": "infraestrutura", "status": "PLANEADO", "adapter": "WATCHDOG/adapters/infraestrutura/"},
+    {"id": "dados", "status": "PLANEADO", "adapter": "WATCHDOG/adapters/dados/"},
+    {"id": "aplicacoes", "status": "PLANEADO", "adapter": "WATCHDOG/adapters/aplicacoes/"},
+    {"id": "processos", "status": "PLANEADO", "adapter": "WATCHDOG/adapters/processos/"},
+    {"id": "github-actions", "status": "MVP_LOCAL", "adapter": "WATCHDOG/adapters/github-actions/"}
+  ],
+  "rule": "PLANEADO e MVP_LOCAL não equivalem a monitorização operacional completa."
+}
