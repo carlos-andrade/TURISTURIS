@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "systems": [
+    {
+      "id": "GOVERNANCA-REPO",
+      "name": "Repositório mestre GOVERNANCA",
+      "owner": "Responsável do repositório GOVERNANCA",
+      "criticality": "high",
+      "checks": [
+        {
+          "id": "WD-REPO-001",
+          "name": "README principal presente",
+          "type": "file_exists",
+          "path": "README.md",
+          "required": true
+        },
+        {
+          "id": "WD-REPO-002",
+          "name": "Workflow de sincronização de status presente",
+          "type": "file_exists",
+          "path": ".github/workflows/sync-project-status.yml",
+          "required": true
+        },
+        {
+          "id": "WD-REPO-003",
+          "name": "Testes de sincronização presentes",
+          "type": "nonempty_file",
+          "path": "tests/test_sync_project_status.py",
+          "required": true
+        },
+        {
+          "id": "WD-REPO-004",
+          "name": "Monitorização externa e independente ativa",
+          "type": "external_monitor",
+          "required": true,
+          "notes": "Integração não configurada no MVP; deve permanecer UNKNOWN."
+        }
+      ]
+    }
+  ]
+}

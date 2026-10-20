@@ -1,0 +1,46 @@
+# MODELO AUXILIAR DE METADADOS YAML
+# O cabeçalho visível e canónico dos ficheiros Markdown é a tabela Markdown
+# definida em MODELO-DOCUMENTO.md. Usar este YAML apenas para automação,
+# catalogação ou integração que o exija. Não o usar como substituto do
+# cabeçalho Markdown renderizado pelo GitHub.
+# Não declarar APROVADO sem aprovação verificável.
+# SHA-256: calcular sobre o ficheiro UTF-8/LF excluindo as linhas de SHA-256 e commit.
+# O commit de referência aponta para a versão anterior; não é o commit que contém esta alteração.
+projeto: "NOME_DO_PROJETO"
+repositorio: "https://github.com/OWNER/REPOSITORY"
+tipo_documento: "NORMA | CARTA | PROMPT | ESPECIFICACAO | PLANO | RELATORIO | PROCEDIMENTO | REGISTO | CODIGO | TESTE"
+fase: "FASE_XX ou N/A — justificação"
+id_documento: "PREFIXO-TIPO-001"
+titulo: "Título documental"
+status: "RASCUNHO"
+versao: "1.0.0"
+sha256_conteudo_canonico: "CALCULAR APÓS PREENCHER O DOCUMENTO"
+commit_referencia_anterior: "N/A — documento inicial ou SHA/URL do commit anterior"
+data_criacao: "AAAA-MM-DD"
+data_atualizacao: "AAAA-MM-DD"
+responsavel: "Papel ou responsável"
+aprovador: "Pendente" # Obrigatório e identificado quando status=APROVADO
+data_aprovacao: "N/A — ainda não aprovado"
+vigencia: "N/A — ainda não aprovado"
+proxima_revisao: "AAAA-MM-DD ou N/A — justificação"
+origem:
+  tipo: "DECISAO | REQUISITO | DOCUMENTO | ISSUE | COMMIT | OUTRA"
+  referencia: "URL ou identificador verificável"
+autoridade_documental:
+  superior: "Caminho/URL da norma superior"
+  nivel: "NORMATIVO | OPERACIONAL | TECNICO | INFORMATIVO"
+cadeia_autoridade:
+  - "PROMPTS"
+  - "CARTAS"
+  - "LAYOUT ÚNICO"
+  - "CÓDIGO"
+rastreabilidade:
+  requisitos: []
+  decisoes: []
+  issues: []
+  commits: []
+  testes: []
+  evidencias: []
+escopo: "Âmbito e exclusões"
+objetivo: "Resultado que o documento pretende estabelecer"
+dependencias: []

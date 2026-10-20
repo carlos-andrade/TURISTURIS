@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "source_repository": "carlos-andrade/GOVERNANCA",
+  "source_branch": "main",
+  "source_commit": "72af0c5fed5f4b7e0228e7d2ff21066d56d87ad6",
+  "distribution_policy": "pull_request_only",
+  "files": [
+    {
+      "source_path": "CABEÇALHO/CHECKLIST-VALIDACAO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/CHECKLIST-VALIDACAO.md",
+      "sha256": "cd1ac77fb0cdb5f0c04a518013d9b0d913e24741dd7de6ab2f0e4417835268b9"
+    },
+    {
+      "source_path": "CABEÇALHO/CLASSIFICACAO-PRE-NORMALIZACAO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/CLASSIFICACAO-PRE-NORMALIZACAO.md",
+      "sha256": "fc91a6f403677ad95577c76b610748bd1edde19714d2fa37cc757720d3c5fcb5"
+    },
+    {
+      "source_path": "CABEÇALHO/HISTORICO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/HISTORICO.md",
+      "sha256": "30f6243554c3ec189b102ec62f844f520f2e0f792281b2d30915b42b8b9b2382"
+    },
+    {
+      "source_path": "CABEÇALHO/INVENTARIO-DOCUMENTAL.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/INVENTARIO-DOCUMENTAL.md",
+      "sha256": "4023a9bfe1f3c4b8910e3e7d9232f206fabe43b44889734d3359b254a984fcb6"
+    },
+    {
+      "source_path": "CABEÇALHO/INVENTARIO-REPOSITORIOS-ABRANGIDOS.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/INVENTARIO-REPOSITORIOS-ABRANGIDOS.md",
+      "sha256": "9af7ebfc969890ba3c0dc28d060ffc0a9b268be414303d38aad4009a4d000ec3"
+    },
+    {
+      "source_path": "CABEÇALHO/MODELO-CABECALHO.yml",
+      "destination_path": ".governanca/upstream/CABEÇALHO/MODELO-CABECALHO.yml",
+      "sha256": "8f48a8cd1f4f0fd0c4cffe672a1f46a08b6b93340f47928756321ba85fff6794"
+    },
+    {
+      "source_path": "CABEÇALHO/MODELO-DOCUMENTO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/MODELO-DOCUMENTO.md",
+      "sha256": "8e5c11c41de2644f32979c25112602e7b37285c069258e9bfd5fa0e0cc0da381"
+    },
+    {
+      "source_path": "CABEÇALHO/NORMA-CABECALHO-PADRAO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/NORMA-CABECALHO-PADRAO.md",
+      "sha256": "ec3aa51bf16e5aa10c7328dc8d474e2195f0cad81a7b4eb2fddcb1f167a07f7d"
+    },
+    {
+      "source_path": "CABEÇALHO/PLANO-LOTES-NORMALIZACAO.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/PLANO-LOTES-NORMALIZACAO.md",
+      "sha256": "ed19c04fee661a0fcc87b46d279c5acec40c5e3fa62b3f245152ce7f63f4803b"
+    },
+    {
+      "source_path": "CABEÇALHO/README.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/README.md",
+      "sha256": "8f6542fddda41a670f9bf64796e4bf0b4bfa1b94343f232cefe1c703e61e3f18"
+    },
+    {
+      "source_path": "CABEÇALHO/REGISTO-APROVACAO-NORMA-1.0.3.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/REGISTO-APROVACAO-NORMA-1.0.3.md",
+      "sha256": "a9fc3ff5b8fa1dda70711af68a670d7fbeead4f5735d4973052df1cebf10a2f4"
+    },
+    {
+      "source_path": "CABEÇALHO/REGISTO-TIPOS-DOCUMENTAIS.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/REGISTO-TIPOS-DOCUMENTAIS.md",
+      "sha256": "a589ccf15a8e2c875ff84acd73706eaed98dcc6d8eac80001e5c152b7d833485"
+    },
+    {
+      "source_path": "CABEÇALHO/ROADMAP-ADOCAO-TRANSVERSAL.md",
+      "destination_path": ".governanca/upstream/CABEÇALHO/ROADMAP-ADOCAO-TRANSVERSAL.md",
+      "sha256": "8013496f8ffb293f619c4a32557bcbc79f39c42ae5bb38b5b9a3cda8489ddf95"
+    },
+    {
+      "source_path": "CARTA-CONTRATO-PADRAO-ROADMAP.md",
+      "destination_path": ".governanca/upstream/CARTA-CONTRATO-PADRAO-ROADMAP.md",
+      "sha256": "0173cc12311d55284e44d65a3b9a93a3987eefb984c3a0067d2ea121711d1d06"
+    },
+    {
+      "source_path": "CONSTITUICAO.md",
+      "destination_path": ".governanca/upstream/CONSTITUICAO.md",
+      "sha256": "f913d134fa46f5f47fb2ec625c3ea70ec74d688b0de27234cc9ca4bfd870e771"
+    },
+    {
+      "source_path": "ROADMAP-PADRAO-GOVERNANCA.md",
+      "destination_path": ".governanca/upstream/ROADMAP-PADRAO-GOVERNANCA.md",
+      "sha256": "2e6f090785d0bf91f7298ba42835315d2e2b6154b7c0b859715b8e4ca89eb6c4"
+    },
+    {
+      "source_path": "WATCHDOG/CARTA-WATCHDOG.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/CARTA-WATCHDOG.md",
+      "sha256": "16a0720430d4ec2fa91da2e99145191966858347c1b7e14634a407633671f72d"
+    },
+    {
+      "source_path": "WATCHDOG/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/README.md",
+      "sha256": "916f26cda8d3b07adeaf89ea1cb76d275074c4c9eb1401591257fe57b18439ca"
+    },
+    {
+      "source_path": "WATCHDOG/adapters/aplicacoes/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/adapters/aplicacoes/README.md",
+      "sha256": "1734216c83a2af4050557a7fa51e764d9b5036bec22fc98fb65180f6a0c7203e"
+    },
+    {
+      "source_path": "WATCHDOG/adapters/dados/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/adapters/dados/README.md",
+      "sha256": "99379898ccb179787f15237848e69735a0fd921582d46347725f91c7e23a28d1"
+    },
+    {
+      "source_path": "WATCHDOG/adapters/github-actions/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/adapters/github-actions/README.md",
+      "sha256": "921a11696c14d808ce804a58c7775eb7168fc9b714b084600748fb04f189f1e7"
+    },
+    {
+      "source_path": "WATCHDOG/adapters/infraestrutura/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/adapters/infraestrutura/README.md",
+      "sha256": "ef8c4c714f43f70b5d9a8bb4241bef2273b5b40d9b84d9a4ac213b7bdf7984d9"
+    },
+    {
+      "source_path": "WATCHDOG/adapters/processos/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/adapters/processos/README.md",
+      "sha256": "69bfb09d31f962272969ec1e2df53a9989809b4f7d9434d0de751cbe58774b50"
+    },
+    {
+      "source_path": "WATCHDOG/arquitetura/arquitetura-geral.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/arquitetura/arquitetura-geral.md",
+      "sha256": "6b4bb6fa0c07c9bc54ca92cadd184477e7976ab8640944c827b58ec1dabb2314"
+    },
+    {
+      "source_path": "WATCHDOG/arquitetura/modelo-de-execucao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/arquitetura/modelo-de-execucao.md",
+      "sha256": "0c250c8022103b62653011b4952b5bb8f786a021c9328d40a0a788f70af98840"
+    },
+    {
+      "source_path": "WATCHDOG/arquitetura/modelo-de-integracao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/arquitetura/modelo-de-integracao.md",
+      "sha256": "08beeca740837b925f33b8fc35e1671e2f1f69868a42dab8d94475212e7ee5ce"
+    },
+    {
+      "source_path": "WATCHDOG/contratos/contrato-da-evidencia.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/contratos/contrato-da-evidencia.json",
+      "sha256": "942daf8cc817f5d63043f2c75395a0ba62dd10ec68a4c208627b3be1eced790f"
+    },
+    {
+      "source_path": "WATCHDOG/contratos/contrato-do-alerta.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/contratos/contrato-do-alerta.json",
+      "sha256": "615654fcea25560f72d80cdf1c0bbbb24f93f69941d0fb74964d0ba935dd5cf6"
+    },
+    {
+      "source_path": "WATCHDOG/contratos/contrato-do-monitor.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/contratos/contrato-do-monitor.json",
+      "sha256": "c1a1e42ac93088507e6f029a0c82e9cbda74026eb80bec9a3495695a9f3e8704"
+    },
+    {
+      "source_path": "WATCHDOG/docs/configuracao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/docs/configuracao.md",
+      "sha256": "e114a069a8e5ded6237f1b7488cbf489726f02bfb250f0816b1b90637ac9c620"
+    },
+    {
+      "source_path": "WATCHDOG/docs/instalacao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/docs/instalacao.md",
+      "sha256": "088aa13506250e2d1f2476c09e64dee3889cc3a968c6a8da3890564669c7b753"
+    },
+    {
+      "source_path": "WATCHDOG/docs/operacao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/docs/operacao.md",
+      "sha256": "65be8f519af8a3eca8ae9c48f9ce56ae80e3b220a25014b3b8cc78487f17d6d1"
+    },
+    {
+      "source_path": "WATCHDOG/engine/watchdog.py",
+      "destination_path": ".governanca/upstream/WATCHDOG/engine/watchdog.py",
+      "sha256": "35aa7454847565c73e12dd52fc0967466421158380199a69816951e5beb1d90a"
+    },
+    {
+      "source_path": "WATCHDOG/normas/classificacao-de-estados.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/classificacao-de-estados.md",
+      "sha256": "6ad57646239b89625c8a1a1a43d9c0647a9c1b9a5355164dc96c25de813b4503"
+    },
+    {
+      "source_path": "WATCHDOG/normas/evidencias-e-auditoria.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/evidencias-e-auditoria.md",
+      "sha256": "894bc6b6a18aeb299660a9ff1720fb431f3d46abca83c06ef51dab9c8778707d"
+    },
+    {
+      "source_path": "WATCHDOG/normas/politica-de-monitorizacao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/politica-de-monitorizacao.md",
+      "sha256": "c95047e5a40362b4a72dbab09718a8f0a080590d94e1a4b61e4db364caa11efe"
+    },
+    {
+      "source_path": "WATCHDOG/normas/recuperacao-e-remediacao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/recuperacao-e-remediacao.md",
+      "sha256": "5265d4a6706a5a1571a049f942c3846a44d59e5650b7339199cc390f185f7814"
+    },
+    {
+      "source_path": "WATCHDOG/normas/seguranca-e-privacidade.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/seguranca-e-privacidade.md",
+      "sha256": "3b43ed530b3990a9aef0e5c695c80524f913cbd59bb4f04c915d4f2abe61567b"
+    },
+    {
+      "source_path": "WATCHDOG/normas/severidade-e-escalonamento.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/normas/severidade-e-escalonamento.md",
+      "sha256": "bf44cb62e7ad8d57529648af317350084d0cca6c1f58f89665b90c4f3b2ba6dd"
+    },
+    {
+      "source_path": "WATCHDOG/registry/adocao-transversal.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/registry/adocao-transversal.md",
+      "sha256": "28c78947f917cf105ca6f43502f7a6d22a03e4917fddbdda14eebed341219a38"
+    },
+    {
+      "source_path": "WATCHDOG/registry/controlos-obrigatorios.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/registry/controlos-obrigatorios.json",
+      "sha256": "816f58e33ffff06281e2137dcf2346b14bc1f05361481564d38a70bb51c35f17"
+    },
+    {
+      "source_path": "WATCHDOG/registry/matriz-de-cobertura.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/registry/matriz-de-cobertura.json",
+      "sha256": "479b929d0ea8c50ff24c0cabda7e6f83f74b6e097a658a8415e5ca15aa5a572d"
+    },
+    {
+      "source_path": "WATCHDOG/registry/sistemas-monitorizados.json",
+      "destination_path": ".governanca/upstream/WATCHDOG/registry/sistemas-monitorizados.json",
+      "sha256": "519ac93e52b50aa09ee8053502083d1e949da1f71b6d686290d127151211751b"
+    },
+    {
+      "source_path": "WATCHDOG/reports/exemplos/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/reports/exemplos/README.md",
+      "sha256": "49042f074ba7ece4c52f54422657809560d7e22f38cc8a450add94618d4f81f4"
+    },
+    {
+      "source_path": "WATCHDOG/reports/modelos/relatorio-de-execucao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/reports/modelos/relatorio-de-execucao.md",
+      "sha256": "76dd091c44694d930d9442c6e079b113f8270e03cb1e25b3a2ef120892fab697"
+    },
+    {
+      "source_path": "WATCHDOG/roadmap-de-implementacao.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/roadmap-de-implementacao.md",
+      "sha256": "44fbf52805538dfd2363fee20389a67bf20a62a3d7cd4a131239c617ae2a3ad1"
+    },
+    {
+      "source_path": "WATCHDOG/runbooks/incidente-critico.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/runbooks/incidente-critico.md",
+      "sha256": "a73697c2eb1e1ff06444c64a244bc7c3b7ed294565832f93ebba1b724a0e2118"
+    },
+    {
+      "source_path": "WATCHDOG/runbooks/operacao-de-alertas-e-sla.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/runbooks/operacao-de-alertas-e-sla.md",
+      "sha256": "ed8677b562614b36ffb21ebe8ede5f1d3d0fbe944b6d1e28ad932e8cfd90d72c"
+    },
+    {
+      "source_path": "WATCHDOG/tests/README.md",
+      "destination_path": ".governanca/upstream/WATCHDOG/tests/README.md",
+      "sha256": "bea6a24dcb242320872f6cc5a467bf9fb79b18adc65bc448f1eed807602c41cd"
+    },
+    {
+      "source_path": "WATCHDOG/tests/test_watchdog.py",
+      "destination_path": ".governanca/upstream/WATCHDOG/tests/test_watchdog.py",
+      "sha256": "dc4b96875e9c47c7ac3b1b761d1e6c823d6d7a578507fb26ffa06c44585c8c24"
+    },
+    {
+      "source_path": "docs/00-fundamentos/modelo-operacional.md",
+      "destination_path": ".governanca/upstream/docs/00-fundamentos/modelo-operacional.md",
+      "sha256": "a4547697fe928fa306878da13674e7189d894c28c3446076a4ee5603404107ae"
+    },
+    {
+      "source_path": "docs/00-fundamentos/principios-de-adaptacao.md",
+      "destination_path": ".governanca/upstream/docs/00-fundamentos/principios-de-adaptacao.md",
+      "sha256": "44e93626f287c4b4a9813591ba58e30b74d631e33daccbcbdfe33fd00dc1bef9"
+    },
+    {
+      "source_path": "docs/00-fundamentos/taxonomia-e-glossario.md",
+      "destination_path": ".governanca/upstream/docs/00-fundamentos/taxonomia-e-glossario.md",
+      "sha256": "6e1d5c3ce7f094f3ec3c6caff575312a98e22f36cd2dc23664bed8706ae9d7c6"
+    },
+    {
+      "source_path": "docs/01-governanca/DEC-GOV-INTEGRATION-FRAMEWORK-001.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/DEC-GOV-INTEGRATION-FRAMEWORK-001.md",
+      "sha256": "5f071d2041b517b9732430b543c38ee25ec2430f0eb04434d9dc67a816c981ec"
+    },
+    {
+      "source_path": "docs/01-governanca/ESPECIFICACAO-GOVERNANCE-INTEGRATION-FRAMEWORK-001.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/ESPECIFICACAO-GOVERNANCE-INTEGRATION-FRAMEWORK-001.md",
+      "sha256": "bbfacd24215d10b140bc006e05617b03749927e85109b8334b625639876fe971"
+    },
+    {
+      "source_path": "docs/01-governanca/IMPLEMENTACAO-F2-GOVERNANCE-ENGINE.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/IMPLEMENTACAO-F2-GOVERNANCE-ENGINE.md",
+      "sha256": "9dcb4be3843ad4d3e131edb79bf86fcc40789c4c2a0a1a923d1231b8dc491fb9"
+    },
+    {
+      "source_path": "docs/01-governanca/RELATORIO-PILOTO-F3-STOCKS.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/RELATORIO-PILOTO-F3-STOCKS.md",
+      "sha256": "ebec2cca9a90bffb00d7aa5b20dd35f1936c7897c87b44e4e2713511df580753"
+    },
+    {
+      "source_path": "docs/01-governanca/distribuicao-automatica-regras.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/distribuicao-automatica-regras.md",
+      "sha256": "d1c4ce3893960e1eae3a6ef35d3a56585556df3edef11a055c8501e8c2da8938"
+    },
+    {
+      "source_path": "docs/01-governanca/papeis-e-responsabilidades.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/papeis-e-responsabilidades.md",
+      "sha256": "f972b4d4544e3c0cfd8d696c474ce430b68fc8a604029145d3e4d338f6bf1840"
+    },
+    {
+      "source_path": "docs/01-governanca/politica-de-conformidade-documental.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/politica-de-conformidade-documental.md",
+      "sha256": "6fbd36a9d2e254f53fdc9eec58ee57d6e9964d389e2b2a59b7b95ef4e372cec2"
+    },
+    {
+      "source_path": "docs/01-governanca/politica-de-decisoes.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/politica-de-decisoes.md",
+      "sha256": "921bf6b842a516d1b4083b4aa83b8ed84f67d1e8ada2cd9c59902bede58ece0d"
+    },
+    {
+      "source_path": "docs/01-governanca/politica-de-excecoes.md",
+      "destination_path": ".governanca/upstream/docs/01-governanca/politica-de-excecoes.md",
+      "sha256": "6331e863b2b8939edaa892a2c11da770b964032c802f0d7ce2b6e88ec000d74b"
+    },
+    {
+      "source_path": "docs/02-ciclo-de-vida/ciclo-de-vida-e-gates.md",
+      "destination_path": ".governanca/upstream/docs/02-ciclo-de-vida/ciclo-de-vida-e-gates.md",
+      "sha256": "ce8392a7d81acdff86276fe708dab1b6f2b883051d0f6f9566bb224718db74a4"
+    },
+    {
+      "source_path": "docs/02-ciclo-de-vida/gestao-de-requisitos-e-escopo.md",
+      "destination_path": ".governanca/upstream/docs/02-ciclo-de-vida/gestao-de-requisitos-e-escopo.md",
+      "sha256": "fac5c9a57cdf8437df164df002069e5fce4a0a7e9833fcd0d7269cf84069a542"
+    },
+    {
+      "source_path": "docs/03-portfolio-e-estrategia/priorizacao-de-portfolio.md",
+      "destination_path": ".governanca/upstream/docs/03-portfolio-e-estrategia/priorizacao-de-portfolio.md",
+      "sha256": "412220007bcd49e09056ddeeee29fd3aed9a53360b8808e29e3a61f1e33f4d1e"
+    },
+    {
+      "source_path": "docs/04-arquitetura-e-engenharia/arquitetura-e-padroes.md",
+      "destination_path": ".governanca/upstream/docs/04-arquitetura-e-engenharia/arquitetura-e-padroes.md",
+      "sha256": "10bd4b180ff5f8466b17a6293db69a0247175f76266bd432835a8aec6d3e2b16"
+    },
+    {
+      "source_path": "docs/04-arquitetura-e-engenharia/controle-de-versao-e-revisao.md",
+      "destination_path": ".governanca/upstream/docs/04-arquitetura-e-engenharia/controle-de-versao-e-revisao.md",
+      "sha256": "71eeba3471c4e97e9636e884f0a7dcc02fc6c7969c8229d2d734fe89528c8462"
+    },
+    {
+      "source_path": "docs/05-dados-e-ia/governanca-de-dados.md",
+      "destination_path": ".governanca/upstream/docs/05-dados-e-ia/governanca-de-dados.md",
+      "sha256": "e7b57bdd393170e210ee87931195e1e31780c79295b778c92323a40d499522e6"
+    },
+    {
+      "source_path": "docs/05-dados-e-ia/qualidade-e-linhagem.md",
+      "destination_path": ".governanca/upstream/docs/05-dados-e-ia/qualidade-e-linhagem.md",
+      "sha256": "87f5f54926747f3d12afc87deee585a04624c3dc4915aba1147a2f74ac63c73e"
+    },
+    {
+      "source_path": "docs/05-dados-e-ia/uso-responsavel-de-ia.md",
+      "destination_path": ".governanca/upstream/docs/05-dados-e-ia/uso-responsavel-de-ia.md",
+      "sha256": "501f071fd565f98d2861965e912966f3d2abf836a14c91fdf70ac57023e2cba5"
+    },
+    {
+      "source_path": "docs/06-seguranca-e-privacidade/gestao-de-risco.md",
+      "destination_path": ".governanca/upstream/docs/06-seguranca-e-privacidade/gestao-de-risco.md",
+      "sha256": "3c6d38248de9c2df50c080441e6b6515e3ba2752f5546bd25f0ee0a254b2bb38"
+    },
+    {
+      "source_path": "docs/06-seguranca-e-privacidade/politica-de-seguranca.md",
+      "destination_path": ".governanca/upstream/docs/06-seguranca-e-privacidade/politica-de-seguranca.md",
+      "sha256": "7c278e86d03a477293980b538ca5accf7406c6958d435d1c4626cc329cf25883"
+    },
+    {
+      "source_path": "docs/06-seguranca-e-privacidade/privacidade-e-dados-pessoais.md",
+      "destination_path": ".governanca/upstream/docs/06-seguranca-e-privacidade/privacidade-e-dados-pessoais.md",
+      "sha256": "5f9f22c4faa8592c524922adc498cbdb7f278a525ba1ab5bc6eebdb9f7b41028"
+    },
+    {
+      "source_path": "docs/07-operacoes-e-resiliencia/continuidade-backup-recuperacao.md",
+      "destination_path": ".governanca/upstream/docs/07-operacoes-e-resiliencia/continuidade-backup-recuperacao.md",
+      "sha256": "ac66defd9e042c1c9bc3a7f8eb1eed480aec231b403409c9685d1f746f55c65b"
+    },
+    {
+      "source_path": "docs/07-operacoes-e-resiliencia/operacoes-e-observabilidade.md",
+      "destination_path": ".governanca/upstream/docs/07-operacoes-e-resiliencia/operacoes-e-observabilidade.md",
+      "sha256": "970ba9732ab19d7bb08ac6d22dff529080dda6d45d4d678e68019001d9563ebd"
+    },
+    {
+      "source_path": "standards/status-e-percentual-de-conclusao.md",
+      "destination_path": ".governanca/upstream/standards/status-e-percentual-de-conclusao.md",
+      "sha256": "99186b4437ef4809672228847185e9a3c5dd1617e883a67decd8c43da70441e3"
+    },
+    {
+      "source_path": "templates/projeto/status-do-projeto.md",
+      "destination_path": ".governanca/upstream/templates/projeto/status-do-projeto.md",
+      "sha256": "b0a9c384187734abb851c888a0e1d311826f8e19583eb804275092a4ca66196c"
+    }
+  ],
+  "warning": "Espelho de regras canónicas; adoção local exige revisão e aprovação."
+}
